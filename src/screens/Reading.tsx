@@ -2,14 +2,14 @@
 // answering, like in a real reading exam.
 
 import { useState } from 'react'
-import { readingTexts } from '../content'
+import { findReading } from '../content'
 import { addXp } from '../lib/progress'
 import { useApp } from '../state'
 import { Button, Card, Speaker } from '../components/ui'
 
 export function Reading({ textId, onExit }: { textId: string; onExit: () => void }) {
   const { t, update } = useApp()
-  const text = readingTexts.find((r) => r.id === textId)!
+  const text = findReading(textId)!
   const [answers, setAnswers] = useState<(number | null)[]>(() => text.questions.map(() => null))
   const [checked, setChecked] = useState(false)
   const [showEn, setShowEn] = useState(false)

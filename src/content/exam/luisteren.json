@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lu-huisarts",
+    "title": "Bellen met de huisarts",
+    "lines": [
+      { "speaker": "Assistente", "text": "Huisartsenpraktijk De Linde, goedemorgen. Met Sandra." },
+      { "speaker": "Rosie", "text": "Goedemorgen, met Rosie Nguyen. Ik wil graag een afspraak maken. Ik heb al drie dagen keelpijn en koorts." },
+      { "speaker": "Assistente", "text": "Wat vervelend. Hoe hoog is de koorts?" },
+      { "speaker": "Rosie", "text": "Ongeveer achtendertig en een half." },
+      { "speaker": "Assistente", "text": "De dokter kan u vanmiddag om kwart over twee zien. Lukt dat?" },
+      { "speaker": "Rosie", "text": "Ja, dat is goed. Dank u wel." },
+      { "speaker": "Assistente", "text": "Neem uw verzekeringspas mee. Tot vanmiddag." }
+    ],
+    "questions": [
+      { "q": "Waarom belt Rosie?", "qEn": "Why does Rosie call?", "options": ["Ze wil een recept ophalen.", "Ze wil een afspraak maken.", "Ze wil een afspraak afzeggen.", "Ze heeft een vraag over haar verzekering."], "answer": 1 },
+      { "q": "Hoe lang is Rosie al ziek?", "qEn": "How long has Rosie been ill?", "options": ["Eén dag", "Twee dagen", "Drie dagen", "Een week"], "answer": 2 },
+      { "q": "Hoe laat is de afspraak?", "qEn": "What time is the appointment?", "options": ["14.15 uur", "14.45 uur", "13.45 uur", "15.15 uur"], "answer": 0 },
+      { "q": "Wat moet Rosie meenemen?", "qEn": "What must Rosie bring?", "options": ["Haar paspoort", "Haar verzekeringspas", "Medicijnen", "Een brief van haar werk"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "lu-station",
+    "title": "Omroepbericht op het station",
+    "lines": [
+      { "speaker": "Omroeper", "text": "Attentie, reizigers naar Rotterdam Centraal. De intercity van 9.42 uur vertrekt vandaag niet van spoor 4, maar van spoor 7." },
+      { "speaker": "Omroeper", "text": "Door een storing heeft deze trein ongeveer tien minuten vertraging." },
+      { "speaker": "Omroeper", "text": "Reizigers naar Den Haag stappen in Gouda over. Onze excuses voor het ongemak." }
+    ],
+    "questions": [
+      { "q": "Van welk spoor vertrekt de trein naar Rotterdam vandaag?", "qEn": "Which platform does the train to Rotterdam leave from today?", "options": ["Spoor 4", "Spoor 7", "Spoor 9", "Spoor 10"], "answer": 1 },
+      { "q": "Hoeveel vertraging heeft de trein?", "qEn": "How long is the train delayed?", "options": ["Geen vertraging", "Ongeveer vijf minuten", "Ongeveer tien minuten", "Een half uur"], "answer": 2 },
+      { "q": "Wat moeten reizigers naar Den Haag doen?", "qEn": "What must travellers to The Hague do?", "options": ["In Gouda overstappen", "Op de volgende trein wachten", "De bus nemen", "In Rotterdam overstappen"], "answer": 0 }
+    ]
+  },
+  {
+    "id": "lu-gemeente",
+    "title": "Aan de balie van de gemeente",
+    "lines": [
+      { "speaker": "Medewerker", "text": "Goedemiddag, waarmee kan ik u helpen?" },
+      { "speaker": "Thanh", "text": "Goedemiddag. Ik ben vorige week verhuisd en ik wil mijn nieuwe adres doorgeven." },
+      { "speaker": "Medewerker", "text": "Dat kan. Mag ik uw legitimatie zien? Een paspoort of verblijfsdocument." },
+      { "speaker": "Thanh", "text": "Alstublieft, hier is mijn verblijfsdocument." },
+      { "speaker": "Medewerker", "text": "Dank u. Wat is uw nieuwe adres?" },
+      { "speaker": "Thanh", "text": "Kerkstraat 18, in Leiden." },
+      { "speaker": "Medewerker", "text": "Prima. U kunt dit de volgende keer ook online doen, met uw DigiD." }
+    ],
+    "questions": [
+      { "q": "Waarom is Thanh bij de gemeente?", "qEn": "Why is Thanh at the municipality?", "options": ["Hij wil een paspoort aanvragen.", "Hij wil zijn nieuwe adres doorgeven.", "Hij zoekt een huis.", "Hij wil trouwen."], "answer": 1 },
+      { "q": "Wat laat Thanh zien?", "qEn": "What does Thanh show?", "options": ["Zijn rijbewijs", "Zijn bankpas", "Zijn verblijfsdocument", "Zijn huurcontract"], "answer": 2 },
+      { "q": "Hoe kan Thanh dit de volgende keer doen?", "qEn": "How can Thanh do this next time?", "options": ["Per brief", "Online met DigiD", "Bij de politie", "Bij de huisarts"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "lu-werk",
+    "title": "Een gesprek op het werk",
+    "lines": [
+      { "speaker": "Manager", "text": "Mai, heb je even tijd? Volgende week is Karin met vakantie. Kun jij op dinsdag en donderdag haar dienst overnemen?" },
+      { "speaker": "Mai", "text": "Dinsdag kan ik wel, maar donderdag niet. Dan breng ik mijn zoon naar het ziekenhuis." },
+      { "speaker": "Manager", "text": "Geen probleem. Dan vraag ik Ahmed voor donderdag. De dienst op dinsdag begint om acht uur." },
+      { "speaker": "Mai", "text": "Goed, dan ben ik er dinsdag om acht uur." }
+    ],
+    "questions": [
+      { "q": "Waarom heeft de manager hulp nodig?", "qEn": "Why does the manager need help?", "options": ["Karin is ziek.", "Karin is met vakantie.", "Er is een nieuwe klant.", "Ahmed heeft ontslag genomen."], "answer": 1 },
+      { "q": "Op welke dag werkt Mai extra?", "qEn": "On which day does Mai work extra?", "options": ["Maandag", "Dinsdag", "Donderdag", "Dinsdag en donderdag"], "answer": 1 },
+      { "q": "Waarom kan Mai op donderdag niet?", "qEn": "Why can't Mai work on Thursday?", "options": ["Ze is zelf ziek.", "Ze gaat op vakantie.", "Ze brengt haar zoon naar het ziekenhuis.", "Ze heeft een cursus."], "answer": 2 }
+    ]
+  }
+]

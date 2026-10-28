@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sp-voorstellen",
+    "situation": "U bent op een cursus. De docent vraagt u iets over uzelf te vertellen.",
+    "situationEn": "You are on a course. The teacher asks you to tell something about yourself.",
+    "situationVi": "Bạn đang tham gia một khóa học. Giáo viên yêu cầu bạn giới thiệu về bản thân.",
+    "question": "Kunt u iets over uzelf vertellen?",
+    "model": "Ik heet Rosie en ik kom uit Vietnam. Ik woon nu twee jaar in Utrecht, samen met mijn partner. Ik werk drie dagen per week in een restaurant. In mijn vrije tijd kook ik graag en ik fiets veel.",
+    "modelEn": "My name is Rosie and I'm from Vietnam. I've been living in Utrecht for two years with my partner. I work three days a week in a restaurant. In my free time I like cooking and I cycle a lot."
+  },
+  {
+    "id": "sp-afspraak",
+    "situation": "U belt de tandarts. U wilt een afspraak maken, want u heeft kiespijn.",
+    "situationEn": "You call the dentist. You want to make an appointment because you have toothache.",
+    "situationVi": "Bạn gọi điện cho nha sĩ. Bạn muốn đặt lịch hẹn vì bị đau răng.",
+    "question": "Tandartspraktijk Smit, goedemorgen. Wat kan ik voor u doen?",
+    "model": "Goedemorgen, u spreekt met Rosie Nguyen. Ik heb sinds gisteren veel kiespijn. Kan ik vandaag of morgen een afspraak maken?",
+    "modelEn": "Good morning, this is Rosie Nguyen. I've had bad toothache since yesterday. Can I make an appointment today or tomorrow?"
+  },
+  {
+    "id": "sp-weekend",
+    "situation": "Het is maandag. Een collega vraagt naar uw weekend.",
+    "situationEn": "It's Monday. A colleague asks about your weekend.",
+    "situationVi": "Hôm nay là thứ Hai. Một đồng nghiệp hỏi về cuối tuần của bạn.",
+    "question": "Hoi! Wat heb je dit weekend gedaan?",
+    "model": "Zaterdag heb ik boodschappen gedaan en 's avonds hebben we bij vrienden gegeten. Zondag was het mooi weer, dus we zijn naar het park gefietst. Het was een leuk weekend!",
+    "modelEn": "On Saturday I did the shopping and in the evening we had dinner with friends. On Sunday the weather was nice, so we cycled to the park. It was a nice weekend!"
+  },
+  {
+    "id": "sp-buren",
+    "situation": "Uw buurman geeft vaak laat op de avond feestjes. U kunt niet slapen. U praat met hem.",
+    "situationEn": "Your neighbour often has parties late in the evening. You can't sleep. You talk to him.",
+    "situationVi": "Hàng xóm của bạn hay tổ chức tiệc đến khuya. Bạn không ngủ được. Bạn nói chuyện với anh ấy.",
+    "question": "Hé buur, hoe gaat het?",
+    "model": "Goed, dank je. Ik wil iets vragen. De muziek is 's avonds vaak heel hard, ook na twaalf uur. Ik moet vroeg werken en ik kan dan niet slapen. Zou je de muziek na elf uur zachter willen zetten?",
+    "modelEn": "Fine, thanks. I'd like to ask something. The music is often very loud in the evening, even after midnight. I have to work early and then I can't sleep. Would you turn the music down after eleven?"
+  },
+  {
+    "id": "sp-mening",
+    "situation": "In de les praat u over het weer en het klimaat in Nederland.",
+    "situationEn": "In class you talk about the weather and climate in the Netherlands.",
+    "situationVi": "Trong lớp học, bạn nói về thời tiết và khí hậu ở Hà Lan.",
+    "question": "Wat vindt u van het weer in Nederland? Waarom?",
+    "model": "Ik vind het weer in Nederland niet zo leuk, omdat het vaak regent en hard waait. In Vietnam is het altijd warm. Maar de lente vind ik wel mooi, want dan zijn er overal bloemen.",
+    "modelEn": "I don't really like the weather in the Netherlands, because it often rains and is very windy. In Vietnam it's always warm. But I do like spring, because then there are flowers everywhere."
+  },
+  {
+    "id": "sp-winkel",
+    "situation": "U heeft een broek gekocht, maar hij is te klein. U gaat terug naar de winkel.",
+    "situationEn": "You bought trousers, but they are too small. You go back to the shop.",
+    "situationVi": "Bạn đã mua một chiếc quần, nhưng nó quá chật. Bạn quay lại cửa hàng.",
+    "question": "Goedemiddag, kan ik u helpen?",
+    "model": "Goedemiddag. Ik heb gisteren deze broek gekocht, maar hij is te klein. Hebt u hem een maat groter? Hier is de bon.",
+    "modelEn": "Good afternoon. I bought these trousers yesterday, but they're too small. Do you have them one size bigger? Here is the receipt."
+  },
+  {
+    "id": "sp-advies",
+    "situation": "Een vriendin is erg moe en slaapt slecht. Ze vraagt u om advies.",
+    "situationEn": "A friend is very tired and sleeps badly. She asks you for advice.",
+    "situationVi": "Một người bạn rất mệt và ngủ không ngon. Cô ấy hỏi bạn lời khuyên.",
+    "question": "Ik ben altijd zo moe. Wat moet ik doen?",
+    "model": "Je zou 's avonds minder koffie moeten drinken. En misschien kun je elke dag een half uur wandelen. Als het niet beter wordt, zou ik naar de huisarts gaan.",
+    "modelEn": "You should drink less coffee in the evening. And maybe you can go for a half-hour walk every day. If it doesn't get better, I would go to the GP."
+  },
+  {
+    "id": "sp-toekomst",
+    "situation": "Een nieuwe collega vraagt naar uw plannen.",
+    "situationEn": "A new colleague asks about your plans.",
+    "situationVi": "Một đồng nghiệp mới hỏi về kế hoạch của bạn.",
+    "question": "Wat zijn je plannen voor de toekomst?",
+    "model": "Ik wil eerst mijn inburgeringsexamen halen. Daarna wil ik Nederlander worden. Ik hoop ook dat ik een opleiding kan doen, want ik zou graag in de zorg willen werken.",
+    "modelEn": "First I want to pass my civic integration exam. After that I want to become Dutch. I also hope to do a training course, because I would like to work in care."
+  }
+]

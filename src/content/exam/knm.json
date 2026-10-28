@@ -1,0 +1,117 @@
+[
+  {
+    "id": "knm-werk",
+    "title": "Werk en inkomen",
+    "titleEn": "Work and income",
+    "titleVi": "Việc làm và thu nhập",
+    "icon": "💼",
+    "questions": [
+      { "q": "Je hebt je baan verloren. Bij welke organisatie vraag je een WW-uitkering aan?", "qEn": "You lost your job. Where do you apply for unemployment benefit (WW)?", "options": ["Bij de Belastingdienst", "Bij het UWV", "Bij de gemeente", "Bij de huisarts"], "answer": 1, "why": "The UWV handles unemployment benefits (WW) and job seeking.", "whyVi": "UWV phụ trách trợ cấp thất nghiệp (WW) và hỗ trợ tìm việc." },
+      { "q": "Wat is het minimumloon?", "qEn": "What is the minimum wage?", "options": ["Het laagste loon dat een werkgever mag betalen", "Het loon van een student", "Het loon na de belasting", "Een uitkering van de gemeente"], "answer": 0, "why": "By law an employer must pay at least the minimum wage.", "whyVi": "Theo luật, chủ lao động phải trả ít nhất mức lương tối thiểu." },
+      { "q": "Je bent ziek en kunt niet werken. Wat doe je?", "qEn": "You are ill and can't work. What do you do?", "options": ["Niets, je gaat gewoon niet.", "Je meldt je ziek bij je werkgever, volgens de regels van je bedrijf.", "Je belt het UWV.", "Je stuurt een e-mail naar de gemeente."], "answer": 1, "why": "You report sick to your employer (usually before your shift starts), following the company's rules.", "whyVi": "Bạn phải báo ốm với chủ lao động (thường là trước giờ làm), theo quy định của công ty." },
+      { "q": "Wat is vakantiegeld?", "qEn": "What is 'vakantiegeld' (holiday allowance)?", "options": ["Geld voor een reis van de gemeente", "Een extra bedrag dat je werkgever één keer per jaar betaalt, meestal in mei of juni", "Een boete als je op vakantie gaat", "Geld dat je terugkrijgt van de Belastingdienst"], "answer": 1, "why": "Employees get holiday allowance (at least 8% of their gross wage), usually paid in May or June.", "whyVi": "Người lao động nhận tiền nghỉ phép (ít nhất 8% lương gộp), thường được trả vào tháng 5 hoặc 6." },
+      { "q": "Wat is een proeftijd?", "qEn": "What is a 'proeftijd'?", "options": ["Een examen voor een nieuwe baan", "Een periode aan het begin van een contract waarin werkgever en werknemer het contract makkelijk kunnen stoppen", "De tijd tussen twee banen", "Een cursus voor werklozen"], "answer": 1, "why": "During a probation period both sides can end the contract quickly.", "whyVi": "Trong thời gian thử việc, cả hai bên đều có thể chấm dứt hợp đồng nhanh chóng." },
+      { "q": "Waar betaal je belasting over je loon aan?", "qEn": "Who do you pay tax on your wages to?", "options": ["Aan het UWV", "Aan de Belastingdienst", "Aan de bank", "Aan de werkgever als cadeau"], "answer": 1, "why": "Income tax goes to the Belastingdienst; your employer usually withholds it from your wage.", "whyVi": "Thuế thu nhập nộp cho Belastingdienst (Sở Thuế); chủ lao động thường khấu trừ trực tiếp từ lương." }
+    ]
+  },
+  {
+    "id": "knm-omgang",
+    "title": "Omgangsvormen, waarden en normen",
+    "titleEn": "Manners, values and norms",
+    "titleVi": "Cách cư xử, giá trị và chuẩn mực",
+    "icon": "🤝",
+    "questions": [
+      { "q": "Je hebt om 10.00 uur een afspraak bij de gemeente. Hoe laat ben je er?", "qEn": "You have an appointment at the municipality at 10:00. What time do you arrive?", "options": ["Om 10.30 uur", "Een paar minuten voor 10.00 uur", "Wanneer het uitkomt", "Om 11.00 uur"], "answer": 1, "why": "Being on time is important in the Netherlands. If you're late, call to let them know.", "whyVi": "Đúng giờ rất quan trọng ở Hà Lan. Nếu đến muộn, hãy gọi điện báo trước." },
+      { "q": "Je buurvrouw is jarig. Wat zeg je tegen haar man?", "qEn": "Your neighbour is having her birthday. What do you say to her husband?", "options": ["Niets", "Gefeliciteerd met je vrouw!", "Goedemorgen.", "Tot ziens!"], "answer": 1, "why": "In the Netherlands you also congratulate the family of the person whose birthday it is.", "whyVi": "Ở Hà Lan người ta cũng chúc mừng gia đình của người có sinh nhật." },
+      { "q": "Wat staat in artikel 1 van de Grondwet?", "qEn": "What does article 1 of the Constitution say?", "options": ["Dat Nederland een koning heeft", "Dat iedereen gelijk behandeld moet worden en discriminatie verboden is", "Dat je Nederlands moet spreken", "Dat je belasting moet betalen"], "answer": 1, "why": "Article 1: everyone must be treated equally in equal cases; discrimination is not allowed.", "whyVi": "Điều 1: mọi người phải được đối xử bình đẳng trong cùng hoàn cảnh; cấm phân biệt đối xử." },
+      { "q": "Mogen twee mannen in Nederland met elkaar trouwen?", "qEn": "May two men marry each other in the Netherlands?", "options": ["Nee", "Ja, dat mag sinds 2001", "Alleen in Amsterdam", "Alleen als ze Nederlands zijn"], "answer": 1, "why": "The Netherlands was the first country to allow same-sex marriage, in 2001.", "whyVi": "Hà Lan là nước đầu tiên cho phép hôn nhân đồng giới, vào năm 2001." },
+      { "q": "Een collega zegt direct dat hij jouw plan niet goed vindt. Wat betekent dat meestal?", "qEn": "A colleague says directly that he doesn't like your plan. What does that usually mean?", "options": ["Hij is boos op je.", "Hij wil je ontslaan.", "Nederlanders zeggen vaak eerlijk wat ze denken; het is niet persoonlijk bedoeld.", "Hij wil niet meer met je praten."], "answer": 2, "why": "Dutch people are often direct. It is usually not meant as rude or personal.", "whyVi": "Người Hà Lan thường nói thẳng. Điều đó thường không có ý bất lịch sự hay nhắm vào cá nhân." },
+      { "q": "Je wilt een vriendin bezoeken. Wat is gebruikelijk?", "qEn": "You want to visit a friend. What is usual?", "options": ["Zonder bericht langsgaan", "Eerst een afspraak maken", "Om 23.00 uur aanbellen", "Een brief sturen"], "answer": 1, "why": "Dutch people usually make an appointment first, even with friends.", "whyVi": "Người Hà Lan thường hẹn trước, kể cả với bạn bè." }
+    ]
+  },
+  {
+    "id": "knm-wonen",
+    "title": "Wonen",
+    "titleEn": "Housing",
+    "titleVi": "Nhà ở",
+    "icon": "🏠",
+    "questions": [
+      { "q": "Je verhuist naar een andere gemeente. Wat moet je doen?", "qEn": "You move to another municipality. What must you do?", "options": ["Niets", "Je inschrijven bij de nieuwe gemeente", "Een brief sturen naar de koning", "Je inschrijven bij de huisarts van de buren"], "answer": 1, "why": "You must register your new address with the municipality (in the BRP) when you move.", "whyVi": "Khi chuyển nhà bạn phải đăng ký địa chỉ mới với chính quyền địa phương (vào BRP)." },
+      { "q": "Wat is een woningcorporatie?", "qEn": "What is a 'woningcorporatie'?", "options": ["Een organisatie die vooral sociale huurwoningen verhuurt", "Een winkel voor meubels", "Een bank voor hypotheken", "Een makelaar die huizen verkoopt"], "answer": 0, "why": "Housing corporations rent out social housing at lower rents.", "whyVi": "Tổ chức nhà ở (woningcorporatie) cho thuê nhà xã hội với giá thấp hơn." },
+      { "q": "Wat doe je met oud papier, glas en plastic?", "qEn": "What do you do with old paper, glass and plastic?", "options": ["Alles in één zak bij het gewone afval", "Apart weggooien, volgens de regels van je gemeente", "In de gracht gooien", "Op straat zetten"], "answer": 1, "why": "Most municipalities ask you to separate waste. The rules differ per municipality.", "whyVi": "Hầu hết các địa phương yêu cầu phân loại rác. Quy định khác nhau tùy nơi." },
+      { "q": "Je verdient weinig en je huur is hoog. Wat kun je misschien aanvragen?", "qEn": "You earn little and your rent is high. What might you be able to apply for?", "options": ["Huurtoeslag", "Kinderbijslag", "Vakantiegeld", "Een boete"], "answer": 0, "why": "Rent benefit (huurtoeslag) helps people with a low income pay their rent.", "whyVi": "Trợ cấp tiền thuê nhà (huurtoeslag) giúp người có thu nhập thấp trả tiền thuê." },
+      { "q": "Je hebt veel last van je buren, die elke nacht harde muziek draaien. Wat doe je eerst?", "qEn": "Your neighbours play loud music every night. What do you do first?", "options": ["De politie bellen via 112", "Rustig met de buren praten", "Verhuizen", "Hun deur kapotmaken"], "answer": 1, "why": "First try to talk calmly. If that doesn't help, there is buurtbemiddeling (neighbourhood mediation). 112 is only for emergencies.", "whyVi": "Trước tiên hãy nói chuyện nhẹ nhàng. Nếu không được, có dịch vụ hòa giải khu phố (buurtbemiddeling). 112 chỉ dành cho trường hợp khẩn cấp." }
+    ]
+  },
+  {
+    "id": "knm-gezondheid",
+    "title": "Gezondheid en zorg",
+    "titleEn": "Health and care",
+    "titleVi": "Sức khỏe và chăm sóc y tế",
+    "icon": "🩺",
+    "questions": [
+      { "q": "Je bent ziek. Naar wie ga je meestal eerst?", "qEn": "You are ill. Who do you usually go to first?", "options": ["Naar het ziekenhuis", "Naar de huisarts", "Naar de apotheek", "Naar de tandarts"], "answer": 1, "why": "The GP (huisarts) is the first point of contact. The GP refers you to a hospital or specialist if needed.", "whyVi": "Bác sĩ gia đình (huisarts) là nơi đầu tiên bạn đến. Nếu cần, bác sĩ sẽ giới thiệu bạn đến bệnh viện hoặc chuyên khoa." },
+      { "q": "Er is een ernstig ongeluk en iemand is gewond. Welk nummer bel je?", "qEn": "There is a serious accident and someone is injured. What number do you call?", "options": ["112", "0800", "911", "1234"], "answer": 0, "why": "112 is the emergency number for ambulance, police and fire brigade.", "whyVi": "112 là số khẩn cấp cho xe cứu thương, cảnh sát và cứu hỏa." },
+      { "q": "Is een zorgverzekering verplicht in Nederland?", "qEn": "Is health insurance compulsory in the Netherlands?", "options": ["Nee, het is vrijwillig", "Ja, iedereen die hier woont of werkt moet een basisverzekering hebben", "Alleen voor kinderen", "Alleen voor mensen boven de 65"], "answer": 1, "why": "Everyone who lives or works in the Netherlands must have basic health insurance (basisverzekering).", "whyVi": "Mọi người sống hoặc làm việc ở Hà Lan đều phải có bảo hiểm y tế cơ bản (basisverzekering)." },
+      { "q": "Wat is zorgtoeslag?", "qEn": "What is 'zorgtoeslag'?", "options": ["Een bijdrage van de overheid voor je zorgverzekering als je een laag inkomen hebt", "Een boete van de huisarts", "Geld voor een vakantie", "Een cadeau van het ziekenhuis"], "answer": 0, "why": "Healthcare benefit helps people with a low income pay their health insurance premium.", "whyVi": "Trợ cấp y tế giúp người có thu nhập thấp trả phí bảo hiểm y tế." },
+      { "q": "Het is zaterdagnacht en je kind heeft hoge koorts. Het is geen levensgevaar. Wie bel je?", "qEn": "It's Saturday night and your child has a high fever. It isn't life-threatening. Who do you call?", "options": ["De huisartsenpost", "112", "De school", "De gemeente"], "answer": 0, "why": "Outside office hours you call the huisartsenpost (out-of-hours GP service). 112 is for life-threatening emergencies.", "whyVi": "Ngoài giờ làm việc bạn gọi huisartsenpost (phòng khám bác sĩ trực). 112 dành cho trường hợp nguy hiểm đến tính mạng." }
+    ]
+  },
+  {
+    "id": "knm-onderwijs",
+    "title": "Opvoeding en onderwijs",
+    "titleEn": "Upbringing and education",
+    "titleVi": "Nuôi dạy con và giáo dục",
+    "icon": "🎒",
+    "questions": [
+      { "q": "Vanaf welke leeftijd moeten kinderen naar school (leerplicht)?", "qEn": "From what age must children go to school (compulsory education)?", "options": ["3 jaar", "5 jaar", "7 jaar", "10 jaar"], "answer": 1, "why": "Compulsory education starts at 5. Most children start primary school at 4.", "whyVi": "Nghĩa vụ đi học bắt đầu từ 5 tuổi. Đa số trẻ bắt đầu học tiểu học từ 4 tuổi." },
+      { "q": "Hoeveel groepen heeft de basisschool?", "qEn": "How many grades (groepen) does primary school have?", "options": ["4", "6", "8", "12"], "answer": 2, "why": "Primary school has groep 1 to groep 8.", "whyVi": "Trường tiểu học có từ groep 1 đến groep 8." },
+      { "q": "Wat is een tien-minutengesprek?", "qEn": "What is a 'tien-minutengesprek'?", "options": ["Een kort gesprek tussen ouders en de leraar over het kind", "Een examen van tien minuten", "Een pauze op school", "Een sollicitatiegesprek"], "answer": 0, "why": "Parents talk with the teacher about their child's progress. Parents are expected to be involved.", "whyVi": "Phụ huynh nói chuyện với giáo viên về tiến bộ của con. Phụ huynh được mong đợi tham gia vào việc học của con." },
+      { "q": "Je kind is ziek en kan niet naar school. Wat doe je?", "qEn": "Your child is ill and can't go to school. What do you do?", "options": ["Niets", "Je meldt je kind ziek bij de school", "Je belt de politie", "Je stuurt je kind toch"], "answer": 1, "why": "You must let the school know. Unexplained absence can be reported to the leerplichtambtenaar.", "whyVi": "Bạn phải báo cho trường. Nghỉ học không lý do có thể bị báo cho nhân viên phụ trách nghĩa vụ học tập." },
+      { "q": "Welke schooltypes zijn er na de basisschool?", "qEn": "Which school types follow primary school?", "options": ["vmbo, havo en vwo", "mbo, hbo en wo", "groep 1 tot 8", "peuterspeelzaal en kinderopvang"], "answer": 0, "why": "Secondary school has three main levels: vmbo, havo and vwo. After that: mbo, hbo or university (wo).", "whyVi": "Trung học có ba cấp chính: vmbo, havo và vwo. Sau đó là mbo, hbo hoặc đại học (wo)." }
+    ]
+  },
+  {
+    "id": "knm-instanties",
+    "title": "Instanties en regels",
+    "titleEn": "Organisations and rules",
+    "titleVi": "Cơ quan và quy định",
+    "icon": "🏛️",
+    "questions": [
+      { "q": "Wat is een BSN?", "qEn": "What is a BSN?", "options": ["Een persoonlijk nummer voor contact met de overheid, de zorg en je werk", "Een bankrekening", "Een busabonnement", "Een soort paspoort"], "answer": 0, "why": "The citizen service number (burgerservicenummer) is your personal number for government, care and work.", "whyVi": "Số công dân (burgerservicenummer) là mã số cá nhân dùng cho cơ quan nhà nước, y tế và việc làm." },
+      { "q": "Waarvoor gebruik je DigiD?", "qEn": "What do you use DigiD for?", "options": ["Om in te loggen bij websites van de overheid", "Om te betalen in de winkel", "Om met de trein te reizen", "Om je fiets op slot te zetten"], "answer": 0, "why": "DigiD is your login for government websites, e.g. the Belastingdienst, DUO and your municipality.", "whyVi": "DigiD là tài khoản đăng nhập vào các trang web của nhà nước, ví dụ Belastingdienst, DUO và chính quyền địa phương." },
+      { "q": "Welke organisatie is verantwoordelijk voor het inburgeringsexamen?", "qEn": "Which organisation is responsible for the civic integration exam?", "options": ["DUO", "Het UWV", "De Belastingdienst", "De politie"], "answer": 0, "why": "DUO organises the civic integration exams.", "whyVi": "DUO tổ chức các kỳ thi hội nhập." },
+      { "q": "Welke organisatie beslist over je verblijfsvergunning en naturalisatie?", "qEn": "Which organisation decides on your residence permit and naturalisation?", "options": ["De IND", "De huisarts", "De woningcorporatie", "Het UWV"], "answer": 0, "why": "The IND (Immigratie- en Naturalisatiedienst) decides on residence permits and naturalisation. You apply for naturalisation via your municipality.", "whyVi": "IND (Sở Di trú và Nhập tịch) quyết định về giấy phép cư trú và nhập tịch. Bạn nộp đơn nhập tịch qua chính quyền địa phương." },
+      { "q": "Je krijgt een brief van de Belastingdienst en je begrijpt hem niet. Wat is verstandig?", "qEn": "You get a letter from the tax office that you don't understand. What is sensible?", "options": ["De brief weggooien", "Hulp vragen, bijvoorbeeld bij het juridisch loket, de gemeente of iemand die je vertrouwt", "Wachten tot er een tweede brief komt", "Niets doen"], "answer": 1, "why": "Never ignore official letters. Ask for help in time; there are free help desks.", "whyVi": "Đừng bao giờ bỏ qua thư chính thức. Hãy hỏi giúp đỡ kịp thời; có nhiều nơi hỗ trợ miễn phí." }
+    ]
+  },
+  {
+    "id": "knm-politiek",
+    "title": "Staatsinrichting en democratie",
+    "titleEn": "Government and democracy",
+    "titleVi": "Bộ máy nhà nước và dân chủ",
+    "icon": "🗳️",
+    "questions": [
+      { "q": "Wie is het staatshoofd van Nederland?", "qEn": "Who is the head of state of the Netherlands?", "options": ["De minister-president", "De koning", "De burgemeester van Amsterdam", "De voorzitter van de Tweede Kamer"], "answer": 1, "why": "The Netherlands is a constitutional monarchy. The king is head of state; the ministers are responsible for government policy.", "whyVi": "Hà Lan là nước quân chủ lập hiến. Nhà vua là nguyên thủ quốc gia; các bộ trưởng chịu trách nhiệm về chính sách." },
+      { "q": "Hoeveel leden heeft de Tweede Kamer?", "qEn": "How many members does the House of Representatives (Tweede Kamer) have?", "options": ["75", "100", "150", "200"], "answer": 2, "why": "The Tweede Kamer has 150 members; the Eerste Kamer (Senate) has 75.", "whyVi": "Hạ viện (Tweede Kamer) có 150 thành viên; Thượng viện (Eerste Kamer) có 75." },
+      { "q": "Hoe vaak zijn er normaal verkiezingen voor de Tweede Kamer?", "qEn": "How often are there normally elections for the Tweede Kamer?", "options": ["Elk jaar", "Elke twee jaar", "Elke vier jaar", "Elke tien jaar"], "answer": 2, "why": "Normally every four years, unless the government falls earlier.", "whyVi": "Thông thường mỗi bốn năm, trừ khi chính phủ sụp đổ sớm hơn." },
+      { "q": "Wat is de hoofdstad van Nederland?", "qEn": "What is the capital of the Netherlands?", "options": ["Den Haag", "Rotterdam", "Amsterdam", "Utrecht"], "answer": 2, "why": "Amsterdam is the capital, but the government and parliament are in Den Haag (The Hague).", "whyVi": "Amsterdam là thủ đô, nhưng chính phủ và quốc hội đặt ở Den Haag (La Haye)." },
+      { "q": "Hoeveel provincies heeft Nederland?", "qEn": "How many provinces does the Netherlands have?", "options": ["8", "10", "12", "15"], "answer": 2, "why": "There are 12 provinces, e.g. Noord-Holland, Utrecht and Overijssel.", "whyVi": "Hà Lan có 12 tỉnh, ví dụ Noord-Holland, Utrecht và Overijssel." },
+      { "q": "Je woont al een tijd legaal in Nederland maar bent nog geen Nederlander. Bij welke verkiezingen mag je dan vaak al stemmen?", "qEn": "You have lived legally in the Netherlands for a while but are not Dutch yet. In which elections may you often already vote?", "options": ["Bij de gemeenteraadsverkiezingen", "Bij de Tweede Kamerverkiezingen", "Bij geen enkele verkiezing", "Bij alle verkiezingen"], "answer": 0, "why": "Non-Dutch residents can vote in municipal elections after living here legally for 5 years (EU citizens straight away). National elections are only for Dutch citizens.", "whyVi": "Người nước ngoài cư trú hợp pháp 5 năm có thể bầu cử hội đồng thành phố (công dân EU thì ngay lập tức). Bầu cử quốc hội chỉ dành cho công dân Hà Lan." }
+    ]
+  },
+  {
+    "id": "knm-geschiedenis",
+    "title": "Geschiedenis en feestdagen",
+    "titleEn": "History and public holidays",
+    "titleVi": "Lịch sử và ngày lễ",
+    "icon": "📜",
+    "questions": [
+      { "q": "Wat herdenken Nederlanders op 4 mei?", "qEn": "What do Dutch people commemorate on 4 May?", "options": ["De verjaardag van de koning", "De slachtoffers van oorlogen, sinds de Tweede Wereldoorlog", "Het begin van de zomer", "Het einde van de school"], "answer": 1, "why": "On 4 May at 20:00 the country keeps two minutes of silence for the war dead (Dodenherdenking).", "whyVi": "Ngày 4/5 lúc 20 giờ cả nước im lặng hai phút tưởng niệm những người đã chết trong chiến tranh (Dodenherdenking)." },
+      { "q": "Wat vieren Nederlanders op 5 mei?", "qEn": "What do Dutch people celebrate on 5 May?", "options": ["Koningsdag", "Bevrijdingsdag: het einde van de Duitse bezetting in 1945", "Sinterklaas", "Kerstmis"], "answer": 1, "why": "Liberation Day: the end of the German occupation (1940–1945).", "whyVi": "Ngày Giải phóng: kết thúc thời kỳ Đức chiếm đóng (1940–1945)." },
+      { "q": "Wanneer is Koningsdag?", "qEn": "When is King's Day?", "options": ["27 april", "5 mei", "5 december", "31 december"], "answer": 0, "why": "King's Day is on 27 April, the birthday of King Willem-Alexander. Many people wear orange.", "whyVi": "Ngày Quốc vương là 27/4, sinh nhật vua Willem-Alexander. Nhiều người mặc đồ màu cam." },
+      { "q": "Wat was de Watersnoodramp van 1953?", "qEn": "What was the flood disaster of 1953?", "options": ["Een grote overstroming in vooral Zeeland, waarna de Deltawerken zijn gebouwd", "Een droge zomer", "Een oorlog met Engeland", "Een storm in Amsterdam zonder schade"], "answer": 0, "why": "In 1953 a storm flood killed more than 1,800 people. Afterwards the Delta Works were built to protect the country.", "whyVi": "Năm 1953 một trận lũ do bão đã làm hơn 1.800 người chết. Sau đó Công trình Delta được xây dựng để bảo vệ đất nước." },
+      { "q": "Hoe heet de periode in de 17e eeuw toen Nederland rijk werd door handel?", "qEn": "What is the 17th-century period called when the Netherlands grew rich through trade?", "options": ["De Gouden Eeuw", "De Middeleeuwen", "De Tachtigjarige Oorlog", "De Koude Oorlog"], "answer": 0, "why": "The Golden Age (Gouden Eeuw): trade (the VOC), art (Rembrandt) and science flourished. It also has dark sides, like slavery.", "whyVi": "Thời kỳ Hoàng kim (Gouden Eeuw): thương mại (VOC), nghệ thuật (Rembrandt) và khoa học phát triển. Nó cũng có mặt tối, như chế độ nô lệ." }
+    ]
+  }
+]

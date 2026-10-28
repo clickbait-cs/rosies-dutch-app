@@ -104,3 +104,42 @@ export interface WritingTask {
   model: string // an example answer in Dutch
   modelEn: string
 }
+
+/** A multiple-choice question with an explanation (KNM and listening). */
+export interface ExamQuestion {
+  q: string // in Dutch
+  qEn: string
+  options: string[]
+  answer: number
+  why?: string // short explanation in English
+  whyVi?: string
+}
+
+/** KNM (kennis van de Nederlandse maatschappij): one topic with questions. */
+export interface KnmTopic {
+  id: string
+  title: string
+  titleEn: string
+  titleVi: string
+  icon: string
+  questions: ExamQuestion[]
+}
+
+/** A short spoken dialogue or announcement with questions. */
+export interface ListeningItem {
+  id: string
+  title: string
+  lines: { speaker: string; text: string }[]
+  questions: ExamQuestion[]
+}
+
+/** A speaking prompt: a situation and a question, with an example answer. */
+export interface SpeakingTask {
+  id: string
+  situation: string // in Dutch
+  situationEn: string
+  situationVi: string
+  question: string // what the examiner asks, in Dutch
+  model: string
+  modelEn: string
+}

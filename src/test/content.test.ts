@@ -106,3 +106,23 @@ describe('reading and writing', async () => {
     }
   })
 })
+
+describe('exam practice', async () => {
+  const { knmTopics, listeningItems, speakingTasks, examReading, examWriting } = await import('../content')
+  const { countWords } = await import('../screens/Writing')
+  it('has valid multiple-choice questions', () => {
+    const all = [...knmTopics.flatMap((k) => k.questions), ...listeningItems.flatMap((l) => l.questions), ...examReading.flatMap((r) => r.questions)]
+    expect(all.length).toBeGreaterThan(50)
+    for (const q of all) {
+      expect(q.answer, q.q).toBeLessThan(q.options.length)
+      expect(new Set(q.options).size, q.q).toBe(q.options.length)
+    }
+  })
+  it('has unique ids everywhere', () => {
+    const ids = [...knmTopics, ...listeningItems, ...speakingTasks, ...examReading, ...examWriting].map((x) => x.id)
+    expect(new Set(ids).size).toBe(ids.length)
+  })
+  it('writing examples are long enough', () => {
+    for (const w of examWriting) expect(countWords(w.model), w.id).toBeGreaterThanOrEqual(w.minWords)
+  })
+})

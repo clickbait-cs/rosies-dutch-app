@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ex-lezen-afval",
+    "chapterId": "exam",
+    "title": "Brief van de gemeente: nieuwe afvalkalender",
+    "text": "Beste bewoner,\n\nVanaf 1 januari verandert de manier waarop wij uw afval ophalen. Het groente-, fruit- en tuinafval (gft) halen we elke week op dinsdag op. Het restafval halen we nog maar één keer per twee weken op, op vrijdag.\n\nPlastic, blik en drinkpakken kunt u voortaan samen in de oranje container doen. Papier en karton brengt u naar de blauwe container bij de supermarkt.\n\nZet uw container op de ophaaldag vóór 7.30 uur aan de straat. Op feestdagen halen we geen afval op; kijk dan in de afvalapp voor de nieuwe datum.\n\nMet vriendelijke groet,\nGemeente Leiderdorp",
+    "glossary": [
+      { "nl": "ophalen", "en": "to collect", "vi": "thu gom" },
+      { "nl": "het restafval", "en": "residual waste", "vi": "rác còn lại" },
+      { "nl": "voortaan", "en": "from now on", "vi": "từ nay về sau" },
+      { "nl": "de ophaaldag", "en": "collection day", "vi": "ngày thu gom rác" }
+    ],
+    "questions": [
+      { "q": "Wanneer wordt het gft-afval opgehaald?", "qEn": "When is the organic waste collected?", "options": ["Elke dinsdag", "Elke vrijdag", "Eén keer per twee weken", "Elke dag"], "answer": 0 },
+      { "q": "Waar doet u een lege melkpak in?", "qEn": "Where do you put an empty milk carton?", "options": ["In de blauwe container", "In de oranje container", "Bij het restafval", "Bij het gft"], "answer": 1 },
+      { "q": "Hoe laat moet de container op de ophaaldag buiten staan?", "qEn": "What time must the container be outside on collection day?", "options": ["Na 7.30 uur", "Vóór 7.30 uur", "'s Avonds", "Om 12.00 uur"], "answer": 1 },
+      { "q": "Wat doet u als de ophaaldag een feestdag is?", "qEn": "What do you do if the collection day is a public holiday?", "options": ["De gemeente bellen", "Het afval naar de supermarkt brengen", "In de afvalapp kijken", "Niets, het afval wordt toch opgehaald"], "answer": 2 }
+    ]
+  },
+  {
+    "id": "ex-lezen-school",
+    "chapterId": "exam",
+    "title": "Nieuwsbrief van basisschool De Regenboog",
+    "text": "Beste ouders en verzorgers,\n\nVolgende week woensdag 14 mei gaan alle groepen op schoolreisje naar dierenpark Amersfoort. De bus vertrekt om 8.30 uur. Wilt u ervoor zorgen dat uw kind om 8.15 uur op school is? We zijn rond 16.00 uur terug.\n\nGeeft u uw kind een lunchpakket en iets te drinken mee. Snoep is niet toegestaan. Heeft uw kind medicijnen nodig? Geef dit dan voor maandag door aan de leerkracht.\n\nWe zoeken nog vier ouders die mee willen als begeleider. Aanmelden kan via de schoolapp.\n\nMet vriendelijke groet,\nHet team van De Regenboog",
+    "glossary": [
+      { "nl": "de verzorger", "en": "carer, guardian", "vi": "người giám hộ" },
+      { "nl": "toegestaan", "en": "allowed", "vi": "được phép" },
+      { "nl": "doorgeven", "en": "to pass on, let know", "vi": "báo lại" },
+      { "nl": "de begeleider", "en": "supervisor, chaperone", "vi": "người đi kèm" }
+    ],
+    "questions": [
+      { "q": "Hoe laat moet uw kind op school zijn?", "qEn": "What time must your child be at school?", "options": ["8.00 uur", "8.15 uur", "8.30 uur", "16.00 uur"], "answer": 1 },
+      { "q": "Wat mag uw kind NIET meenemen?", "qEn": "What may your child NOT bring?", "options": ["Een lunchpakket", "Drinken", "Snoep", "Medicijnen"], "answer": 2 },
+      { "q": "Uw kind heeft medicijnen nodig. Wat doet u?", "qEn": "Your child needs medicine. What do you do?", "options": ["Niets", "Voor maandag de leerkracht informeren", "Op woensdag de buschauffeur informeren", "Het dierenpark bellen"], "answer": 1 },
+      { "q": "U wilt meegaan als begeleider. Hoe meldt u zich aan?", "qEn": "You want to go along as a supervisor. How do you sign up?", "options": ["Via de schoolapp", "Met een brief", "Bij het dierenpark", "Per telefoon met de bus"], "answer": 0 }
+    ]
+  },
+  {
+    "id": "ex-lezen-vacature",
+    "chapterId": "exam",
+    "title": "Vacature: medewerker supermarkt",
+    "text": "Supermarkt Dekker zoekt een enthousiaste medewerker vulploeg (16–24 uur per week).\n\nWat ga je doen? Je vult de schappen, je helpt klanten en je zorgt dat de winkel er netjes uitziet. Je werkt vooral 's avonds en op zaterdag.\n\nWat vragen wij? Je bent minimaal 18 jaar, je spreekt redelijk Nederlands en je kunt goed samenwerken. Ervaring is niet nodig: wij leren je alles.\n\nWat bieden wij? Een contract voor een jaar, met kans op een vast contract. Je krijgt 10% personeelskorting.\n\nInteresse? Stuur een korte motivatie en je cv naar vacatures@dekker-supermarkt.nl.",
+    "glossary": [
+      { "nl": "de vulploeg", "en": "shelf-stacking team", "vi": "nhóm xếp hàng lên kệ" },
+      { "nl": "het schap", "en": "shelf", "vi": "kệ hàng" },
+      { "nl": "redelijk", "en": "reasonably", "vi": "khá, tạm được" },
+      { "nl": "de personeelskorting", "en": "staff discount", "vi": "giảm giá cho nhân viên" }
+    ],
+    "questions": [
+      { "q": "Wanneer werk je vooral in deze baan?", "qEn": "When do you mainly work in this job?", "options": ["'s Ochtends", "'s Avonds en op zaterdag", "Alleen op zondag", "Van maandag tot vrijdag overdag"], "answer": 1 },
+      { "q": "Heb je ervaring nodig?", "qEn": "Do you need experience?", "options": ["Ja, minimaal een jaar", "Ja, in een supermarkt", "Nee", "Dat staat er niet"], "answer": 2 },
+      { "q": "Wat voor contract krijg je eerst?", "qEn": "What kind of contract do you get first?", "options": ["Een vast contract", "Een contract voor een jaar", "Een contract voor een maand", "Geen contract"], "answer": 1 },
+      { "q": "Wat moet je opsturen?", "qEn": "What must you send?", "options": ["Alleen je cv", "Een motivatie en je cv", "Je paspoort", "Een foto"], "answer": 1 }
+    ]
+  }
+]

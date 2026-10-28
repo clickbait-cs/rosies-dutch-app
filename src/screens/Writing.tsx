@@ -3,7 +3,7 @@
 // reply with feedback (later this could be done by AI as well).
 
 import { useEffect, useState } from 'react'
-import { writingTasks } from '../content'
+import { findWriting } from '../content'
 import { saveWriting, watchWritings, type Writing as WritingDoc } from '../lib/cloud'
 import { addXp } from '../lib/progress'
 import { dayKey } from '../lib/dates'
@@ -16,7 +16,7 @@ export const countWords = (text: string) => text.trim().split(/\s+/).filter(Bool
 
 export function Writing({ taskId, onExit }: { taskId: string; onExit: () => void }) {
   const { t, progress, update, user } = useApp()
-  const task = writingTasks.find((w) => w.id === taskId)!
+  const task = findWriting(taskId)!
   const saved = progress.writing[task.id]
   const [text, setText] = useState(saved?.text ?? '')
   const [done, setDone] = useState(!!saved)

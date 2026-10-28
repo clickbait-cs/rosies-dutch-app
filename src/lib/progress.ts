@@ -26,6 +26,7 @@ export interface Progress {
   seenCheers: string[]
   reading: Record<string, number> // text id -> best score (0..1)
   writing: Record<string, { text: string; day: string }> // task id -> latest text
+  exam: Record<string, number> // exam practice id (KNM topic, listening, speaking) -> best score (0..1)
   settings: { uiLang: UiLang; listening: boolean; speaking: boolean; speechRate: number }
   updatedAt: number
 }
@@ -45,6 +46,7 @@ export function emptyProgress(): Progress {
     seenCheers: [],
     reading: {},
     writing: {},
+    exam: {},
     settings: { uiLang: 'en', listening: true, speaking: true, speechRate: 0.9 },
     updatedAt: 0,
   }
@@ -116,6 +118,7 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
     seenCheers: [...new Set([...a.seenCheers, ...b.seenCheers])],
     reading: mergeMax(a.reading, b.reading),
     writing: { ...older.writing, ...newer.writing },
+    exam: mergeMax(a.exam, b.exam),
   }
 }
 

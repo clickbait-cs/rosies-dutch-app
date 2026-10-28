@@ -11,11 +11,12 @@ import { LEARNER_UID } from '../config'
 import { Button, Modal, ProgressBar } from './ui'
 import type { StringKey } from '../lib/i18n'
 
-export type Tab = 'learn' | 'review' | 'notes' | 'settings' | 'supporter'
+export type Tab = 'learn' | 'review' | 'exam' | 'notes' | 'settings' | 'supporter'
 
 const TABS: { id: Tab; icon: string; label: StringKey }[] = [
   { id: 'learn', icon: '🏠', label: 'learn' },
   { id: 'review', icon: '🔁', label: 'review' },
+  { id: 'exam', icon: '🎓', label: 'exam' },
   { id: 'notes', icon: '📒', label: 'notes' },
   { id: 'supporter', icon: '💌', label: 'supporter' },
   { id: 'settings', icon: '⚙️', label: 'settings' },

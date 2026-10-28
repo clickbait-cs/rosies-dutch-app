@@ -39,6 +39,20 @@ export function say(text: string, rate = 0.9) {
   speechSynthesis.speak(u)
 }
 
+/** Read several sentences one after another (e.g. a dialogue). */
+export function sayAll(texts: string[], rate = 0.9) {
+  if (!canSpeak()) return
+  speechSynthesis.cancel()
+  if (dutchVoice === undefined) dutchVoice = findVoice()
+  for (const text of texts) {
+    const u = new SpeechSynthesisUtterance(text)
+    u.lang = 'nl-NL'
+    if (dutchVoice) u.voice = dutchVoice
+    u.rate = rate
+    speechSynthesis.speak(u)
+  }
+}
+
 // Speech recognition is still prefixed in most browsers.
 type Recognition = {
   lang: string

@@ -13,11 +13,14 @@ import { Settings } from './screens/Settings'
 import { Supporter } from './screens/Supporter'
 import { Reading } from './screens/Reading'
 import { Writing } from './screens/Writing'
+import { ExamHome, ExamQuiz, ExamSpeaking } from './screens/Exam'
 
 /** Full-screen activities that hide the menu. */
 type Activity = { kind: 'lesson'; chapterId: string; index: number } | { kind: 'review' } | { kind: 'placement' } | { kind: 'placementChoice' }
   | { kind: 'reading'; id: string }
   | { kind: 'writing'; id: string }
+  | { kind: 'examQuiz'; id: string }
+  | { kind: 'examSpeaking' }
   | null
 
 export default function App() {
@@ -46,6 +49,8 @@ export default function App() {
   if (act?.kind === 'review') return <ReviewSession onExit={exit} />
   if (act?.kind === 'reading') return <Reading textId={act.id} onExit={exit} />
   if (act?.kind === 'writing') return <Writing taskId={act.id} onExit={exit} />
+  if (act?.kind === 'examQuiz') return <ExamQuiz id={act.id} onExit={exit} />
+  if (act?.kind === 'examSpeaking') return <ExamSpeaking onExit={exit} />
 
   return (
     <Layout tab={tab} setTab={setTab}>
@@ -57,6 +62,19 @@ export default function App() {
         />
       )}
       {tab === 'review' && <ReviewHome start={() => setActivity({ kind: 'review' })} />}
+      {tab === 'exam' && (
+        <ExamHome
+          open={(a) =>
+            setActivity(
+              a.kind === 'knm' || a.kind === 'listening'
+                ? { kind: 'examQuiz', id: a.id }
+                : a.kind === 'speaking'
+                  ? { kind: 'examSpeaking' }
+                  : { kind: a.kind, id: a.id },
+            )
+          }
+        />
+      )}
       {tab === 'notes' && <Notes />}
       {tab === 'settings' && <Settings retakePlacement={() => setActivity({ kind: 'placement' })} />}
       {tab === 'supporter' && <Supporter />}

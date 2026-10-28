@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ex-schrijven-docent",
+    "chapterId": "exam",
+    "title": "E-mail aan de docent",
+    "titleVi": "Thư gửi giáo viên",
+    "task": "You can't come to your Dutch class next Monday. Write an e-mail to your teacher (at least 40 words): say that you can't come, why, and ask what homework you need to do.",
+    "taskVi": "Thứ Hai tới bạn không thể đến lớp tiếng Hà Lan. Viết thư cho giáo viên (ít nhất 40 từ): nói rằng bạn không đến được, lý do, và hỏi bài tập về nhà cần làm.",
+    "minWords": 40,
+    "checklist": [
+      { "en": "Greeting with the teacher's name (Beste …)", "vi": "Lời chào với tên giáo viên (Beste …)" },
+      { "en": "I said which day I can't come and why (omdat …)", "vi": "Tôi nói ngày nào không đến được và lý do (omdat …)" },
+      { "en": "I asked a question about the homework", "vi": "Tôi hỏi về bài tập về nhà" },
+      { "en": "Closing (Met vriendelijke groet / Groeten) and my name", "vi": "Lời kết (Met vriendelijke groet / Groeten) và tên tôi" }
+    ],
+    "model": "Beste Anja,\n\nVolgende week maandag kan ik helaas niet naar de les komen, omdat ik een afspraak in het ziekenhuis heb. Wilt u mij laten weten welk huiswerk ik moet maken? Dan kan ik het thuis doen.\n\nAlvast bedankt.\n\nMet vriendelijke groet,\nRosie Nguyen",
+    "modelEn": "Dear Anja, Unfortunately I can't come to class next Monday because I have a hospital appointment. Could you let me know what homework I need to do? Then I can do it at home. Thanks in advance. Kind regards, Rosie Nguyen"
+  },
+  {
+    "id": "ex-schrijven-klacht",
+    "chapterId": "exam",
+    "title": "Klacht aan de woningcorporatie",
+    "titleVi": "Thư khiếu nại gửi công ty nhà ở",
+    "task": "The heating in your rented flat has been broken for a week. Write to your housing corporation (at least 60 words): describe the problem, since when, and ask them to repair it quickly. Mention when you are home.",
+    "taskVi": "Hệ thống sưởi trong căn hộ bạn thuê đã hỏng một tuần. Viết thư cho công ty nhà ở (ít nhất 60 từ): miêu tả vấn đề, từ khi nào, và yêu cầu họ sửa nhanh. Nói khi nào bạn có nhà.",
+    "minWords": 60,
+    "checklist": [
+      { "en": "Formal greeting (Geachte heer, mevrouw) and closing", "vi": "Lời chào và lời kết trang trọng (Geachte heer, mevrouw)" },
+      { "en": "My address so they know which home it is", "vi": "Địa chỉ của tôi để họ biết nhà nào" },
+      { "en": "What is broken and since when (sinds …)", "vi": "Cái gì bị hỏng và từ khi nào (sinds …)" },
+      { "en": "A polite request (Zou u … kunnen …?)", "vi": "Một lời đề nghị lịch sự (Zou u … kunnen …?)" },
+      { "en": "When I am at home", "vi": "Khi nào tôi có nhà" }
+    ],
+    "model": "Geachte heer, mevrouw,\n\nIk woon op de Kerkstraat 18 in Leiden. Sinds vorige week maandag doet de verwarming in mijn appartement het niet meer. Het is nu erg koud in huis, vooral 's nachts. Ik heb al twee keer gebeld, maar er is nog niemand gekomen.\n\nZou u zo snel mogelijk een monteur kunnen sturen? Ik ben op maandag, woensdag en vrijdag de hele dag thuis.\n\nMet vriendelijke groet,\nRosie Nguyen\n06-12345678",
+    "modelEn": "Dear Sir or Madam, I live at Kerkstraat 18 in Leiden. Since last Monday the heating in my apartment hasn't worked. It's very cold at home now, especially at night. I've called twice already, but nobody has come yet. Could you send a technician as soon as possible? I'm home all day on Monday, Wednesday and Friday. Kind regards, Rosie Nguyen"
+  },
+  {
+    "id": "ex-schrijven-formulier",
+    "chapterId": "exam",
+    "title": "Aanmelden voor vrijwilligerswerk",
+    "titleVi": "Đăng ký làm tình nguyện",
+    "task": "You want to volunteer at the local library. Write a short message for their sign-up form (at least 50 words): who you are, why you want to help, and when you have time.",
+    "taskVi": "Bạn muốn làm tình nguyện ở thư viện địa phương. Viết một tin nhắn ngắn cho mẫu đăng ký (ít nhất 50 từ): bạn là ai, tại sao bạn muốn giúp, và khi nào bạn có thời gian.",
+    "minWords": 50,
+    "checklist": [
+      { "en": "Something about myself (name, where I live, what I do)", "vi": "Một chút về bản thân (tên, nơi sống, công việc)" },
+      { "en": "Why I want to help (omdat … / om … te …)", "vi": "Tại sao tôi muốn giúp (omdat … / om … te …)" },
+      { "en": "Which days and times I am available", "vi": "Những ngày và giờ tôi có thể" },
+      { "en": "Verb in 2nd place, also after a time word", "vi": "Động từ ở vị trí thứ 2, cả sau từ chỉ thời gian" }
+    ],
+    "model": "Mijn naam is Rosie Nguyen. Ik kom uit Vietnam en ik woon sinds twee jaar in Leiderdorp. Ik lees graag en ik wil graag helpen in de bibliotheek, omdat ik dan meer Nederlands kan spreken. Ook vind ik het leuk om nieuwe mensen te leren kennen. Ik heb op dinsdagmiddag en op zaterdag tijd.",
+    "modelEn": "My name is Rosie Nguyen. I'm from Vietnam and I've lived in Leiderdorp for two years. I like reading and I'd like to help in the library, because then I can speak more Dutch. I also enjoy meeting new people. I have time on Tuesday afternoons and on Saturdays."
+  }
+]

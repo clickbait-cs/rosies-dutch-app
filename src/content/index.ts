@@ -1,10 +1,15 @@
 // Loads every chapter JSON file and gives each word/sentence a stable id,
 // which is used to remember how well the learner knows it.
 
-import type { Chapter, ReadingText, Sentence, Tip, Verb, WritingTask, Word } from './types'
+import type { Chapter, KnmTopic, ListeningItem, ReadingText, Sentence, SpeakingTask, Tip, Verb, WritingTask, Word } from './types'
 import tipsJson from './tips.json'
 import readingJson from './reading.json'
 import writingJson from './writing.json'
+import knmJson from './exam/knm.json'
+import luisterenJson from './exam/luisteren.json'
+import sprekenJson from './exam/spreken.json'
+import lezenJson from './exam/lezen.json'
+import schrijvenJson from './exam/schrijven.json'
 import { dueItems, type SrsState } from '../lib/srs'
 
 const files = import.meta.glob<Chapter>('./chapters/*.json', { eager: true, import: 'default' })
@@ -16,6 +21,16 @@ export const tipById = new Map(tips.map((t) => [t.id, t]))
 
 export const readingTexts: ReadingText[] = readingJson as ReadingText[]
 export const writingTasks: WritingTask[] = writingJson as WritingTask[]
+
+// Exam practice (naturalisation / inburgering, A2)
+export const knmTopics: KnmTopic[] = knmJson as KnmTopic[]
+export const listeningItems: ListeningItem[] = luisterenJson as ListeningItem[]
+export const speakingTasks: SpeakingTask[] = sprekenJson as SpeakingTask[]
+export const examReading: ReadingText[] = lezenJson as ReadingText[]
+export const examWriting: WritingTask[] = schrijvenJson as WritingTask[]
+
+export const findReading = (id: string) => [...readingTexts, ...examReading].find((r) => r.id === id)
+export const findWriting = (id: string) => [...writingTasks, ...examWriting].find((w) => w.id === id)
 
 export const wordId = (ch: Chapter, w: Word) => `${ch.id}:w:${w.nl}`
 export const sentenceId = (ch: Chapter, s: Sentence) => `${ch.id}:s:${s.nl}`
