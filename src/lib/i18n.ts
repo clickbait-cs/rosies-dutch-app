@@ -119,6 +119,10 @@ const strings = {
   feedbackPlaceholder: { en: 'Your feedback (corrections, compliments…)', vi: 'Nhận xét của bạn (sửa lỗi, lời khen…)' },
   sendFeedback: { en: 'Send feedback', vi: 'Gửi nhận xét' },
   feedbackSent: { en: 'Feedback sent ✓', vi: 'Đã gửi nhận xét ✓' },
+  vocabCheck: { en: 'Word list', vi: 'Danh sách từ' },
+  vocabKnown: { en: '{n}/{total} known', vi: 'đã thuộc {n}/{total}' },
+  guessed: { en: 'I guessed it', vi: 'Tôi đoán bừa' },
+  guessedHint: { en: 'Got it right by luck? It will come back later.', vi: 'Đúng nhờ may mắn? Câu này sẽ quay lại sau.' },
   // exam
   exam: { en: 'Exam', vi: 'Kỳ thi' },
   examIntroTitle: { en: 'Practice for the civic integration / naturalisation exam (A2)', vi: 'Luyện thi hội nhập / nhập tịch (A2)' },

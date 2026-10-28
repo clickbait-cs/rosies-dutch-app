@@ -1,0 +1,142 @@
+# Start.NL 1 – hoofdstuk 1 – Hoe heet je?
+# One word per line:  Dutch[, de|het] | English | Vietnamese
+aangenaam | nice to meet you, pleasant | rất vui được gặp, dễ chịu
+aanwijzen | to point at | chỉ vào
+acht | eight | tám
+achternaam, de | last name | họ
+alles | everything | tất cả
+ander | other | khác
+beantwoorden | to answer | trả lời
+best | good, best | tốt, tốt nhất
+bus, de | bus | xe buýt
+controleren | to check | kiểm tra
+daar | there | ở đó
+dat | that | đó, rằng
+diep | deep | sâu
+docent, de | teacher | giáo viên
+doen | to do | làm
+drie | three | ba
+dubbel | double | đôi, gấp đôi
+Duitsland | Germany | nước Đức
+een | one, a | một
+een beetje | a bit | một chút
+en | and | và
+Engeland | England | nước Anh
+Europa | Europe | châu Âu
+gaan | to go | đi
+galgje spelen | to play hangman | chơi trò đoán chữ
+geen | no, not a | không có
+getal, het | number | con số
+geven | to give | cho, đưa
+gezellig | nice, cosy | ấm cúng, vui vẻ
+goed | good | tốt
+groep, de | group | nhóm
+hebben | to have | có
+heel | very | rất
+heten | to be called | tên là
+hij | he | anh ấy
+hoe | how | như thế nào
+hoeveel | how much, how many | bao nhiêu
+hoi | hi | chào
+hoofdstuk, het | chapter | chương
+huis, het | house | ngôi nhà
+huur, de | rent | tiền thuê nhà
+ik | I | tôi
+Italië | Italy | nước Ý
+ja | yes | vâng, có
+jaar, het | year | năm
+jij | you (informal) | bạn
+jongen, de | boy | cậu bé, chàng trai
+jouw | your | của bạn
+kaart, de | map, card | bản đồ, thẻ
+kijken | to look | nhìn, xem
+kloppen | to knock, to be correct | gõ cửa, đúng
+komen | to come | đến
+koop, de | purchase | sự mua
+kop, de | head | cái đầu
+krijgen | to get, to receive | nhận được
+kunnen | can, to be able to | có thể
+land, het | country | đất nước
+letter, de | letter (of the alphabet) | chữ cái
+leuk | nice, fun | vui, hay
+lezen | to read | đọc
+lijn, de | line | đường kẻ
+lopen | to walk | đi bộ
+luisteren | to listen | nghe
+maan, de | moon | mặt trăng
+maar | but | nhưng
+maken | to make, to do | làm, tạo ra
+man, de | man | người đàn ông
+meisje, het | girl | cô gái
+met | with | với
+mij | me | tôi (tân ngữ)
+mijn | my | của tôi
+moe | tired | mệt
+moeder, de | mother | mẹ
+moeten | to have to, must | phải
+mogen | to be allowed to, may | được phép
+naam, de | name | tên
+naar | to (a place) | đến
+Nederland | the Netherlands | Hà Lan
+nee | no | không
+negen | nine | chín
+niet | not | không
+nieuw | new | mới
+nu | now | bây giờ
+nul | zero | số không
+oefening, de | exercise | bài tập
+ook | also, too | cũng
+papier, het | paper | giấy
+pen, de | pen | bút
+plaats, de | place | nơi, chỗ
+Polen | Poland | Ba Lan
+praten | to talk | nói chuyện
+prima | fine | tốt, ổn
+raden | to guess | đoán
+rond | around, round | khoảng, tròn
+samen | together | cùng nhau
+schrijven | to write | viết
+slecht | bad | tệ, xấu
+Spanje | Spain | Tây Ban Nha
+spellen | to spell | đánh vần
+spreken | to speak | nói
+straat, de | street | đường phố
+student, de | student | sinh viên
+studeren | to study | học (đại học)
+taal, de | language | ngôn ngữ
+tekenen | to draw | vẽ
+tekst, de | text | văn bản
+telefoonnummer, het | phone number | số điện thoại
+tien | ten | mười
+twee | two | hai
+u | you (formal) | ông/bà (lịch sự)
+uit | from, out | từ, ra ngoài
+uitstekend | excellent | xuất sắc
+van | of, from | của, từ
+vandaan | from (where) | từ (đâu)
+veel | much, many | nhiều
+vel, het | skin, sheet | da, tờ giấy
+vertellen | to tell | kể
+vier | four | bốn
+vijf | five | năm
+voornaam, de | first name | tên riêng
+vraag, de | question | câu hỏi
+vragen | to ask | hỏi
+vriendin, de | (female) friend | bạn gái, bạn nữ
+waar | where / true | ở đâu / đúng
+wij | we | chúng tôi
+welk | what, which | nào, cái gì
+werken | to work | làm việc
+wie | who | ai
+wonen | to live | sống
+woord, het | word | từ
+zeggen | to say | nói
+zes | six | sáu
+zeven | seven | bảy
+zien | to see | thấy, nhìn
+zij | she / they | cô ấy / họ
+zijn | to be / his | là / của anh ấy
+zo | so, like this | như vậy
+zoeken | to search, to look for | tìm
+zuiden, het | south | phía nam
+dier, het | animal | con vật

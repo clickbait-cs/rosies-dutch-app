@@ -98,11 +98,14 @@ export function ExamQuiz({ id, onExit }: { id: string; onExit: () => void }) {
     if (item) sayAll(item.lines.map((l) => l.text), progress.settings.speechRate)
   }
 
-  const next = () => {
+  /** guessed: the answer was right, but by luck, so it doesn't count */
+  const next = (guessed = false) => {
     const nextI = i + 1
+    const total = guessed ? right - 1 : right
+    if (guessed) setRight(total)
     if (nextI >= questions.length) {
-      const score = right / questions.length
-      update((p) => addXp({ ...p, exam: { ...p.exam, [id]: Math.max(p.exam[id] ?? 0, score) } }, 10 + right * 2))
+      const score = total / questions.length
+      update((p) => addXp({ ...p, exam: { ...p.exam, [id]: Math.max(p.exam[id] ?? 0, score) } }, 10 + total * 2))
     }
     setI(nextI)
     setChosen(null)
@@ -202,9 +205,14 @@ export function ExamQuiz({ id, onExit }: { id: string; onExit: () => void }) {
                     {showViWhy && <p className="rounded-xl bg-amber-50 p-3 text-amber-900">{q.whyVi}</p>}
                   </>
                 )}
-                <Button className="w-full" onClick={next}>
+                <Button className="w-full" onClick={() => next()}>
                   {t('continue')}
                 </Button>
+                {chosen === q.answer && (
+                  <Button variant="secondary" className="w-full normal-case" title={t('guessedHint')} onClick={() => next(true)}>
+                    🤔 {t('guessed')}
+                  </Button>
+                )}
               </div>
             )}
           </Card>

@@ -116,9 +116,17 @@ export function Runner({ ex, onComplete, allowDontKnow, onDisable }: Props) {
             </div>
           )}
           {feedback ? (
-            <Button variant={good ? 'primary' : 'danger'} className="sm:min-w-40" onClick={next}>
-              {t('continue')}
-            </Button>
+            <div className="flex flex-col gap-2 sm:flex-row-reverse">
+              <Button variant={good ? 'primary' : 'danger'} className="sm:min-w-40" onClick={next}>
+                {t('continue')}
+              </Button>
+              {/* self-check: a lucky guess counts as a mistake, so the word comes back */}
+              {good && (
+                <Button variant="secondary" className="normal-case" title={t('guessedHint')} onClick={() => onComplete(false)}>
+                  🤔 {t('guessed')}
+                </Button>
+              )}
+            </div>
           ) : (
             !selfChecking && (
               <Button className="sm:min-w-40" disabled={answer === null} onClick={check}>

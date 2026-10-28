@@ -1,7 +1,8 @@
 // The learning path: Book 1 and Book 2, with five lessons per chapter.
 
 import { useEffect, useRef } from 'react'
-import { chapters, readingTexts, writingTasks } from '../content'
+import { bookLists, chapters, readingTexts, writingTasks } from '../content'
+import { knownCount } from '../lib/exercises'
 import { LESSONS } from '../lib/exercises'
 import { isChapterUnlocked, isLessonUnlocked, nextLesson } from '../lib/session'
 import type { StringKey } from '../lib/i18n'
@@ -16,10 +17,12 @@ export function Home({
   openLesson,
   openReading,
   openWriting,
+  openVocab,
 }: {
   openLesson: (chapterId: string, index: number) => void
   openReading: (id: string) => void
   openWriting: (id: string) => void
+  openVocab: (chapterId: string) => void
 }) {
   const { t, progress } = useApp()
   const lang = progress.settings.uiLang
@@ -105,6 +108,7 @@ export function Home({
                     open={isLessonUnlocked(progress, chapters, i, 2)}
                     openReading={openReading}
                     openWriting={openWriting}
+                    openVocab={openVocab}
                   />
                 </div>
               )
@@ -121,19 +125,27 @@ function Extras({
   open,
   openReading,
   openWriting,
+  openVocab,
 }: {
   chapterId: string
   open: boolean
   openReading: (id: string) => void
   openWriting: (id: string) => void
+  openVocab: (chapterId: string) => void
 }) {
   const { t, progress } = useApp()
   const reading = readingTexts.filter((r) => r.chapterId === chapterId)
   const writing = writingTasks.filter((w) => w.chapterId === chapterId)
-  if (!reading.length && !writing.length) return null
+  const book = bookLists.get(chapterId)
+  if (!reading.length && !writing.length && !book) return null
   const cls = 'flex items-center gap-2 rounded-xl border-2 border-b-4 px-3 py-2 text-sm font-bold disabled:cursor-not-allowed disabled:opacity-50'
   return (
     <div className="mt-4 flex flex-wrap gap-2 border-t-2 border-slate-100 pt-4">
+      {book && (
+        <button type="button" disabled={!open} title={open ? '' : t('locked')} onClick={() => openVocab(chapterId)} className={`${cls} border-green-200 bg-green-50 text-green-700`}>
+          📚 {t('vocabCheck')} <span className="font-normal">{t('vocabKnown', { n: knownCount(book, progress.srs), total: book.words.length })}</span>
+        </button>
+      )}
       {reading.map((r) => (
         <button key={r.id} type="button" disabled={!open} title={open ? r.title : t('locked')} onClick={() => openReading(r.id)} className={`${cls} border-sky-200 bg-sky-50 text-sky-700`}>
           📰 {t('lessonReading')}: {r.title}

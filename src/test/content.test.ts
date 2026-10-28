@@ -126,3 +126,30 @@ describe('exam practice', async () => {
     for (const w of examWriting) expect(countWords(w.model), w.id).toBeGreaterThanOrEqual(w.minWords)
   })
 })
+
+describe('book word lists', async () => {
+  const { bookLists, itemById } = await import('../content')
+  const { buildVocabCheck } = await import('../lib/exercises')
+  it('parses every list without duplicates', () => {
+    expect(bookLists.size).toBeGreaterThanOrEqual(9)
+    for (const [id, book] of bookLists) {
+      for (const w of book.words) {
+        expect(w.en, `${id} ${w.nl}`).toBeTruthy()
+        expect(w.vi, `${id} ${w.nl}`).toBeTruthy()
+      }
+      const keys = book.words.map((w) => w.nl)
+      expect(new Set(keys).size, id).toBe(keys.length)
+      expect(itemById.has(`${book.id}:w:${book.words[0].nl}`)).toBe(true)
+    }
+  })
+  it('builds vocabulary checks that can be answered', () => {
+    for (const book of bookLists.values()) {
+      const list = buildVocabCheck(book, {}, '2026-01-01', makeRng(2), opts)
+      expect(list.length).toBeGreaterThanOrEqual(12)
+      for (const ex of list) {
+        if (ex.kind === 'type') expect(gradeAnswer(ex, ex.answers[0]).grade).toBe('correct')
+        if (ex.kind === 'choice') expect(ex.options).toContain(ex.answer)
+      }
+    }
+  })
+})

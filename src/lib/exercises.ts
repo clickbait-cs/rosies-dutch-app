@@ -5,6 +5,8 @@
 import { chapters, itemById, sentenceId, verbId, withArticle, wordId, type Item } from '../content'
 import type { Chapter, Sentence, Verb, Word } from '../content/types'
 import { pick, sample, shuffle, type Rng } from './random'
+import { daysBetween } from './dates'
+import type { SrsState } from './srs'
 
 /** Which instruction to show above the exercise (translated in i18n.ts). */
 export type Instruction =
@@ -86,7 +88,9 @@ function distractors(ch: Chapter, correct: Word, count: number, field: 'en' | 'n
   const out: string[] = []
   for (const w of pool) {
     const s = show(w)
-    if (!out.includes(s) && s !== target && !(field === 'en' && overlaps(s, target))) out.push(s)
+    // skip options that would also be correct (two words with the same meaning)
+    const sameMeaning = overlaps(w.en, correct.en)
+    if (!out.includes(s) && s !== target && !sameMeaning) out.push(s)
     if (out.length === count) break
   }
   return out
@@ -473,4 +477,36 @@ export function placementQuestions(ch: Chapter, rng: Rng): Exercise[] {
   const [w1, w2] = sample(ch.words, 2, rng)
   const s = pick(ch.sentences, rng)
   return [choiceEnToNl(ch, w1, rng), tilesSentence(ch, s, rng), typeWord(ch, w2)]
+}
+
+/**
+ * A vocabulary check on a book word list: words that are due or weak first,
+ * then new words, then the rest. New words are shown first, then typed.
+ */
+export function buildVocabCheck(book: Chapter, srs: SrsState, today: string, rng: Rng, opts: ExerciseOptions, n = 12): Exercise[] {
+  const picked = book.words
+    .map((w) => {
+      const e = srs[wordId(book, w)]
+      const priority = !e ? 1 : daysBetween(e.due, today) >= 0 ? 0 : 2 + e.box
+      return { w, e, priority: priority + rng() }
+    })
+    .sort((a, b) => a.priority - b.priority)
+    .slice(0, n)
+  const intro: Exercise[] = []
+  const practice: Exercise[] = []
+  for (const { w, e } of picked) {
+    if (!e) {
+      intro.push(choiceNlToEn(book, w, rng, true))
+      practice.push(typeWord(book, w))
+    } else {
+      const r = rng()
+      practice.push(r < 0.65 ? typeWord(book, w) : r < 0.9 ? choiceEnToNl(book, w, rng) : listenPickWord(book, w, rng))
+    }
+  }
+  return allowed([...intro, ...shuffle(practice, rng)], opts)
+}
+
+/** How many words of a list the learner knows well (box 3 or higher). */
+export function knownCount(book: Chapter, srs: SrsState): number {
+  return book.words.filter((w) => (srs[wordId(book, w)]?.box ?? 0) >= 3).length
 }

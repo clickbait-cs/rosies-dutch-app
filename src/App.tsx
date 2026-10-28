@@ -13,6 +13,7 @@ import { Settings } from './screens/Settings'
 import { Supporter } from './screens/Supporter'
 import { Reading } from './screens/Reading'
 import { Writing } from './screens/Writing'
+import { VocabCheck } from './screens/VocabCheck'
 import { ExamHome, ExamQuiz, ExamSpeaking } from './screens/Exam'
 
 /** Full-screen activities that hide the menu. */
@@ -21,6 +22,7 @@ type Activity = { kind: 'lesson'; chapterId: string; index: number } | { kind: '
   | { kind: 'writing'; id: string }
   | { kind: 'examQuiz'; id: string }
   | { kind: 'examSpeaking' }
+  | { kind: 'vocab'; chapterId: string }
   | null
 
 export default function App() {
@@ -51,6 +53,7 @@ export default function App() {
   if (act?.kind === 'writing') return <Writing taskId={act.id} onExit={exit} />
   if (act?.kind === 'examQuiz') return <ExamQuiz id={act.id} onExit={exit} />
   if (act?.kind === 'examSpeaking') return <ExamSpeaking onExit={exit} />
+  if (act?.kind === 'vocab') return <VocabCheck chapterId={act.chapterId} onExit={exit} />
 
   return (
     <Layout tab={tab} setTab={setTab}>
@@ -59,6 +62,7 @@ export default function App() {
           openLesson={(chapterId, index) => setActivity({ kind: 'lesson', chapterId, index })}
           openReading={(id) => setActivity({ kind: 'reading', id })}
           openWriting={(id) => setActivity({ kind: 'writing', id })}
+          openVocab={(chapterId) => setActivity({ kind: 'vocab', chapterId })}
         />
       )}
       {tab === 'review' && <ReviewHome start={() => setActivity({ kind: 'review' })} />}
