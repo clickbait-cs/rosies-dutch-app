@@ -22,6 +22,7 @@ export type Instruction =
   | 'conjugate'
   | 'wordOrder'
   | 'matchPairs'
+  | 'fillBlank'
 
 interface Base {
   instruction: Instruction
@@ -116,7 +117,7 @@ function sentenceTiles(ch: Chapter, s: Sentence, rng: Rng): string[] {
     used.add(k)
     return true
   })
-  return shuffle([...answer, ...extra.slice(0, Math.min(3, Math.max(2, Math.round(answer.length / 2))))], rng)
+  return shuffle([...answer, ...extra.slice(0, Math.min(5, Math.max(3, Math.round(answer.length / 2) + 1)))], rng)
 }
 
 // ---------------------------------------------------------- exercise makers
@@ -210,6 +211,28 @@ function typeSentence(ch: Chapter, s: Sentence): Exercise {
     instruction: 'typeDutch',
     prompt: s.en,
     answers: [s.nl, ...(s.alt ?? [])],
+    itemIds: [sentenceId(ch, s)],
+    vi: s.vi,
+    tip: s.tip,
+  }
+}
+
+/**
+ * Fill in the missing word: a reading + writing exercise. We hide one of the
+ * longer words, so it's a real word and not "de" or "en".
+ */
+function clozeSentence(ch: Chapter, s: Sentence, rng: Rng): Exercise {
+  const tokens = tokenize(s.nl)
+  const clean = (t: string) => t.replace(/[,.!?;:]/g, '')
+  const candidates = tokens.map((t, i) => ({ i, w: clean(t) })).filter(({ w }) => w.length >= 3)
+  const { i, w } = candidates.length ? pick(candidates, rng) : { i: 0, w: clean(tokens[0]) }
+  const shown = tokens.map((t, j) => (j === i ? t.replace(w, '_____') : t)).join(' ')
+  return {
+    kind: 'type',
+    instruction: 'fillBlank',
+    prompt: `${shown}\n(${s.en})`,
+    answers: [w],
+    reveal: s.nl,
     itemIds: [sentenceId(ch, s)],
     vi: s.vi,
     tip: s.tip,
@@ -320,26 +343,29 @@ function wordsLesson(ch: Chapter, half: 0 | 1, rng: Rng): Exercise[] {
   const practice: Exercise[] = []
   const groups = [words.slice(0, 5), words.slice(5, 10)].filter((g) => g.length >= 3)
   for (const g of groups) practice.push(matchPairs(ch, g))
-  for (const w of sample(words, 3, rng)) practice.push(choiceEnToNl(ch, w, rng))
-  for (const w of sample(words, 2, rng)) practice.push(listenPickWord(ch, w, rng))
-  for (const w of sample(words, 3, rng)) practice.push(typeWord(ch, w))
+  for (const w of sample(words, 2, rng)) practice.push(choiceEnToNl(ch, w, rng))
+  for (const w of sample(words, 1, rng)) practice.push(listenPickWord(ch, w, rng))
+  // most practice is writing the Dutch word yourself
+  for (const w of sample(words, Math.min(7, words.length), rng)) practice.push(typeWord(ch, w))
   return [...intro, ...shuffle(practice, rng)]
 }
 
 function sentencesLesson(ch: Chapter, rng: Rng): Exercise[] {
+  // Mostly reading and writing: translate by typing, fill in the missing word,
+  // read and understand. A little listening and speaking.
   const ss = shuffle(ch.sentences, rng)
   const out: Exercise[] = []
   ss.forEach((s, i) => {
-    const slot = i % 5
-    if (slot === 0 || slot === 3) out.push(tilesSentence(ch, s, rng))
-    else if (slot === 1) out.push(choiceSentenceMeaning(ch, s, rng))
-    else if (slot === 2) out.push(listenTiles(ch, s, rng))
-    else out.push(speakSentence(ch, s))
+    const slot = i % 6
+    if (slot === 0 || slot === 3) out.push(typeSentence(ch, s))
+    else if (slot === 1 || slot === 4) out.push(clozeSentence(ch, s, rng))
+    else if (slot === 2) out.push(i % 4 === 2 ? choiceSentenceMeaning(ch, s, rng) : tilesSentence(ch, s, rng))
+    else {
+      // one listening or speaking exercise in every six; dictation (listen + type) counts as writing too
+      const pickOne = i % 3
+      out.push(pickOne === 0 ? listenType(ch, s) : pickOne === 1 ? listenTiles(ch, s, rng) : speakSentence(ch, s))
+    }
   })
-  // two extra typing exercises with the shortest sentences
-  const short = [...ch.sentences].sort((a, b) => a.nl.length - b.nl.length).slice(0, 2)
-  out.push(...short.map((s) => typeSentence(ch, s)))
-  out.push(listenType(ch, short[0]))
   return out.slice(0, 14)
 }
 
@@ -353,7 +379,7 @@ function grammarLesson(ch: Chapter, rng: Rng): Exercise[] {
       for (const w of sample(ch.words.filter((w) => w.plural), per, rng)) out.push(pluralDrill(ch, w))
     } else if (kind === 'conjugation') {
       const verbs = ch.verbs ?? []
-      for (let i = 0; i < per && verbs.length; i++) out.push(conjugationDrill(ch, verbs[i % verbs.length], rng, i % 2 === 0))
+      for (let i = 0; i < per && verbs.length; i++) out.push(conjugationDrill(ch, verbs[i % verbs.length], rng, i % 3 === 0))
     } else if (kind === 'wordorder') {
       const ss = ch.sentences.filter((s) => s.tip)
       for (const s of sample(ss.length ? ss : ch.sentences, per, rng)) out.push(tilesSentence(ch, s, rng, 'wordOrder'))
@@ -373,18 +399,20 @@ function allNouns(ch: Chapter): Word[] {
 
 function checkLesson(ch: Chapter, rng: Rng): Exercise[] {
   const ws = sample(ch.words, 6, rng)
-  const ss = sample(ch.sentences, 4, rng)
+  const ss = sample(ch.sentences, 6, rng)
   const out: Exercise[] = [
-    choiceEnToNl(ch, ws[0], rng),
+    typeWord(ch, ws[0]),
     typeWord(ch, ws[1]),
     typeWord(ch, ws[2]),
-    choiceNlToEn(ch, ws[3], rng),
-    listenPickWord(ch, ws[4], rng),
-    matchPairs(ch, sample(ch.words, 5, rng)),
-    tilesSentence(ch, ss[0], rng),
-    tilesSentence(ch, ss[1], rng),
-    typeSentence(ch, ss[2]),
-    listenTiles(ch, ss[3], rng),
+    typeWord(ch, ws[3]),
+    choiceNlToEn(ch, ws[4], rng),
+    listenPickWord(ch, ws[5], rng),
+    typeSentence(ch, ss[0]),
+    typeSentence(ch, ss[1]),
+    clozeSentence(ch, ss[2], rng),
+    clozeSentence(ch, ss[3], rng),
+    choiceSentenceMeaning(ch, ss[4], rng),
+    tilesSentence(ch, ss[5], rng),
   ]
   const drills = grammarLesson(ch, rng).slice(0, 3)
   return shuffle([...out, ...drills], rng)
@@ -412,20 +440,19 @@ export function lessonWords(ch: Chapter, index: number): Word[] {
 
 function exerciseForItem(item: Item, rng: Rng): Exercise {
   const { chapter: ch } = item
+  const r = rng()
   if (item.type === 'word') {
-    const r = rng()
-    if (r < 0.35) return typeWord(ch, item.word)
-    if (r < 0.6) return choiceEnToNl(ch, item.word, rng)
-    if (r < 0.8) return choiceNlToEn(ch, item.word, rng)
+    if (r < 0.6) return typeWord(ch, item.word)
+    if (r < 0.8) return choiceEnToNl(ch, item.word, rng)
     return listenPickWord(ch, item.word, rng)
   }
   if (item.type === 'sentence') {
-    const r = rng()
-    if (r < 0.6) return tilesSentence(ch, item.sentence, rng)
-    if (r < 0.8) return typeSentence(ch, item.sentence)
+    if (r < 0.4) return typeSentence(ch, item.sentence)
+    if (r < 0.75) return clozeSentence(ch, item.sentence, rng)
+    if (r < 0.9) return tilesSentence(ch, item.sentence, rng)
     return listenTiles(ch, item.sentence, rng)
   }
-  return conjugationDrill(ch, item.verb, rng, rng() < 0.5)
+  return conjugationDrill(ch, item.verb, rng, r < 0.3)
 }
 
 export function buildReview(itemIds: string[], rng: Rng, opts: ExerciseOptions, max = 12): Exercise[] {

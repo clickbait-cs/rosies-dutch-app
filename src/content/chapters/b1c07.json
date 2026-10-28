@@ -2,53 +2,67 @@
   "id": "b1c07",
   "book": 1,
   "number": 7,
-  "titleNl": "Wonen",
-  "title": "Home and living",
-  "titleVi": "Nhà ở",
+  "titleNl": "Waar woon je?",
+  "title": "Where do you live?",
+  "titleVi": "Bạn sống ở đâu?",
   "cefr": "A1",
-  "provisional": true,
+  "provisional": false,
   "words": [
     { "nl": "huis", "article": "het", "plural": "huizen", "en": "house", "vi": "ngôi nhà" },
     { "nl": "appartement", "article": "het", "plural": "appartementen", "en": "apartment", "vi": "căn hộ" },
-    { "nl": "kamer", "article": "de", "plural": "kamers", "en": "room", "vi": "phòng" },
     { "nl": "keuken", "article": "de", "plural": "keukens", "en": "kitchen", "vi": "nhà bếp" },
     { "nl": "slaapkamer", "article": "de", "plural": "slaapkamers", "en": "bedroom", "vi": "phòng ngủ" },
     { "nl": "woonkamer", "article": "de", "plural": "woonkamers", "en": "living room", "vi": "phòng khách" },
     { "nl": "badkamer", "article": "de", "plural": "badkamers", "en": "bathroom", "vi": "phòng tắm" },
     { "nl": "tuin", "article": "de", "plural": "tuinen", "en": "garden", "vi": "khu vườn" },
     { "nl": "tafel", "article": "de", "plural": "tafels", "en": "table", "vi": "cái bàn" },
-    { "nl": "stoel", "article": "de", "plural": "stoelen", "en": "chair", "vi": "cái ghế" },
-    { "nl": "bed", "article": "het", "plural": "bedden", "en": "bed", "vi": "cái giường" },
-    { "nl": "bank", "article": "de", "plural": "banken", "en": "sofa / bank", "vi": "ghế sofa / ngân hàng" },
-    { "nl": "raam", "article": "het", "plural": "ramen", "en": "window", "vi": "cửa sổ" },
-    { "nl": "deur", "article": "de", "plural": "deuren", "en": "door", "vi": "cửa ra vào" },
+    { "nl": "bank", "article": "de", "plural": "banken", "en": "sofa", "vi": "ghế sofa" },
+    { "nl": "lamp", "article": "de", "plural": "lampen", "en": "lamp", "vi": "đèn" },
     { "nl": "straat", "article": "de", "plural": "straten", "en": "street", "vi": "đường phố" },
-    { "nl": "buurman", "article": "de", "plural": "buren", "en": "neighbour (man)", "vi": "hàng xóm (nam)" },
-    { "nl": "huur", "article": "de", "en": "rent", "vi": "tiền thuê nhà" },
+    { "nl": "adres", "article": "het", "plural": "adressen", "en": "address", "vi": "địa chỉ" },
+    { "nl": "postcode", "article": "de", "plural": "postcodes", "en": "postcode", "vi": "mã bưu điện" },
+    { "nl": "verdieping", "article": "de", "plural": "verdiepingen", "en": "floor, storey", "vi": "tầng" },
+    { "nl": "eerste", "en": "first", "vi": "thứ nhất" },
+    { "nl": "tweede", "en": "second", "vi": "thứ hai" },
+    { "nl": "derde", "en": "third", "vi": "thứ ba" },
     { "nl": "groot", "en": "big", "vi": "lớn" },
     { "nl": "mooi", "en": "beautiful, nice", "vi": "đẹp" },
-    { "nl": "naast", "en": "next to", "vi": "bên cạnh" },
-    { "nl": "boven", "en": "upstairs / above", "vi": "trên lầu / phía trên" },
-    { "nl": "beneden", "en": "downstairs", "vi": "dưới nhà, tầng dưới" }
+    { "nl": "liggen", "en": "to lie (flat)", "vi": "nằm" },
+    { "nl": "hangen", "en": "to hang", "vi": "treo" },
+    { "nl": "zitten", "en": "to sit", "vi": "ngồi" }
   ],
   "sentences": [
-    { "nl": "Er zijn drie slaapkamers.", "en": "There are three bedrooms.", "vi": "Có ba phòng ngủ.", "tip": "er" },
+    { "nl": "Waar woon je?", "en": "Where do you live?", "vi": "Bạn sống ở đâu?", "alt": ["Waar woon jij?"], "tip": "questions" },
+    { "nl": "Ik woon in een appartement in Rotterdam.", "en": "I live in an apartment in Rotterdam.", "vi": "Tôi sống trong một căn hộ ở Rotterdam." },
+    { "nl": "Wat is je adres?", "en": "What is your address?", "vi": "Địa chỉ của bạn là gì?", "alt": ["Wat is jouw adres?", "Wat is uw adres?"] },
+    { "nl": "Ik woon op de derde verdieping.", "en": "I live on the third floor.", "vi": "Tôi sống ở tầng ba." },
     { "nl": "Er is een tuin achter het huis.", "en": "There is a garden behind the house.", "vi": "Có một khu vườn phía sau ngôi nhà.", "tip": "er" },
-    { "nl": "Wij wonen in een klein appartement.", "en": "We live in a small apartment.", "vi": "Chúng tôi sống trong một căn hộ nhỏ.", "alt": ["We wonen in een klein appartement."], "tip": "adjective-e" },
-    { "nl": "De keuken is groot.", "en": "The kitchen is big.", "vi": "Nhà bếp lớn.", "tip": "adjective-e" },
-    { "nl": "Het is een mooi huis.", "en": "It is a beautiful house.", "vi": "Đó là một ngôi nhà đẹp.", "tip": "adjective-e" },
-    { "nl": "De badkamer is boven.", "en": "The bathroom is upstairs.", "vi": "Phòng tắm ở trên lầu." },
-    { "nl": "De bank staat naast het raam.", "en": "The sofa is next to the window.", "vi": "Ghế sofa ở bên cạnh cửa sổ." },
-    { "nl": "Mijn buurman is heel aardig.", "en": "My neighbour is very kind.", "vi": "Hàng xóm của tôi rất tốt bụng." },
-    { "nl": "Hoeveel is de huur?", "en": "How much is the rent?", "vi": "Tiền thuê nhà bao nhiêu?", "alt": ["Wat is de huur?"], "tip": "questions" },
-    { "nl": "Ik zoek een groter huis.", "en": "I am looking for a bigger house.", "vi": "Tôi đang tìm một ngôi nhà lớn hơn.", "tip": "comparative" }
+    { "nl": "Er zijn drie slaapkamers.", "en": "There are three bedrooms.", "vi": "Có ba phòng ngủ.", "tip": "er" },
+    { "nl": "Mijn huis is groter dan jouw huis.", "en": "My house is bigger than your house.", "vi": "Nhà tôi lớn hơn nhà bạn.", "tip": "comparative" },
+    { "nl": "De keuken is kleiner dan de woonkamer.", "en": "The kitchen is smaller than the living room.", "vi": "Nhà bếp nhỏ hơn phòng khách.", "tip": "comparative" },
+    { "nl": "Deze kamer is mooi, maar die kamer is klein.", "en": "This room is nice, but that room is small.", "vi": "Phòng này đẹp, nhưng phòng kia nhỏ.", "tip": "demonstrative" },
+    { "nl": "Dit huis is duurder dan dat huis.", "en": "This house is more expensive than that house.", "vi": "Ngôi nhà này đắt hơn ngôi nhà kia.", "tip": "demonstrative" },
+    { "nl": "Het boek ligt op de tafel.", "en": "The book is on the table.", "vi": "Quyển sách nằm trên bàn.", "tip": "position-verbs" },
+    { "nl": "De lamp hangt boven de tafel.", "en": "The lamp hangs above the table.", "vi": "Đèn treo phía trên bàn.", "tip": "position-verbs" },
+    { "nl": "De fiets staat in de tuin.", "en": "The bike is in the garden.", "vi": "Xe đạp ở trong vườn.", "tip": "position-verbs" },
+    { "nl": "De kat zit op de bank.", "en": "The cat is sitting on the sofa.", "vi": "Con mèo ngồi trên ghế sofa.", "tip": "position-verbs" }
   ],
   "verbs": [
-    { "inf": "zoeken", "en": "to look for", "vi": "tìm", "ik": "zoek", "jij": "zoekt", "hij": "zoekt", "wij": "zoeken", "jullie": "zoeken", "zij": "zoeken" },
-    { "inf": "staan", "en": "to stand / be (placed)", "vi": "đứng, đặt", "ik": "sta", "jij": "staat", "hij": "staat", "wij": "staan", "jullie": "staan", "zij": "staan" },
-    { "inf": "huren", "en": "to rent", "vi": "thuê", "ik": "huur", "jij": "huurt", "hij": "huurt", "wij": "huren", "jullie": "huren", "zij": "huren" }
+    { "inf": "staan", "en": "to stand", "vi": "đứng", "ik": "sta", "jij": "staat", "hij": "staat", "wij": "staan", "jullie": "staan", "zij": "staan" },
+    { "inf": "liggen", "en": "to lie (flat)", "vi": "nằm", "ik": "lig", "jij": "ligt", "hij": "ligt", "wij": "liggen", "jullie": "liggen", "zij": "liggen" },
+    { "inf": "zitten", "en": "to sit", "vi": "ngồi", "ik": "zit", "jij": "zit", "hij": "zit", "wij": "zitten", "jullie": "zitten", "zij": "zitten" },
+    { "inf": "hangen", "en": "to hang", "vi": "treo", "ik": "hang", "jij": "hangt", "hij": "hangt", "wij": "hangen", "jullie": "hangen", "zij": "hangen" }
   ],
   "grammar": [
+    {
+      "title": "Ordinal numbers",
+      "titleVi": "Số thứ tự",
+      "en": "eerste (1st), tweede (2nd), derde (3rd), vierde (4th), vijfde, zesde, zevende, achtste, negende, tiende, twintigste.",
+      "vi": "eerste (thứ nhất), tweede (thứ hai), derde (thứ ba), vierde (thứ tư), vijfde, zesde, zevende, achtste, negende, tiende, twintigste.",
+      "examples": [
+        { "nl": "de vierde verdieping", "en": "the fourth floor" }
+      ]
+    },
     {
       "title": "er is / er zijn",
       "titleVi": "er is / er zijn = có",
@@ -60,16 +74,25 @@
       "tip": "er"
     },
     {
-      "title": "Adjectives before a noun",
-      "titleVi": "Tính từ đứng trước danh từ",
-      "en": "de grote kamer, het grote huis, een grote kamer — but een groot huis (een + het-word: no -e). After the verb: no -e (Het huis is groot).",
-      "vi": "de grote kamer, het grote huis, een grote kamer — nhưng een groot huis (een + từ het: không thêm -e). Sau động từ: không thêm -e (Het huis is groot).",
+      "title": "Comparatives and deze / die / dit / dat",
+      "titleVi": "So sánh hơn và deze / die / dit / dat",
+      "en": "groot → groter (dan), klein → kleiner, duur → duurder, goed → beter.\ndeze/die + de-word (deze kamer), dit/dat + het-word (dit huis).",
+      "vi": "groot → groter (dan) (lớn hơn), klein → kleiner, duur → duurder, goed → beter.\ndeze/die + từ de (deze kamer = phòng này), dit/dat + từ het (dit huis = nhà này).",
       "examples": [
-        { "nl": "een mooie tuin", "en": "a beautiful garden" },
-        { "nl": "een mooi raam", "en": "a beautiful window" }
+        { "nl": "Die tuin is groter.", "en": "That garden is bigger." }
       ],
-      "tip": "adjective-e"
+      "tip": "comparative"
+    },
+    {
+      "title": "Verbs of position",
+      "titleVi": "Động từ chỉ tư thế",
+      "en": "staan (upright), liggen (flat), zitten (inside / sitting), hangen (hanging).",
+      "vi": "staan (đứng thẳng), liggen (nằm ngang), zitten (ở bên trong / ngồi), hangen (treo).",
+      "examples": [
+        { "nl": "De melk staat in de koelkast.", "en": "The milk is in the fridge." }
+      ],
+      "tip": "position-verbs"
     }
   ],
-  "drills": ["article", "plural"]
+  "drills": ["article", "plural", "conjugation"]
 }

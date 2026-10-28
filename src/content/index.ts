@@ -3,6 +3,7 @@
 
 import type { Chapter, Sentence, Tip, Verb, Word } from './types'
 import tipsJson from './tips.json'
+import { dueItems, type SrsState } from '../lib/srs'
 
 const files = import.meta.glob<Chapter>('./chapters/*.json', { eager: true, import: 'default' })
 
@@ -36,4 +37,9 @@ export function itemLabel(item: Item): { nl: string; en: string; vi: string } {
   if (item.type === 'word') return { nl: withArticle(item.word), en: item.word.en, vi: item.word.vi }
   if (item.type === 'sentence') return item.sentence
   return { nl: item.verb.inf, en: item.verb.en, vi: item.verb.vi }
+}
+
+/** Items due for review that still exist (content can change after a word was practised). */
+export function dueKnownItems(srs: SrsState, today: string): string[] {
+  return dueItems(srs, today).filter((id) => itemById.has(id))
 }

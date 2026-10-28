@@ -36,7 +36,7 @@ function Prompt({ text, audio }: { text: string; audio?: string }) {
   return (
     <div className="flex flex-wrap items-center gap-3">
       {audio && <Speaker text={audio} />}
-      {text && <p className="text-2xl font-bold text-slate-800">{text}</p>}
+      {text && <p className="whitespace-pre-line text-2xl font-bold text-slate-800">{text}</p>}
     </div>
   )
 }
@@ -94,8 +94,16 @@ export function Choice({ ex, answer, setAnswer, locked }: ExerciseProps<Of<'choi
 
 export function Match({ ex, locked, onDone }: ExerciseProps<Of<'match'>>) {
   const { progress } = useApp()
-  const left = useMemo(() => shuffle(ex.pairs.map((p) => p.nl), makeRng()), [ex])
-  const right = useMemo(() => shuffle(ex.pairs.map((p) => p.en), makeRng()), [ex])
+  // Shuffle both columns with one random generator (two generators created in
+  // the same millisecond would shuffle them identically), and make sure the
+  // pairs never end up side by side in the same order.
+  const [left, right] = useMemo(() => {
+    const rng = makeRng()
+    const l = shuffle(ex.pairs, rng)
+    let r = shuffle(ex.pairs, rng)
+    for (let i = 0; i < 10 && r.some((p, j) => p === l[j]); i++) r = shuffle(ex.pairs, rng)
+    return [l.map((p) => p.nl), r.map((p) => p.en)]
+  }, [ex])
   const [selNl, setSelNl] = useState<string | null>(null)
   const [selEn, setSelEn] = useState<string | null>(null)
   const [done, setDone] = useState<string[]>([]) // matched Dutch words

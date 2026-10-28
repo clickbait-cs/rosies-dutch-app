@@ -2,72 +2,90 @@
   "id": "b1c05",
   "book": 1,
   "number": 5,
-  "titleNl": "Eten en drinken",
-  "title": "Food and drink",
-  "titleVi": "Ăn và uống",
+  "titleNl": "Wat kost dat?",
+  "title": "How much is that?",
+  "titleVi": "Cái đó giá bao nhiêu?",
   "cefr": "A1",
-  "provisional": true,
+  "provisional": false,
   "words": [
-    { "nl": "ontbijt", "article": "het", "plural": "ontbijten", "en": "breakfast", "vi": "bữa sáng" },
-    { "nl": "lunch", "article": "de", "plural": "lunches", "en": "lunch", "vi": "bữa trưa" },
-    { "nl": "avondeten", "article": "het", "en": "dinner", "vi": "bữa tối" },
-    { "nl": "koffie", "article": "de", "en": "coffee", "vi": "cà phê" },
-    { "nl": "thee", "article": "de", "en": "tea", "vi": "trà" },
-    { "nl": "water", "article": "het", "en": "water", "vi": "nước" },
-    { "nl": "rijst", "article": "de", "en": "rice", "vi": "cơm, gạo" },
-    { "nl": "soep", "article": "de", "plural": "soepen", "en": "soup", "vi": "súp, canh" },
-    { "nl": "groente", "article": "de", "plural": "groenten", "en": "vegetable", "vi": "rau" },
-    { "nl": "vlees", "article": "het", "en": "meat", "vi": "thịt" },
-    { "nl": "vis", "article": "de", "plural": "vissen", "en": "fish", "vi": "cá" },
-    { "nl": "kip", "article": "de", "plural": "kippen", "en": "chicken", "vi": "thịt gà, con gà" },
-    { "nl": "kopje", "article": "het", "plural": "kopjes", "en": "cup", "vi": "tách" },
-    { "nl": "glas", "article": "het", "plural": "glazen", "en": "glass", "vi": "cái ly" },
-    { "nl": "broodje", "article": "het", "plural": "broodjes", "en": "sandwich / bread roll", "vi": "bánh mì kẹp" },
-    { "nl": "restaurant", "article": "het", "plural": "restaurants", "en": "restaurant", "vi": "nhà hàng" },
-    { "nl": "lekker", "en": "tasty", "vi": "ngon" },
-    { "nl": "graag", "en": "gladly / with pleasure", "vi": "rất muốn, sẵn lòng" },
-    { "nl": "honger", "article": "de", "en": "hunger", "vi": "sự đói" },
-    { "nl": "dorst", "article": "de", "en": "thirst", "vi": "sự khát" }
+    { "nl": "supermarkt", "article": "de", "plural": "supermarkten", "en": "supermarket", "vi": "siêu thị" },
+    { "nl": "brood", "article": "het", "en": "bread", "vi": "bánh mì" },
+    { "nl": "melk", "article": "de", "en": "milk", "vi": "sữa" },
+    { "nl": "kaas", "article": "de", "en": "cheese", "vi": "phô mai" },
+    { "nl": "ei", "article": "het", "plural": "eieren", "en": "egg", "vi": "quả trứng" },
+    { "nl": "appel", "article": "de", "plural": "appels", "en": "apple", "vi": "quả táo" },
+    { "nl": "tas", "article": "de", "plural": "tassen", "en": "bag", "vi": "túi" },
+    { "nl": "euro", "article": "de", "plural": "euro's", "en": "euro", "vi": "đồng euro" },
+    { "nl": "kilo", "article": "de", "plural": "kilo's", "en": "kilo", "vi": "ký, kilôgam" },
+    { "nl": "pond", "article": "het", "plural": "ponden", "en": "half a kilo (500 g)", "vi": "nửa ký (500 g)" },
+    { "nl": "ons", "article": "het", "plural": "onsen", "en": "100 grams", "vi": "100 gam" },
+    { "nl": "duur", "en": "expensive", "vi": "đắt" },
+    { "nl": "goedkoop", "en": "cheap", "vi": "rẻ" },
+    { "nl": "januari", "en": "January", "vi": "tháng Một" },
+    { "nl": "februari", "en": "February", "vi": "tháng Hai" },
+    { "nl": "maart", "en": "March", "vi": "tháng Ba" },
+    { "nl": "april", "en": "April", "vi": "tháng Tư" },
+    { "nl": "mei", "en": "May", "vi": "tháng Năm" },
+    { "nl": "juni", "en": "June", "vi": "tháng Sáu" },
+    { "nl": "juli", "en": "July", "vi": "tháng Bảy" },
+    { "nl": "augustus", "en": "August", "vi": "tháng Tám" },
+    { "nl": "september", "en": "September", "vi": "tháng Chín" },
+    { "nl": "oktober", "en": "October", "vi": "tháng Mười" },
+    { "nl": "november", "en": "November", "vi": "tháng Mười Một" },
+    { "nl": "december", "en": "December", "vi": "tháng Mười Hai" }
   ],
   "sentences": [
-    { "nl": "Ik wil graag een kopje koffie.", "en": "I would like a cup of coffee.", "vi": "Tôi muốn một tách cà phê.", "alt": ["Ik wil een kopje koffie.", "Mag ik een kopje koffie?"], "tip": "diminutive" },
-    { "nl": "Ik heb honger.", "en": "I am hungry.", "vi": "Tôi đói.", "tip": "zijn-hebben" },
-    { "nl": "Heb jij dorst?", "en": "Are you thirsty?", "vi": "Bạn có khát không?", "alt": ["Heb je dorst?"], "tip": "zijn-hebben" },
-    { "nl": "Ik drink geen koffie.", "en": "I don't drink coffee.", "vi": "Tôi không uống cà phê.", "tip": "negation" },
-    { "nl": "Ik eet graag rijst met vis.", "en": "I like eating rice with fish.", "vi": "Tôi thích ăn cơm với cá." },
-    { "nl": "Wij eten om zes uur.", "en": "We eat at six o'clock.", "vi": "Chúng tôi ăn lúc sáu giờ.", "alt": ["We eten om zes uur."], "tip": "word-order" },
-    { "nl": "De soep is lekker.", "en": "The soup is tasty.", "vi": "Món súp ngon." },
-    { "nl": "Ik wil vanavond pho maken.", "en": "I want to make pho tonight.", "vi": "Tối nay tôi muốn nấu phở.", "tip": "modal" },
-    { "nl": "Wat wil je drinken?", "en": "What would you like to drink?", "vi": "Bạn muốn uống gì?", "alt": ["Wat wil jij drinken?"], "tip": "modal" },
-    { "nl": "De rekening, alstublieft.", "en": "The bill, please.", "vi": "Làm ơn tính tiền.", "alt": ["Mag ik de rekening?", "De rekening alsjeblieft."] }
+    { "nl": "Wat kost dat?", "en": "How much does that cost?", "vi": "Cái đó giá bao nhiêu?", "alt": ["Hoeveel kost dat?", "Wat kost het?"], "tip": "questions" },
+    { "nl": "Dat is drie euro vijftig.", "en": "That is three euros fifty.", "vi": "Cái đó ba euro năm mươi." },
+    { "nl": "Ik wil graag een pond kaas.", "en": "I would like half a kilo of cheese.", "vi": "Tôi muốn mua nửa ký phô mai." },
+    { "nl": "Mag ik twee ons ham?", "en": "May I have 200 grams of ham?", "vi": "Cho tôi 200 gam giăm bông nhé?" },
+    { "nl": "Waar vind ik de melk?", "en": "Where can I find the milk?", "vi": "Sữa ở đâu?", "alt": ["Waar is de melk?"], "tip": "questions" },
+    { "nl": "Kunt u mij helpen?", "en": "Can you help me?", "vi": "Ông/bà giúp tôi được không?", "alt": ["Kunt u me helpen?", "Kun je me helpen?"], "tip": "object-pronouns" },
+    { "nl": "Ik zie hem niet.", "en": "I don't see him.", "vi": "Tôi không thấy anh ấy.", "tip": "object-pronouns" },
+    { "nl": "Ik koop de appels niet.", "en": "I'm not buying the apples.", "vi": "Tôi không mua táo.", "tip": "negation" },
+    { "nl": "De kaas is niet duur.", "en": "The cheese is not expensive.", "vi": "Phô mai không đắt.", "tip": "negation" },
+    { "nl": "Heeft u een tasje?", "en": "Do you have a (little) bag?", "vi": "Ông/bà có túi nhỏ không?", "alt": ["Hebt u een tasje?", "Heb je een tasje?"], "tip": "diminutive" },
+    { "nl": "Ik wil graag een broodje kaas.", "en": "I would like a cheese roll.", "vi": "Tôi muốn một bánh mì kẹp phô mai.", "tip": "diminutive" },
+    { "nl": "Mijn verjaardag is in mei.", "en": "My birthday is in May.", "vi": "Sinh nhật tôi vào tháng Năm." },
+    { "nl": "Ik betaal met mijn pinpas.", "en": "I'm paying with my debit card.", "vi": "Tôi trả bằng thẻ ngân hàng." }
   ],
   "verbs": [
-    { "inf": "eten", "en": "to eat", "vi": "ăn", "ik": "eet", "jij": "eet", "hij": "eet", "wij": "eten", "jullie": "eten", "zij": "eten" },
-    { "inf": "drinken", "en": "to drink", "vi": "uống", "ik": "drink", "jij": "drinkt", "hij": "drinkt", "wij": "drinken", "jullie": "drinken", "zij": "drinken" },
-    { "inf": "koken", "en": "to cook", "vi": "nấu ăn", "ik": "kook", "jij": "kookt", "hij": "kookt", "wij": "koken", "jullie": "koken", "zij": "koken" },
-    { "inf": "willen", "en": "to want", "vi": "muốn", "ik": "wil", "jij": "wilt", "hij": "wil", "wij": "willen", "jullie": "willen", "zij": "willen" }
+    { "inf": "kopen", "en": "to buy", "vi": "mua", "ik": "koop", "jij": "koopt", "hij": "koopt", "wij": "kopen", "jullie": "kopen", "zij": "kopen" },
+    { "inf": "betalen", "en": "to pay", "vi": "trả tiền", "ik": "betaal", "jij": "betaalt", "hij": "betaalt", "wij": "betalen", "jullie": "betalen", "zij": "betalen" },
+    { "inf": "kosten", "en": "to cost", "vi": "có giá", "ik": "kost", "jij": "kost", "hij": "kost", "wij": "kosten", "jullie": "kosten", "zij": "kosten" },
+    { "inf": "vinden", "en": "to find", "vi": "tìm thấy", "ik": "vind", "jij": "vindt", "hij": "vindt", "wij": "vinden", "jullie": "vinden", "zij": "vinden" }
   ],
   "grammar": [
     {
-      "title": "graag: liking to do something",
-      "titleVi": "graag: thích làm gì",
-      "en": "Put graag after the verb to say you like doing it: Ik eet graag vis = I like eating fish.\nIk wil graag… = I would like… (polite way to order).",
-      "vi": "Đặt graag sau động từ để nói bạn thích làm việc đó: Ik eet graag vis = Tôi thích ăn cá.\nIk wil graag… = Tôi muốn… (cách gọi món lịch sự).",
+      "title": "Object form: me, je, hem, haar…",
+      "titleVi": "Đại từ tân ngữ: me, je, hem, haar…",
+      "en": "ik → mij/me, jij → jou/je, u → u, hij → hem, zij → haar, wij → ons, jullie → jullie, zij → hen/ze.",
+      "vi": "ik → mij/me, jij → jou/je, u → u, hij → hem, zij → haar, wij → ons, jullie → jullie, zij → hen/ze.",
       "examples": [
-        { "nl": "Ik drink graag thee.", "en": "I like drinking tea." },
-        { "nl": "Ik wil graag een glas water.", "en": "I would like a glass of water." }
-      ]
+        { "nl": "Ik bel je morgen.", "en": "I'll call you tomorrow." }
+      ],
+      "tip": "object-pronouns"
     },
     {
-      "title": "willen + infinitive at the end",
-      "titleVi": "willen + động từ nguyên mẫu ở cuối",
-      "en": "ik wil, jij wilt, hij wil, wij willen. The second verb goes to the end: Ik wil koffie drinken.",
-      "vi": "ik wil, jij wilt, hij wil, wij willen. Động từ thứ hai chuyển xuống cuối câu: Ik wil koffie drinken (Tôi muốn uống cà phê).",
+      "title": "Negation with niet",
+      "titleVi": "Phủ định với niet",
+      "en": "niet usually goes at the end, or before an adjective, a place or a preposition: Ik koop het niet. De kaas is niet duur. Ik ga niet naar de markt.",
+      "vi": "niet thường đứng cuối câu, hoặc trước tính từ, nơi chốn hay giới từ: Ik koop het niet. (Tôi không mua nó.) De kaas is niet duur. Ik ga niet naar de markt.",
       "examples": [
-        { "nl": "Wij willen vanavond koken.", "en": "We want to cook tonight." }
+        { "nl": "Ik werk vandaag niet.", "en": "I'm not working today." }
       ],
-      "tip": "modal"
+      "tip": "negation"
+    },
+    {
+      "title": "Diminutives: -je, -tje, -pje",
+      "titleVi": "Từ chỉ vật nhỏ: -je, -tje, -pje",
+      "en": "tas → tasje, brood → broodje, ei → eitje, boom → boompje. Diminutives are always het-words.",
+      "vi": "tas → tasje, brood → broodje, ei → eitje, boom → boompje. Từ có đuôi nhỏ luôn là từ het.",
+      "examples": [
+        { "nl": "een kopje koffie", "en": "a cup of coffee" }
+      ],
+      "tip": "diminutive"
     }
   ],
-  "drills": ["wordorder", "article", "conjugation"]
+  "drills": ["plural", "article", "wordorder"]
 }

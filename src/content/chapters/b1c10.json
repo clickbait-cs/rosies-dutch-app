@@ -2,275 +2,86 @@
   "id": "b1c10",
   "book": 1,
   "number": 10,
-  "titleNl": "Op reis",
-  "title": "Travel and transport",
-  "titleVi": "Đi lại và phương tiện",
+  "titleNl": "Hebt u hem een maat groter?",
+  "title": "Do you have it one size bigger?",
+  "titleVi": "Ông/bà có cỡ lớn hơn không?",
   "cefr": "A1",
-  "provisional": true,
+  "provisional": false,
   "words": [
-    {
-      "nl": "trein",
-      "article": "de",
-      "plural": "treinen",
-      "en": "train",
-      "vi": "tàu hỏa"
-    },
-    {
-      "nl": "bus",
-      "article": "de",
-      "plural": "bussen",
-      "en": "bus",
-      "vi": "xe buýt"
-    },
-    {
-      "nl": "auto",
-      "article": "de",
-      "plural": "auto's",
-      "en": "car",
-      "vi": "xe hơi"
-    },
-    {
-      "nl": "vliegtuig",
-      "article": "het",
-      "plural": "vliegtuigen",
-      "en": "aeroplane",
-      "vi": "máy bay"
-    },
-    {
-      "nl": "station",
-      "article": "het",
-      "plural": "stations",
-      "en": "station",
-      "vi": "nhà ga"
-    },
-    {
-      "nl": "perron",
-      "article": "het",
-      "plural": "perrons",
-      "en": "platform",
-      "vi": "sân ga"
-    },
-    {
-      "nl": "kaartje",
-      "article": "het",
-      "plural": "kaartjes",
-      "en": "ticket",
-      "vi": "vé"
-    },
-    {
-      "nl": "ov-chipkaart",
-      "article": "de",
-      "plural": "ov-chipkaarten",
-      "en": "public transport card",
-      "vi": "thẻ đi phương tiện công cộng"
-    },
-    {
-      "nl": "reis",
-      "article": "de",
-      "plural": "reizen",
-      "en": "trip, journey",
-      "vi": "chuyến đi"
-    },
-    {
-      "nl": "vakantie",
-      "article": "de",
-      "plural": "vakanties",
-      "en": "holiday",
-      "vi": "kỳ nghỉ"
-    },
-    {
-      "nl": "koffer",
-      "article": "de",
-      "plural": "koffers",
-      "en": "suitcase",
-      "vi": "va li"
-    },
-    {
-      "nl": "vertraging",
-      "article": "de",
-      "en": "delay",
-      "vi": "sự chậm trễ"
-    },
-    {
-      "nl": "vertrekken",
-      "en": "to depart",
-      "vi": "khởi hành"
-    },
-    {
-      "nl": "aankomen",
-      "en": "to arrive",
-      "vi": "đến nơi"
-    },
-    {
-      "nl": "overstappen",
-      "en": "to change (trains)",
-      "vi": "đổi tàu/xe"
-    },
-    {
-      "nl": "retour",
-      "en": "return (ticket)",
-      "vi": "vé khứ hồi"
-    },
-    {
-      "nl": "enkele reis",
-      "article": "de",
-      "en": "single (ticket)",
-      "vi": "vé một chiều"
-    },
-    {
-      "nl": "spoor",
-      "article": "het",
-      "plural": "sporen",
-      "en": "track, platform (number)",
-      "vi": "đường ray"
-    },
-    {
-      "nl": "vorige week",
-      "en": "last week",
-      "vi": "tuần trước"
-    },
-    {
-      "nl": "ver",
-      "en": "far",
-      "vi": "xa"
-    }
+    { "nl": "kleding", "article": "de", "en": "clothes", "vi": "quần áo" },
+    { "nl": "broek", "article": "de", "plural": "broeken", "en": "trousers", "vi": "quần dài" },
+    { "nl": "jurk", "article": "de", "plural": "jurken", "en": "dress", "vi": "váy đầm" },
+    { "nl": "rok", "article": "de", "plural": "rokken", "en": "skirt", "vi": "chân váy" },
+    { "nl": "trui", "article": "de", "plural": "truien", "en": "jumper, sweater", "vi": "áo len" },
+    { "nl": "jas", "article": "de", "plural": "jassen", "en": "coat", "vi": "áo khoác" },
+    { "nl": "overhemd", "article": "het", "plural": "overhemden", "en": "shirt", "vi": "áo sơ mi" },
+    { "nl": "T-shirt", "article": "het", "plural": "T-shirts", "en": "T-shirt", "vi": "áo phông" },
+    { "nl": "schoen", "article": "de", "plural": "schoenen", "en": "shoe", "vi": "giày" },
+    { "nl": "maat", "article": "de", "plural": "maten", "en": "size", "vi": "cỡ, size" },
+    { "nl": "paskamer", "article": "de", "plural": "paskamers", "en": "fitting room", "vi": "phòng thử đồ" },
+    { "nl": "kleur", "article": "de", "plural": "kleuren", "en": "colour", "vi": "màu sắc" },
+    { "nl": "rood", "en": "red", "vi": "màu đỏ" },
+    { "nl": "blauw", "en": "blue", "vi": "màu xanh dương" },
+    { "nl": "groen", "en": "green", "vi": "màu xanh lá" },
+    { "nl": "geel", "en": "yellow", "vi": "màu vàng" },
+    { "nl": "zwart", "en": "black", "vi": "màu đen" },
+    { "nl": "wit", "en": "white", "vi": "màu trắng" },
+    { "nl": "kapot", "en": "broken", "vi": "hỏng, rách" },
+    { "nl": "te", "en": "too (much)", "vi": "quá" },
+    { "nl": "passen", "en": "to try on / to fit", "vi": "thử đồ / vừa" }
   ],
   "sentences": [
-    {
-      "nl": "Hoe laat vertrekt de trein?",
-      "en": "What time does the train leave?",
-      "vi": "Mấy giờ tàu khởi hành?",
-      "tip": "questions"
-    },
-    {
-      "nl": "De trein vertrekt van spoor vijf.",
-      "en": "The train leaves from platform five.",
-      "vi": "Tàu khởi hành từ đường ray số năm."
-    },
-    {
-      "nl": "Ik moet in Utrecht overstappen.",
-      "en": "I have to change in Utrecht.",
-      "vi": "Tôi phải đổi tàu ở Utrecht.",
-      "tip": "modal"
-    },
-    {
-      "nl": "Een retour Amsterdam, alstublieft.",
-      "en": "A return to Amsterdam, please.",
-      "vi": "Cho tôi một vé khứ hồi đi Amsterdam."
-    },
-    {
-      "nl": "De bus heeft vertraging.",
-      "en": "The bus is delayed.",
-      "vi": "Xe buýt bị trễ."
-    },
-    {
-      "nl": "Ik heb gisteren gewerkt.",
-      "en": "I worked yesterday.",
-      "vi": "Hôm qua tôi đã làm việc.",
-      "alt": [
-        "Gisteren heb ik gewerkt."
-      ],
-      "tip": "perfect"
-    },
-    {
-      "nl": "Wij hebben een kaartje gekocht.",
-      "en": "We bought a ticket.",
-      "vi": "Chúng tôi đã mua một vé.",
-      "alt": [
-        "We hebben een kaartje gekocht."
-      ],
-      "tip": "perfect"
-    },
-    {
-      "nl": "Ik ben met de trein naar Rotterdam gegaan.",
-      "en": "I went to Rotterdam by train.",
-      "vi": "Tôi đã đi Rotterdam bằng tàu hỏa.",
-      "tip": "perfect"
-    },
-    {
-      "nl": "Vorige week zijn wij op vakantie geweest.",
-      "en": "Last week we were on holiday.",
-      "vi": "Tuần trước chúng tôi đã đi nghỉ.",
-      "alt": [
-        "Wij zijn vorige week op vakantie geweest.",
-        "Vorige week zijn we op vakantie geweest."
-      ],
-      "tip": "perfect"
-    },
-    {
-      "nl": "Is het ver naar het station?",
-      "en": "Is it far to the station?",
-      "vi": "Đến nhà ga có xa không?",
-      "tip": "questions"
-    }
+    { "nl": "Hebt u hem een maat groter?", "en": "Do you have it one size bigger?", "vi": "Ông/bà có cái này cỡ lớn hơn không?", "alt": ["Heeft u hem een maat groter?"], "tip": "object-pronouns" },
+    { "nl": "Mag ik deze broek passen?", "en": "May I try on these trousers?", "vi": "Tôi có thể thử chiếc quần này không?", "tip": "demonstrative" },
+    { "nl": "Welke maat hebt u?", "en": "What size are you?", "vi": "Ông/bà mặc cỡ nào?", "alt": ["Welke maat heeft u?", "Welke maat heb je?"], "tip": "questions" },
+    { "nl": "De jas is te groot.", "en": "The coat is too big.", "vi": "Áo khoác rộng quá." },
+    { "nl": "Deze schoenen zijn te klein.", "en": "These shoes are too small.", "vi": "Đôi giày này chật quá.", "tip": "demonstrative" },
+    { "nl": "Mijn nieuwe trui is kapot.", "en": "My new sweater is broken.", "vi": "Áo len mới của tôi bị rách.", "tip": "adjective-e" },
+    { "nl": "Ik zoek een rode jurk.", "en": "I'm looking for a red dress.", "vi": "Tôi đang tìm một chiếc váy màu đỏ.", "tip": "adjective-e" },
+    { "nl": "Ik vind het blauwe overhemd mooi.", "en": "I like the blue shirt.", "vi": "Tôi thấy chiếc áo sơ mi màu xanh đẹp.", "tip": "adjective-e" },
+    { "nl": "Hij draagt een wit T-shirt.", "en": "He is wearing a white T-shirt.", "vi": "Anh ấy mặc một chiếc áo phông trắng.", "tip": "adjective-e" },
+    { "nl": "Dit is de mooiste jas van de winkel.", "en": "This is the most beautiful coat in the shop.", "vi": "Đây là chiếc áo khoác đẹp nhất của cửa hàng.", "tip": "comparative" },
+    { "nl": "Die broek is het goedkoopst.", "en": "Those trousers are the cheapest.", "vi": "Chiếc quần kia rẻ nhất.", "tip": "comparative" },
+    { "nl": "De jurk is mooi. Ik neem hem.", "en": "The dress is nice. I'll take it.", "vi": "Chiếc váy đẹp. Tôi lấy nó.", "tip": "object-pronouns" },
+    { "nl": "Het T-shirt past niet. Ik breng het terug.", "en": "The T-shirt doesn't fit. I'm bringing it back.", "vi": "Áo phông không vừa. Tôi mang trả lại.", "tip": "object-pronouns" }
   ],
   "verbs": [
-    {
-      "inf": "vertrekken",
-      "en": "to depart",
-      "vi": "khởi hành",
-      "ik": "vertrek",
-      "jij": "vertrekt",
-      "hij": "vertrekt",
-      "wij": "vertrekken",
-      "jullie": "vertrekken",
-      "zij": "vertrekken"
-    },
-    {
-      "inf": "reizen",
-      "en": "to travel",
-      "vi": "đi du lịch, đi lại",
-      "ik": "reis",
-      "jij": "reist",
-      "hij": "reist",
-      "wij": "reizen",
-      "jullie": "reizen",
-      "zij": "reizen"
-    },
-    {
-      "inf": "hebben",
-      "en": "to have",
-      "vi": "có",
-      "ik": "heb",
-      "jij": "hebt",
-      "hij": "heeft",
-      "wij": "hebben",
-      "jullie": "hebben",
-      "zij": "hebben"
-    },
-    {
-      "inf": "zijn",
-      "en": "to be",
-      "vi": "là, thì",
-      "ik": "ben",
-      "jij": "bent",
-      "hij": "is",
-      "wij": "zijn",
-      "jullie": "zijn",
-      "zij": "zijn"
-    }
+    { "inf": "dragen", "en": "to wear", "vi": "mặc", "ik": "draag", "jij": "draagt", "hij": "draagt", "wij": "dragen", "jullie": "dragen", "zij": "dragen" },
+    { "inf": "passen", "en": "to try on / fit", "vi": "thử / vừa", "ik": "pas", "jij": "past", "hij": "past", "wij": "passen", "jullie": "passen", "zij": "passen" },
+    { "inf": "zoeken", "en": "to look for", "vi": "tìm", "ik": "zoek", "jij": "zoekt", "hij": "zoekt", "wij": "zoeken", "jullie": "zoeken", "zij": "zoeken" },
+    { "inf": "vinden", "en": "to find / think", "vi": "tìm thấy / thấy rằng", "ik": "vind", "jij": "vindt", "hij": "vindt", "wij": "vinden", "jullie": "vinden", "zij": "vinden" }
   ],
   "grammar": [
     {
-      "title": "The past: hebben/zijn + past participle",
-      "titleVi": "Quá khứ: hebben/zijn + quá khứ phân từ",
-      "en": "Ik heb gewerkt (I worked / have worked). The participle goes to the end.\nRegular: ge + stem + t or d (werken → gewerkt, reizen → gereisd).\nCommon irregular: kopen → gekocht, gaan → gegaan, zijn → geweest, eten → gegeten.\nMovement to a place: zijn (Ik ben naar Rotterdam gegaan).",
-      "vi": "Ik heb gewerkt (Tôi đã làm việc). Quá khứ phân từ đứng cuối câu.\nCó quy tắc: ge + gốc + t hoặc d (werken → gewerkt, reizen → gereisd).\nBất quy tắc thường gặp: kopen → gekocht, gaan → gegaan, zijn → geweest, eten → gegeten.\nDi chuyển đến nơi nào: dùng zijn (Ik ben naar Rotterdam gegaan).",
+      "title": "Adjectives: when to add -e",
+      "titleVi": "Tính từ: khi nào thêm -e",
+      "en": "Before a noun you usually add -e: de rode jurk, een rode jurk, het blauwe overhemd.\nNo -e with een + het-word: een wit T-shirt. No -e after the verb: De jurk is rood.",
+      "vi": "Trước danh từ thường thêm -e: de rode jurk, een rode jurk, het blauwe overhemd.\nKhông thêm -e với een + từ het: een wit T-shirt. Không thêm -e sau động từ: De jurk is rood.",
       "examples": [
-        {
-          "nl": "Ik heb pho gegeten.",
-          "en": "I ate pho."
-        },
-        {
-          "nl": "Zij is naar huis gegaan.",
-          "en": "She went home."
-        }
+        { "nl": "een zwarte jas, een zwart overhemd", "en": "a black coat, a black shirt" }
       ],
-      "tip": "perfect"
+      "tip": "adjective-e"
+    },
+    {
+      "title": "hem / het for things",
+      "titleVi": "hem / het để chỉ đồ vật",
+      "en": "A de-word becomes hem, a het-word becomes het: De jas? Ik neem hem. Het overhemd? Ik neem het.",
+      "vi": "Từ de → hem, từ het → het: De jas? Ik neem hem. (Áo khoác à? Tôi lấy nó.) Het overhemd? Ik neem het.",
+      "examples": [
+        { "nl": "Waar is mijn tas? Ik zie hem niet.", "en": "Where is my bag? I don't see it." }
+      ],
+      "tip": "object-pronouns"
+    },
+    {
+      "title": "Superlatives and te + adjective",
+      "titleVi": "So sánh nhất và te + tính từ",
+      "en": "mooi → mooier → het mooist (de mooiste jas). goed → beter → het best.\nte = too: te groot, te duur.",
+      "vi": "mooi → mooier → het mooist (de mooiste jas = áo khoác đẹp nhất). goed → beter → het best.\nte = quá: te groot (rộng quá), te duur (đắt quá).",
+      "examples": [
+        { "nl": "Deze jas is te duur.", "en": "This coat is too expensive." }
+      ],
+      "tip": "comparative"
     }
   ],
-  "drills": [
-    "wordorder",
-    "conjugation"
-  ]
+  "drills": ["article", "plural", "wordorder"]
 }

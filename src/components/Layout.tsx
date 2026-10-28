@@ -5,7 +5,7 @@ import { useEffect, useState, type ReactNode } from 'react'
 import { useApp } from '../state'
 import { currentStreak } from '../lib/progress'
 import { dayKey } from '../lib/dates'
-import { dueItems } from '../lib/srs'
+import { dueKnownItems } from '../content'
 import { watchCheers, type Cheer } from '../lib/cloud'
 import { LEARNER_UID } from '../config'
 import { Button, Modal, ProgressBar } from './ui'
@@ -116,7 +116,7 @@ function StatsBar({ compact = false }: { compact?: boolean }) {
 
 function ReviewCard({ onOpen }: { onOpen: () => void }) {
   const { t, progress } = useApp()
-  const due = dueItems(progress.srs, dayKey()).length
+  const due = dueKnownItems(progress.srs, dayKey()).length
   return (
     <div className="rounded-2xl border-2 border-slate-200 bg-white p-5">
       <p className="mb-1 font-extrabold text-slate-700">🔁 {t('review')}</p>

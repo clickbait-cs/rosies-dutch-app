@@ -2,296 +2,89 @@
   "id": "b1c04",
   "book": 1,
   "number": 4,
-  "titleNl": "Boodschappen doen",
-  "title": "Shopping",
-  "titleVi": "Đi mua sắm",
+  "titleNl": "Wat doe je?",
+  "title": "What are you doing?",
+  "titleVi": "Bạn làm gì?",
   "cefr": "A1",
-  "provisional": true,
+  "provisional": false,
   "words": [
-    {
-      "nl": "supermarkt",
-      "article": "de",
-      "plural": "supermarkten",
-      "en": "supermarket",
-      "vi": "siêu thị"
-    },
-    {
-      "nl": "markt",
-      "article": "de",
-      "plural": "markten",
-      "en": "market",
-      "vi": "chợ"
-    },
-    {
-      "nl": "boodschappen",
-      "article": "de",
-      "en": "groceries",
-      "vi": "đồ đi chợ"
-    },
-    {
-      "nl": "brood",
-      "article": "het",
-      "en": "bread",
-      "vi": "bánh mì"
-    },
-    {
-      "nl": "melk",
-      "article": "de",
-      "en": "milk",
-      "vi": "sữa"
-    },
-    {
-      "nl": "kaas",
-      "article": "de",
-      "en": "cheese",
-      "vi": "phô mai"
-    },
-    {
-      "nl": "ei",
-      "article": "het",
-      "plural": "eieren",
-      "en": "egg",
-      "vi": "quả trứng"
-    },
-    {
-      "nl": "appel",
-      "article": "de",
-      "plural": "appels",
-      "en": "apple",
-      "vi": "quả táo"
-    },
-    {
-      "nl": "banaan",
-      "article": "de",
-      "plural": "bananen",
-      "en": "banana",
-      "vi": "quả chuối"
-    },
-    {
-      "nl": "tas",
-      "article": "de",
-      "plural": "tassen",
-      "en": "bag",
-      "vi": "túi"
-    },
-    {
-      "nl": "kassa",
-      "article": "de",
-      "plural": "kassa's",
-      "en": "checkout",
-      "vi": "quầy thu ngân"
-    },
-    {
-      "nl": "bon",
-      "article": "de",
-      "plural": "bonnen",
-      "en": "receipt",
-      "vi": "hóa đơn"
-    },
-    {
-      "nl": "euro",
-      "article": "de",
-      "plural": "euro's",
-      "en": "euro",
-      "vi": "đồng euro"
-    },
-    {
-      "nl": "kilo",
-      "article": "de",
-      "plural": "kilo's",
-      "en": "kilo",
-      "vi": "ký, kilôgam"
-    },
-    {
-      "nl": "pinnen",
-      "en": "to pay by card",
-      "vi": "trả bằng thẻ"
-    },
-    {
-      "nl": "contant",
-      "en": "cash",
-      "vi": "tiền mặt"
-    },
-    {
-      "nl": "duur",
-      "en": "expensive",
-      "vi": "đắt"
-    },
-    {
-      "nl": "goedkoop",
-      "en": "cheap",
-      "vi": "rẻ"
-    },
-    {
-      "nl": "hoeveel",
-      "en": "how much / how many",
-      "vi": "bao nhiêu"
-    },
-    {
-      "nl": "kosten",
-      "en": "to cost",
-      "vi": "có giá"
-    }
+    { "nl": "ochtend", "article": "de", "plural": "ochtenden", "en": "morning", "vi": "buổi sáng" },
+    { "nl": "middag", "article": "de", "plural": "middagen", "en": "afternoon", "vi": "buổi chiều" },
+    { "nl": "avond", "article": "de", "plural": "avonden", "en": "evening", "vi": "buổi tối" },
+    { "nl": "uur", "article": "het", "plural": "uren", "en": "hour / o'clock", "vi": "giờ" },
+    { "nl": "kwart", "article": "het", "en": "quarter", "vi": "mười lăm phút" },
+    { "nl": "half", "en": "half", "vi": "rưỡi, một nửa" },
+    { "nl": "vandaag", "en": "today", "vi": "hôm nay" },
+    { "nl": "morgen", "en": "tomorrow", "vi": "ngày mai" },
+    { "nl": "maandag", "en": "Monday", "vi": "thứ Hai" },
+    { "nl": "dinsdag", "en": "Tuesday", "vi": "thứ Ba" },
+    { "nl": "woensdag", "en": "Wednesday", "vi": "thứ Tư" },
+    { "nl": "donderdag", "en": "Thursday", "vi": "thứ Năm" },
+    { "nl": "vrijdag", "en": "Friday", "vi": "thứ Sáu" },
+    { "nl": "zaterdag", "en": "Saturday", "vi": "thứ Bảy" },
+    { "nl": "zondag", "en": "Sunday", "vi": "Chủ nhật" },
+    { "nl": "afspraak", "article": "de", "plural": "afspraken", "en": "appointment", "vi": "cuộc hẹn" },
+    { "nl": "ontbijt", "article": "het", "en": "breakfast", "vi": "bữa sáng" },
+    { "nl": "opstaan", "en": "to get up", "vi": "thức dậy" },
+    { "nl": "zich aankleden", "en": "to get dressed", "vi": "mặc quần áo" },
+    { "nl": "zich wassen", "en": "to wash (yourself)", "vi": "tắm rửa" },
+    { "nl": "vroeg", "en": "early", "vi": "sớm" },
+    { "nl": "laat", "en": "late", "vi": "muộn, trễ" }
   ],
   "sentences": [
-    {
-      "nl": "Hoeveel kost dat?",
-      "en": "How much does that cost?",
-      "vi": "Cái đó giá bao nhiêu?",
-      "alt": [
-        "Wat kost dat?",
-        "Hoeveel kost het?"
-      ],
-      "tip": "questions"
-    },
-    {
-      "nl": "Dat is drie euro.",
-      "en": "That is three euros.",
-      "vi": "Cái đó ba euro.",
-      "alt": [
-        "Dat kost drie euro."
-      ]
-    },
-    {
-      "nl": "Ik wil graag een kilo appels.",
-      "en": "I would like a kilo of apples.",
-      "vi": "Tôi muốn mua một ký táo.",
-      "tip": "plural"
-    },
-    {
-      "nl": "Wilt u pinnen of contant betalen?",
-      "en": "Would you like to pay by card or cash?",
-      "vi": "Ông/bà muốn trả bằng thẻ hay tiền mặt?",
-      "tip": "jij-u"
-    },
-    {
-      "nl": "Ik ga pinnen.",
-      "en": "I'll pay by card.",
-      "vi": "Tôi sẽ trả bằng thẻ.",
-      "alt": [
-        "Ik pin."
-      ]
-    },
-    {
-      "nl": "Wilt u de bon?",
-      "en": "Would you like the receipt?",
-      "vi": "Ông/bà có muốn lấy hóa đơn không?",
-      "alt": [
-        "Wil je de bon?"
-      ]
-    },
-    {
-      "nl": "Ik heb geen tas.",
-      "en": "I don't have a bag.",
-      "vi": "Tôi không có túi.",
-      "tip": "negation"
-    },
-    {
-      "nl": "De kaas is duur.",
-      "en": "The cheese is expensive.",
-      "vi": "Phô mai đắt."
-    },
-    {
-      "nl": "Bananen zijn goedkoop.",
-      "en": "Bananas are cheap.",
-      "vi": "Chuối rẻ.",
-      "tip": "plural"
-    },
-    {
-      "nl": "Ik koop brood en melk.",
-      "en": "I buy bread and milk.",
-      "vi": "Tôi mua bánh mì và sữa."
-    }
+    { "nl": "Hoe laat is het?", "en": "What time is it?", "vi": "Mấy giờ rồi?", "tip": "questions" },
+    { "nl": "Het is half vier.", "en": "It is half past three.", "vi": "Bây giờ là ba giờ rưỡi." },
+    { "nl": "Het is kwart over acht.", "en": "It is a quarter past eight.", "vi": "Bây giờ là tám giờ mười lăm." },
+    { "nl": "Ik sta om zeven uur op.", "en": "I get up at seven o'clock.", "vi": "Tôi thức dậy lúc bảy giờ.", "tip": "separable" },
+    { "nl": "Ik was me en ik kleed me aan.", "en": "I wash and I get dressed.", "vi": "Tôi tắm rửa và mặc quần áo.", "tip": "reflexive" },
+    { "nl": "Om acht uur ga ik naar mijn werk.", "en": "At eight o'clock I go to work.", "vi": "Lúc tám giờ tôi đi làm.", "alt": ["Ik ga om acht uur naar mijn werk."], "tip": "inversion" },
+    { "nl": "Op zaterdag doe ik boodschappen.", "en": "On Saturday I do the shopping.", "vi": "Thứ Bảy tôi đi chợ.", "alt": ["Zaterdag doe ik boodschappen.", "Ik doe op zaterdag boodschappen."], "tip": "inversion" },
+    { "nl": "Wanneer heb je tijd?", "en": "When do you have time?", "vi": "Khi nào bạn rảnh?", "alt": ["Wanneer heb jij tijd?"], "tip": "questions" },
+    { "nl": "Zullen we morgen koffie drinken?", "en": "Shall we have coffee tomorrow?", "vi": "Ngày mai chúng ta đi uống cà phê nhé?", "tip": "modal" },
+    { "nl": "Kun je op dinsdag om drie uur?", "en": "Can you make it on Tuesday at three?", "vi": "Thứ Ba lúc ba giờ bạn có được không?", "alt": ["Kan je op dinsdag om drie uur?", "Kun jij op dinsdag om drie uur?"], "tip": "modal" },
+    { "nl": "Ik wil een afspraak maken.", "en": "I want to make an appointment.", "vi": "Tôi muốn đặt một cuộc hẹn.", "alt": ["Ik wil graag een afspraak maken."], "tip": "modal" },
+    { "nl": "Mag ik morgen later komen?", "en": "May I come later tomorrow?", "vi": "Ngày mai tôi đến muộn hơn được không?", "tip": "modal" },
+    { "nl": "Hij kleedt zich snel aan.", "en": "He gets dressed quickly.", "vi": "Anh ấy mặc quần áo nhanh.", "tip": "reflexive" }
   ],
   "verbs": [
-    {
-      "inf": "kopen",
-      "en": "to buy",
-      "vi": "mua",
-      "ik": "koop",
-      "jij": "koopt",
-      "hij": "koopt",
-      "wij": "kopen",
-      "jullie": "kopen",
-      "zij": "kopen"
-    },
-    {
-      "inf": "betalen",
-      "en": "to pay",
-      "vi": "trả tiền",
-      "ik": "betaal",
-      "jij": "betaalt",
-      "hij": "betaalt",
-      "wij": "betalen",
-      "jullie": "betalen",
-      "zij": "betalen"
-    },
-    {
-      "inf": "kosten",
-      "en": "to cost",
-      "vi": "có giá",
-      "ik": "kost",
-      "jij": "kost",
-      "hij": "kost",
-      "wij": "kosten",
-      "jullie": "kosten",
-      "zij": "kosten"
-    },
-    {
-      "inf": "willen",
-      "en": "to want",
-      "vi": "muốn",
-      "ik": "wil",
-      "jij": "wilt",
-      "hij": "wil",
-      "wij": "willen",
-      "jullie": "willen",
-      "zij": "willen"
-    }
+    { "inf": "opstaan", "en": "to get up", "vi": "thức dậy", "ik": "sta op", "jij": "staat op", "hij": "staat op", "wij": "staan op", "jullie": "staan op", "zij": "staan op" },
+    { "inf": "zich aankleden", "en": "to get dressed", "vi": "mặc quần áo", "ik": "kleed me aan", "jij": "kleedt je aan", "hij": "kleedt zich aan", "wij": "kleden ons aan", "jullie": "kleden je aan", "zij": "kleden zich aan" },
+    { "inf": "zullen", "en": "shall, will", "vi": "sẽ", "ik": "zal", "jij": "zult", "hij": "zal", "wij": "zullen", "jullie": "zullen", "zij": "zullen" },
+    { "inf": "kunnen", "en": "can", "vi": "có thể", "ik": "kan", "jij": "kunt", "hij": "kan", "wij": "kunnen", "jullie": "kunnen", "zij": "kunnen" },
+    { "inf": "willen", "en": "to want", "vi": "muốn", "ik": "wil", "jij": "wilt", "hij": "wil", "wij": "willen", "jullie": "willen", "zij": "willen" },
+    { "inf": "mogen", "en": "may, to be allowed", "vi": "được phép", "ik": "mag", "jij": "mag", "hij": "mag", "wij": "mogen", "jullie": "mogen", "zij": "mogen" }
   ],
   "grammar": [
     {
-      "title": "Plural nouns",
-      "titleVi": "Danh từ số nhiều",
-      "en": "In Dutch the noun itself changes when there is more than one.\n• Words ending in -el, -er, -em, -en, -je get -s: appel → appels.\n• Words ending in a, o, u, i, y get -'s: euro → euro's.\n• Most other words get -en: tas → tassen, banaan → bananen.\nThe plural always uses de: de appels.",
-      "vi": "Đa số danh từ thêm -en, nhưng: từ kết thúc bằng -el, -er, -em, -en, -je → thêm -s (appel → appels). Từ kết thúc bằng a, o, u, i, y → thêm -'s (euro → euro's). Còn lại đa số → -en (tas → tassen, banaan → bananen).\nSố nhiều luôn dùng de: de appels.",
+      "title": "Telling the time",
+      "titleVi": "Cách nói giờ",
+      "en": "3:00 drie uur · 3:15 kwart over drie · 3:30 half vier (!) · 3:45 kwart voor vier · 3:10 tien over drie · 3:50 tien voor vier.\nhalf vier = half an hour BEFORE four.",
+      "vi": "3:00 drie uur · 3:15 kwart over drie · 3:30 half vier (!) · 3:45 kwart voor vier · 3:10 tien over drie · 3:50 tien voor vier.\nhalf vier = nửa tiếng TRƯỚC bốn giờ, tức là ba giờ rưỡi. Rất dễ nhầm!",
       "examples": [
-        {
-          "nl": "één appel, twee appels",
-          "en": "one apple, two apples"
-        },
-        {
-          "nl": "één banaan, vijf bananen",
-          "en": "one banana, five bananas"
-        },
-        {
-          "nl": "één ei, zes eieren",
-          "en": "one egg, six eggs"
-        }
-      ],
-      "tip": "plural"
+        { "nl": "Het is half acht.", "en": "It is half past seven (7:30)." }
+      ]
     },
     {
-      "title": "geen = not a / no",
-      "titleVi": "geen = không có",
-      "en": "Use geen instead of niet before a noun with een or without an article: Ik heb een tas → Ik heb geen tas.",
-      "vi": "Dùng geen thay cho niet trước danh từ có een hoặc không có mạo từ: Ik heb een tas → Ik heb geen tas (Tôi không có túi).",
+      "title": "Separable and reflexive verbs",
+      "titleVi": "Động từ tách được và động từ phản thân",
+      "en": "Separable: opstaan → Ik sta om zeven uur op.\nReflexive: zich wassen → ik was me, jij wast je, hij wast zich, wij wassen ons.",
+      "vi": "Tách được: opstaan → Ik sta om zeven uur op (phần \"op\" chuyển xuống cuối).\nPhản thân: zich wassen → ik was me, jij wast je, hij wast zich, wij wassen ons.",
       "examples": [
-        {
-          "nl": "Ik heb geen tas.",
-          "en": "I don't have a bag."
-        },
-        {
-          "nl": "Wij kopen geen melk.",
-          "en": "We don't buy milk."
-        }
+        { "nl": "Zij staat vroeg op.", "en": "She gets up early." },
+        { "nl": "Wij kleden ons aan.", "en": "We get dressed." }
       ],
-      "tip": "negation"
+      "tip": "separable"
+    },
+    {
+      "title": "zullen, kunnen, willen, mogen",
+      "titleVi": "zullen, kunnen, willen, mogen (sẽ, có thể, muốn, được phép)",
+      "en": "These are irregular and send the second verb to the end: Zullen we morgen gaan? Ik kan niet komen. Mag ik binnenkomen?",
+      "vi": "Các động từ này bất quy tắc và đẩy động từ thứ hai xuống cuối câu: Zullen we morgen gaan? (Mai mình đi nhé?) Ik kan niet komen. (Tôi không đến được.)",
+      "examples": [
+        { "nl": "Wil je iets drinken?", "en": "Would you like something to drink?" }
+      ],
+      "tip": "modal"
     }
   ],
-  "drills": [
-    "plural",
-    "article",
-    "conjugation"
-  ]
+  "drills": ["conjugation", "wordorder"]
 }

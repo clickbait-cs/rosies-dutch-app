@@ -105,3 +105,13 @@ describe('merging progress from two devices', () => {
     expect(m.chapters.y.lessons).toEqual([0])
   })
 })
+
+describe('grading', () => {
+  it('counts a missing article as a mistake', async () => {
+    const { gradeAnswer, isPass } = await import('../lib/grade')
+    const ex = { kind: 'type', instruction: 'typeDutch', prompt: 'house', answers: ['het huis'], bareAnswers: ['huis'], itemIds: [], vi: '' } as const
+    expect(gradeAnswer(ex, 'huis').grade).toBe('article')
+    expect(isPass('article')).toBe(false)
+    expect(isPass(gradeAnswer(ex, 'het huiss').grade)).toBe(true)
+  })
+})

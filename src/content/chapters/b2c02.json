@@ -2,9 +2,9 @@
   "id": "b2c02",
   "book": 2,
   "number": 2,
-  "titleNl": "De weg vragen",
-  "title": "Asking and giving directions",
-  "titleVi": "Hỏi đường và chỉ đường",
+  "titleNl": "Hier is het!",
+  "title": "It's here!",
+  "titleVi": "Ở đây này!",
   "cefr": "A2",
   "provisional": false,
   "words": [
@@ -14,32 +14,35 @@
     { "nl": "rotonde", "article": "de", "plural": "rotondes", "en": "roundabout", "vi": "vòng xuyến" },
     { "nl": "brug", "article": "de", "plural": "bruggen", "en": "bridge", "vi": "cây cầu" },
     { "nl": "hoek", "article": "de", "plural": "hoeken", "en": "corner", "vi": "góc đường" },
-    { "nl": "plein", "article": "het", "plural": "pleinen", "en": "square", "vi": "quảng trường" },
-    { "nl": "kerk", "article": "de", "plural": "kerken", "en": "church", "vi": "nhà thờ" },
-    { "nl": "gemeentehuis", "article": "het", "plural": "gemeentehuizen", "en": "town hall", "vi": "tòa thị chính" },
+    { "nl": "fietspad", "article": "het", "plural": "fietspaden", "en": "cycle path", "vi": "đường dành cho xe đạp" },
+    { "nl": "vervoermiddel", "article": "het", "plural": "vervoermiddelen", "en": "means of transport", "vi": "phương tiện giao thông" },
+    { "nl": "tram", "article": "de", "plural": "trams", "en": "tram", "vi": "tàu điện" },
+    { "nl": "metro", "article": "de", "plural": "metro's", "en": "underground, metro", "vi": "tàu điện ngầm" },
     { "nl": "links", "en": "left", "vi": "bên trái" },
     { "nl": "rechts", "en": "right", "vi": "bên phải" },
     { "nl": "rechtdoor", "en": "straight on", "vi": "đi thẳng" },
     { "nl": "linksaf", "en": "(turn) left", "vi": "rẽ trái" },
     { "nl": "rechtsaf", "en": "(turn) right", "vi": "rẽ phải" },
     { "nl": "tegenover", "en": "opposite", "vi": "đối diện" },
-    { "nl": "achter", "en": "behind", "vi": "phía sau" },
-    { "nl": "voor", "en": "in front of", "vi": "phía trước" },
-    { "nl": "tussen", "en": "between", "vi": "ở giữa" },
     { "nl": "oversteken", "en": "to cross", "vi": "băng qua đường" },
-    { "nl": "dichtbij", "en": "close by", "vi": "gần đây" }
+    { "nl": "ongeveer", "en": "about, approximately", "vi": "khoảng" },
+    { "nl": "vierde", "en": "fourth", "vi": "thứ tư" },
+    { "nl": "vijfde", "en": "fifth", "vi": "thứ năm" }
   ],
   "sentences": [
-    { "nl": "Pardon, waar is het station?", "en": "Excuse me, where is the station?", "vi": "Xin lỗi, nhà ga ở đâu?", "alt": ["Sorry, waar is het station?"], "tip": "questions" },
-    { "nl": "Weet u de weg naar het gemeentehuis?", "en": "Do you know the way to the town hall?", "vi": "Ông/bà có biết đường đến tòa thị chính không?", "tip": "jij-u" },
-    { "nl": "Ga hier rechtdoor.", "en": "Go straight on here.", "vi": "Đi thẳng ở đây.", "alt": ["Ga hier rechtdoor"], "tip": "imperative" },
+    { "nl": "Pardon, weet u waar het station is?", "en": "Excuse me, do you know where the station is?", "vi": "Xin lỗi, ông/bà có biết nhà ga ở đâu không?", "alt": ["Sorry, weet u waar het station is?"], "tip": "indirect-question" },
+    { "nl": "Kunt u me zeggen hoe laat de bus vertrekt?", "en": "Can you tell me what time the bus leaves?", "vi": "Ông/bà có thể cho tôi biết mấy giờ xe buýt chạy không?", "tip": "indirect-question" },
+    { "nl": "Weet jij of de winkel open is?", "en": "Do you know if the shop is open?", "vi": "Bạn có biết cửa hàng có mở cửa không?", "alt": ["Weet je of de winkel open is?"], "tip": "indirect-question" },
+    { "nl": "Ga hier rechtdoor.", "en": "Go straight on here.", "vi": "Đi thẳng ở đây.", "tip": "imperative" },
     { "nl": "Neem de tweede straat links.", "en": "Take the second street on the left.", "vi": "Rẽ vào con đường thứ hai bên trái.", "tip": "imperative" },
     { "nl": "Ga bij het stoplicht rechtsaf.", "en": "Turn right at the traffic lights.", "vi": "Rẽ phải ở đèn giao thông.", "tip": "imperative" },
     { "nl": "Steek de brug over.", "en": "Cross the bridge.", "vi": "Đi qua cầu.", "tip": "separable" },
-    { "nl": "De apotheek is tegenover de kerk.", "en": "The pharmacy is opposite the church.", "vi": "Nhà thuốc ở đối diện nhà thờ." },
-    { "nl": "Het is op de hoek.", "en": "It is on the corner.", "vi": "Nó ở góc đường." },
-    { "nl": "Is het hier dichtbij?", "en": "Is it close by?", "vi": "Có gần đây không?", "alt": ["Is het dichtbij?"], "tip": "questions" },
-    { "nl": "Het is ongeveer tien minuten lopen.", "en": "It is about ten minutes' walk.", "vi": "Đi bộ khoảng mười phút." }
+    { "nl": "Het is een minuut of tien lopen.", "en": "It's about ten minutes' walk.", "vi": "Đi bộ khoảng mười phút." },
+    { "nl": "Ik ben naar mijn werk gefietst.", "en": "I cycled to work.", "vi": "Tôi đã đạp xe đi làm.", "tip": "perfect" },
+    { "nl": "Ik heb vandaag veel gefietst.", "en": "I cycled a lot today.", "vi": "Hôm nay tôi đã đạp xe nhiều.", "tip": "perfect" },
+    { "nl": "We zijn met de tram naar het centrum gegaan.", "en": "We went to the centre by tram.", "vi": "Chúng tôi đã đi tàu điện vào trung tâm.", "alt": ["Wij zijn met de tram naar het centrum gegaan."], "tip": "perfect" },
+    { "nl": "Het museum is tegenover de kerk.", "en": "The museum is opposite the church.", "vi": "Bảo tàng ở đối diện nhà thờ." },
+    { "nl": "In Nederland fietsen veel mensen naar school.", "en": "In the Netherlands many people cycle to school.", "vi": "Ở Hà Lan nhiều người đạp xe đi học.", "tip": "inversion" }
   ],
   "verbs": [
     { "inf": "weten", "en": "to know (a fact)", "vi": "biết", "ik": "weet", "jij": "weet", "hij": "weet", "wij": "weten", "jullie": "weten", "zij": "weten" },
@@ -49,22 +52,32 @@
   ],
   "grammar": [
     {
-      "title": "Directions: the imperative",
-      "titleVi": "Chỉ đường: câu mệnh lệnh",
-      "en": "Ga rechtdoor. Neem de eerste straat rechts. Steek over bij het stoplicht.\nPolite with u: Gaat u rechtdoor.",
-      "vi": "Ga rechtdoor (Đi thẳng). Neem de eerste straat rechts (Rẽ vào đường đầu tiên bên phải). Steek over bij het stoplicht (Băng qua đường ở đèn giao thông).\nLịch sự với u: Gaat u rechtdoor.",
+      "title": "Indirect questions",
+      "titleVi": "Câu hỏi gián tiếp",
+      "en": "Weet u … / Kunt u me zeggen … + question word or of + verb at the end:\nWaar is het station? → Weet u waar het station is?",
+      "vi": "Weet u … / Kunt u me zeggen … + từ để hỏi hoặc of + động từ ở cuối:\nWaar is het station? → Weet u waar het station is? (Ông/bà có biết nhà ga ở đâu không?)",
       "examples": [
-        { "nl": "Ga bij de rotonde linksaf.", "en": "Turn left at the roundabout." }
+        { "nl": "Weet u of deze bus naar het centrum gaat?", "en": "Do you know if this bus goes to the centre?" }
       ],
-      "tip": "imperative"
+      "tip": "indirect-question"
     },
     {
-      "title": "Place words (prepositions)",
-      "titleVi": "Giới từ chỉ vị trí",
-      "en": "naast (next to), tegenover (opposite), achter (behind), voor (in front of), tussen (between), op de hoek (on the corner), bij (at, near).",
-      "vi": "naast (bên cạnh), tegenover (đối diện), achter (phía sau), voor (phía trước), tussen (ở giữa), op de hoek (ở góc đường), bij (ở chỗ, gần).",
+      "title": "Perfect tense of verbs of movement",
+      "titleVi": "Thì hoàn thành của động từ chuyển động",
+      "en": "With a destination: zijn (Ik ben naar huis gefietst). Without a destination: hebben (Ik heb een uur gefietst).",
+      "vi": "Có điểm đến: dùng zijn (Ik ben naar huis gefietst = Tôi đã đạp xe về nhà). Không có điểm đến: dùng hebben (Ik heb een uur gefietst = Tôi đã đạp xe một tiếng).",
       "examples": [
-        { "nl": "De bank is tussen de supermarkt en de kerk.", "en": "The bank is between the supermarket and the church." }
+        { "nl": "Zij is naar Groningen gereden.", "en": "She drove to Groningen." }
+      ],
+      "tip": "perfect"
+    },
+    {
+      "title": "Ordinals and een … of …",
+      "titleVi": "Số thứ tự và een … of …",
+      "en": "de eerste, tweede, derde, vierde, vijfde straat.\neen … of … = about: een minuut of tien (about ten minutes), een man of twintig (about twenty people).",
+      "vi": "de eerste, tweede, derde, vierde, vijfde straat (con đường thứ nhất, thứ hai…).\neen … of … = khoảng: een minuut of tien (khoảng mười phút), een man of twintig (khoảng hai mươi người).",
+      "examples": [
+        { "nl": "Het is een kilometer of drie.", "en": "It's about three kilometres." }
       ]
     }
   ],

@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { buildReview, type Exercise } from '../lib/exercises'
-import { dueItems } from '../lib/srs'
+import { dueKnownItems } from '../content'
 import { dayKey } from '../lib/dates'
 import { makeRng } from '../lib/random'
 import { applyAnswers } from '../lib/session'
@@ -14,7 +14,7 @@ import { Player, ResultScreen, type PlayerResult } from './Player'
 /** Shown inside the layout. */
 export function ReviewHome({ start }: { start: () => void }) {
   const { t, progress } = useApp()
-  const due = dueItems(progress.srs, dayKey()).length
+  const due = dueKnownItems(progress.srs, dayKey()).length
   return (
     <Card className="space-y-4 text-center">
       <p className="text-6xl">🔁</p>
@@ -33,7 +33,7 @@ export function ReviewHome({ start }: { start: () => void }) {
 /** The review session itself (full screen). */
 export function ReviewSession({ onExit }: { onExit: () => void }) {
   const { t, progress, update } = useApp()
-  const [exercises] = useState<Exercise[]>(() => buildReview(dueItems(progress.srs, dayKey()), makeRng(), progress.settings))
+  const [exercises] = useState<Exercise[]>(() => buildReview(dueKnownItems(progress.srs, dayKey()), makeRng(), progress.settings))
   const [result, setResult] = useState<PlayerResult | null>(null)
 
   const finish = (r: PlayerResult) => {

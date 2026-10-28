@@ -37,4 +37,5 @@ export function gradeAnswer(ex: Exercise, answer: Answer): GradeResult {
   }
 }
 
-export const isPass = (g: Grade) => g !== 'wrong'
+/** A missing article ("huis" instead of "het huis") counts as a mistake: the article is part of the word. */
+export const isPass = (g: Grade) => g === 'correct' || g === 'typo'

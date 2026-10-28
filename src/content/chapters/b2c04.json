@@ -2,74 +2,82 @@
   "id": "b2c04",
   "book": 2,
   "number": 4,
-  "titleNl": "Kleding",
-  "title": "Clothes and comparing",
-  "titleVi": "Quần áo và so sánh",
+  "titleNl": "Daar woonde ik!",
+  "title": "That's where I lived!",
+  "titleVi": "Tôi đã từng sống ở đó!",
   "cefr": "A2",
-  "provisional": true,
+  "provisional": false,
   "words": [
-    { "nl": "kleding", "article": "de", "en": "clothes", "vi": "quần áo" },
-    { "nl": "broek", "article": "de", "plural": "broeken", "en": "trousers", "vi": "quần dài" },
-    { "nl": "jurk", "article": "de", "plural": "jurken", "en": "dress", "vi": "váy đầm" },
-    { "nl": "rok", "article": "de", "plural": "rokken", "en": "skirt", "vi": "chân váy" },
-    { "nl": "trui", "article": "de", "plural": "truien", "en": "jumper, sweater", "vi": "áo len" },
-    { "nl": "jas", "article": "de", "plural": "jassen", "en": "coat", "vi": "áo khoác" },
-    { "nl": "overhemd", "article": "het", "plural": "overhemden", "en": "shirt", "vi": "áo sơ mi" },
-    { "nl": "T-shirt", "article": "het", "plural": "T-shirts", "en": "T-shirt", "vi": "áo phông" },
-    { "nl": "schoen", "article": "de", "plural": "schoenen", "en": "shoe", "vi": "giày" },
-    { "nl": "maat", "article": "de", "plural": "maten", "en": "size", "vi": "cỡ, size" },
-    { "nl": "paskamer", "article": "de", "plural": "paskamers", "en": "fitting room", "vi": "phòng thử đồ" },
-    { "nl": "korting", "article": "de", "en": "discount", "vi": "giảm giá" },
-    { "nl": "kleur", "article": "de", "plural": "kleuren", "en": "colour", "vi": "màu sắc" },
-    { "nl": "rood", "en": "red", "vi": "màu đỏ" },
-    { "nl": "blauw", "en": "blue", "vi": "màu xanh dương" },
-    { "nl": "groen", "en": "green", "vi": "màu xanh lá" },
-    { "nl": "zwart", "en": "black", "vi": "màu đen" },
-    { "nl": "wit", "en": "white", "vi": "màu trắng" },
-    { "nl": "passen", "en": "to try on / to fit", "vi": "thử đồ / vừa" },
-    { "nl": "dragen", "en": "to wear", "vi": "mặc" },
-    { "nl": "te", "en": "too (much)", "vi": "quá" }
+    { "nl": "woning", "article": "de", "plural": "woningen", "en": "home, dwelling", "vi": "nhà ở" },
+    { "nl": "meubel", "article": "het", "plural": "meubels", "en": "piece of furniture", "vi": "đồ nội thất" },
+    { "nl": "kast", "article": "de", "plural": "kasten", "en": "cupboard, wardrobe", "vi": "tủ" },
+    { "nl": "stoel", "article": "de", "plural": "stoelen", "en": "chair", "vi": "cái ghế" },
+    { "nl": "bureau", "article": "het", "plural": "bureaus", "en": "desk", "vi": "bàn làm việc" },
+    { "nl": "spiegel", "article": "de", "plural": "spiegels", "en": "mirror", "vi": "gương" },
+    { "nl": "vloerkleed", "article": "het", "plural": "vloerkleden", "en": "rug", "vi": "thảm" },
+    { "nl": "gordijn", "article": "het", "plural": "gordijnen", "en": "curtain", "vi": "rèm cửa" },
+    { "nl": "hout", "article": "het", "en": "wood", "vi": "gỗ" },
+    { "nl": "glas", "article": "het", "en": "glass", "vi": "thủy tinh" },
+    { "nl": "metaal", "article": "het", "en": "metal", "vi": "kim loại" },
+    { "nl": "houten", "en": "wooden", "vi": "bằng gỗ" },
+    { "nl": "glazen", "en": "(made of) glass", "vi": "bằng thủy tinh" },
+    { "nl": "rond", "en": "round", "vi": "tròn" },
+    { "nl": "vierkant", "en": "square", "vi": "vuông" },
+    { "nl": "rechthoekig", "en": "rectangular", "vi": "hình chữ nhật" },
+    { "nl": "ruim", "en": "spacious", "vi": "rộng rãi" },
+    { "nl": "gezellig", "en": "cosy", "vi": "ấm cúng" },
+    { "nl": "al", "en": "already", "vi": "đã … rồi" },
+    { "nl": "pas", "en": "only (just)", "vi": "mới chỉ" }
   ],
   "sentences": [
-    { "nl": "Mag ik deze broek passen?", "en": "May I try on these trousers?", "vi": "Tôi có thể thử chiếc quần này không?", "tip": "modal" },
-    { "nl": "Welke maat heeft u?", "en": "What size are you?", "vi": "Ông/bà mặc cỡ nào?", "alt": ["Welke maat heb je?"], "tip": "questions" },
-    { "nl": "De jas is te groot.", "en": "The coat is too big.", "vi": "Áo khoác rộng quá." },
-    { "nl": "Heeft u deze jurk ook in het rood?", "en": "Do you also have this dress in red?", "vi": "Ông/bà có chiếc váy này màu đỏ không?" },
-    { "nl": "Deze schoenen zijn duurder dan die schoenen.", "en": "These shoes are more expensive than those shoes.", "vi": "Đôi giày này đắt hơn đôi giày kia.", "tip": "comparative" },
-    { "nl": "Ik vind de blauwe trui mooier.", "en": "I think the blue sweater is nicer.", "vi": "Tôi thấy áo len màu xanh đẹp hơn.", "tip": "comparative" },
-    { "nl": "Dit is de goedkoopste jas.", "en": "This is the cheapest coat.", "vi": "Đây là chiếc áo khoác rẻ nhất.", "tip": "comparative" },
-    { "nl": "Ik draag graag een zwarte broek.", "en": "I like wearing black trousers.", "vi": "Tôi thích mặc quần màu đen.", "tip": "adjective-e" },
-    { "nl": "Er is vijftig procent korting.", "en": "There is a fifty percent discount.", "vi": "Đang giảm giá năm mươi phần trăm.", "tip": "er" },
-    { "nl": "Waar is de paskamer?", "en": "Where is the fitting room?", "vi": "Phòng thử đồ ở đâu?", "tip": "questions" }
+    { "nl": "Vroeger woonde ik in een klein huis in Hanoi.", "en": "I used to live in a small house in Hanoi.", "vi": "Trước đây tôi sống trong một ngôi nhà nhỏ ở Hà Nội.", "tip": "past-simple" },
+    { "nl": "Het huis had twee slaapkamers.", "en": "The house had two bedrooms.", "vi": "Ngôi nhà có hai phòng ngủ.", "tip": "past-simple" },
+    { "nl": "De keuken was heel klein.", "en": "The kitchen was very small.", "vi": "Nhà bếp rất nhỏ.", "tip": "past-simple" },
+    { "nl": "Wij woonden boven een winkel.", "en": "We lived above a shop.", "vi": "Chúng tôi sống trên một cửa hàng.", "alt": ["We woonden boven een winkel."], "tip": "past-simple" },
+    { "nl": "We hebben een ronde houten tafel.", "en": "We have a round wooden table.", "vi": "Chúng tôi có một cái bàn gỗ tròn.", "alt": ["Wij hebben een ronde houten tafel."], "tip": "adjective-e" },
+    { "nl": "De kast is van hout.", "en": "The cupboard is made of wood.", "vi": "Cái tủ làm bằng gỗ." },
+    { "nl": "Mijn nieuwe huis is groter dan mijn oude huis.", "en": "My new house is bigger than my old house.", "vi": "Nhà mới của tôi lớn hơn nhà cũ.", "tip": "comparative" },
+    { "nl": "Deze kamer is net zo groot als die kamer.", "en": "This room is just as big as that room.", "vi": "Phòng này rộng bằng phòng kia.", "tip": "comparative" },
+    { "nl": "Ik woon hier al tien jaar.", "en": "I have lived here for ten years already.", "vi": "Tôi đã sống ở đây mười năm rồi.", "tip": "al-pas" },
+    { "nl": "Wij wonen hier pas twee maanden.", "en": "We have only lived here for two months.", "vi": "Chúng tôi mới sống ở đây hai tháng.", "alt": ["We wonen hier pas twee maanden."], "tip": "al-pas" },
+    { "nl": "De spiegel hangt naast de deur.", "en": "The mirror hangs next to the door.", "vi": "Gương treo cạnh cửa.", "tip": "position-verbs" },
+    { "nl": "Het appartement is ruim en gezellig.", "en": "The apartment is spacious and cosy.", "vi": "Căn hộ rộng rãi và ấm cúng." }
   ],
   "verbs": [
-    { "inf": "dragen", "en": "to wear", "vi": "mặc", "ik": "draag", "jij": "draagt", "hij": "draagt", "wij": "dragen", "jullie": "dragen", "zij": "dragen" },
-    { "inf": "passen", "en": "to try on / fit", "vi": "thử / vừa", "ik": "pas", "jij": "past", "hij": "past", "wij": "passen", "jullie": "passen", "zij": "passen" },
-    { "inf": "vinden", "en": "to find / to think (opinion)", "vi": "tìm thấy / thấy rằng", "ik": "vind", "jij": "vindt", "hij": "vindt", "wij": "vinden", "jullie": "vinden", "zij": "vinden" },
-    { "inf": "mogen", "en": "may, to be allowed", "vi": "được phép", "ik": "mag", "jij": "mag", "hij": "mag", "wij": "mogen", "jullie": "mogen", "zij": "mogen" }
+    { "inf": "verhuizen", "en": "to move (house)", "vi": "chuyển nhà", "ik": "verhuis", "jij": "verhuist", "hij": "verhuist", "wij": "verhuizen", "jullie": "verhuizen", "zij": "verhuizen" },
+    { "inf": "wonen", "en": "to live", "vi": "sống", "ik": "woon", "jij": "woont", "hij": "woont", "wij": "wonen", "jullie": "wonen", "zij": "wonen" },
+    { "inf": "vergelijken", "en": "to compare", "vi": "so sánh", "ik": "vergelijk", "jij": "vergelijkt", "hij": "vergelijkt", "wij": "vergelijken", "jullie": "vergelijken", "zij": "vergelijken" }
   ],
   "grammar": [
     {
-      "title": "Comparing: duur, duurder, duurst",
-      "titleVi": "So sánh: đắt, đắt hơn, đắt nhất",
-      "en": "Add -er to compare and -st for the most: mooi → mooier → het mooist. Words ending in -r add -der: duur → duurder.\nUse dan for \"than\": Deze jas is duurder dan die jas.\nBefore a noun add -e: de mooiste jurk.",
-      "vi": "Thêm -er để so sánh hơn và -st cho nhất: mooi → mooier → het mooist. Từ kết thúc bằng -r thêm -der: duur → duurder.\nDùng dan cho \"hơn\": Deze jas is duurder dan die jas (Áo khoác này đắt hơn áo kia).\nTrước danh từ thêm -e: de mooiste jurk (chiếc váy đẹp nhất).",
+      "title": "The simple past (imperfect)",
+      "titleVi": "Thì quá khứ đơn",
+      "en": "Regular: stem + te/de (plural ten/den). Use te if the stem ends in t, k, f, s, ch, p (\"'t kofschip\"), otherwise de:\nwerken → werkte, wonen → woonde, verhuizen → verhuisde.\nIrregular: zijn → was/waren, hebben → had/hadden.",
+      "vi": "Có quy tắc: gốc + te/de (số nhiều ten/den). Dùng te nếu gốc kết thúc bằng t, k, f, s, ch, p (\"'t kofschip\"), còn lại dùng de:\nwerken → werkte, wonen → woonde, verhuizen → verhuisde.\nBất quy tắc: zijn → was/waren, hebben → had/hadden.",
       "examples": [
-        { "nl": "groot – groter – het grootst", "en": "big – bigger – biggest" },
-        { "nl": "goed – beter – het best", "en": "good – better – best" }
+        { "nl": "We verhuisden in 2020.", "en": "We moved in 2020." }
+      ],
+      "tip": "past-simple"
+    },
+    {
+      "title": "Materials and shapes",
+      "titleVi": "Chất liệu và hình dạng",
+      "en": "van hout / houten (wooden), van glas / glazen, van metaal. Shapes: rond, vierkant, rechthoekig.\nComparing: groter dan (bigger than), net zo groot als (as big as).",
+      "vi": "van hout / houten (bằng gỗ), van glas / glazen (bằng thủy tinh), van metaal (bằng kim loại). Hình dạng: rond (tròn), vierkant (vuông), rechthoekig (chữ nhật).\nSo sánh: groter dan (lớn hơn), net zo groot als (lớn bằng).",
+      "examples": [
+        { "nl": "een vierkante glazen tafel", "en": "a square glass table" }
       ],
       "tip": "comparative"
     },
     {
-      "title": "deze, die, dit, dat",
-      "titleVi": "deze, die, dit, dat (này, kia)",
-      "en": "de-words: deze (this) / die (that) — deze jas, die jas.\nhet-words: dit (this) / dat (that) — dit overhemd, dat overhemd.\nPlural: deze / die — deze schoenen.",
-      "vi": "Từ de: deze (này) / die (kia) — deze jas, die jas.\nTừ het: dit (này) / dat (kia) — dit overhemd, dat overhemd.\nSố nhiều: deze / die — deze schoenen (đôi giày này).",
+      "title": "al and pas",
+      "titleVi": "al và pas",
+      "en": "al = already, more than expected. pas = only, less or later than expected.",
+      "vi": "al = đã … rồi, nhiều hơn mong đợi. pas = mới chỉ, ít hơn hoặc muộn hơn mong đợi.",
       "examples": [
-        { "nl": "Ik neem deze trui.", "en": "I'll take this sweater." },
-        { "nl": "Dat T-shirt is mooi.", "en": "That T-shirt is nice." }
+        { "nl": "Hij is pas twintig.", "en": "He is only twenty." }
       ],
-      "tip": "de-het"
+      "tip": "al-pas"
     }
   ],
   "drills": ["article", "plural", "wordorder"]

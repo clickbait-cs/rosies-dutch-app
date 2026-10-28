@@ -2,275 +2,75 @@
   "id": "b2c08",
   "book": 2,
   "number": 8,
-  "titleNl": "Leven in Nederland",
-  "title": "Living in the Netherlands",
-  "titleVi": "Cuộc sống ở Hà Lan",
+  "titleNl": "Dat vind ik ook!",
+  "title": "I think so too!",
+  "titleVi": "Tôi cũng nghĩ vậy!",
   "cefr": "A2",
-  "provisional": true,
+  "provisional": false,
   "words": [
-    {
-      "nl": "gemeente",
-      "article": "de",
-      "plural": "gemeenten",
-      "en": "municipality",
-      "vi": "chính quyền địa phương, thành phố"
-    },
-    {
-      "nl": "formulier",
-      "article": "het",
-      "plural": "formulieren",
-      "en": "form",
-      "vi": "mẫu đơn"
-    },
-    {
-      "nl": "paspoort",
-      "article": "het",
-      "plural": "paspoorten",
-      "en": "passport",
-      "vi": "hộ chiếu"
-    },
-    {
-      "nl": "verblijfsvergunning",
-      "article": "de",
-      "plural": "verblijfsvergunningen",
-      "en": "residence permit",
-      "vi": "giấy phép cư trú"
-    },
-    {
-      "nl": "inburgering",
-      "article": "de",
-      "en": "civic integration",
-      "vi": "hội nhập công dân"
-    },
-    {
-      "nl": "examen",
-      "article": "het",
-      "plural": "examens",
-      "en": "exam",
-      "vi": "kỳ thi"
-    },
-    {
-      "nl": "cursus",
-      "article": "de",
-      "plural": "cursussen",
-      "en": "course",
-      "vi": "khóa học"
-    },
-    {
-      "nl": "belasting",
-      "article": "de",
-      "en": "tax",
-      "vi": "thuế"
-    },
-    {
-      "nl": "regel",
-      "article": "de",
-      "plural": "regels",
-      "en": "rule",
-      "vi": "quy định, luật lệ"
-    },
-    {
-      "nl": "buurt",
-      "article": "de",
-      "plural": "buurten",
-      "en": "neighbourhood",
-      "vi": "khu phố"
-    },
-    {
-      "nl": "vrijwilliger",
-      "article": "de",
-      "plural": "vrijwilligers",
-      "en": "volunteer",
-      "vi": "tình nguyện viên"
-    },
-    {
-      "nl": "afval",
-      "article": "het",
-      "en": "rubbish, waste",
-      "vi": "rác"
-    },
-    {
-      "nl": "gezellig",
-      "en": "cosy, nice and sociable",
-      "vi": "ấm cúng, vui vẻ"
-    },
-    {
-      "nl": "invullen",
-      "en": "to fill in",
-      "vi": "điền (đơn)"
-    },
-    {
-      "nl": "aanvragen",
-      "en": "to apply for",
-      "vi": "nộp đơn xin"
-    },
-    {
-      "nl": "slagen",
-      "en": "to pass (an exam)",
-      "vi": "thi đỗ"
-    },
-    {
-      "nl": "proberen",
-      "en": "to try",
-      "vi": "cố gắng, thử"
-    },
-    {
-      "nl": "belangrijk",
-      "en": "important",
-      "vi": "quan trọng"
-    },
-    {
-      "nl": "verplicht",
-      "en": "compulsory",
-      "vi": "bắt buộc"
-    },
-    {
-      "nl": "doel",
-      "article": "het",
-      "plural": "doelen",
-      "en": "goal",
-      "vi": "mục tiêu"
-    }
+    { "nl": "mening", "article": "de", "plural": "meningen", "en": "opinion", "vi": "ý kiến" },
+    { "nl": "discussie", "article": "de", "plural": "discussies", "en": "discussion", "vi": "cuộc thảo luận" },
+    { "nl": "ruzie", "article": "de", "plural": "ruzies", "en": "argument, quarrel", "vi": "cãi nhau" },
+    { "nl": "argument", "article": "het", "plural": "argumenten", "en": "argument (reason)", "vi": "lý lẽ" },
+    { "nl": "voordeel", "article": "het", "plural": "voordelen", "en": "advantage", "vi": "ưu điểm" },
+    { "nl": "nadeel", "article": "het", "plural": "nadelen", "en": "disadvantage", "vi": "nhược điểm" },
+    { "nl": "bedrijf", "article": "het", "plural": "bedrijven", "en": "company", "vi": "công ty" },
+    { "nl": "vergadering", "article": "de", "plural": "vergaderingen", "en": "meeting", "vi": "cuộc họp" },
+    { "nl": "eens", "en": "agreed", "vi": "đồng ý" },
+    { "nl": "oneens", "en": "disagreed", "vi": "không đồng ý" },
+    { "nl": "gelijk hebben", "en": "to be right", "vi": "nói đúng" },
+    { "nl": "vinden", "en": "to think (opinion)", "vi": "cho rằng, thấy" },
+    { "nl": "denken", "en": "to think", "vi": "nghĩ" },
+    { "nl": "natuurlijk", "en": "of course", "vi": "tất nhiên" },
+    { "nl": "misschien", "en": "maybe", "vi": "có lẽ" },
+    { "nl": "eigenlijk", "en": "actually", "vi": "thật ra" },
+    { "nl": "hoeveel", "en": "how much / how many", "vi": "bao nhiêu" },
+    { "nl": "daar", "en": "there", "vi": "ở đó" },
+    { "nl": "waarover", "en": "about what", "vi": "về cái gì" },
+    { "nl": "ruziemaken", "en": "to argue, quarrel", "vi": "cãi nhau" }
   ],
   "sentences": [
-    {
-      "nl": "Ik moet een formulier invullen.",
-      "en": "I have to fill in a form.",
-      "vi": "Tôi phải điền một mẫu đơn.",
-      "tip": "separable"
-    },
-    {
-      "nl": "Ik ga naar de gemeente om een paspoort aan te vragen.",
-      "en": "I'm going to the municipality to apply for a passport.",
-      "vi": "Tôi đến chính quyền địa phương để làm đơn xin hộ chiếu.",
-      "tip": "om-te"
-    },
-    {
-      "nl": "Ik leer Nederlands om het examen te halen.",
-      "en": "I learn Dutch to pass the exam.",
-      "vi": "Tôi học tiếng Hà Lan để thi đỗ.",
-      "tip": "om-te"
-    },
-    {
-      "nl": "Het inburgeringsexamen is verplicht.",
-      "en": "The civic integration exam is compulsory.",
-      "vi": "Kỳ thi hội nhập là bắt buộc."
-    },
-    {
-      "nl": "Ik hoop dat ik slaag.",
-      "en": "I hope that I pass.",
-      "vi": "Tôi hy vọng là tôi thi đỗ.",
-      "tip": "verb-end"
-    },
-    {
-      "nl": "Ik probeer elke dag Nederlands te spreken.",
-      "en": "I try to speak Dutch every day.",
-      "vi": "Tôi cố gắng nói tiếng Hà Lan mỗi ngày.",
-      "tip": "om-te"
-    },
-    {
-      "nl": "In Nederland scheiden we het afval.",
-      "en": "In the Netherlands we separate the rubbish.",
-      "vi": "Ở Hà Lan chúng tôi phân loại rác.",
-      "alt": [
-        "In Nederland scheiden wij het afval."
-      ],
-      "tip": "inversion"
-    },
-    {
-      "nl": "Het is belangrijk om je buren te kennen.",
-      "en": "It is important to know your neighbours.",
-      "vi": "Biết hàng xóm của mình là điều quan trọng.",
-      "tip": "om-te"
-    },
-    {
-      "nl": "Zij werkt als vrijwilliger in de buurt.",
-      "en": "She works as a volunteer in the neighbourhood.",
-      "vi": "Cô ấy làm tình nguyện viên trong khu phố."
-    },
-    {
-      "nl": "Ik vind het hier heel gezellig.",
-      "en": "I find it very cosy and nice here.",
-      "vi": "Tôi thấy ở đây rất ấm cúng, vui vẻ."
-    }
+    { "nl": "Wat vind jij ervan?", "en": "What do you think of it?", "vi": "Bạn nghĩ sao về điều đó?", "alt": ["Wat vind je ervan?"], "tip": "er-place" },
+    { "nl": "Ik vind dat je gelijk hebt.", "en": "I think that you are right.", "vi": "Tôi thấy bạn nói đúng.", "tip": "verb-end" },
+    { "nl": "Dat vind ik ook!", "en": "I think so too!", "vi": "Tôi cũng nghĩ vậy!", "tip": "inversion" },
+    { "nl": "Ik ben het met je eens.", "en": "I agree with you.", "vi": "Tôi đồng ý với bạn.", "alt": ["Ik ben het met jou eens."] },
+    { "nl": "Daar ben ik het niet mee eens.", "en": "I don't agree with that.", "vi": "Tôi không đồng ý với điều đó.", "alt": ["Ik ben het daar niet mee eens."], "tip": "er-place" },
+    { "nl": "Ik ben het helemaal oneens met hem.", "en": "I completely disagree with him.", "vi": "Tôi hoàn toàn không đồng ý với anh ấy." },
+    { "nl": "Waar denk je aan?", "en": "What are you thinking about?", "vi": "Bạn đang nghĩ gì vậy?", "alt": ["Waar denk jij aan?"], "tip": "er-place" },
+    { "nl": "Ik denk er nog over na.", "en": "I'm still thinking about it.", "vi": "Tôi vẫn đang suy nghĩ về điều đó.", "tip": "er-place" },
+    { "nl": "Het voordeel is dat het goedkoop is.", "en": "The advantage is that it's cheap.", "vi": "Ưu điểm là nó rẻ.", "tip": "verb-end" },
+    { "nl": "Hoeveel mensen werken bij dit bedrijf?", "en": "How many people work at this company?", "vi": "Có bao nhiêu người làm việc ở công ty này?", "tip": "questions" },
+    { "nl": "Ze maken vaak ruzie over geld.", "en": "They often argue about money.", "vi": "Họ hay cãi nhau về tiền bạc." },
+    { "nl": "Woon je in Amsterdam? Daar woon ik ook!", "en": "Do you live in Amsterdam? I live there too!", "vi": "Bạn sống ở Amsterdam à? Tôi cũng sống ở đó!", "alt": ["Woon jij in Amsterdam? Daar woon ik ook!"], "tip": "er-place" },
+    { "nl": "Misschien heb je eigenlijk wel gelijk.", "en": "Maybe you're actually right.", "vi": "Có lẽ thật ra bạn nói đúng." }
   ],
   "verbs": [
-    {
-      "inf": "invullen",
-      "en": "to fill in",
-      "vi": "điền",
-      "ik": "vul in",
-      "jij": "vult in",
-      "hij": "vult in",
-      "wij": "vullen in",
-      "jullie": "vullen in",
-      "zij": "vullen in"
-    },
-    {
-      "inf": "proberen",
-      "en": "to try",
-      "vi": "cố gắng",
-      "ik": "probeer",
-      "jij": "probeert",
-      "hij": "probeert",
-      "wij": "proberen",
-      "jullie": "proberen",
-      "zij": "proberen"
-    },
-    {
-      "inf": "hopen",
-      "en": "to hope",
-      "vi": "hy vọng",
-      "ik": "hoop",
-      "jij": "hoopt",
-      "hij": "hoopt",
-      "wij": "hopen",
-      "jullie": "hopen",
-      "zij": "hopen"
-    },
-    {
-      "inf": "kennen",
-      "en": "to know (a person/place)",
-      "vi": "quen biết",
-      "ik": "ken",
-      "jij": "kent",
-      "hij": "kent",
-      "wij": "kennen",
-      "jullie": "kennen",
-      "zij": "kennen"
-    }
+    { "inf": "vinden", "en": "to think (opinion)", "vi": "cho rằng", "ik": "vind", "jij": "vindt", "hij": "vindt", "wij": "vinden", "jullie": "vinden", "zij": "vinden" },
+    { "inf": "denken", "en": "to think", "vi": "nghĩ", "ik": "denk", "jij": "denkt", "hij": "denkt", "wij": "denken", "jullie": "denken", "zij": "denken" },
+    { "inf": "ruziemaken", "en": "to argue", "vi": "cãi nhau", "ik": "maak ruzie", "jij": "maakt ruzie", "hij": "maakt ruzie", "wij": "maken ruzie", "jullie": "maken ruzie", "zij": "maken ruzie" },
+    { "inf": "discussiëren", "en": "to discuss", "vi": "thảo luận", "ik": "discussieer", "jij": "discussieert", "hij": "discussieert", "wij": "discussiëren", "jullie": "discussiëren", "zij": "discussiëren" }
   ],
   "grammar": [
     {
-      "title": "om … te + infinitive",
-      "titleVi": "om … te + động từ nguyên mẫu (để …)",
-      "en": "To say why: Ik ga naar school om Nederlands te leren.\nWith separable verbs te goes in the middle: aanvragen → om … aan te vragen.",
-      "vi": "Để nói mục đích: Ik ga naar school om Nederlands te leren (Tôi đi học để học tiếng Hà Lan).\nVới động từ tách được, te nằm ở giữa: aanvragen → om … aan te vragen.",
+      "title": "Giving your opinion",
+      "titleVi": "Đưa ra ý kiến",
+      "en": "Ik vind dat … / Ik denk dat … (verb at the end) · Ik ben het (niet) met je eens. · Dat vind ik ook. · Daar heb je gelijk in.",
+      "vi": "Ik vind dat … / Ik denk dat … (Tôi thấy/nghĩ rằng … — động từ ở cuối) · Ik ben het (niet) met je eens. (Tôi (không) đồng ý với bạn.) · Dat vind ik ook. (Tôi cũng thấy vậy.) · Daar heb je gelijk in. (Về điểm đó bạn nói đúng.)",
       "examples": [
-        {
-          "nl": "Ik spaar om een auto te kopen.",
-          "en": "I'm saving to buy a car."
-        }
-      ],
-      "tip": "om-te"
-    },
-    {
-      "title": "Revision: verb at the end after dat / omdat",
-      "titleVi": "Ôn tập: động từ cuối câu sau dat / omdat",
-      "en": "Ik hoop dat ik slaag. Ik leer Nederlands, omdat ik hier woon.",
-      "vi": "Ik hoop dat ik slaag (Tôi hy vọng là tôi thi đỗ). Ik leer Nederlands, omdat ik hier woon (Tôi học tiếng Hà Lan vì tôi sống ở đây).",
-      "examples": [
-        {
-          "nl": "Ik denk dat het examen moeilijk is.",
-          "en": "I think that the exam is difficult."
-        }
+        { "nl": "Ik vind dat iedereen moet stemmen.", "en": "I think everyone should vote." }
       ],
       "tip": "verb-end"
+    },
+    {
+      "title": "daar / er = place, daar / er + preposition",
+      "titleVi": "daar / er = nơi chốn, daar / er + giới từ",
+      "en": "Place: Ik woon er. Daar woon ik!\nWith a preposition, Dutch doesn't say \"met het\" for things: it says ermee / daarmee, erover / daarover, eraan / daaraan.\nIk ben het ermee eens. Daar denk ik niet aan.",
+      "vi": "Nơi chốn: Ik woon er. Daar woon ik! (Tôi sống ở đó!)\nVới giới từ, tiếng Hà Lan không nói \"met het\" cho đồ vật/sự việc mà nói ermee / daarmee, erover / daarover, eraan / daaraan.\nIk ben het ermee eens. (Tôi đồng ý với điều đó.) Daar denk ik niet aan. (Tôi không nghĩ đến điều đó.)",
+      "examples": [
+        { "nl": "Waar praten jullie over? We praten over het werk.", "en": "What are you talking about? We're talking about work." }
+      ],
+      "tip": "er-place"
     }
   ],
-  "drills": [
-    "wordorder",
-    "conjugation",
-    "article"
-  ]
+  "drills": ["wordorder", "plural", "conjugation"]
 }

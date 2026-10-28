@@ -2,75 +2,85 @@
   "id": "b1c08",
   "book": 1,
   "number": 8,
-  "titleNl": "Vrije tijd",
-  "title": "Free time and hobbies",
-  "titleVi": "Thời gian rảnh và sở thích",
+  "titleNl": "Wat heb je gisteren gedaan?",
+  "title": "What did you do yesterday?",
+  "titleVi": "Hôm qua bạn đã làm gì?",
   "cefr": "A1",
-  "provisional": true,
+  "provisional": false,
   "words": [
-    { "nl": "hobby", "article": "de", "plural": "hobby's", "en": "hobby", "vi": "sở thích" },
-    { "nl": "sport", "article": "de", "plural": "sporten", "en": "sport", "vi": "thể thao" },
-    { "nl": "muziek", "article": "de", "en": "music", "vi": "âm nhạc" },
-    { "nl": "film", "article": "de", "plural": "films", "en": "film", "vi": "phim" },
-    { "nl": "boek", "article": "het", "plural": "boeken", "en": "book", "vi": "quyển sách" },
-    { "nl": "fiets", "article": "de", "plural": "fietsen", "en": "bicycle", "vi": "xe đạp" },
-    { "nl": "park", "article": "het", "plural": "parken", "en": "park", "vi": "công viên" },
-    { "nl": "zwembad", "article": "het", "plural": "zwembaden", "en": "swimming pool", "vi": "hồ bơi" },
+    { "nl": "gisteren", "en": "yesterday", "vi": "hôm qua" },
+    { "nl": "vorige week", "en": "last week", "vi": "tuần trước" },
+    { "nl": "vroeger", "en": "in the past, used to", "vi": "ngày xưa, trước đây" },
+    { "nl": "vakantie", "article": "de", "plural": "vakanties", "en": "holiday", "vi": "kỳ nghỉ" },
+    { "nl": "strand", "article": "het", "plural": "stranden", "en": "beach", "vi": "bãi biển" },
+    { "nl": "zee", "article": "de", "plural": "zeeën", "en": "sea", "vi": "biển" },
     { "nl": "museum", "article": "het", "plural": "musea", "en": "museum", "vi": "bảo tàng" },
-    { "nl": "feest", "article": "het", "plural": "feesten", "en": "party", "vi": "bữa tiệc" },
-    { "nl": "afspraak", "article": "de", "plural": "afspraken", "en": "appointment / plan", "vi": "cuộc hẹn" },
-    { "nl": "zin", "article": "de", "en": "feeling like (doing)", "vi": "hứng thú, muốn" },
-    { "nl": "fietsen", "en": "to cycle", "vi": "đạp xe" },
-    { "nl": "zwemmen", "en": "to swim", "vi": "bơi" },
-    { "nl": "lezen", "en": "to read", "vi": "đọc" },
-    { "nl": "wandelen", "en": "to walk (for fun)", "vi": "đi dạo" },
-    { "nl": "samen", "en": "together", "vi": "cùng nhau" },
-    { "nl": "leuk", "en": "nice, fun", "vi": "vui, hay" },
-    { "nl": "vaak", "en": "often", "vi": "thường xuyên" },
-    { "nl": "nooit", "en": "never", "vi": "không bao giờ" }
+    { "nl": "foto", "article": "de", "plural": "foto's", "en": "photo", "vi": "bức ảnh" },
+    { "nl": "vliegtuig", "article": "het", "plural": "vliegtuigen", "en": "aeroplane", "vi": "máy bay" },
+    { "nl": "auto", "article": "de", "plural": "auto's", "en": "car", "vi": "xe hơi" },
+    { "nl": "boot", "article": "de", "plural": "boten", "en": "boat", "vi": "thuyền" },
+    { "nl": "rijden", "en": "to drive, ride", "vi": "lái xe, đi (xe)" },
+    { "nl": "vliegen", "en": "to fly", "vi": "bay" },
+    { "nl": "varen", "en": "to sail, go by boat", "vi": "đi thuyền" },
+    { "nl": "lopen", "en": "to walk", "vi": "đi bộ" },
+    { "nl": "gedaan", "en": "done (doen)", "vi": "đã làm (doen)" },
+    { "nl": "gegaan", "en": "gone (gaan)", "vi": "đã đi (gaan)" },
+    { "nl": "gekomen", "en": "come (komen)", "vi": "đã đến (komen)" },
+    { "nl": "geweest", "en": "been (zijn)", "vi": "đã ở, đã là (zijn)" },
+    { "nl": "gegeten", "en": "eaten (eten)", "vi": "đã ăn (eten)" }
   ],
   "sentences": [
-    { "nl": "Wat doe je in je vrije tijd?", "en": "What do you do in your free time?", "vi": "Bạn làm gì lúc rảnh?", "alt": ["Wat doe jij in je vrije tijd?"], "tip": "questions" },
-    { "nl": "Ik lees graag boeken.", "en": "I like reading books.", "vi": "Tôi thích đọc sách." },
-    { "nl": "Hij gaat vaak zwemmen.", "en": "He often goes swimming.", "vi": "Anh ấy thường đi bơi.", "tip": "modal" },
-    { "nl": "Heb je zin om te fietsen?", "en": "Do you feel like cycling?", "vi": "Bạn có muốn đi đạp xe không?", "alt": ["Heb jij zin om te fietsen?"], "tip": "om-te" },
-    { "nl": "Zaterdag gaan we naar een feest.", "en": "On Saturday we are going to a party.", "vi": "Thứ Bảy chúng tôi đi dự tiệc.", "alt": ["We gaan zaterdag naar een feest.", "Zaterdag gaan wij naar een feest."], "tip": "inversion" },
-    { "nl": "Ik kan niet zwemmen.", "en": "I can't swim.", "vi": "Tôi không biết bơi.", "tip": "modal" },
-    { "nl": "Kun je morgen komen?", "en": "Can you come tomorrow?", "vi": "Ngày mai bạn đến được không?", "alt": ["Kan je morgen komen?", "Kun jij morgen komen?"], "tip": "modal" },
-    { "nl": "Wij wandelen samen in het park.", "en": "We walk together in the park.", "vi": "Chúng tôi cùng nhau đi dạo trong công viên.", "alt": ["We wandelen samen in het park."] },
-    { "nl": "Ik ga morgen naar het museum.", "en": "I'm going to the museum tomorrow.", "vi": "Ngày mai tôi sẽ đi bảo tàng.", "alt": ["Morgen ga ik naar het museum."] },
-    { "nl": "Dat is een leuke film.", "en": "That is a fun film.", "vi": "Đó là một bộ phim hay.", "tip": "adjective-e" }
+    { "nl": "Wat heb je gisteren gedaan?", "en": "What did you do yesterday?", "vi": "Hôm qua bạn đã làm gì?", "alt": ["Wat heb jij gisteren gedaan?"], "tip": "perfect" },
+    { "nl": "Ik heb gisteren gewerkt.", "en": "I worked yesterday.", "vi": "Hôm qua tôi đã làm việc.", "alt": ["Gisteren heb ik gewerkt."], "tip": "perfect" },
+    { "nl": "Gisteren heb ik pho gegeten.", "en": "Yesterday I ate pho.", "vi": "Hôm qua tôi đã ăn phở.", "alt": ["Ik heb gisteren pho gegeten."], "tip": "inversion" },
+    { "nl": "Wij zijn naar het strand gegaan.", "en": "We went to the beach.", "vi": "Chúng tôi đã đi biển.", "alt": ["We zijn naar het strand gegaan."], "tip": "perfect" },
+    { "nl": "Ik heb veel foto's gemaakt.", "en": "I took a lot of photos.", "vi": "Tôi đã chụp nhiều ảnh.", "tip": "perfect" },
+    { "nl": "Zij is met de trein gekomen.", "en": "She came by train.", "vi": "Cô ấy đã đến bằng tàu hỏa.", "tip": "perfect" },
+    { "nl": "Ben je in Parijs geweest?", "en": "Have you been to Paris?", "vi": "Bạn đã đến Paris chưa?", "alt": ["Ben jij in Parijs geweest?"], "tip": "perfect" },
+    { "nl": "Vorige zomer zijn we naar Vietnam gevlogen.", "en": "Last summer we flew to Vietnam.", "vi": "Mùa hè năm ngoái chúng tôi đã bay về Việt Nam.", "alt": ["Vorige zomer zijn wij naar Vietnam gevlogen."], "tip": "perfect" },
+    { "nl": "Hij heeft de hele dag gefietst.", "en": "He cycled all day.", "vi": "Anh ấy đã đạp xe cả ngày.", "tip": "perfect" },
+    { "nl": "Vroeger woonde ik in Hanoi.", "en": "I used to live in Hanoi.", "vi": "Trước đây tôi sống ở Hà Nội.", "tip": "past-simple" },
+    { "nl": "Het was een mooie dag.", "en": "It was a beautiful day.", "vi": "Đó là một ngày đẹp trời.", "tip": "past-simple" },
+    { "nl": "Wij gingen met de boot naar Texel.", "en": "We went to Texel by boat.", "vi": "Chúng tôi đi thuyền đến Texel.", "alt": ["We gingen met de boot naar Texel."], "tip": "past-simple" }
   ],
   "verbs": [
-    { "inf": "kunnen", "en": "can", "vi": "có thể", "ik": "kan", "jij": "kunt", "hij": "kan", "wij": "kunnen", "jullie": "kunnen", "zij": "kunnen" },
-    { "inf": "gaan", "en": "to go / be going to", "vi": "đi / sẽ", "ik": "ga", "jij": "gaat", "hij": "gaat", "wij": "gaan", "jullie": "gaan", "zij": "gaan" },
-    { "inf": "lezen", "en": "to read", "vi": "đọc", "ik": "lees", "jij": "leest", "hij": "leest", "wij": "lezen", "jullie": "lezen", "zij": "lezen" },
-    { "inf": "zwemmen", "en": "to swim", "vi": "bơi", "ik": "zwem", "jij": "zwemt", "hij": "zwemt", "wij": "zwemmen", "jullie": "zwemmen", "zij": "zwemmen" },
-    { "inf": "fietsen", "en": "to cycle", "vi": "đạp xe", "ik": "fiets", "jij": "fietst", "hij": "fietst", "wij": "fietsen", "jullie": "fietsen", "zij": "fietsen" }
+    { "inf": "gaan", "en": "to go", "vi": "đi", "ik": "ga", "jij": "gaat", "hij": "gaat", "wij": "gaan", "jullie": "gaan", "zij": "gaan" },
+    { "inf": "komen", "en": "to come", "vi": "đến", "ik": "kom", "jij": "komt", "hij": "komt", "wij": "komen", "jullie": "komen", "zij": "komen" },
+    { "inf": "doen", "en": "to do", "vi": "làm", "ik": "doe", "jij": "doet", "hij": "doet", "wij": "doen", "jullie": "doen", "zij": "doen" },
+    { "inf": "eten", "en": "to eat", "vi": "ăn", "ik": "eet", "jij": "eet", "hij": "eet", "wij": "eten", "jullie": "eten", "zij": "eten" },
+    { "inf": "rijden", "en": "to drive, ride", "vi": "lái xe", "ik": "rijd", "jij": "rijdt", "hij": "rijdt", "wij": "rijden", "jullie": "rijden", "zij": "rijden" }
   ],
   "grammar": [
     {
-      "title": "kunnen and gaan + infinitive",
-      "titleVi": "kunnen và gaan + động từ nguyên mẫu",
-      "en": "kunnen (can): ik kan, jij kunt/kan, hij kan, wij kunnen.\ngaan (going to): Ik ga zwemmen = I am going to swim.\nThe infinitive goes to the end of the sentence.",
-      "vi": "kunnen (có thể): ik kan, jij kunt/kan, hij kan, wij kunnen.\ngaan (sẽ, đi làm gì): Ik ga zwemmen = Tôi sẽ đi bơi.\nĐộng từ nguyên mẫu đứng cuối câu.",
+      "title": "Present perfect: hebben/zijn + participle",
+      "titleVi": "Thì hoàn thành: hebben/zijn + quá khứ phân từ",
+      "en": "Ik heb gewerkt. Wij zijn gegaan. The participle goes to the end.\nRegular: ge + stem + t/d (werken → gewerkt, wonen → gewoond).\nIrregular: gaan → gegaan, komen → gekomen, doen → gedaan, zijn → geweest, eten → gegeten.\nMost verbs use hebben; movement to a place uses zijn.",
+      "vi": "Ik heb gewerkt (Tôi đã làm việc). Wij zijn gegaan (Chúng tôi đã đi). Phân từ đứng cuối câu.\nCó quy tắc: ge + gốc + t/d (werken → gewerkt, wonen → gewoond).\nBất quy tắc: gaan → gegaan, komen → gekomen, doen → gedaan, zijn → geweest, eten → gegeten.\nĐa số dùng hebben; di chuyển đến nơi nào dùng zijn.",
       "examples": [
-        { "nl": "Ik kan goed koken.", "en": "I can cook well." },
-        { "nl": "Wij gaan morgen fietsen.", "en": "We are going cycling tomorrow." }
+        { "nl": "Ik ben naar huis gegaan.", "en": "I went home." },
+        { "nl": "Wat heb je gegeten?", "en": "What did you eat?" }
       ],
-      "tip": "modal"
+      "tip": "perfect"
     },
     {
-      "title": "Spelling: one or two vowels",
-      "titleVi": "Chính tả: một hay hai nguyên âm",
-      "en": "lezen → ik lees (long e = ee when the syllable is closed). zwemmen → ik zwem (double m disappears at the end).",
-      "vi": "lezen → ik lees (e dài viết thành ee khi âm tiết đóng). zwemmen → ik zwem (bỏ một chữ m ở cuối).",
+      "title": "The simple past",
+      "titleVi": "Thì quá khứ đơn",
+      "en": "For stories: wonen → ik woonde, werken → ik werkte. Irregular: zijn → was/waren, gaan → ging/gingen, komen → kwam/kwamen.",
+      "vi": "Dùng khi kể chuyện: wonen → ik woonde, werken → ik werkte. Bất quy tắc: zijn → was/waren, gaan → ging/gingen, komen → kwam/kwamen.",
       "examples": [
-        { "nl": "Zij leest een boek.", "en": "She is reading a book." },
-        { "nl": "Hij zwemt elke dag.", "en": "He swims every day." }
+        { "nl": "Het weer was mooi.", "en": "The weather was nice." }
       ],
-      "tip": "conjugation"
+      "tip": "past-simple"
+    },
+    {
+      "title": "Verbs of transport",
+      "titleVi": "Động từ chỉ phương tiện",
+      "en": "fietsen (bike), rijden (car, train), vliegen (plane), varen (boat), lopen (walk). With a destination they use zijn: Ik ben naar Rotterdam gefietst. Without: hebben: Ik heb veel gefietst.",
+      "vi": "fietsen (xe đạp), rijden (xe hơi, tàu), vliegen (máy bay), varen (thuyền), lopen (đi bộ). Có điểm đến thì dùng zijn: Ik ben naar Rotterdam gefietst. Không có điểm đến thì dùng hebben: Ik heb veel gefietst.",
+      "examples": [
+        { "nl": "We zijn naar Spanje gevlogen.", "en": "We flew to Spain." }
+      ]
     }
   ],
-  "drills": ["conjugation", "wordorder"]
+  "drills": ["wordorder", "plural"]
 }

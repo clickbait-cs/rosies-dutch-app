@@ -55,7 +55,7 @@ const strings = {
   dontKnow: { en: "I don't know", vi: 'Tôi không biết' },
   correct: { en: 'Correct!', vi: 'Đúng rồi!' },
   almost: { en: 'Almost! Watch the spelling:', vi: 'Gần đúng! Chú ý chính tả:' },
-  missingArticle: { en: "Correct, but don't forget the article:", vi: 'Đúng, nhưng đừng quên mạo từ:' },
+  missingArticle: { en: 'Almost! The article is part of the word:', vi: 'Gần đúng! Mạo từ là một phần của từ:' },
   wrong: { en: 'Correct answer:', vi: 'Đáp án đúng:' },
   meaning: { en: 'Meaning:', vi: 'Nghĩa:' },
   newWord: { en: 'NEW WORD', vi: 'TỪ MỚI' },
@@ -174,6 +174,7 @@ const strings = {
   i_typePlural: { en: 'Write the plural', vi: 'Viết dạng số nhiều' },
   i_conjugate: { en: 'Fill in the right verb form', vi: 'Điền dạng đúng của động từ' },
   i_wordOrder: { en: 'Put the words in the right order', vi: 'Sắp xếp các từ theo đúng thứ tự' },
+  i_fillBlank: { en: 'Fill in the missing word', vi: 'Điền từ còn thiếu' },
   i_matchPairs: { en: 'Tap the matching pairs', vi: 'Nối các cặp từ tương ứng' },
 } satisfies Record<string, Record<UiLang, string>>
 

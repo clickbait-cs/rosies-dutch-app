@@ -2,275 +2,84 @@
   "id": "b2c07",
   "book": 2,
   "number": 7,
-  "titleNl": "Media en contact",
-  "title": "Media and staying in touch",
-  "titleVi": "Truyền thông và giữ liên lạc",
+  "titleNl": "Hallo lieverd!",
+  "title": "Hello darling!",
+  "titleVi": "Chào cưng!",
   "cefr": "A2",
-  "provisional": true,
+  "provisional": false,
   "words": [
-    {
-      "nl": "nieuws",
-      "article": "het",
-      "en": "news",
-      "vi": "tin tức"
-    },
-    {
-      "nl": "krant",
-      "article": "de",
-      "plural": "kranten",
-      "en": "newspaper",
-      "vi": "báo"
-    },
-    {
-      "nl": "televisie",
-      "article": "de",
-      "en": "television",
-      "vi": "tivi"
-    },
-    {
-      "nl": "programma",
-      "article": "het",
-      "plural": "programma's",
-      "en": "programme",
-      "vi": "chương trình"
-    },
-    {
-      "nl": "bericht",
-      "article": "het",
-      "plural": "berichten",
-      "en": "message",
-      "vi": "tin nhắn"
-    },
-    {
-      "nl": "mobiel",
-      "article": "de",
-      "en": "mobile phone",
-      "vi": "điện thoại di động"
-    },
-    {
-      "nl": "computer",
-      "article": "de",
-      "plural": "computers",
-      "en": "computer",
-      "vi": "máy tính"
-    },
-    {
-      "nl": "internet",
-      "article": "het",
-      "en": "internet",
-      "vi": "mạng internet"
-    },
-    {
-      "nl": "wachtwoord",
-      "article": "het",
-      "plural": "wachtwoorden",
-      "en": "password",
-      "vi": "mật khẩu"
-    },
-    {
-      "nl": "foto",
-      "article": "de",
-      "plural": "foto's",
-      "en": "photo",
-      "vi": "bức ảnh"
-    },
-    {
-      "nl": "brief",
-      "article": "de",
-      "plural": "brieven",
-      "en": "letter",
-      "vi": "lá thư"
-    },
-    {
-      "nl": "pakket",
-      "article": "het",
-      "plural": "pakketten",
-      "en": "parcel",
-      "vi": "bưu kiện"
-    },
-    {
-      "nl": "die",
-      "en": "who / which (de-words)",
-      "vi": "người mà / cái mà (từ de)"
-    },
-    {
-      "nl": "sturen",
-      "en": "to send",
-      "vi": "gửi"
-    },
-    {
-      "nl": "ontvangen",
-      "en": "to receive",
-      "vi": "nhận"
-    },
-    {
-      "nl": "downloaden",
-      "en": "to download",
-      "vi": "tải xuống"
-    },
-    {
-      "nl": "videobellen",
-      "en": "to video call",
-      "vi": "gọi video"
-    },
-    {
-      "nl": "spannend",
-      "en": "exciting",
-      "vi": "hấp dẫn, gay cấn"
-    },
-    {
-      "nl": "saai",
-      "en": "boring",
-      "vi": "nhàm chán"
-    },
-    {
-      "nl": "online",
-      "en": "online",
-      "vi": "trực tuyến"
-    }
+    { "nl": "lieverd", "article": "de", "plural": "lieverds", "en": "darling, sweetheart", "vi": "người yêu dấu, cưng" },
+    { "nl": "compliment", "article": "het", "plural": "complimenten", "en": "compliment", "vi": "lời khen" },
+    { "nl": "gevoel", "article": "het", "plural": "gevoelens", "en": "feeling", "vi": "cảm xúc" },
+    { "nl": "relatie", "article": "de", "plural": "relaties", "en": "relationship", "vi": "mối quan hệ" },
+    { "nl": "huwelijk", "article": "het", "plural": "huwelijken", "en": "marriage", "vi": "hôn nhân" },
+    { "nl": "berichtje", "article": "het", "plural": "berichtjes", "en": "short message", "vi": "tin nhắn ngắn" },
+    { "nl": "blij", "en": "happy, glad", "vi": "vui" },
+    { "nl": "verdrietig", "en": "sad", "vi": "buồn" },
+    { "nl": "boos", "en": "angry", "vi": "tức giận" },
+    { "nl": "bang", "en": "afraid", "vi": "sợ" },
+    { "nl": "verliefd", "en": "in love", "vi": "đang yêu" },
+    { "nl": "trots", "en": "proud", "vi": "tự hào" },
+    { "nl": "zenuwachtig", "en": "nervous", "vi": "lo lắng, hồi hộp" },
+    { "nl": "elkaar", "en": "each other", "vi": "nhau" },
+    { "nl": "houden van", "en": "to love", "vi": "yêu, thích" },
+    { "nl": "missen", "en": "to miss", "vi": "nhớ" },
+    { "nl": "trouwen", "en": "to marry", "vi": "kết hôn" },
+    { "nl": "geheim", "article": "het", "plural": "geheimen", "en": "secret", "vi": "bí mật" },
+    { "nl": "leeftijd", "article": "de", "plural": "leeftijden", "en": "age", "vi": "tuổi" },
+    { "nl": "beroep", "article": "het", "plural": "beroepen", "en": "profession", "vi": "nghề nghiệp" }
   ],
   "sentences": [
-    {
-      "nl": "Ik videobel elke week met mijn moeder.",
-      "en": "I video call my mother every week.",
-      "vi": "Tôi gọi video cho mẹ mỗi tuần."
-    },
-    {
-      "nl": "Heb je mijn bericht ontvangen?",
-      "en": "Did you get my message?",
-      "vi": "Bạn đã nhận được tin nhắn của tôi chưa?",
-      "alt": [
-        "Heb jij mijn bericht ontvangen?"
-      ],
-      "tip": "perfect"
-    },
-    {
-      "nl": "Ik stuur je een foto.",
-      "en": "I'll send you a photo.",
-      "vi": "Tôi gửi cho bạn một bức ảnh.",
-      "alt": [
-        "Ik stuur jou een foto."
-      ]
-    },
-    {
-      "nl": "De man die naast mij woont, is journalist.",
-      "en": "The man who lives next to me is a journalist.",
-      "vi": "Người đàn ông sống cạnh nhà tôi là nhà báo.",
-      "alt": [
-        "De man die naast mij woont is journalist."
-      ],
-      "tip": "relative"
-    },
-    {
-      "nl": "Het programma dat ik kijk, is spannend.",
-      "en": "The programme I'm watching is exciting.",
-      "vi": "Chương trình tôi đang xem rất hấp dẫn.",
-      "alt": [
-        "Het programma dat ik kijk is spannend."
-      ],
-      "tip": "relative"
-    },
-    {
-      "nl": "Ik lees het nieuws op mijn mobiel.",
-      "en": "I read the news on my phone.",
-      "vi": "Tôi đọc tin tức trên điện thoại."
-    },
-    {
-      "nl": "Ik ben mijn wachtwoord vergeten.",
-      "en": "I have forgotten my password.",
-      "vi": "Tôi quên mật khẩu rồi.",
-      "tip": "perfect"
-    },
-    {
-      "nl": "Er is een pakket voor u.",
-      "en": "There is a parcel for you.",
-      "vi": "Có một bưu kiện cho ông/bà.",
-      "tip": "er"
-    },
-    {
-      "nl": "Dat is een saai programma.",
-      "en": "That is a boring programme.",
-      "vi": "Đó là một chương trình nhàm chán.",
-      "tip": "adjective-e"
-    },
-    {
-      "nl": "Kun je me helpen met de computer?",
-      "en": "Can you help me with the computer?",
-      "vi": "Bạn có thể giúp tôi với máy tính không?",
-      "alt": [
-        "Kan je me helpen met de computer?",
-        "Kun jij me helpen met de computer?"
-      ],
-      "tip": "modal"
-    }
+    { "nl": "Wat zie je er mooi uit!", "en": "You look beautiful!", "vi": "Trông bạn đẹp quá!", "alt": ["Wat zie jij er mooi uit!"] },
+    { "nl": "Wat een leuke jas!", "en": "What a nice coat!", "vi": "Áo khoác đẹp quá!", "tip": "adjective-e" },
+    { "nl": "Wat is je beroep?", "en": "What is your profession?", "vi": "Bạn làm nghề gì?", "alt": ["Wat is jouw beroep?", "Wat doe je voor werk?"], "tip": "questions" },
+    { "nl": "Dat zeg ik liever niet.", "en": "I'd rather not say.", "vi": "Tôi không muốn nói điều đó." },
+    { "nl": "Dat is een geheim.", "en": "That's a secret.", "vi": "Đó là bí mật." },
+    { "nl": "Ik ben blij dat je er bent.", "en": "I'm glad you're here.", "vi": "Tôi vui vì bạn ở đây.", "tip": "verb-end" },
+    { "nl": "Ik ben trots op jou.", "en": "I'm proud of you.", "vi": "Tôi tự hào về bạn.", "alt": ["Ik ben trots op je."] },
+    { "nl": "Wij houden van elkaar.", "en": "We love each other.", "vi": "Chúng tôi yêu nhau.", "alt": ["We houden van elkaar."], "tip": "elkaar" },
+    { "nl": "We zien elkaar morgen.", "en": "We'll see each other tomorrow.", "vi": "Mai chúng ta gặp nhau nhé.", "alt": ["Wij zien elkaar morgen."], "tip": "elkaar" },
+    { "nl": "Ik leer Nederlands om met je familie te praten.", "en": "I'm learning Dutch to talk with your family.", "vi": "Tôi học tiếng Hà Lan để nói chuyện với gia đình bạn.", "tip": "om-te" },
+    { "nl": "Ik bel je om je te bedanken.", "en": "I'm calling you to thank you.", "vi": "Tôi gọi điện để cảm ơn bạn.", "tip": "om-te" },
+    { "nl": "Ik mis je, lieverd.", "en": "I miss you, darling.", "vi": "Anh/em nhớ em/anh, cưng à." },
+    { "nl": "In Nederland mogen twee mannen met elkaar trouwen.", "en": "In the Netherlands two men may marry each other.", "vi": "Ở Hà Lan hai người đàn ông được phép kết hôn với nhau.", "tip": "elkaar" }
   ],
   "verbs": [
-    {
-      "inf": "sturen",
-      "en": "to send",
-      "vi": "gửi",
-      "ik": "stuur",
-      "jij": "stuurt",
-      "hij": "stuurt",
-      "wij": "sturen",
-      "jullie": "sturen",
-      "zij": "sturen"
-    },
-    {
-      "inf": "kijken",
-      "en": "to watch",
-      "vi": "xem",
-      "ik": "kijk",
-      "jij": "kijkt",
-      "hij": "kijkt",
-      "wij": "kijken",
-      "jullie": "kijken",
-      "zij": "kijken"
-    },
-    {
-      "inf": "helpen",
-      "en": "to help",
-      "vi": "giúp đỡ",
-      "ik": "help",
-      "jij": "helpt",
-      "hij": "helpt",
-      "wij": "helpen",
-      "jullie": "helpen",
-      "zij": "helpen"
-    },
-    {
-      "inf": "vergeten",
-      "en": "to forget",
-      "vi": "quên",
-      "ik": "vergeet",
-      "jij": "vergeet",
-      "hij": "vergeet",
-      "wij": "vergeten",
-      "jullie": "vergeten",
-      "zij": "vergeten"
-    }
+    { "inf": "missen", "en": "to miss", "vi": "nhớ", "ik": "mis", "jij": "mist", "hij": "mist", "wij": "missen", "jullie": "missen", "zij": "missen" },
+    { "inf": "trouwen", "en": "to marry", "vi": "kết hôn", "ik": "trouw", "jij": "trouwt", "hij": "trouwt", "wij": "trouwen", "jullie": "trouwen", "zij": "trouwen" },
+    { "inf": "zeggen", "en": "to say", "vi": "nói", "ik": "zeg", "jij": "zegt", "hij": "zegt", "wij": "zeggen", "jullie": "zeggen", "zij": "zeggen" },
+    { "inf": "praten", "en": "to talk", "vi": "nói chuyện", "ik": "praat", "jij": "praat", "hij": "praat", "wij": "praten", "jullie": "praten", "zij": "praten" }
   ],
   "grammar": [
     {
-      "title": "die and dat (who / which)",
-      "titleVi": "die và dat (người mà / cái mà)",
-      "en": "de-word or plural → die: de vrouw die…, de boeken die…\nhet-word → dat: het huis dat…\nThe verb goes to the end of that part: De vrouw die hier werkt…",
-      "vi": "Từ de hoặc số nhiều → die: de vrouw die… (người phụ nữ mà…), de boeken die…\nTừ het → dat: het huis dat… (ngôi nhà mà…)\nĐộng từ chuyển xuống cuối phần đó: De vrouw die hier werkt… (Người phụ nữ làm việc ở đây…)",
+      "title": "Compliments: Wat …!",
+      "titleVi": "Khen ngợi: Wat …!",
+      "en": "Wat mooi! Wat een mooie jurk! Wat zie je er goed uit! Wat lekker!",
+      "vi": "Wat mooi! (Đẹp quá!) Wat een mooie jurk! (Váy đẹp quá!) Wat zie je er goed uit! (Trông bạn đẹp quá!) Wat lekker! (Ngon quá!)",
       "examples": [
-        {
-          "nl": "Het boek dat ik lees, is spannend.",
-          "en": "The book I'm reading is exciting."
-        },
-        {
-          "nl": "De film die we zagen, was saai.",
-          "en": "The film we saw was boring."
-        }
+        { "nl": "Wat kook je goed!", "en": "You cook so well!" }
+      ]
+    },
+    {
+      "title": "om … te for a goal",
+      "titleVi": "om … te: để (chỉ mục đích)",
+      "en": "Ik leer Nederlands om hier te werken. The infinitive with te goes to the end.",
+      "vi": "Ik leer Nederlands om hier te werken. (Tôi học tiếng Hà Lan để làm việc ở đây.) Động từ nguyên mẫu với te đứng cuối.",
+      "examples": [
+        { "nl": "Ik spaar om op reis te gaan.", "en": "I'm saving to go travelling." }
       ],
-      "tip": "relative"
+      "tip": "om-te"
+    },
+    {
+      "title": "elkaar and not wanting to answer",
+      "titleVi": "elkaar và từ chối trả lời",
+      "en": "elkaar = each other: We kennen elkaar al lang.\nPolitely not answering: Dat zeg ik liever niet. Dat is privé.",
+      "vi": "elkaar = nhau: We kennen elkaar al lang. (Chúng tôi quen nhau lâu rồi.)\nTừ chối trả lời lịch sự: Dat zeg ik liever niet. (Tôi không muốn nói.) Dat is privé. (Đó là chuyện riêng.)",
+      "examples": [
+        { "nl": "Ze helpen elkaar.", "en": "They help each other." }
+      ],
+      "tip": "elkaar"
     }
   ],
-  "drills": [
-    "wordorder",
-    "article"
-  ]
+  "drills": ["wordorder", "conjugation", "plural"]
 }

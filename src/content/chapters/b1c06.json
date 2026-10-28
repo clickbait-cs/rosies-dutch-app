@@ -2,319 +2,94 @@
   "id": "b1c06",
   "book": 1,
   "number": 6,
-  "titleNl": "De dag en de tijd",
-  "title": "Daily routine and telling time",
-  "titleVi": "Sinh hoạt hằng ngày và giờ giấc",
+  "titleNl": "Van welk spoor vertrekt de trein?",
+  "title": "Which platform does the train leave from?",
+  "titleVi": "Tàu khởi hành từ đường ray nào?",
   "cefr": "A1",
-  "provisional": true,
+  "provisional": false,
   "words": [
-    {
-      "nl": "dag",
-      "article": "de",
-      "plural": "dagen",
-      "en": "day",
-      "vi": "ngày"
-    },
-    {
-      "nl": "week",
-      "article": "de",
-      "plural": "weken",
-      "en": "week",
-      "vi": "tuần"
-    },
-    {
-      "nl": "uur",
-      "article": "het",
-      "plural": "uren",
-      "en": "hour / o'clock",
-      "vi": "giờ"
-    },
-    {
-      "nl": "minuut",
-      "article": "de",
-      "plural": "minuten",
-      "en": "minute",
-      "vi": "phút"
-    },
-    {
-      "nl": "ochtend",
-      "article": "de",
-      "plural": "ochtenden",
-      "en": "morning",
-      "vi": "buổi sáng"
-    },
-    {
-      "nl": "middag",
-      "article": "de",
-      "plural": "middagen",
-      "en": "afternoon",
-      "vi": "buổi chiều"
-    },
-    {
-      "nl": "avond",
-      "article": "de",
-      "plural": "avonden",
-      "en": "evening",
-      "vi": "buổi tối"
-    },
-    {
-      "nl": "nacht",
-      "article": "de",
-      "plural": "nachten",
-      "en": "night",
-      "vi": "ban đêm"
-    },
-    {
-      "nl": "vandaag",
-      "en": "today",
-      "vi": "hôm nay"
-    },
-    {
-      "nl": "morgen",
-      "en": "tomorrow",
-      "vi": "ngày mai"
-    },
-    {
-      "nl": "gisteren",
-      "en": "yesterday",
-      "vi": "hôm qua"
-    },
-    {
-      "nl": "maandag",
-      "en": "Monday",
-      "vi": "thứ Hai"
-    },
-    {
-      "nl": "dinsdag",
-      "en": "Tuesday",
-      "vi": "thứ Ba"
-    },
-    {
-      "nl": "woensdag",
-      "en": "Wednesday",
-      "vi": "thứ Tư"
-    },
-    {
-      "nl": "donderdag",
-      "en": "Thursday",
-      "vi": "thứ Năm"
-    },
-    {
-      "nl": "vrijdag",
-      "en": "Friday",
-      "vi": "thứ Sáu"
-    },
-    {
-      "nl": "zaterdag",
-      "en": "Saturday",
-      "vi": "thứ Bảy"
-    },
-    {
-      "nl": "zondag",
-      "en": "Sunday",
-      "vi": "Chủ nhật"
-    },
-    {
-      "nl": "weekend",
-      "article": "het",
-      "plural": "weekenden",
-      "en": "weekend",
-      "vi": "cuối tuần"
-    },
-    {
-      "nl": "half",
-      "en": "half",
-      "vi": "rưỡi, một nửa"
-    },
-    {
-      "nl": "kwart",
-      "article": "het",
-      "en": "quarter",
-      "vi": "mười lăm phút, một phần tư"
-    },
-    {
-      "nl": "vroeg",
-      "en": "early",
-      "vi": "sớm"
-    },
-    {
-      "nl": "laat",
-      "en": "late",
-      "vi": "muộn, trễ"
-    }
+    { "nl": "trein", "article": "de", "plural": "treinen", "en": "train", "vi": "tàu hỏa" },
+    { "nl": "bus", "article": "de", "plural": "bussen", "en": "bus", "vi": "xe buýt" },
+    { "nl": "station", "article": "het", "plural": "stations", "en": "station", "vi": "nhà ga" },
+    { "nl": "spoor", "article": "het", "plural": "sporen", "en": "platform (track)", "vi": "đường ray, sân ga" },
+    { "nl": "halte", "article": "de", "plural": "haltes", "en": "stop (bus/tram)", "vi": "trạm dừng" },
+    { "nl": "kaartje", "article": "het", "plural": "kaartjes", "en": "ticket", "vi": "vé" },
+    { "nl": "ov-chipkaart", "article": "de", "plural": "ov-chipkaarten", "en": "public transport card", "vi": "thẻ đi phương tiện công cộng" },
+    { "nl": "vertraging", "article": "de", "en": "delay", "vi": "sự chậm trễ" },
+    { "nl": "reis", "article": "de", "plural": "reizen", "en": "trip, journey", "vi": "chuyến đi" },
+    { "nl": "hotel", "article": "het", "plural": "hotels", "en": "hotel", "vi": "khách sạn" },
+    { "nl": "kamer", "article": "de", "plural": "kamers", "en": "room", "vi": "phòng" },
+    { "nl": "nacht", "article": "de", "plural": "nachten", "en": "night", "vi": "đêm" },
+    { "nl": "vertrekken", "en": "to depart", "vi": "khởi hành" },
+    { "nl": "aankomen", "en": "to arrive", "vi": "đến nơi" },
+    { "nl": "overstappen", "en": "to change (trains)", "vi": "đổi tàu/xe" },
+    { "nl": "uitstappen", "en": "to get off", "vi": "xuống xe" },
+    { "nl": "reserveren", "en": "to book, reserve", "vi": "đặt trước" },
+    { "nl": "retour", "en": "return (ticket)", "vi": "vé khứ hồi" },
+    { "nl": "omdat", "en": "because", "vi": "vì, bởi vì" },
+    { "nl": "naar", "en": "to (a place)", "vi": "đến, tới" }
   ],
   "sentences": [
-    {
-      "nl": "Hoe laat is het?",
-      "en": "What time is it?",
-      "vi": "Mấy giờ rồi?",
-      "tip": "questions"
-    },
-    {
-      "nl": "Het is drie uur.",
-      "en": "It is three o'clock.",
-      "vi": "Bây giờ là ba giờ."
-    },
-    {
-      "nl": "Het is half vier.",
-      "en": "It is half past three.",
-      "vi": "Bây giờ là ba giờ rưỡi."
-    },
-    {
-      "nl": "Ik sta om zeven uur op.",
-      "en": "I get up at seven o'clock.",
-      "vi": "Tôi thức dậy lúc bảy giờ.",
-      "tip": "separable"
-    },
-    {
-      "nl": "Om acht uur ga ik naar mijn werk.",
-      "en": "At eight o'clock I go to work.",
-      "vi": "Lúc tám giờ tôi đi làm.",
-      "alt": [
-        "Ik ga om acht uur naar mijn werk.",
-        "Om acht uur ga ik naar het werk."
-      ],
-      "tip": "inversion"
-    },
-    {
-      "nl": "Vandaag werk ik niet.",
-      "en": "Today I am not working.",
-      "vi": "Hôm nay tôi không làm việc.",
-      "alt": [
-        "Ik werk vandaag niet."
-      ],
-      "tip": "inversion"
-    },
-    {
-      "nl": "Op zaterdag doe ik boodschappen.",
-      "en": "On Saturday I do the shopping.",
-      "vi": "Thứ Bảy tôi đi chợ.",
-      "alt": [
-        "Ik doe op zaterdag boodschappen.",
-        "Zaterdag doe ik boodschappen."
-      ],
-      "tip": "inversion"
-    },
-    {
-      "nl": "Morgen heb ik Nederlandse les.",
-      "en": "Tomorrow I have a Dutch lesson.",
-      "vi": "Ngày mai tôi có lớp tiếng Hà Lan.",
-      "alt": [
-        "Ik heb morgen Nederlandse les.",
-        "Morgen heb ik Nederlands."
-      ],
-      "tip": "inversion"
-    },
-    {
-      "nl": "Ik ga om elf uur slapen.",
-      "en": "I go to sleep at eleven o'clock.",
-      "vi": "Tôi đi ngủ lúc mười một giờ.",
-      "alt": [
-        "Om elf uur ga ik slapen."
-      ]
-    },
-    {
-      "nl": "In het weekend slaap ik lang.",
-      "en": "At the weekend I sleep in.",
-      "vi": "Cuối tuần tôi ngủ dậy muộn.",
-      "alt": [
-        "Ik slaap lang in het weekend."
-      ],
-      "tip": "inversion"
-    }
+    { "nl": "Van welk spoor vertrekt de trein?", "en": "Which platform does the train leave from?", "vi": "Tàu khởi hành từ đường ray nào?", "tip": "questions" },
+    { "nl": "De trein vertrekt om tien over negen.", "en": "The train leaves at ten past nine.", "vi": "Tàu khởi hành lúc chín giờ mười." },
+    { "nl": "Hoe laat komt de bus aan?", "en": "What time does the bus arrive?", "vi": "Mấy giờ xe buýt đến?", "tip": "separable" },
+    { "nl": "Stopt deze bus bij het station?", "en": "Does this bus stop at the station?", "vi": "Xe buýt này có dừng ở nhà ga không?", "tip": "questions" },
+    { "nl": "Een retour Amsterdam, alstublieft.", "en": "A return to Amsterdam, please.", "vi": "Cho tôi một vé khứ hồi đi Amsterdam." },
+    { "nl": "U moet in Utrecht overstappen.", "en": "You have to change in Utrecht.", "vi": "Ông/bà phải đổi tàu ở Utrecht.", "alt": ["Je moet in Utrecht overstappen."], "tip": "modal" },
+    { "nl": "Neem bus twaalf.", "en": "Take bus twelve.", "vi": "Hãy đi xe buýt số mười hai.", "tip": "imperative" },
+    { "nl": "Stap uit bij de tweede halte.", "en": "Get off at the second stop.", "vi": "Hãy xuống ở trạm thứ hai.", "tip": "imperative" },
+    { "nl": "Ik wil een kamer reserveren voor twee nachten.", "en": "I want to book a room for two nights.", "vi": "Tôi muốn đặt một phòng cho hai đêm.", "alt": ["Ik wil graag een kamer reserveren voor twee nachten."], "tip": "modal" },
+    { "nl": "Ik heb geen kaartje.", "en": "I don't have a ticket.", "vi": "Tôi không có vé.", "tip": "negation" },
+    { "nl": "De trein rijdt vandaag niet.", "en": "The train isn't running today.", "vi": "Hôm nay tàu không chạy.", "tip": "negation" },
+    { "nl": "Ik neem de bus, omdat het regent.", "en": "I'm taking the bus because it's raining.", "vi": "Tôi đi xe buýt vì trời mưa.", "alt": ["Ik neem de bus omdat het regent."], "tip": "verb-end" },
+    { "nl": "Ik kom te laat, omdat de trein vertraging heeft.", "en": "I'm late because the train is delayed.", "vi": "Tôi đến trễ vì tàu bị chậm.", "alt": ["Ik kom te laat omdat de trein vertraging heeft."], "tip": "verb-end" }
   ],
   "verbs": [
-    {
-      "inf": "opstaan",
-      "en": "to get up",
-      "vi": "thức dậy",
-      "ik": "sta op",
-      "jij": "staat op",
-      "hij": "staat op",
-      "wij": "staan op",
-      "jullie": "staan op",
-      "zij": "staan op"
-    },
-    {
-      "inf": "gaan",
-      "en": "to go",
-      "vi": "đi",
-      "ik": "ga",
-      "jij": "gaat",
-      "hij": "gaat",
-      "wij": "gaan",
-      "jullie": "gaan",
-      "zij": "gaan"
-    },
-    {
-      "inf": "slapen",
-      "en": "to sleep",
-      "vi": "ngủ",
-      "ik": "slaap",
-      "jij": "slaapt",
-      "hij": "slaapt",
-      "wij": "slapen",
-      "jullie": "slapen",
-      "zij": "slapen"
-    },
-    {
-      "inf": "beginnen",
-      "en": "to begin",
-      "vi": "bắt đầu",
-      "ik": "begin",
-      "jij": "begint",
-      "hij": "begint",
-      "wij": "beginnen",
-      "jullie": "beginnen",
-      "zij": "beginnen"
-    }
+    { "inf": "vertrekken", "en": "to depart", "vi": "khởi hành", "ik": "vertrek", "jij": "vertrekt", "hij": "vertrekt", "wij": "vertrekken", "jullie": "vertrekken", "zij": "vertrekken" },
+    { "inf": "aankomen", "en": "to arrive", "vi": "đến nơi", "ik": "kom aan", "jij": "komt aan", "hij": "komt aan", "wij": "komen aan", "jullie": "komen aan", "zij": "komen aan" },
+    { "inf": "nemen", "en": "to take", "vi": "lấy, đi (xe)", "ik": "neem", "jij": "neemt", "hij": "neemt", "wij": "nemen", "jullie": "nemen", "zij": "nemen" },
+    { "inf": "moeten", "en": "must, to have to", "vi": "phải", "ik": "moet", "jij": "moet", "hij": "moet", "wij": "moeten", "jullie": "moeten", "zij": "moeten" }
   ],
   "grammar": [
     {
-      "title": "Telling the time",
-      "titleVi": "Cách nói giờ",
-      "en": "3:00 = drie uur\n3:15 = kwart over drie\n3:30 = half vier (!) — Dutch says \"half to four\", not \"half past three\".\n3:45 = kwart voor vier\n3:10 = tien over drie, 3:50 = tien voor vier",
-      "vi": "3:00 = drie uur (ba giờ)\n3:15 = kwart over drie (ba giờ mười lăm)\n3:30 = half vier (!) — người Hà Lan nói \"nửa tiếng nữa đến bốn giờ\", tức là 3 giờ rưỡi. Rất dễ nhầm!\n3:45 = kwart voor vier (bốn giờ kém mười lăm)\n3:10 = tien over drie, 3:50 = tien voor vier (bốn giờ kém mười)",
+      "title": "Imperative",
+      "titleVi": "Câu mệnh lệnh",
+      "en": "Use the stem at the start of the sentence: Neem bus twaalf. Stap hier uit. Ga rechtdoor.",
+      "vi": "Dùng gốc động từ ở đầu câu: Neem bus twaalf. (Đi xe buýt số 12.) Stap hier uit. (Xuống ở đây.) Ga rechtdoor. (Đi thẳng.)",
       "examples": [
-        {
-          "nl": "Het is half acht.",
-          "en": "It is half past seven (7:30)."
-        },
-        {
-          "nl": "Het is kwart voor negen.",
-          "en": "It is a quarter to nine."
-        }
+        { "nl": "Wacht even!", "en": "Wait a moment!" }
+      ],
+      "tip": "imperative"
+    },
+    {
+      "title": "niet or geen",
+      "titleVi": "niet hay geen",
+      "en": "geen before a noun with een or without an article (geen kaartje); niet in all other cases (niet vandaag, niet duur, de trein niet).",
+      "vi": "geen trước danh từ có een hoặc không có mạo từ (geen kaartje); niet trong các trường hợp còn lại (niet vandaag, niet duur, de trein niet).",
+      "examples": [
+        { "nl": "Ik heb geen tijd, ik kom niet.", "en": "I have no time, I'm not coming." }
+      ],
+      "tip": "negation"
+    },
+    {
+      "title": "omdat: verb at the end",
+      "titleVi": "omdat: động từ ở cuối",
+      "en": "After omdat (because) the verb goes to the end: …, omdat het regent. …, omdat ik moe ben.",
+      "vi": "Sau omdat (vì) động từ chuyển xuống cuối câu: …, omdat het regent (vì trời mưa). …, omdat ik moe ben (vì tôi mệt).",
+      "examples": [
+        { "nl": "Ik blijf thuis, omdat ik ziek ben.", "en": "I'm staying home because I'm ill." }
+      ],
+      "tip": "verb-end"
+    },
+    {
+      "title": "Prepositions",
+      "titleVi": "Giới từ",
+      "en": "naar (to): naar Utrecht · in (in): in de trein · op (on/at): op het station · bij (at, near): bij de halte · van (from): van spoor vijf · om (at, time): om drie uur",
+      "vi": "naar (đến): naar Utrecht · in (trong): in de trein · op (ở, trên): op het station · bij (ở chỗ, gần): bij de halte · van (từ): van spoor vijf · om (lúc): om drie uur",
+      "examples": [
+        { "nl": "Ik wacht bij de halte.", "en": "I'm waiting at the stop." }
       ]
-    },
-    {
-      "title": "Verb in 2nd place: Vandaag werk ik",
-      "titleVi": "Động từ ở vị trí thứ 2: Vandaag werk ik",
-      "en": "When a sentence starts with a time word, the subject comes after the verb: Ik werk vandaag → Vandaag werk ik.",
-      "vi": "Khi câu bắt đầu bằng từ chỉ thời gian, chủ ngữ đứng sau động từ: Ik werk vandaag → Vandaag werk ik.",
-      "examples": [
-        {
-          "nl": "Morgen ga ik naar Amsterdam.",
-          "en": "Tomorrow I'm going to Amsterdam."
-        }
-      ],
-      "tip": "inversion"
-    },
-    {
-      "title": "Separable verbs",
-      "titleVi": "Động từ tách được",
-      "en": "opstaan → Ik sta om zeven uur op. The small front part goes to the end.",
-      "vi": "opstaan → Ik sta om zeven uur op. Phần đầu nhỏ chuyển xuống cuối câu.",
-      "examples": [
-        {
-          "nl": "Hij staat vroeg op.",
-          "en": "He gets up early."
-        }
-      ],
-      "tip": "separable"
     }
   ],
-  "drills": [
-    "wordorder",
-    "conjugation"
-  ]
+  "drills": ["wordorder", "conjugation"]
 }

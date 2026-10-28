@@ -2,302 +2,99 @@
   "id": "b1c03",
   "book": 1,
   "number": 3,
-  "titleNl": "Familie",
-  "title": "Family and describing people",
-  "titleVi": "Gia đình và miêu tả người",
+  "titleNl": "Wie is dat?",
+  "title": "Who is that?",
+  "titleVi": "Đó là ai?",
   "cefr": "A1",
   "provisional": false,
   "words": [
-    {
-      "nl": "familie",
-      "article": "de",
-      "plural": "families",
-      "en": "family",
-      "vi": "gia đình, họ hàng"
-    },
-    {
-      "nl": "gezin",
-      "article": "het",
-      "plural": "gezinnen",
-      "en": "household (parents and children)",
-      "vi": "gia đình nhỏ (bố mẹ và con)"
-    },
-    {
-      "nl": "moeder",
-      "article": "de",
-      "plural": "moeders",
-      "en": "mother",
-      "vi": "mẹ"
-    },
-    {
-      "nl": "vader",
-      "article": "de",
-      "plural": "vaders",
-      "en": "father",
-      "vi": "bố"
-    },
-    {
-      "nl": "ouders",
-      "article": "de",
-      "en": "parents",
-      "vi": "bố mẹ"
-    },
-    {
-      "nl": "broer",
-      "article": "de",
-      "plural": "broers",
-      "en": "brother",
-      "vi": "anh/em trai"
-    },
-    {
-      "nl": "zus",
-      "article": "de",
-      "plural": "zussen",
-      "en": "sister",
-      "vi": "chị/em gái"
-    },
-    {
-      "nl": "dochter",
-      "article": "de",
-      "plural": "dochters",
-      "en": "daughter",
-      "vi": "con gái"
-    },
-    {
-      "nl": "zoon",
-      "article": "de",
-      "plural": "zonen",
-      "en": "son",
-      "vi": "con trai"
-    },
-    {
-      "nl": "kind",
-      "article": "het",
-      "plural": "kinderen",
-      "en": "child",
-      "vi": "đứa trẻ, con"
-    },
-    {
-      "nl": "vriend",
-      "article": "de",
-      "plural": "vrienden",
-      "en": "friend / boyfriend",
-      "vi": "bạn / bạn trai"
-    },
-    {
-      "nl": "vriendin",
-      "article": "de",
-      "plural": "vriendinnen",
-      "en": "friend / girlfriend",
-      "vi": "bạn nữ / bạn gái"
-    },
-    {
-      "nl": "man",
-      "article": "de",
-      "plural": "mannen",
-      "en": "man / husband",
-      "vi": "người đàn ông / chồng"
-    },
-    {
-      "nl": "vrouw",
-      "article": "de",
-      "plural": "vrouwen",
-      "en": "woman / wife",
-      "vi": "người phụ nữ / vợ"
-    },
-    {
-      "nl": "stamboom",
-      "article": "de",
-      "plural": "stambomen",
-      "en": "family tree",
-      "vi": "cây gia phả"
-    },
-    {
-      "nl": "lang",
-      "en": "tall / long",
-      "vi": "cao / dài"
-    },
-    {
-      "nl": "klein",
-      "en": "small / short",
-      "vi": "nhỏ / thấp"
-    },
-    {
-      "nl": "oud",
-      "en": "old",
-      "vi": "già, cũ"
-    },
-    {
-      "nl": "jong",
-      "en": "young",
-      "vi": "trẻ"
-    },
-    {
-      "nl": "aardig",
-      "en": "kind, nice",
-      "vi": "tốt bụng, dễ mến"
-    },
-    {
-      "nl": "haar",
-      "article": "het",
-      "en": "hair",
-      "vi": "tóc"
-    },
-    {
-      "nl": "beschrijven",
-      "en": "to describe",
-      "vi": "miêu tả"
-    }
+    { "nl": "familie", "article": "de", "plural": "families", "en": "family, relatives", "vi": "gia đình, họ hàng" },
+    { "nl": "moeder", "article": "de", "plural": "moeders", "en": "mother", "vi": "mẹ" },
+    { "nl": "vader", "article": "de", "plural": "vaders", "en": "father", "vi": "bố" },
+    { "nl": "ouders", "article": "de", "en": "parents", "vi": "bố mẹ" },
+    { "nl": "broer", "article": "de", "plural": "broers", "en": "brother", "vi": "anh/em trai" },
+    { "nl": "zus", "article": "de", "plural": "zussen", "en": "sister", "vi": "chị/em gái" },
+    { "nl": "dochter", "article": "de", "plural": "dochters", "en": "daughter", "vi": "con gái" },
+    { "nl": "zoon", "article": "de", "plural": "zonen", "en": "son", "vi": "con trai" },
+    { "nl": "kind", "article": "het", "plural": "kinderen", "en": "child", "vi": "đứa trẻ, con" },
+    { "nl": "oma", "article": "de", "plural": "oma's", "en": "grandmother", "vi": "bà" },
+    { "nl": "opa", "article": "de", "plural": "opa's", "en": "grandfather", "vi": "ông" },
+    { "nl": "man", "article": "de", "plural": "mannen", "en": "man / husband", "vi": "người đàn ông / chồng" },
+    { "nl": "vrouw", "article": "de", "plural": "vrouwen", "en": "woman / wife", "vi": "người phụ nữ / vợ" },
+    { "nl": "haar", "article": "het", "en": "hair", "vi": "tóc" },
+    { "nl": "lang", "en": "tall / long", "vi": "cao / dài" },
+    { "nl": "klein", "en": "small / short", "vi": "nhỏ / thấp" },
+    { "nl": "jong", "en": "young", "vi": "trẻ" },
+    { "nl": "oud", "en": "old", "vi": "già" },
+    { "nl": "aardig", "en": "kind, nice", "vi": "tốt bụng, dễ mến" },
+    { "nl": "grappig", "en": "funny", "vi": "hài hước" },
+    { "nl": "verlegen", "en": "shy", "vi": "nhút nhát" },
+    { "nl": "vrolijk", "en": "cheerful", "vi": "vui vẻ" },
+    { "nl": "heel", "en": "very", "vi": "rất" },
+    { "nl": "een beetje", "en": "a bit", "vi": "một chút, hơi" }
   ],
   "sentences": [
-    {
-      "nl": "Ik heb een broer en een zus.",
-      "en": "I have a brother and a sister.",
-      "vi": "Tôi có một anh/em trai và một chị/em gái.",
-      "tip": "zijn-hebben"
-    },
-    {
-      "nl": "Mijn moeder woont in Vietnam.",
-      "en": "My mother lives in Vietnam.",
-      "vi": "Mẹ tôi sống ở Việt Nam.",
-      "tip": "possessive"
-    },
-    {
-      "nl": "Hij heeft twee kinderen.",
-      "en": "He has two children.",
-      "vi": "Anh ấy có hai đứa con.",
-      "tip": "plural"
-    },
-    {
-      "nl": "Haar vader is oud.",
-      "en": "Her father is old.",
-      "vi": "Bố của cô ấy già rồi.",
-      "tip": "possessive"
-    },
-    {
-      "nl": "Mijn zus is lang en aardig.",
-      "en": "My sister is tall and kind.",
-      "vi": "Chị/em gái tôi cao và tốt bụng."
-    },
-    {
-      "nl": "Zij heeft lang zwart haar.",
-      "en": "She has long black hair.",
-      "vi": "Cô ấy có mái tóc đen dài."
-    },
-    {
-      "nl": "Heb jij kinderen?",
-      "en": "Do you have children?",
-      "vi": "Bạn có con không?",
-      "alt": [
-        "Heb je kinderen?"
-      ],
-      "tip": "questions"
-    },
-    {
-      "nl": "Dit is mijn vriend.",
-      "en": "This is my boyfriend.",
-      "vi": "Đây là bạn trai của tôi."
-    },
-    {
-      "nl": "Onze ouders zijn jong.",
-      "en": "Our parents are young.",
-      "vi": "Bố mẹ chúng tôi còn trẻ.",
-      "tip": "possessive"
-    },
-    {
-      "nl": "Hoe heet je broer?",
-      "en": "What is your brother's name?",
-      "vi": "Anh/em trai của bạn tên là gì?",
-      "alt": [
-        "Hoe heet jouw broer?"
-      ]
-    }
+    { "nl": "Wie is dat?", "en": "Who is that?", "vi": "Đó là ai?", "tip": "questions" },
+    { "nl": "Dat is mijn oma.", "en": "That is my grandmother.", "vi": "Đó là bà của tôi.", "tip": "possessive" },
+    { "nl": "Ik heb een broer en twee zussen.", "en": "I have a brother and two sisters.", "vi": "Tôi có một anh/em trai và hai chị/em gái.", "tip": "plural" },
+    { "nl": "Heb je broers of zussen?", "en": "Do you have brothers or sisters?", "vi": "Bạn có anh chị em không?", "alt": ["Heb jij broers of zussen?"], "tip": "questions" },
+    { "nl": "Ik heb geen kinderen.", "en": "I don't have any children.", "vi": "Tôi không có con.", "tip": "negation" },
+    { "nl": "Mijn vader is heel aardig.", "en": "My father is very kind.", "vi": "Bố tôi rất tốt bụng." },
+    { "nl": "Mijn broer is een beetje verlegen.", "en": "My brother is a bit shy.", "vi": "Anh/em trai tôi hơi nhút nhát." },
+    { "nl": "Zij heeft lang zwart haar.", "en": "She has long black hair.", "vi": "Cô ấy có mái tóc đen dài." },
+    { "nl": "Mijn zus is klein, maar ze is sterk.", "en": "My sister is short, but she is strong.", "vi": "Chị/em gái tôi thấp, nhưng cô ấy khỏe.", "alt": ["Mijn zus is klein maar ze is sterk."], "tip": "conjunctions" },
+    { "nl": "Ik bel mijn moeder, want ze is jarig.", "en": "I'm calling my mother, because it's her birthday.", "vi": "Tôi gọi điện cho mẹ, vì hôm nay là sinh nhật mẹ.", "alt": ["Ik bel mijn moeder want ze is jarig."], "tip": "conjunctions" },
+    { "nl": "Is hij grappig of saai?", "en": "Is he funny or boring?", "vi": "Anh ấy hài hước hay nhàm chán?", "tip": "conjunctions" },
+    { "nl": "De kinderen zijn vrolijk.", "en": "The children are cheerful.", "vi": "Bọn trẻ vui vẻ.", "tip": "plural" },
+    { "nl": "Het kind heeft een kat.", "en": "The child has a cat.", "vi": "Đứa trẻ có một con mèo.", "tip": "de-het" }
   ],
   "verbs": [
-    {
-      "inf": "hebben",
-      "en": "to have",
-      "vi": "có",
-      "ik": "heb",
-      "jij": "hebt",
-      "hij": "heeft",
-      "wij": "hebben",
-      "jullie": "hebben",
-      "zij": "hebben"
-    },
-    {
-      "inf": "zijn",
-      "en": "to be",
-      "vi": "là, thì",
-      "ik": "ben",
-      "jij": "bent",
-      "hij": "is",
-      "wij": "zijn",
-      "jullie": "zijn",
-      "zij": "zijn"
-    },
-    {
-      "inf": "wonen",
-      "en": "to live",
-      "vi": "sống",
-      "ik": "woon",
-      "jij": "woont",
-      "hij": "woont",
-      "wij": "wonen",
-      "jullie": "wonen",
-      "zij": "wonen"
-    },
-    {
-      "inf": "zien",
-      "en": "to see",
-      "vi": "thấy, nhìn",
-      "ik": "zie",
-      "jij": "ziet",
-      "hij": "ziet",
-      "wij": "zien",
-      "jullie": "zien",
-      "zij": "zien"
-    }
+    { "inf": "hebben", "en": "to have", "vi": "có", "ik": "heb", "jij": "hebt", "hij": "heeft", "wij": "hebben", "jullie": "hebben", "zij": "hebben" },
+    { "inf": "zijn", "en": "to be", "vi": "là, thì", "ik": "ben", "jij": "bent", "hij": "is", "wij": "zijn", "jullie": "zijn", "zij": "zijn" },
+    { "inf": "lijken", "en": "to look like, seem", "vi": "giống, có vẻ", "ik": "lijk", "jij": "lijkt", "hij": "lijkt", "wij": "lijken", "jullie": "lijken", "zij": "lijken" },
+    { "inf": "bellen", "en": "to call (phone)", "vi": "gọi điện", "ik": "bel", "jij": "belt", "hij": "belt", "wij": "bellen", "jullie": "bellen", "zij": "bellen" }
   ],
   "grammar": [
     {
-      "title": "my, your, his, her…",
-      "titleVi": "của tôi, của bạn, của anh ấy…",
-      "en": "mijn = my, jouw/je = your, uw = your (polite), zijn = his, haar = her, ons/onze = our, jullie = your (plural), hun = their.\nThe word comes before the noun: mijn moeder.",
-      "vi": "mijn = của tôi, jouw/je = của bạn, uw = của ông/bà (lịch sự), zijn = của anh ấy, haar = của cô ấy, ons/onze = của chúng tôi, jullie = của các bạn, hun = của họ.\nTừ sở hữu đứng TRƯỚC danh từ: mijn moeder (mẹ của tôi).",
+      "title": "Articles: de, het, een",
+      "titleVi": "Mạo từ: de, het, een",
+      "en": "de and het mean \"the\"; een means \"a\". People are mostly de-words (de moeder), small -je words are het (het meisje), all plurals use de (de kinderen).",
+      "vi": "de và het nghĩa là \"cái/con… (xác định)\"; een nghĩa là \"một\". Người thường là từ de (de moeder), từ nhỏ đuôi -je là het (het meisje), mọi danh từ số nhiều đều dùng de (de kinderen).",
       "examples": [
-        {
-          "nl": "mijn broer",
-          "en": "my brother"
-        },
-        {
-          "nl": "onze kinderen",
-          "en": "our children"
-        }
+        { "nl": "de man, het kind, een vrouw", "en": "the man, the child, a woman" }
       ],
-      "tip": "possessive"
+      "tip": "de-het"
     },
     {
-      "title": "hebben = to have",
-      "titleVi": "hebben = có",
-      "en": "ik heb, jij hebt, u hebt/heeft, hij/zij heeft, wij/jullie/zij hebben.",
-      "vi": "ik heb, jij hebt, u hebt/heeft, hij/zij heeft, wij/jullie/zij hebben.",
+      "title": "Plural of nouns",
+      "titleVi": "Danh từ số nhiều",
+      "en": "Most words: -en (zus → zussen, zoon → zonen). Words ending in -el, -er, -en, -je and most words ending in a vowel: -s or -'s (broer → broers, oma → oma's). kind → kinderen is irregular.",
+      "vi": "Đa số từ: -en (zus → zussen, zoon → zonen). Từ kết thúc bằng -el, -er, -en, -je và đa số từ kết thúc bằng nguyên âm: -s hoặc -'s (broer → broers, oma → oma's). kind → kinderen là bất quy tắc.",
       "examples": [
-        {
-          "nl": "Ik heb een dochter.",
-          "en": "I have a daughter."
-        },
-        {
-          "nl": "Zij heeft een zoon.",
-          "en": "She has a son."
-        }
+        { "nl": "twee dochters, drie kinderen", "en": "two daughters, three children" }
       ],
-      "tip": "zijn-hebben"
+      "tip": "plural"
+    },
+    {
+      "title": "Negation with geen",
+      "titleVi": "Phủ định với geen",
+      "en": "Use geen for \"not a / no\" before a noun with een or without an article: Ik heb een zus → Ik heb geen zus.",
+      "vi": "Dùng geen (không có) trước danh từ có een hoặc không có mạo từ: Ik heb een zus → Ik heb geen zus (Tôi không có chị/em gái).",
+      "examples": [
+        { "nl": "Hij heeft geen broers.", "en": "He has no brothers." }
+      ],
+      "tip": "negation"
+    },
+    {
+      "title": "en, maar, of, want",
+      "titleVi": "en, maar, of, want (và, nhưng, hoặc, vì)",
+      "en": "These join two main sentences; the word order stays normal.\nWords of gradation: heel (very), erg (very), een beetje (a bit), niet zo (not so).",
+      "vi": "Các từ này nối hai câu chính; thứ tự từ không đổi.\nTừ chỉ mức độ: heel (rất), erg (rất), een beetje (hơi, một chút), niet zo (không… lắm).",
+      "examples": [
+        { "nl": "Hij is aardig, maar niet zo grappig.", "en": "He is kind, but not so funny." }
+      ],
+      "tip": "conjunctions"
     }
   ],
-  "drills": [
-    "conjugation",
-    "article",
-    "plural"
-  ]
+  "drills": ["article", "plural", "wordorder"]
 }
