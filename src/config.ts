@@ -6,4 +6,4 @@
 // progress is only saved on the device.
 
 export const LEARNER_UID = ''
-export const SUPPORTER_UID = ''
+export const SUPPORTER_UID = 'Hln0dg99miWEFn6mJdN1u2ojxcD3'

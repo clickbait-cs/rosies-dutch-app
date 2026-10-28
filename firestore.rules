@@ -6,7 +6,7 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     function learner() { return 'LEARNER_UID_HERE'; }
-    function supporter() { return 'SUPPORTER_UID_HERE'; }
+    function supporter() { return 'Hln0dg99miWEFn6mJdN1u2ojxcD3'; }
 
     function signedIn() { return request.auth != null; }
     function isMember() {

@@ -7,6 +7,16 @@ const strings = {
   appName: { en: "Rosie's Dutch", vi: 'Tiếng Hà Lan của Rosie' },
   signInGoogle: { en: 'Sign in with Google', vi: 'Đăng nhập bằng Google' },
   tryWithout: { en: 'Try without an account (progress stays on this device)', vi: 'Dùng thử không cần tài khoản (tiến độ chỉ lưu trên máy này)' },
+  inAppTitle: { en: 'Open this page in Safari or Chrome', vi: 'Hãy mở trang này bằng Safari hoặc Chrome' },
+  inAppText: {
+    en: 'You opened the link inside another app (like Messenger, Zalo or Instagram). Google sign-in does not work there. Tap ⋯ or the share button and choose "Open in Safari" / "Open in browser", or copy the link and paste it in Safari or Chrome.',
+    vi: 'Bạn đang mở liên kết bên trong một ứng dụng khác (như Messenger, Zalo hoặc Instagram). Đăng nhập Google không hoạt động ở đó. Bấm ⋯ hoặc nút chia sẻ rồi chọn "Mở bằng Safari" / "Mở trong trình duyệt", hoặc sao chép liên kết và dán vào Safari hoặc Chrome.',
+  },
+  copyLink: { en: 'Copy link', vi: 'Sao chép liên kết' },
+  signInFailed: {
+    en: 'Sign-in did not work. Please open this page directly in Safari or Chrome (not inside another app) and try again. If a pop-up was blocked, allow pop-ups for this site.',
+    vi: 'Đăng nhập không thành công. Hãy mở trang này trực tiếp bằng Safari hoặc Chrome (không mở trong ứng dụng khác) rồi thử lại. Nếu cửa sổ bật lên bị chặn, hãy cho phép cửa sổ bật lên cho trang này.',
+  },
   welcomeTitle: { en: 'Learn Dutch, step by step', vi: 'Học tiếng Hà Lan từng bước một' },
   welcomeText: {
     en: 'Lessons follow the Start.NL books. Tap 🇻🇳 at any time for Vietnamese help.',

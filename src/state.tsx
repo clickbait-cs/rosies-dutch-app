@@ -2,7 +2,7 @@
 // interface. Components read it with useApp().
 
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
-import { onAuthStateChanged, signInWithPopup, signInWithRedirect, signOut, type User } from 'firebase/auth'
+import { onAuthStateChanged, signInWithPopup, signOut, type User } from 'firebase/auth'
 import { auth, googleProvider } from './firebase'
 import { LEARNER_UID, SUPPORTER_UID } from './config'
 import { emptyProgress, mergeProgress, withDefaults, type Progress } from './lib/progress'
@@ -116,16 +116,15 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const replaceProgress = useCallback((p: Progress) => update(() => withDefaults(p)), [update])
 
   const signIn = useCallback(async () => {
+    // Only the pop-up works reliably: the app (github.io) and the Firebase
+    // sign-in page (firebaseapp.com) are different websites, and phones block
+    // the storage a full-page redirect would need. Errors are shown on the sign-in screen.
     try {
       await signInWithPopup(auth, googleProvider)
     } catch (e) {
       const code = (e as { code?: string }).code
-      // Some phones block pop-ups; fall back to a full-page redirect.
-      if (code === 'auth/popup-blocked' || code === 'auth/operation-not-supported-in-this-environment') {
-        await signInWithRedirect(auth, googleProvider)
-      } else if (code !== 'auth/popup-closed-by-user' && code !== 'auth/cancelled-popup-request') {
-        throw e
-      }
+      if (code === 'auth/popup-closed-by-user' || code === 'auth/cancelled-popup-request') return
+      throw e
     }
     localStorage.removeItem(GUEST_KEY)
     setGuest(false)
