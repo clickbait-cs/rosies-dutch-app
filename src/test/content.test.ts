@@ -84,3 +84,25 @@ describe('content', () => {
     expect(buildReview(ids, makeRng(1), opts, 100)).toHaveLength(ids.length)
   })
 })
+
+describe('reading and writing', async () => {
+  const { readingTexts, writingTasks } = await import('../content')
+  const ids = new Set(chapters.map((c) => c.id))
+  it('every text belongs to a chapter and has valid answers', () => {
+    expect(new Set(readingTexts.map((r) => r.id)).size).toBe(readingTexts.length)
+    for (const r of readingTexts) {
+      expect(ids.has(r.chapterId), r.id).toBe(true)
+      for (const q of r.questions) {
+        expect(q.answer, q.q).toBeLessThan(q.options.length)
+        expect(new Set(q.options).size, q.q).toBe(q.options.length)
+      }
+    }
+  })
+  it('every writing task belongs to a chapter and its example is long enough', async () => {
+    const { countWords } = await import('../screens/Writing')
+    for (const w of writingTasks) {
+      expect(ids.has(w.chapterId), w.id).toBe(true)
+      expect(countWords(w.model), w.id).toBeGreaterThanOrEqual(w.minWords)
+    }
+  })
+})

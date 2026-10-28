@@ -73,3 +73,34 @@ export interface Tip {
   vi: string
   examples?: { nl: string; en: string; vi?: string }[]
 }
+
+/** A longer text with comprehension questions (from later chapters). */
+export interface ReadingText {
+  id: string
+  chapterId: string
+  title: string
+  text: string // paragraphs separated by a blank line
+  /** where the text comes from; texts without a source were written for this app */
+  source?: { name: string; url: string; license: string }
+  glossary: { nl: string; en: string; vi: string }[]
+  questions: {
+    q: string // question in Dutch
+    qEn: string
+    options: string[]
+    answer: number // index of the right option
+  }[]
+}
+
+/** A free writing task: an e-mail, message, letter or short text. */
+export interface WritingTask {
+  id: string
+  chapterId: string
+  title: string
+  titleVi: string
+  task: string
+  taskVi: string
+  minWords: number
+  checklist: { en: string; vi: string }[]
+  model: string // an example answer in Dutch
+  modelEn: string
+}

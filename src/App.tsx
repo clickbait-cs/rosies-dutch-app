@@ -11,9 +11,14 @@ import { PlacementChoice, PlacementTest } from './screens/Placement'
 import { Notes } from './screens/Notes'
 import { Settings } from './screens/Settings'
 import { Supporter } from './screens/Supporter'
+import { Reading } from './screens/Reading'
+import { Writing } from './screens/Writing'
 
 /** Full-screen activities that hide the menu. */
-type Activity = { kind: 'lesson'; chapterId: string; index: number } | { kind: 'review' } | { kind: 'placement' } | { kind: 'placementChoice' } | null
+type Activity = { kind: 'lesson'; chapterId: string; index: number } | { kind: 'review' } | { kind: 'placement' } | { kind: 'placementChoice' }
+  | { kind: 'reading'; id: string }
+  | { kind: 'writing'; id: string }
+  | null
 
 export default function App() {
   const { ready, uid, progress, role, user, sync } = useApp()
@@ -39,10 +44,18 @@ export default function App() {
   if (act?.kind === 'placement') return <PlacementTest onExit={exit} />
   if (act?.kind === 'lesson') return <Lesson chapterId={act.chapterId} index={act.index} onExit={exit} />
   if (act?.kind === 'review') return <ReviewSession onExit={exit} />
+  if (act?.kind === 'reading') return <Reading textId={act.id} onExit={exit} />
+  if (act?.kind === 'writing') return <Writing taskId={act.id} onExit={exit} />
 
   return (
     <Layout tab={tab} setTab={setTab}>
-      {tab === 'learn' && <Home openLesson={(chapterId, index) => setActivity({ kind: 'lesson', chapterId, index })} />}
+      {tab === 'learn' && (
+        <Home
+          openLesson={(chapterId, index) => setActivity({ kind: 'lesson', chapterId, index })}
+          openReading={(id) => setActivity({ kind: 'reading', id })}
+          openWriting={(id) => setActivity({ kind: 'writing', id })}
+        />
+      )}
       {tab === 'review' && <ReviewHome start={() => setActivity({ kind: 'review' })} />}
       {tab === 'notes' && <Notes />}
       {tab === 'settings' && <Settings retakePlacement={() => setActivity({ kind: 'placement' })} />}

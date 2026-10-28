@@ -1,8 +1,10 @@
 // Loads every chapter JSON file and gives each word/sentence a stable id,
 // which is used to remember how well the learner knows it.
 
-import type { Chapter, Sentence, Tip, Verb, Word } from './types'
+import type { Chapter, ReadingText, Sentence, Tip, Verb, WritingTask, Word } from './types'
 import tipsJson from './tips.json'
+import readingJson from './reading.json'
+import writingJson from './writing.json'
 import { dueItems, type SrsState } from '../lib/srs'
 
 const files = import.meta.glob<Chapter>('./chapters/*.json', { eager: true, import: 'default' })
@@ -11,6 +13,9 @@ export const chapters: Chapter[] = Object.values(files).sort((a, b) => a.book - 
 
 export const tips: Tip[] = tipsJson as Tip[]
 export const tipById = new Map(tips.map((t) => [t.id, t]))
+
+export const readingTexts: ReadingText[] = readingJson as ReadingText[]
+export const writingTasks: WritingTask[] = writingJson as WritingTask[]
 
 export const wordId = (ch: Chapter, w: Word) => `${ch.id}:w:${w.nl}`
 export const sentenceId = (ch: Chapter, s: Sentence) => `${ch.id}:s:${s.nl}`

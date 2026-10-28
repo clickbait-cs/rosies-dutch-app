@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from 'react'
 import { LEARNER_UID } from '../config'
-import { deleteCheer, deleteReport, listReports, sendCheer, watchCheers, watchLearner, type Cheer, type Report } from '../lib/cloud'
+import { deleteCheer, deleteReport, giveFeedback, listReports, sendCheer, watchCheers, watchLearner, watchWritings, type Cheer, type Report, type Writing } from '../lib/cloud'
 import { currentStreak, emptyProgress, type Progress } from '../lib/progress'
 import { addDays, dayKey } from '../lib/dates'
 import { weakestItems } from '../lib/srs'
-import { chapters, itemById, itemLabel } from '../content'
+import { chapters, itemById, itemLabel, writingTasks } from '../content'
 import { useApp } from '../state'
 import { Button, Card } from '../components/ui'
 
@@ -126,6 +126,8 @@ export function Supporter() {
         )}
       </Card>
 
+      <WritingsReview />
+
       <Card className="space-y-3">
         <h2 className="font-extrabold text-slate-700">🚩 {t('reports')}</h2>
         {reports.length === 0 && <p className="text-slate-500">{t('noReports')}</p>}
@@ -155,5 +157,62 @@ function Stat({ label, value }: { label: string; value: string }) {
       <p className="text-2xl font-extrabold text-slate-800">{value}</p>
       <p className="text-xs font-bold uppercase text-slate-400">{label}</p>
     </div>
+  )
+}
+
+/** Texts the learner wrote; the supporter replies with feedback, which also arrives as a cheer. */
+function WritingsReview() {
+  const { t, user } = useApp()
+  const [list, setList] = useState<Writing[]>([])
+  useEffect(() => {
+    if (!LEARNER_UID) return
+    return watchWritings(LEARNER_UID, setList, () => {})
+  }, [])
+  return (
+    <Card className="space-y-3">
+      <h2 className="font-extrabold text-slate-700">✍️ {t('textsToReview')}</h2>
+      {list.length === 0 && <p className="text-slate-500">{t('noTexts')}</p>}
+      {list.map((w) => (
+        <WritingItem key={w.id} w={w} fromUid={user?.uid ?? ''} />
+      ))}
+    </Card>
+  )
+}
+
+function WritingItem({ w, fromUid }: { w: Writing; fromUid: string }) {
+  const { t } = useApp()
+  const task = writingTasks.find((x) => x.id === w.taskId)
+  const [text, setText] = useState(w.feedback)
+  const [sent, setSent] = useState(false)
+  const send = async () => {
+    await giveFeedback(w.id, text.trim())
+    await sendCheer(fromUid, LEARNER_UID, `✍️ ${task?.title ?? ''}: ${text.trim()}`)
+    setSent(true)
+  }
+  return (
+    <details className="rounded-xl bg-slate-50 p-3" open={!w.feedback}>
+      <summary className="cursor-pointer font-bold text-slate-800">
+        {w.feedback ? '✅' : '🆕'} {task?.title ?? w.taskId} <span className="text-sm font-normal text-slate-400">{new Date(w.createdAt).toLocaleDateString()}</span>
+      </summary>
+      <p className="mt-2 whitespace-pre-line rounded-lg bg-white p-3 text-slate-800">{w.text}</p>
+      {task && (
+        <details className="mt-2 text-sm text-slate-500">
+          <summary className="cursor-pointer">{t('modelAnswer')}</summary>
+          <p className="mt-1 whitespace-pre-line">{task.model}</p>
+        </details>
+      )}
+      <textarea
+        value={text}
+        onChange={(e) => (setText(e.target.value), setSent(false))}
+        placeholder={t('feedbackPlaceholder')}
+        className="mt-3 h-24 w-full rounded-xl border-2 border-slate-200 p-3 outline-none focus:border-sky-400"
+      />
+      <div className="mt-2 flex items-center gap-3">
+        <Button onClick={send} disabled={!text.trim()} className="py-2">
+          {t('sendFeedback')}
+        </Button>
+        {sent && <span className="text-sm font-bold text-green-600">{t('feedbackSent')}</span>}
+      </div>
+    </details>
   )
 }

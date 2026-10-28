@@ -4,8 +4,9 @@
 //   learners/{uid}   progress of one person
 //   cheers/{id}      short messages from the supporter to the learner
 //   reports/{id}     "this exercise has a mistake" reports
+//   writings/{uid_task}  texts the learner wrote, with the supporter's feedback
 
-import { addDoc, collection, doc, getDoc, getDocs, onSnapshot, query, serverTimestamp, setDoc, where, deleteDoc } from 'firebase/firestore'
+import { addDoc, collection, doc, getDoc, getDocs, onSnapshot, query, serverTimestamp, setDoc, updateDoc, where, deleteDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 import { withDefaults, type Progress } from './progress'
 
@@ -79,4 +80,31 @@ export async function listReports(): Promise<Report[]> {
 
 export async function deleteReport(id: string) {
   await deleteDoc(doc(db, 'reports', id))
+}
+
+export interface Writing {
+  id: string
+  uid: string
+  taskId: string
+  text: string
+  createdAt: number
+  feedback: string
+  feedbackAt: number
+}
+
+/** One document per learner per task: writing the task again replaces it. */
+export async function saveWriting(uid: string, taskId: string, text: string) {
+  await setDoc(doc(db, 'writings', `${uid}_${taskId}`), { uid, taskId, text, createdAt: Date.now(), feedback: '', feedbackAt: 0 })
+}
+
+export function watchWritings(uid: string, onChange: (w: Writing[]) => void, onError: (e: unknown) => void) {
+  return onSnapshot(
+    query(collection(db, 'writings'), where('uid', '==', uid)),
+    (snap) => onChange(snap.docs.map((d) => ({ id: d.id, ...(d.data() as Omit<Writing, 'id'>) })).sort((a, b) => b.createdAt - a.createdAt)),
+    onError,
+  )
+}
+
+export async function giveFeedback(id: string, feedback: string) {
+  await updateDoc(doc(db, 'writings', id), { feedback, feedbackAt: Date.now() })
 }

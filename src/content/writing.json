@@ -1,0 +1,175 @@
+[
+  {
+    "id": "w-b1c03",
+    "chapterId": "b1c03",
+    "title": "Mijn familie",
+    "titleVi": "Gia đình tôi",
+    "task": "Write a short text (at least 40 words) about your family. Who are they, where do they live, and what do they look like or what are they like?",
+    "taskVi": "Viết một đoạn văn ngắn (ít nhất 40 từ) về gia đình bạn. Họ là ai, sống ở đâu, trông như thế nào hoặc tính cách ra sao?",
+    "minWords": 40,
+    "checklist": [
+      { "en": "I used mijn / zijn / haar before family words", "vi": "Tôi dùng mijn / zijn / haar trước từ chỉ người trong gia đình" },
+      { "en": "I used the plural correctly (broers, zussen, kinderen)", "vi": "Tôi dùng số nhiều đúng (broers, zussen, kinderen)" },
+      { "en": "I used heel / een beetje / niet zo to describe someone", "vi": "Tôi dùng heel / een beetje / niet zo để miêu tả" },
+      { "en": "I joined sentences with en, maar or want", "vi": "Tôi nối câu bằng en, maar hoặc want" },
+      { "en": "The verb is in 2nd place in every sentence", "vi": "Động từ ở vị trí thứ 2 trong mỗi câu" }
+    ],
+    "model": "Mijn familie woont in Vietnam. Ik heb een broer en twee zussen. Mijn broer heet Minh. Hij is lang en een beetje verlegen. Mijn zussen zijn heel vrolijk. Mijn moeder is klein en heel aardig, maar ze is soms streng. Mijn vader is grappig. Ik mis mijn familie, want ik zie ze niet vaak.",
+    "modelEn": "My family lives in Vietnam. I have a brother and two sisters. My brother is called Minh. He is tall and a bit shy. My sisters are very cheerful. My mother is short and very kind, but she is sometimes strict. My father is funny. I miss my family, because I don't see them often."
+  },
+  {
+    "id": "w-b1c07",
+    "chapterId": "b1c07",
+    "title": "Mijn huis",
+    "titleVi": "Nhà của tôi",
+    "task": "Describe your home (at least 50 words). How many rooms are there? What is in the living room? What do you like about it?",
+    "taskVi": "Miêu tả nhà bạn (ít nhất 50 từ). Có bao nhiêu phòng? Trong phòng khách có gì? Bạn thích điều gì ở ngôi nhà?",
+    "minWords": 50,
+    "checklist": [
+      { "en": "I used er is / er zijn", "vi": "Tôi dùng er is / er zijn" },
+      { "en": "I used staan, liggen or hangen", "vi": "Tôi dùng staan, liggen hoặc hangen" },
+      { "en": "I compared something (groter dan, kleiner dan)", "vi": "Tôi so sánh (groter dan, kleiner dan)" },
+      { "en": "I used the right article (de/het) for each room", "vi": "Tôi dùng đúng mạo từ (de/het) cho mỗi phòng" }
+    ],
+    "model": "Ik woon in een appartement op de tweede verdieping. Er zijn twee slaapkamers, een woonkamer, een keuken en een badkamer. In de woonkamer staat een grote bank. Er hangt een lamp boven de tafel. Op de tafel liggen altijd boeken. De slaapkamer is kleiner dan de woonkamer, maar hij is heel gezellig. Ik vind mijn huis mooi, omdat er veel licht is.",
+    "modelEn": "I live in an apartment on the second floor. There are two bedrooms, a living room, a kitchen and a bathroom. In the living room there is a big sofa. A lamp hangs above the table. There are always books on the table. The bedroom is smaller than the living room, but it is very cosy. I think my home is nice because there is a lot of light."
+  },
+  {
+    "id": "w-b1c08",
+    "chapterId": "b1c08",
+    "title": "Mijn weekend",
+    "titleVi": "Cuối tuần của tôi",
+    "task": "Write to a friend about what you did last weekend (at least 50 words). Use the present perfect (Ik heb… / Ik ben…).",
+    "taskVi": "Viết cho một người bạn về những gì bạn đã làm cuối tuần trước (ít nhất 50 từ). Dùng thì hoàn thành (Ik heb… / Ik ben…).",
+    "minWords": 50,
+    "checklist": [
+      { "en": "I started with Hoi / Lieve … and ended with Groetjes", "vi": "Tôi bắt đầu bằng Hoi / Lieve … và kết thúc bằng Groetjes" },
+      { "en": "I used hebben/zijn + participle at the end of the sentence", "vi": "Tôi dùng hebben/zijn + phân từ ở cuối câu" },
+      { "en": "I used zijn for going somewhere (Ik ben naar … gegaan)", "vi": "Tôi dùng zijn khi đi đến đâu đó (Ik ben naar … gegaan)" },
+      { "en": "After a time word I swapped subject and verb (Zaterdag heb ik…)", "vi": "Sau từ chỉ thời gian tôi đảo chủ ngữ và động từ (Zaterdag heb ik…)" }
+    ],
+    "model": "Hoi Anna,\n\nHoe gaat het met je? Ik heb een leuk weekend gehad. Zaterdag ben ik met Tom naar Amsterdam gegaan. We hebben in een museum foto's gemaakt en we hebben pho gegeten in een Vietnamees restaurant. Zondag heb ik lang geslapen. 's Middags heb ik gefietst en 's avonds heb ik Nederlands geleerd.\n\nGroetjes,\nRosie",
+    "modelEn": "Hi Anna, How are you? I had a nice weekend. On Saturday I went to Amsterdam with Tom. We took photos in a museum and we ate pho in a Vietnamese restaurant. On Sunday I slept in. In the afternoon I cycled and in the evening I studied Dutch. Love, Rosie"
+  },
+  {
+    "id": "w-b2c01",
+    "chapterId": "b2c01",
+    "title": "Een e-mail van vakantie",
+    "titleVi": "Thư từ kỳ nghỉ",
+    "task": "You are on holiday. Write an informal e-mail to a friend (at least 70 words): describe the place and the weather, what you have done, and make a suggestion for when you're back.",
+    "taskVi": "Bạn đang đi nghỉ. Viết thư thân mật cho một người bạn (ít nhất 70 từ): miêu tả nơi đó và thời tiết, những gì bạn đã làm, và đưa ra một lời đề nghị cho khi bạn trở về.",
+    "minWords": 70,
+    "checklist": [
+      { "en": "Greeting (Hoi / Lieve …) and closing (Groetjes / Liefs)", "vi": "Lời chào (Hoi / Lieve …) và lời kết (Groetjes / Liefs)" },
+      { "en": "I described the place with adjectives (+ -e where needed)", "vi": "Tôi miêu tả nơi đó bằng tính từ (thêm -e khi cần)" },
+      { "en": "I wrote about the weather", "vi": "Tôi viết về thời tiết" },
+      { "en": "I used the perfect tense for what I did", "vi": "Tôi dùng thì hoàn thành cho những việc đã làm" },
+      { "en": "I made a suggestion (Zullen we …? / Heb je zin om … te …?)", "vi": "Tôi đưa ra lời đề nghị (Zullen we …? / Heb je zin om … te …?)" }
+    ],
+    "model": "Lieve Sanne,\n\nGroetjes uit Zeeland! We zitten in een klein dorp vlak bij de zee. Het is hier heel rustig en het landschap is plat en groen. Het weer is mooi: het is 24 graden en de zon schijnt.\n\nGisteren hebben we naar Middelburg gefietst. Dat is een mooie oude stad met veel kerken. Vandaag zijn we naar het strand gegaan en ik heb in de zee gezwommen.\n\nVolgende week ben ik weer thuis. Zullen we dan samen koffie drinken? Dan laat ik je de foto's zien.\n\nLiefs,\nRosie",
+    "modelEn": "Dear Sanne, Greetings from Zeeland! We're staying in a small village close to the sea. It's very quiet here and the landscape is flat and green. The weather is nice: it's 24 degrees and the sun is shining. Yesterday we cycled to Middelburg, a beautiful old town with many churches. Today we went to the beach and I swam in the sea. Next week I'll be home again. Shall we have coffee together then? I'll show you the photos. Love, Rosie"
+  },
+  {
+    "id": "w-b2c03",
+    "chapterId": "b2c03",
+    "title": "Een recept uit Vietnam",
+    "titleVi": "Một công thức món Việt",
+    "task": "Write a simple recipe for a Vietnamese dish (at least 60 words). Give the ingredients with quantities, then the steps using the imperative.",
+    "taskVi": "Viết một công thức đơn giản cho một món ăn Việt Nam (ít nhất 60 từ). Ghi nguyên liệu kèm số lượng, sau đó các bước dùng câu mệnh lệnh.",
+    "minWords": 60,
+    "checklist": [
+      { "en": "I listed ingredients with quantities (gram, eetlepel, liter)", "vi": "Tôi liệt kê nguyên liệu kèm số lượng (gram, eetlepel, liter)" },
+      { "en": "Every step starts with a verb (Snijd…, Bak…, Voeg … toe)", "vi": "Mỗi bước bắt đầu bằng động từ (Snijd…, Bak…, Voeg … toe)" },
+      { "en": "Separable verbs: the small part is at the end (Voeg de saus toe)", "vi": "Động từ tách được: phần nhỏ ở cuối (Voeg de saus toe)" },
+      { "en": "I said how it tastes (zoet, zout, pittig…)", "vi": "Tôi nói món ăn có vị gì (zoet, zout, pittig…)" }
+    ],
+    "model": "Gebakken rijst met ei (voor 2 personen)\n\nIngrediënten: 300 gram gekookte rijst, 2 eieren, 1 ui, 2 eetlepels vissaus, 1 eetlepel olie en een beetje lente-ui.\n\nSnijd de ui in kleine stukjes. Doe de olie in een grote pan en bak de ui twee minuten. Voeg de eieren toe en roer goed. Doe daarna de rijst in de pan en bak alles vijf minuten. Voeg de vissaus toe. Snijd de lente-ui en doe hem erover. Het gerecht is een beetje zout en heel lekker. Eet smakelijk!",
+    "modelEn": "Fried rice with egg (for 2): 300 g cooked rice, 2 eggs, 1 onion, 2 tbsp fish sauce, 1 tbsp oil and a little spring onion. Cut the onion into small pieces. Put the oil in a large pan and fry the onion for two minutes. Add the eggs and stir well. Then put the rice in the pan and fry everything for five minutes. Add the fish sauce. Cut the spring onion and sprinkle it on top. The dish is a bit salty and very tasty. Enjoy!"
+  },
+  {
+    "id": "w-b2c04",
+    "chapterId": "b2c04",
+    "title": "Mijn oude en nieuwe huis",
+    "titleVi": "Nhà cũ và nhà mới của tôi",
+    "task": "Compare your old home with your current home (at least 70 words). Use the simple past for the old home (Ik woonde…, Het huis had…).",
+    "taskVi": "So sánh nhà cũ với nhà hiện tại của bạn (ít nhất 70 từ). Dùng thì quá khứ đơn cho nhà cũ (Ik woonde…, Het huis had…).",
+    "minWords": 70,
+    "checklist": [
+      { "en": "I used the simple past (woonde, had, was, stonden)", "vi": "Tôi dùng thì quá khứ đơn (woonde, had, was, stonden)" },
+      { "en": "I compared (groter dan, net zo … als)", "vi": "Tôi so sánh (groter dan, net zo … als)" },
+      { "en": "I mentioned furniture and materials (een houten tafel)", "vi": "Tôi nhắc đến đồ nội thất và chất liệu (een houten tafel)" },
+      { "en": "I used al or pas", "vi": "Tôi dùng al hoặc pas" }
+    ],
+    "model": "Vroeger woonde ik in een klein appartement in Ho Chi Minhstad. Het had maar één kamer en een heel kleine keuken. In de kamer stonden een bed, een houten kast en een ronde tafel. Het was er altijd warm en lawaaiig.\n\nNu woon ik al twee jaar in Leiden. Mijn huis is veel groter dan mijn oude appartement: er zijn drie kamers en een tuin. De keuken is ruim en modern. Het is hier rustiger, maar ook kouder. Ik vind mijn nieuwe huis net zo gezellig als mijn oude huis.",
+    "modelEn": "I used to live in a small apartment in Ho Chi Minh City. It had only one room and a very small kitchen. In the room there were a bed, a wooden wardrobe and a round table. It was always warm and noisy there. Now I have been living in Leiden for two years. My house is much bigger than my old apartment: there are three rooms and a garden. The kitchen is spacious and modern. It is quieter here, but also colder. I find my new house just as cosy as my old one."
+  },
+  {
+    "id": "w-b2c05",
+    "chapterId": "b2c05",
+    "title": "Een formele e-mail aan de sportschool",
+    "titleVi": "Thư trang trọng gửi phòng tập",
+    "task": "Write a formal e-mail to a gym (at least 70 words). Say who you are, that you want to sign up for a course, ask two polite questions (with zou), and close formally.",
+    "taskVi": "Viết thư trang trọng gửi phòng tập (ít nhất 70 từ). Giới thiệu bản thân, nói rằng bạn muốn đăng ký một khóa học, hỏi hai câu hỏi lịch sự (dùng zou), và kết thúc trang trọng.",
+    "minWords": 70,
+    "checklist": [
+      { "en": "Geachte heer / mevrouw at the start", "vi": "Mở đầu bằng Geachte heer / mevrouw" },
+      { "en": "I used u (not je) all the way through", "vi": "Tôi dùng u (không dùng je) trong cả thư" },
+      { "en": "I asked polite questions with zou (Zou u … kunnen?)", "vi": "Tôi hỏi lịch sự với zou (Zou u … kunnen?)" },
+      { "en": "I used omdat with the verb at the end", "vi": "Tôi dùng omdat với động từ ở cuối" },
+      { "en": "Met vriendelijke groet + my name at the end", "vi": "Kết thúc bằng Met vriendelijke groet + tên của tôi" }
+    ],
+    "model": "Geachte heer, mevrouw,\n\nMijn naam is Rosie Nguyen en ik woon sinds kort in Utrecht. Ik schrijf u omdat ik graag wil beginnen met de yogacursus voor beginners.\n\nIk heb twee vragen. Zou u mij kunnen vertellen op welke dagen de cursus is? Ik werk namelijk op maandag en dinsdag. Daarnaast zou ik graag willen weten hoeveel de cursus per maand kost.\n\nAlvast bedankt voor uw antwoord.\n\nMet vriendelijke groet,\nRosie Nguyen",
+    "modelEn": "Dear Sir or Madam, My name is Rosie Nguyen and I recently moved to Utrecht. I am writing to you because I would like to start the yoga course for beginners. I have two questions. Could you tell me on which days the course takes place? I work on Mondays and Tuesdays. I would also like to know how much the course costs per month. Thank you in advance for your reply. Kind regards, Rosie Nguyen"
+  },
+  {
+    "id": "w-b2c06",
+    "chapterId": "b2c06",
+    "title": "Ziekmelding",
+    "titleVi": "Báo nghỉ ốm",
+    "task": "You are ill. Write a message to your teacher or manager (at least 50 words): say that you can't come, how you feel, since when, and what you will do.",
+    "taskVi": "Bạn bị ốm. Viết tin nhắn cho giáo viên hoặc quản lý (ít nhất 50 từ): nói rằng bạn không thể đến, bạn cảm thấy thế nào, từ khi nào, và bạn sẽ làm gì.",
+    "minWords": 50,
+    "checklist": [
+      { "en": "I said how I feel (Ik voel me…, Ik heb koorts…)", "vi": "Tôi nói tôi cảm thấy thế nào (Ik voel me…, Ik heb koorts…)" },
+      { "en": "I used omdat or als with the verb at the end", "vi": "Tôi dùng omdat hoặc als với động từ ở cuối" },
+      { "en": "I said what I will do (Ik ga naar de huisarts / Ik bel morgen)", "vi": "Tôi nói tôi sẽ làm gì (Ik ga naar de huisarts / Ik bel morgen)" },
+      { "en": "Right tone: u for a manager, je for a friendly teacher", "vi": "Giọng điệu đúng: u với quản lý, je với giáo viên thân thiện" }
+    ],
+    "model": "Beste Marieke,\n\nHelaas kan ik vandaag niet naar de les komen, omdat ik ziek ben. Ik voel me sinds gisteravond niet goed. Ik heb koorts en veel hoofdpijn. Vanmiddag ga ik naar de huisarts.\n\nAls ik me morgen beter voel, kom ik weer naar de les. Zou je mij het huiswerk willen sturen?\n\nGroeten,\nRosie",
+    "modelEn": "Dear Marieke, Unfortunately I can't come to class today because I'm ill. I haven't felt well since last night. I have a fever and a bad headache. This afternoon I'm going to the GP. If I feel better tomorrow, I'll come to class again. Would you send me the homework? Regards, Rosie"
+  },
+  {
+    "id": "w-b2c07",
+    "chapterId": "b2c07",
+    "title": "Een berichtje met een compliment",
+    "titleVi": "Tin nhắn kèm lời khen",
+    "task": "Write two short messages (at least 40 words in total): one to congratulate or compliment someone, and one to suggest meeting up to celebrate.",
+    "taskVi": "Viết hai tin nhắn ngắn (tổng cộng ít nhất 40 từ): một tin chúc mừng hoặc khen ai đó, và một tin đề nghị gặp nhau để ăn mừng.",
+    "minWords": 40,
+    "checklist": [
+      { "en": "I gave a compliment with Wat …! (Wat mooi! Wat goed!)", "vi": "Tôi khen bằng Wat …! (Wat mooi! Wat goed!)" },
+      { "en": "I used om … te or elkaar", "vi": "Tôi dùng om … te hoặc elkaar" },
+      { "en": "I made a suggestion with a day and time", "vi": "Tôi đưa ra lời đề nghị với ngày và giờ" }
+    ],
+    "model": "Hoi Linh! Gefeliciteerd met je diploma! Wat goed van je, ik ben echt trots op je.\n\nZullen we elkaar zaterdag zien om het te vieren? Ik trakteer op taart in het café bij het station, om drie uur. Laat je even weten of dat kan? Liefs, Rosie",
+    "modelEn": "Hi Linh! Congratulations on your diploma! Well done, I'm really proud of you. Shall we meet on Saturday to celebrate? I'll treat you to cake in the café near the station, at three o'clock. Let me know if that works? Love, Rosie"
+  },
+  {
+    "id": "w-b2c08",
+    "chapterId": "b2c08",
+    "title": "Mijn mening",
+    "titleVi": "Ý kiến của tôi",
+    "task": "Reply to the newspaper discussion: is working from home a good idea? Give your opinion with at least two arguments (at least 80 words).",
+    "taskVi": "Trả lời cuộc thảo luận trên báo: làm việc tại nhà có phải là ý hay không? Đưa ra ý kiến của bạn với ít nhất hai lý lẽ (ít nhất 80 từ).",
+    "minWords": 80,
+    "checklist": [
+      { "en": "I gave my opinion (Ik vind dat… / Ik denk dat…) with the verb at the end", "vi": "Tôi nêu ý kiến (Ik vind dat… / Ik denk dat…) với động từ ở cuối" },
+      { "en": "I gave at least two arguments (Ten eerste… Ten tweede…)", "vi": "Tôi đưa ra ít nhất hai lý lẽ (Ten eerste… Ten tweede…)" },
+      { "en": "I mentioned a disadvantage too (Een nadeel is dat…)", "vi": "Tôi cũng nêu một nhược điểm (Een nadeel is dat…)" },
+      { "en": "I reacted to Fatima or Peter (Ik ben het eens/oneens met…)", "vi": "Tôi phản hồi Fatima hoặc Peter (Ik ben het eens/oneens met…)" },
+      { "en": "I ended with a conclusion (Kortom, …)", "vi": "Tôi kết thúc bằng kết luận (Kortom, …)" }
+    ],
+    "model": "Ik ben het eens met Fatima. Ik vind dat thuiswerken veel voordelen heeft. Ten eerste hoef je niet te reizen, dus je hebt meer tijd en je bespaart geld. Ten tweede kan ik me thuis beter concentreren, omdat het rustiger is.\n\nEen nadeel is wel dat je je collega's minder vaak ziet. Daar heeft Peter gelijk in. Daarom denk ik dat het beste is om twee dagen thuis te werken en drie dagen op kantoor.\n\nKortom: thuiswerken is een goed idee, maar niet elke dag.",
+    "modelEn": "I agree with Fatima. I think working from home has many advantages. Firstly, you don't have to travel, so you have more time and save money. Secondly, I can concentrate better at home because it's quieter. One disadvantage is that you see your colleagues less often; Peter is right about that. That's why I think it's best to work at home two days and at the office three days. In short: working from home is a good idea, but not every day."
+  }
+]

@@ -2,35 +2,51 @@ rules_version = '2';
 
 // Who may read and write what in the database.
 // Paste this into Firebase console → Firestore Database → Rules → Publish.
-// The two ids must match src/config.ts.
+// The ids must match src/config.ts.
 service cloud.firestore {
   match /databases/{database}/documents {
     function learner() { return 'qmATSeU7N4hbpEqm5cZl2JSHuxy1'; }
     function supporter() { return 'Hln0dg99miWEFn6mJdN1u2ojxcD3'; }
+    // other people who may use the app with their own synced progress
+    function otherLearners() { return []; }
 
     function signedIn() { return request.auth != null; }
-    function isMember() {
-      return signedIn() && (request.auth.uid == learner() || request.auth.uid == supporter());
-    }
     function isSupporter() { return signedIn() && request.auth.uid == supporter(); }
+    function isLearner() {
+      return signedIn() && (request.auth.uid == learner() || request.auth.uid in otherLearners());
+    }
+    function isMember() { return isLearner() || isSupporter(); }
 
-    // Progress: everyone writes only their own; the supporter may also read the learner's.
+    // Progress: everyone writes only their own; the supporter may also read the main learner's.
     match /learners/{uid} {
-      allow read: if isMember() && (request.auth.uid == uid || isSupporter());
+      allow read: if isMember() && (request.auth.uid == uid || (isSupporter() && uid == learner()));
       allow write: if isMember() && request.auth.uid == uid;
     }
 
-    // Cheer messages: written by the supporter, read by both.
+    // Cheer messages: written by the supporter, read by the main learner and the supporter.
     match /cheers/{id} {
-      allow read: if isMember();
+      allow read: if signedIn() && (request.auth.uid == learner() || isSupporter());
       allow create: if isSupporter()
         && request.resource.data.to == learner()
         && request.resource.data.text is string
-        && request.resource.data.text.size() <= 500;
+        && request.resource.data.text.size() <= 2000;
       allow delete: if isSupporter();
     }
 
-    // "Report a mistake": anyone of the two can send; only the supporter reads them.
+    // Texts written in the writing exercises, with the supporter's feedback.
+    match /writings/{id} {
+      allow read: if signedIn() && (resource.data.uid == request.auth.uid || (isSupporter() && resource.data.uid == learner()));
+      allow create, update: if isLearner()
+        && request.resource.data.uid == request.auth.uid
+        && id == request.auth.uid + '_' + request.resource.data.taskId
+        && request.resource.data.text is string
+        && request.resource.data.text.size() <= 10000;
+      allow update: if isSupporter()
+        && resource.data.uid == learner()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['feedback', 'feedbackAt']);
+    }
+
+    // "Report a mistake": any member can send; only the supporter reads them.
     match /reports/{id} {
       allow create: if isMember() && request.resource.data.uid == request.auth.uid;
       allow read, delete: if isSupporter();

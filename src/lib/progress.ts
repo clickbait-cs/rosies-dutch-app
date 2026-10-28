@@ -24,6 +24,8 @@ export interface Progress {
   srs: SrsState
   seenTips: string[]
   seenCheers: string[]
+  reading: Record<string, number> // text id -> best score (0..1)
+  writing: Record<string, { text: string; day: string }> // task id -> latest text
   settings: { uiLang: UiLang; listening: boolean; speaking: boolean; speechRate: number }
   updatedAt: number
 }
@@ -41,6 +43,8 @@ export function emptyProgress(): Progress {
     srs: {},
     seenTips: [],
     seenCheers: [],
+    reading: {},
+    writing: {},
     settings: { uiLang: 'en', listening: true, speaking: true, speechRate: 0.9 },
     updatedAt: 0,
   }
@@ -110,5 +114,13 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
     placement: a.placement.done ? a.placement : b.placement,
     seenTips: [...new Set([...a.seenTips, ...b.seenTips])],
     seenCheers: [...new Set([...a.seenCheers, ...b.seenCheers])],
+    reading: mergeMax(a.reading, b.reading),
+    writing: { ...older.writing, ...newer.writing },
   }
+}
+
+function mergeMax(a: Record<string, number> = {}, b: Record<string, number> = {}): Record<string, number> {
+  const out = { ...a }
+  for (const [k, v] of Object.entries(b)) out[k] = Math.max(out[k] ?? 0, v)
+  return out
 }

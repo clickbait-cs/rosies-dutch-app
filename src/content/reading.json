@@ -1,0 +1,247 @@
+[
+  {
+    "id": "r-b1c06",
+    "chapterId": "b1c06",
+    "title": "Een dagje naar Den Haag",
+    "text": "Linh woont in Utrecht. Op zaterdag gaat ze met de trein naar Den Haag. Ze wil naar het strand van Scheveningen.\n\nDe trein vertrekt om tien over negen van spoor vijf. Maar vandaag heeft de trein tien minuten vertraging. Linh drinkt een kopje koffie op het station.\n\nIn Den Haag stapt ze over op tram 1. Ze stapt uit bij de halte Strandweg. Het is mooi weer, dus het is druk op het strand. 's Avonds neemt Linh de trein van half acht terug naar Utrecht.",
+    "glossary": [
+      { "nl": "een dagje", "en": "a day out", "vi": "một ngày đi chơi" },
+      { "nl": "vertraging", "en": "delay", "vi": "sự chậm trễ" },
+      { "nl": "overstappen", "en": "to change (transport)", "vi": "đổi tàu/xe" },
+      { "nl": "terug", "en": "back", "vi": "trở về" }
+    ],
+    "questions": [
+      { "q": "Waar wil Linh naartoe?", "qEn": "Where does Linh want to go?", "options": ["Naar het strand", "Naar een museum", "Naar haar werk", "Naar Utrecht"], "answer": 0 },
+      { "q": "Van welk spoor vertrekt de trein?", "qEn": "Which platform does the train leave from?", "options": ["Spoor 1", "Spoor 5", "Spoor 9", "Spoor 10"], "answer": 1 },
+      { "q": "Wat doet Linh op het station?", "qEn": "What does Linh do at the station?", "options": ["Ze koopt een kaartje.", "Ze belt haar moeder.", "Ze drinkt koffie.", "Ze leest een boek."], "answer": 2 },
+      { "q": "Hoe gaat Linh van het station naar het strand?", "qEn": "How does Linh get from the station to the beach?", "options": ["Met de bus", "Met de fiets", "Lopend", "Met de tram"], "answer": 3 },
+      { "q": "Waarom is het druk op het strand?", "qEn": "Why is the beach busy?", "options": ["Het is zaterdag en mooi weer.", "Er is een feest.", "De trein is te laat.", "Het regent."], "answer": 0 }
+    ]
+  },
+  {
+    "id": "r-b1c07",
+    "chapterId": "b1c07",
+    "title": "Te huur: appartement in Rotterdam",
+    "text": "Te huur: een mooi appartement in het centrum van Rotterdam, op de derde verdieping.\n\nEr zijn twee slaapkamers, een woonkamer met een grote bank en een open keuken. De badkamer heeft een douche. Er is geen tuin, maar er is wel een balkon op het zuiden.\n\nHet appartement is dichtbij het station en de supermarkt. De huur is 1.250 euro per maand. Huisdieren mogen niet. Bel voor een afspraak: 010-1234567.",
+    "glossary": [
+      { "nl": "te huur", "en": "for rent", "vi": "cho thuê" },
+      { "nl": "het balkon", "en": "balcony", "vi": "ban công" },
+      { "nl": "op het zuiden", "en": "facing south", "vi": "hướng nam" },
+      { "nl": "huisdieren", "en": "pets", "vi": "vật nuôi" }
+    ],
+    "questions": [
+      { "q": "Op welke verdieping is het appartement?", "qEn": "Which floor is the apartment on?", "options": ["Op de eerste", "Op de tweede", "Op de derde", "Op de vierde"], "answer": 2 },
+      { "q": "Hoeveel slaapkamers zijn er?", "qEn": "How many bedrooms are there?", "options": ["Eén", "Twee", "Drie", "Vier"], "answer": 1 },
+      { "q": "Heeft het appartement een tuin?", "qEn": "Does the apartment have a garden?", "options": ["Ja, een grote tuin.", "Nee, maar wel een balkon.", "Ja, op het zuiden.", "Nee, en ook geen balkon."], "answer": 1 },
+      { "q": "Mag je een kat meenemen?", "qEn": "May you bring a cat?", "options": ["Ja", "Nee", "Alleen een kleine kat", "Dat staat er niet"], "answer": 1 },
+      { "q": "Wat moet je doen als je het appartement wilt zien?", "qEn": "What should you do if you want to see the apartment?", "options": ["Een e-mail sturen", "Naar het station gaan", "Bellen voor een afspraak", "Naar de supermarkt gaan"], "answer": 2 }
+    ]
+  },
+  {
+    "id": "r-b1c08",
+    "chapterId": "b1c08",
+    "title": "Een kaartje uit Texel",
+    "text": "Lieve Anna,\n\nWe zijn nu een week op Texel. Het is hier heel mooi! Vorige zaterdag zijn we met de boot naar het eiland gegaan. Op de boot hebben we koffie gedronken en appeltaart gegeten.\n\nOp Texel hebben we fietsen gehuurd. We hebben elke dag gefietst, soms wel veertig kilometer. Gisteren zijn we naar het strand gegaan en Tom heeft in de zee gezwommen. Ik niet, het water was te koud!\n\nVanavond eten we vis in een restaurant. Morgen gaan we weer naar huis.\n\nGroetjes,\nRosie",
+    "glossary": [
+      { "nl": "het eiland", "en": "island", "vi": "hòn đảo" },
+      { "nl": "huren", "en": "to rent", "vi": "thuê" },
+      { "nl": "soms wel", "en": "sometimes as much as", "vi": "có khi tới" }
+    ],
+    "questions": [
+      { "q": "Hoe lang is Rosie al op Texel?", "qEn": "How long has Rosie been on Texel?", "options": ["Een dag", "Een weekend", "Een week", "Een maand"], "answer": 2 },
+      { "q": "Hoe zijn ze naar Texel gegaan?", "qEn": "How did they get to Texel?", "options": ["Met de boot", "Met het vliegtuig", "Met de fiets", "Met de auto over een brug"], "answer": 0 },
+      { "q": "Wat hebben ze op Texel elke dag gedaan?", "qEn": "What did they do on Texel every day?", "options": ["Gezwommen", "Gefietst", "Vis gegeten", "Boodschappen gedaan"], "answer": 1 },
+      { "q": "Waarom heeft Rosie niet gezwommen?", "qEn": "Why didn't Rosie swim?", "options": ["Ze was moe.", "Ze kan niet zwemmen.", "Het water was te koud.", "Het regende."], "answer": 2 },
+      { "q": "Wanneer gaan ze naar huis?", "qEn": "When are they going home?", "options": ["Vanavond", "Morgen", "Zaterdag", "Over een week"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "r-b1c09",
+    "chapterId": "b1c09",
+    "title": "Recensie: Restaurant De Gouden Lepel",
+    "text": "Vrijdagavond hebben mijn man en ik gegeten bij De Gouden Lepel in Leiden. We hadden een tafel gereserveerd voor zeven uur.\n\nDe ober was heel vriendelijk. Als voorgerecht hadden we tomatensoep. De soep was lekker, maar een beetje zout. Daarna heb ik vis met groente gegeten en mijn man kip met rijst. De vis was perfect! Het toetje, chocolademousse, was heerlijk.\n\nHet restaurant is niet goedkoop: we hebben 85 euro betaald voor twee personen. Maar ik denk dat het eten die prijs waard is. Ik geef het restaurant een 8.",
+    "glossary": [
+      { "nl": "de recensie", "en": "review", "vi": "bài đánh giá" },
+      { "nl": "het voorgerecht", "en": "starter", "vi": "món khai vị" },
+      { "nl": "waard zijn", "en": "to be worth", "vi": "đáng giá" }
+    ],
+    "questions": [
+      { "q": "Wanneer hebben ze in het restaurant gegeten?", "qEn": "When did they eat at the restaurant?", "options": ["Donderdagmiddag", "Vrijdagavond", "Zaterdagavond", "Zondagmiddag"], "answer": 1 },
+      { "q": "Wat vond de schrijver van de soep?", "qEn": "What did the writer think of the soup?", "options": ["Te koud", "Lekker, maar een beetje zout", "Niet lekker", "Perfect"], "answer": 1 },
+      { "q": "Wat heeft de man van de schrijver gegeten?", "qEn": "What did the writer's husband eat?", "options": ["Vis met groente", "Tomatensoep", "Kip met rijst", "Vlees met aardappels"], "answer": 2 },
+      { "q": "Hoeveel hebben ze samen betaald?", "qEn": "How much did they pay together?", "options": ["8 euro", "58 euro", "85 euro", "185 euro"], "answer": 2 },
+      { "q": "Wat vindt de schrijver van het restaurant?", "qEn": "What does the writer think of the restaurant?", "options": ["Te duur en niet lekker", "Goedkoop en lekker", "Duur, maar goed", "Saai"], "answer": 2 }
+    ]
+  },
+  {
+    "id": "r-b1c10",
+    "chapterId": "b1c10",
+    "title": "Klantenservice: mijn jas is kapot",
+    "text": "Beste klantenservice,\n\nTwee weken geleden heb ik in uw webwinkel een blauwe jas gekocht, maat M. Gisteren heb ik de jas voor de eerste keer gedragen. Nu is de rits al kapot.\n\nIk ben niet blij, want het is een dure jas. Ik wil de jas graag terugsturen. Hebt u hem ook in het zwart? Dan wil ik graag een zwarte jas, ook in maat M. Als dat niet kan, wil ik mijn geld terug.\n\nMet vriendelijke groet,\nThanh Nguyen",
+    "glossary": [
+      { "nl": "de klantenservice", "en": "customer service", "vi": "dịch vụ khách hàng" },
+      { "nl": "de webwinkel", "en": "online shop", "vi": "cửa hàng trực tuyến" },
+      { "nl": "de rits", "en": "zip", "vi": "khóa kéo" },
+      { "nl": "terugsturen", "en": "to send back", "vi": "gửi trả lại" }
+    ],
+    "questions": [
+      { "q": "Wanneer heeft Thanh de jas gekocht?", "qEn": "When did Thanh buy the coat?", "options": ["Gisteren", "Een week geleden", "Twee weken geleden", "Twee maanden geleden"], "answer": 2 },
+      { "q": "Wat is er kapot?", "qEn": "What is broken?", "options": ["De rits", "De mouw", "De knoop", "De zak"], "answer": 0 },
+      { "q": "Welke kleur heeft de jas nu?", "qEn": "What colour is the coat now?", "options": ["Zwart", "Blauw", "Rood", "Groen"], "answer": 1 },
+      { "q": "Wat wil Thanh het liefst?", "qEn": "What would Thanh like most?", "options": ["Een jas in maat L", "Een zwarte jas in maat M", "Een nieuwe rits", "Een andere winkel"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "r-b2c01",
+    "chapterId": "b2c01",
+    "title": "Giethoorn: het Venetië van het noorden",
+    "text": "Giethoorn is een klein dorp in de provincie Overijssel. Er wonen ongeveer 2.600 mensen. Het dorp is beroemd om zijn grachten en bruggen: in het oude centrum zijn bijna geen straten. Veel mensen gaan er met een bootje naartoe in plaats van met de auto. Daarom noemen toeristen Giethoorn soms 'het Venetië van het noorden'.\n\nHet landschap rond Giethoorn is plat en groen, met veel water en riet. De oude boerderijen hebben daken van riet. Er zijn er nog heel veel.\n\nIn de zomer is het er heel druk. Dan komen er duizenden toeristen uit de hele wereld. In de winter is het dorp rustig. Als het hard vriest, kun je er soms schaatsen op de grachten. Dat gebeurt nu niet meer zo vaak als vroeger, omdat de winters in Nederland warmer worden.",
+    "glossary": [
+      { "nl": "beroemd om", "en": "famous for", "vi": "nổi tiếng về" },
+      { "nl": "in plaats van", "en": "instead of", "vi": "thay vì" },
+      { "nl": "het riet", "en": "reed", "vi": "cây sậy" },
+      { "nl": "de boerderij", "en": "farm", "vi": "trang trại" },
+      { "nl": "vriezen", "en": "to freeze", "vi": "đóng băng" },
+      { "nl": "schaatsen", "en": "to ice-skate", "vi": "trượt băng" }
+    ],
+    "questions": [
+      { "q": "Waarom is Giethoorn beroemd?", "qEn": "Why is Giethoorn famous?", "options": ["Om zijn grachten en bruggen", "Om zijn grote musea", "Om zijn bergen", "Om zijn strand"], "answer": 0 },
+      { "q": "Hoe reizen veel mensen in het oude centrum?", "qEn": "How do many people travel in the old centre?", "options": ["Met de auto", "Met de bus", "Met een bootje", "Met de trein"], "answer": 2 },
+      { "q": "Waar zijn de daken van de oude boerderijen van gemaakt?", "qEn": "What are the roofs of the old farms made of?", "options": ["Van hout", "Van riet", "Van glas", "Van metaal"], "answer": 1 },
+      { "q": "Wanneer is het rustig in Giethoorn?", "qEn": "When is it quiet in Giethoorn?", "options": ["In de zomer", "In het weekend", "In de winter", "Nooit"], "answer": 2 },
+      { "q": "Waarom kun je minder vaak schaatsen dan vroeger?", "qEn": "Why can you skate less often than before?", "options": ["Er zijn minder grachten.", "Het is verboden.", "De winters worden warmer.", "Er zijn te veel toeristen."], "answer": 2 }
+    ]
+  },
+  {
+    "id": "r-b2c02",
+    "chapterId": "b2c02",
+    "title": "Nederland: een land van fietsers",
+    "text": "In Nederland zijn meer fietsen dan mensen: er wonen ongeveer achttien miljoen mensen, maar er zijn ongeveer drieëntwintig miljoen fietsen. Nederlanders fietsen naar hun werk, naar school, naar de supermarkt en naar vrienden.\n\nWaarom fietsen Nederlanders zo veel? Het land is plat, de afstanden zijn kort en er zijn veel fietspaden. Bovendien is fietsen goedkoop en gezond.\n\nVoor nieuwe fietsers is het verkeer soms moeilijk. Een paar tips: fiets altijd rechts op het fietspad. Steek je hand uit als je linksaf of rechtsaf wilt. Stop bij een rood stoplicht, ook als er geen auto's zijn. En zet je fiets altijd op slot, want er worden veel fietsen gestolen!",
+    "glossary": [
+      { "nl": "de afstand", "en": "distance", "vi": "khoảng cách" },
+      { "nl": "bovendien", "en": "moreover", "vi": "hơn nữa" },
+      { "nl": "het verkeer", "en": "traffic", "vi": "giao thông" },
+      { "nl": "op slot zetten", "en": "to lock", "vi": "khóa lại" },
+      { "nl": "gestolen", "en": "stolen", "vi": "bị đánh cắp" }
+    ],
+    "questions": [
+      { "q": "Hoeveel fietsen zijn er ongeveer in Nederland?", "qEn": "About how many bicycles are there in the Netherlands?", "options": ["Achttien miljoen", "Drieëntwintig miljoen", "Drie miljoen", "Achtentwintig miljoen"], "answer": 1 },
+      { "q": "Welke reden staat NIET in de tekst?", "qEn": "Which reason is NOT in the text?", "options": ["Het land is plat.", "Fietsen is goedkoop.", "Er zijn veel fietspaden.", "Fietsen is verplicht."], "answer": 3 },
+      { "q": "Wat doe je als je linksaf wilt?", "qEn": "What do you do if you want to turn left?", "options": ["Je belt.", "Je steekt je hand uit.", "Je stopt.", "Je stapt af."], "answer": 1 },
+      { "q": "Waarom moet je je fiets op slot zetten?", "qEn": "Why should you lock your bike?", "options": ["Dat is een regel van de gemeente.", "Er worden veel fietsen gestolen.", "Anders valt hij om.", "Voor de verzekering."], "answer": 1 }
+    ]
+  },
+  {
+    "id": "r-b2c03",
+    "chapterId": "b2c03",
+    "title": "Recept: Hollandse erwtensoep",
+    "text": "Erwtensoep, ook wel 'snert' genoemd, is een typisch Nederlands gerecht voor de winter. De soep is zo dik dat er een lepel in kan blijven staan!\n\nIngrediënten voor vier personen: 500 gram spliterwten, 2 liter water, 1 ui, 2 wortels, 1 stuk knolselderij, 2 aardappels en 1 rookworst.\n\nWas de spliterwten en kook ze met het water ongeveer een uur. Snijd ondertussen de ui, de wortels, de knolselderij en de aardappels in kleine stukjes. Voeg de groente toe en kook de soep nog een half uur. Roer regelmatig, anders brandt de soep aan. Snijd de rookworst in plakjes en doe ze de laatste tien minuten in de pan. Voeg zout en peper toe.\n\nTip: erwtensoep is de volgende dag nog lekkerder. Eet smakelijk!",
+    "glossary": [
+      { "nl": "de spliterwten", "en": "split peas", "vi": "đậu Hà Lan tách đôi" },
+      { "nl": "de knolselderij", "en": "celeriac", "vi": "củ cần tây" },
+      { "nl": "de rookworst", "en": "smoked sausage", "vi": "xúc xích hun khói" },
+      { "nl": "ondertussen", "en": "meanwhile", "vi": "trong lúc đó" },
+      { "nl": "aanbranden", "en": "to burn (in a pan)", "vi": "bị cháy (dưới đáy nồi)" }
+    ],
+    "questions": [
+      { "q": "Wanneer eten Nederlanders vaak erwtensoep?", "qEn": "When do Dutch people often eat pea soup?", "options": ["In de zomer", "In de winter", "Bij het ontbijt", "Op verjaardagen"], "answer": 1 },
+      { "q": "Hoe lang kook je de spliterwten eerst?", "qEn": "How long do you first cook the split peas?", "options": ["Tien minuten", "Een half uur", "Ongeveer een uur", "Twee uur"], "answer": 2 },
+      { "q": "Waarom moet je regelmatig roeren?", "qEn": "Why should you stir regularly?", "options": ["Anders brandt de soep aan.", "Anders wordt de soep koud.", "Dan wordt de soep zoeter.", "Voor de kleur."], "answer": 0 },
+      { "q": "Wanneer doe je de rookworst in de pan?", "qEn": "When do you put the sausage in the pan?", "options": ["Aan het begin", "Samen met de groente", "De laatste tien minuten", "De volgende dag"], "answer": 2 },
+      { "q": "Wat is de tip?", "qEn": "What is the tip?", "options": ["Eet de soep koud.", "De soep is de volgende dag nog lekkerder.", "Gebruik geen zout.", "Kook de soep drie uur."], "answer": 1 }
+    ]
+  },
+  {
+    "id": "r-b2c04",
+    "chapterId": "b2c04",
+    "title": "Mijn oude huis in Hanoi",
+    "text": "Ik woon nu al drie jaar in Nederland, maar ik denk nog vaak aan mijn oude huis in Hanoi. Het was een smal en hoog huis, met vier verdiepingen. Zulke huizen noemen ze in Vietnam 'buisvormige huizen'.\n\nBeneden was de winkel van mijn ouders. Daarboven woonden we met z'n zessen: mijn ouders, mijn oma, mijn twee broers en ik. Mijn kamer was op de derde verdieping. Hij was klein en had een rond raam. Er stonden een houten bed, een bureau en een kast.\n\nMijn appartement in Nederland is veel ruimer dan mijn kamer in Hanoi, maar het is ook stiller. In Hanoi hoorde je de hele dag scooters. Hier hoor ik alleen fietsbellen. Ik vind mijn nieuwe huis gezellig, maar soms mis ik het lawaai van de stad.",
+    "glossary": [
+      { "nl": "smal", "en": "narrow", "vi": "hẹp" },
+      { "nl": "buisvormig", "en": "tube-shaped", "vi": "hình ống" },
+      { "nl": "met z'n zessen", "en": "the six of us", "vi": "sáu người" },
+      { "nl": "het lawaai", "en": "noise", "vi": "tiếng ồn" }
+    ],
+    "questions": [
+      { "q": "Hoe lang woont de schrijver al in Nederland?", "qEn": "How long has the writer lived in the Netherlands?", "options": ["Een jaar", "Drie jaar", "Vier jaar", "Zes jaar"], "answer": 1 },
+      { "q": "Wat was er op de begane grond van het huis in Hanoi?", "qEn": "What was on the ground floor of the house in Hanoi?", "options": ["De keuken", "De slaapkamer van oma", "De winkel van de ouders", "Een restaurant"], "answer": 2 },
+      { "q": "Met hoeveel mensen woonde de schrijver in het huis?", "qEn": "How many people did the writer live with in the house (in total)?", "options": ["Vier", "Vijf", "Zes", "Zeven"], "answer": 2 },
+      { "q": "Wat voor raam had de kamer?", "qEn": "What kind of window did the room have?", "options": ["Een groot raam", "Een rond raam", "Een vierkant raam", "Geen raam"], "answer": 1 },
+      { "q": "Wat mist de schrijver soms?", "qEn": "What does the writer sometimes miss?", "options": ["De fietsbellen", "Het lawaai van de stad", "De rust", "Het grote appartement"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "r-b2c05",
+    "chapterId": "b2c05",
+    "title": "Hardlopen: begin rustig!",
+    "text": "Steeds meer Nederlanders gaan hardlopen. Het is goedkoop, je kunt het overal doen en het is goed voor je hart. Maar veel beginners doen te veel in de eerste weken en krijgen dan pijn in hun knieën of voeten.\n\nTrainer Sanne de Boer geeft advies: 'Begin rustig. Loop in de eerste week drie keer tien minuten, met pauzes. Je zou ook eerst kunnen wandelen en dan steeds een stukje hardlopen. Koop goede schoenen, dat is het belangrijkste.'\n\nEn als je geen zin hebt? 'Zoek een loopmaatje,' zegt Sanne. 'Als je met iemand afspreekt, ga je ook als het regent. Na zes weken kun je een half uur zonder pauze lopen. Dan ben je echt een hardloper!'",
+    "glossary": [
+      { "nl": "hardlopen", "en": "running, jogging", "vi": "chạy bộ" },
+      { "nl": "steeds meer", "en": "more and more", "vi": "ngày càng nhiều" },
+      { "nl": "het hart", "en": "heart", "vi": "trái tim" },
+      { "nl": "het loopmaatje", "en": "running buddy", "vi": "bạn chạy bộ cùng" }
+    ],
+    "questions": [
+      { "q": "Welk probleem hebben veel beginners?", "qEn": "What problem do many beginners have?", "options": ["Ze hebben geen schoenen.", "Ze doen te veel en krijgen pijn.", "Ze hebben geen tijd.", "Ze lopen te langzaam."], "answer": 1 },
+      { "q": "Hoe vaak moet je in de eerste week lopen?", "qEn": "How often should you run in the first week?", "options": ["Elke dag een uur", "Eén keer een half uur", "Drie keer tien minuten", "Twee keer twintig minuten"], "answer": 2 },
+      { "q": "Wat is volgens Sanne het belangrijkste?", "qEn": "According to Sanne, what is most important?", "options": ["Goede schoenen", "Een sportschool", "Mooi weer", "Een horloge"], "answer": 0 },
+      { "q": "Waarom helpt een loopmaatje?", "qEn": "Why does a running buddy help?", "options": ["Je loopt dan sneller.", "Je gaat ook als je geen zin hebt.", "Het is goedkoper.", "Je krijgt geen pijn."], "answer": 1 }
+    ]
+  },
+  {
+    "id": "r-b2c06",
+    "chapterId": "b2c06",
+    "title": "Bijsluiter: paracetamol 500 mg",
+    "text": "Waarvoor gebruikt u dit medicijn?\nParacetamol helpt tegen pijn, zoals hoofdpijn, kiespijn en spierpijn. Het helpt ook tegen koorts.\n\nHoeveel mag u gebruiken?\nVolwassenen: 1 of 2 tabletten per keer, maximaal 6 tabletten per dag. Neem minstens 4 uur tussen twee keer innemen. Kinderen onder de 12 jaar: vraag het eerst aan de apotheek.\n\nWanneer moet u naar de huisarts?\nGebruik paracetamol niet langer dan 3 dagen bij koorts of 5 dagen bij pijn zonder advies van een arts. Heeft u na 3 dagen nog steeds koorts? Neem dan contact op met uw huisarts.\n\nBewaar dit medicijn buiten het bereik van kinderen.",
+    "glossary": [
+      { "nl": "de bijsluiter", "en": "package leaflet", "vi": "tờ hướng dẫn sử dụng thuốc" },
+      { "nl": "volwassenen", "en": "adults", "vi": "người lớn" },
+      { "nl": "maximaal", "en": "at most", "vi": "tối đa" },
+      { "nl": "innemen", "en": "to take (medicine)", "vi": "uống (thuốc)" },
+      { "nl": "buiten het bereik van", "en": "out of reach of", "vi": "ngoài tầm với của" }
+    ],
+    "questions": [
+      { "q": "Waartegen helpt paracetamol NIET volgens de tekst?", "qEn": "According to the text, what does paracetamol NOT help against?", "options": ["Hoofdpijn", "Koorts", "Hoesten", "Spierpijn"], "answer": 2 },
+      { "q": "Hoeveel tabletten mag een volwassene maximaal per dag nemen?", "qEn": "What is the maximum number of tablets an adult may take per day?", "options": ["2", "4", "6", "8"], "answer": 2 },
+      { "q": "Hoe lang moet je minstens wachten tussen twee keer innemen?", "qEn": "How long must you wait at least between two doses?", "options": ["1 uur", "2 uur", "4 uur", "12 uur"], "answer": 2 },
+      { "q": "Je hebt na 3 dagen nog steeds koorts. Wat moet je doen?", "qEn": "You still have a fever after 3 days. What should you do?", "options": ["Meer tabletten nemen", "Contact opnemen met de huisarts", "Naar de apotheek gaan om nieuwe tabletten te kopen", "Niets, gewoon doorgaan"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "r-b2c07",
+    "chapterId": "b2c07",
+    "title": "Berichtjes",
+    "text": "Lieverd, wat heb je vanavond lekker gekookt! Dank je wel 😘 Ik zie je morgen. Kus, Mai\n\nHoi Kim, gefeliciteerd met je nieuwe baan! Ik ben zo trots op je. Zullen we zaterdag samen iets drinken om het te vieren? Groetjes, Daan\n\nBeste buren, zaterdag geven wij een feestje voor onze verjaardag. Het kan een beetje lawaaiig worden. Sorry alvast! U bent natuurlijk ook welkom, vanaf 20.00 uur. Groeten van Lisa en Mark (nummer 12)\n\nHé Sam, waarom antwoord je niet? Ben je boos op me? Ik wil graag met je praten. Bel je me? Liefs, Noor",
+    "glossary": [
+      { "nl": "de kus", "en": "kiss", "vi": "nụ hôn" },
+      { "nl": "lawaaiig", "en": "noisy", "vi": "ồn ào" },
+      { "nl": "alvast", "en": "in advance", "vi": "trước" },
+      { "nl": "antwoorden", "en": "to answer", "vi": "trả lời" }
+    ],
+    "questions": [
+      { "q": "Waarom bedankt Mai haar partner?", "qEn": "Why does Mai thank her partner?", "options": ["Voor een cadeau", "Voor het eten", "Voor de bloemen", "Voor een berichtje"], "answer": 1 },
+      { "q": "Waarom wil Daan iets drinken met Kim?", "qEn": "Why does Daan want to have a drink with Kim?", "options": ["Kim is jarig.", "Kim heeft een nieuwe baan.", "Kim gaat verhuizen.", "Kim is ziek geweest."], "answer": 1 },
+      { "q": "Voor wie is het berichtje van Lisa en Mark?", "qEn": "Who is Lisa and Mark's message for?", "options": ["Voor hun familie", "Voor hun collega's", "Voor hun buren", "Voor hun kinderen"], "answer": 2 },
+      { "q": "Hoe voelt Noor zich waarschijnlijk?", "qEn": "How does Noor probably feel?", "options": ["Blij", "Ongerust", "Trots", "Moe"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "r-b2c08",
+    "chapterId": "b2c08",
+    "title": "Discussie: thuiswerken of naar kantoor?",
+    "text": "Sinds een paar jaar werken veel Nederlanders een of twee dagen per week thuis. Maar is dat een goed idee? We vroegen het aan twee lezers.\n\nFatima (34): 'Ik vind thuiswerken heerlijk. Ik hoef niet in de file te staan, dus ik heb meer tijd voor mijn kinderen. Thuis kan ik me ook beter concentreren, want op kantoor is het vaak druk en lawaaiig.'\n\nPeter (52): 'Daar ben ik het niet mee eens. Ik mis mijn collega's als ik thuiswerk. Op kantoor kun je snel even iets vragen en samen koffie drinken. Dat is belangrijk voor een goed team. Bovendien werk ik thuis te lang, omdat ik niet weet wanneer ik moet stoppen.'\n\nEn wat vindt u? Stuur uw mening naar de redactie.",
+    "glossary": [
+      { "nl": "thuiswerken", "en": "working from home", "vi": "làm việc tại nhà" },
+      { "nl": "in de file staan", "en": "to be stuck in traffic", "vi": "kẹt xe" },
+      { "nl": "zich concentreren", "en": "to concentrate", "vi": "tập trung" },
+      { "nl": "de redactie", "en": "editors (of a newspaper)", "vi": "ban biên tập" }
+    ],
+    "questions": [
+      { "q": "Wat is volgens Fatima een voordeel van thuiswerken?", "qEn": "According to Fatima, what is an advantage of working from home?", "options": ["Ze verdient meer geld.", "Ze heeft meer tijd voor haar kinderen.", "Ze ziet haar collega's vaker.", "Ze werkt langer."], "answer": 1 },
+      { "q": "Waarom kan Fatima zich op kantoor slecht concentreren?", "qEn": "Why can't Fatima concentrate well at the office?", "options": ["Het is er druk en lawaaiig.", "Het is er te koud.", "Ze heeft geen bureau.", "Haar baas is streng."], "answer": 0 },
+      { "q": "Is Peter het eens met Fatima?", "qEn": "Does Peter agree with Fatima?", "options": ["Ja, helemaal", "Nee", "Een beetje", "Dat zegt hij niet"], "answer": 1 },
+      { "q": "Welk nadeel van thuiswerken noemt Peter?", "qEn": "Which disadvantage of working from home does Peter mention?", "options": ["Hij staat in de file.", "Hij werkt te lang.", "Hij heeft geen computer.", "Hij verdient minder."], "answer": 1 },
+      { "q": "Wat vraagt de krant aan de lezers?", "qEn": "What does the newspaper ask the readers?", "options": ["Om thuis te werken", "Om hun mening te sturen", "Om een abonnement te nemen", "Om naar kantoor te gaan"], "answer": 1 }
+    ]
+  }
+]

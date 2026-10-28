@@ -1,7 +1,7 @@
 // The learning path: Book 1 and Book 2, with five lessons per chapter.
 
 import { useEffect, useRef } from 'react'
-import { chapters } from '../content'
+import { chapters, readingTexts, writingTasks } from '../content'
 import { LESSONS } from '../lib/exercises'
 import { isChapterUnlocked, isLessonUnlocked, nextLesson } from '../lib/session'
 import type { StringKey } from '../lib/i18n'
@@ -12,7 +12,15 @@ const LESSON_NAME: StringKey[] = ['lessonWords1', 'lessonWords2', 'lessonSentenc
 
 export const lessonTitle = (t: (k: StringKey) => string, index: number) => t(LESSON_NAME[index])
 
-export function Home({ openLesson }: { openLesson: (chapterId: string, index: number) => void }) {
+export function Home({
+  openLesson,
+  openReading,
+  openWriting,
+}: {
+  openLesson: (chapterId: string, index: number) => void
+  openReading: (id: string) => void
+  openWriting: (id: string) => void
+}) {
   const { t, progress } = useApp()
   const lang = progress.settings.uiLang
   const next = nextLesson(progress, chapters)
@@ -92,10 +100,51 @@ export function Home({ openLesson }: { openLesson: (chapterId: string, index: nu
                       )
                     })}
                   </div>
+                  <Extras
+                    chapterId={ch.id}
+                    open={isLessonUnlocked(progress, chapters, i, 2)}
+                    openReading={openReading}
+                    openWriting={openWriting}
+                  />
                 </div>
               )
             })}
         </section>
+      ))}
+    </div>
+  )
+}
+
+/** Optional reading and writing practice; opens once the sentences lesson is reached. */
+function Extras({
+  chapterId,
+  open,
+  openReading,
+  openWriting,
+}: {
+  chapterId: string
+  open: boolean
+  openReading: (id: string) => void
+  openWriting: (id: string) => void
+}) {
+  const { t, progress } = useApp()
+  const reading = readingTexts.filter((r) => r.chapterId === chapterId)
+  const writing = writingTasks.filter((w) => w.chapterId === chapterId)
+  if (!reading.length && !writing.length) return null
+  const cls = 'flex items-center gap-2 rounded-xl border-2 border-b-4 px-3 py-2 text-sm font-bold disabled:cursor-not-allowed disabled:opacity-50'
+  return (
+    <div className="mt-4 flex flex-wrap gap-2 border-t-2 border-slate-100 pt-4">
+      {reading.map((r) => (
+        <button key={r.id} type="button" disabled={!open} title={open ? r.title : t('locked')} onClick={() => openReading(r.id)} className={`${cls} border-sky-200 bg-sky-50 text-sky-700`}>
+          📰 {t('lessonReading')}: {r.title}
+          {progress.reading[r.id] !== undefined && <span>✓ {Math.round(progress.reading[r.id] * 100)}%</span>}
+        </button>
+      ))}
+      {writing.map((w) => (
+        <button key={w.id} type="button" disabled={!open} title={open ? w.title : t('locked')} onClick={() => openWriting(w.id)} className={`${cls} border-purple-200 bg-purple-50 text-purple-700`}>
+          ✍️ {t('lessonWriting')}: {w.title}
+          {progress.writing[w.id] && <span>✓</span>}
+        </button>
       ))}
     </div>
   )
