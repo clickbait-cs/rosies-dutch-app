@@ -5,5 +5,5 @@
 // While these are empty, everyone who signs in is treated as a learner and
 // progress is only saved on the device.
 
-export const LEARNER_UID = ''
+export const LEARNER_UID = 'qmATSeU7N4hbpEqm5cZl2JSHuxy1'
 export const SUPPORTER_UID = 'Hln0dg99miWEFn6mJdN1u2ojxcD3'
