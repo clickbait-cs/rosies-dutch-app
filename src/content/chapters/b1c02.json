@@ -1,0 +1,77 @@
+{
+  "id": "b1c02",
+  "book": 1,
+  "number": 2,
+  "titleNl": "Werk en getallen",
+  "title": "Work and numbers",
+  "titleVi": "Công việc và con số",
+  "cefr": "A1",
+  "provisional": true,
+  "words": [
+    { "nl": "werk", "article": "het", "en": "work", "vi": "công việc" },
+    { "nl": "baan", "article": "de", "plural": "banen", "en": "job", "vi": "việc làm" },
+    { "nl": "beroep", "article": "het", "plural": "beroepen", "en": "profession", "vi": "nghề nghiệp" },
+    { "nl": "collega", "article": "de", "plural": "collega's", "en": "colleague", "vi": "đồng nghiệp" },
+    { "nl": "kantoor", "article": "het", "plural": "kantoren", "en": "office", "vi": "văn phòng" },
+    { "nl": "winkel", "article": "de", "plural": "winkels", "en": "shop", "vi": "cửa hàng" },
+    { "nl": "school", "article": "de", "plural": "scholen", "en": "school", "vi": "trường học" },
+    { "nl": "student", "article": "de", "plural": "studenten", "en": "student", "vi": "sinh viên" },
+    { "nl": "telefoonnummer", "article": "het", "plural": "telefoonnummers", "en": "phone number", "vi": "số điện thoại" },
+    { "nl": "adres", "article": "het", "plural": "adressen", "en": "address", "vi": "địa chỉ" },
+    { "nl": "een", "en": "one", "vi": "một", "alt": ["één"] },
+    { "nl": "twee", "en": "two", "vi": "hai" },
+    { "nl": "drie", "en": "three", "vi": "ba" },
+    { "nl": "vier", "en": "four", "vi": "bốn" },
+    { "nl": "vijf", "en": "five", "vi": "năm" },
+    { "nl": "zes", "en": "six", "vi": "sáu" },
+    { "nl": "zeven", "en": "seven", "vi": "bảy" },
+    { "nl": "acht", "en": "eight", "vi": "tám" },
+    { "nl": "negen", "en": "nine", "vi": "chín" },
+    { "nl": "tien", "en": "ten", "vi": "mười" },
+    { "nl": "twintig", "en": "twenty", "vi": "hai mươi" },
+    { "nl": "honderd", "en": "a hundred", "vi": "một trăm" }
+  ],
+  "sentences": [
+    { "nl": "Wat doe je?", "en": "What do you do?", "vi": "Bạn làm nghề gì?", "alt": ["Wat doe jij?", "Wat voor werk doe je?"], "tip": "questions" },
+    { "nl": "Ik werk in een winkel.", "en": "I work in a shop.", "vi": "Tôi làm việc ở một cửa hàng." },
+    { "nl": "Hij werkt op een kantoor.", "en": "He works in an office.", "vi": "Anh ấy làm việc ở văn phòng.", "alt": ["Hij werkt in een kantoor."], "tip": "conjugation" },
+    { "nl": "Wij leren Nederlands.", "en": "We are learning Dutch.", "vi": "Chúng tôi học tiếng Hà Lan.", "alt": ["We leren Nederlands."] },
+    { "nl": "Ik ben student.", "en": "I am a student.", "vi": "Tôi là sinh viên." },
+    { "nl": "Wat is je telefoonnummer?", "en": "What is your phone number?", "vi": "Số điện thoại của bạn là gì?", "alt": ["Wat is jouw telefoonnummer?"] },
+    { "nl": "Hoe oud ben je?", "en": "How old are you?", "vi": "Bạn bao nhiêu tuổi?", "alt": ["Hoe oud ben jij?"], "tip": "questions" },
+    { "nl": "Ik ben dertig jaar.", "en": "I am thirty years old.", "vi": "Tôi ba mươi tuổi.", "alt": ["Ik ben dertig jaar oud."] },
+    { "nl": "Werk jij vandaag?", "en": "Are you working today?", "vi": "Hôm nay bạn có làm việc không?", "alt": ["Werk je vandaag?"], "tip": "conjugation" },
+    { "nl": "Mijn collega komt uit Polen.", "en": "My colleague is from Poland.", "vi": "Đồng nghiệp của tôi đến từ Ba Lan." }
+  ],
+  "verbs": [
+    { "inf": "werken", "en": "to work", "vi": "làm việc", "ik": "werk", "jij": "werkt", "hij": "werkt", "wij": "werken", "jullie": "werken", "zij": "werken" },
+    { "inf": "leren", "en": "to learn", "vi": "học", "ik": "leer", "jij": "leert", "hij": "leert", "wij": "leren", "jullie": "leren", "zij": "leren" },
+    { "inf": "doen", "en": "to do", "vi": "làm", "ik": "doe", "jij": "doet", "hij": "doet", "wij": "doen", "jullie": "doen", "zij": "doen" },
+    { "inf": "studeren", "en": "to study", "vi": "học (đại học)", "ik": "studeer", "jij": "studeert", "hij": "studeert", "wij": "studeren", "jullie": "studeren", "zij": "studeren" },
+    { "inf": "maken", "en": "to make", "vi": "làm, chế tạo", "ik": "maak", "jij": "maakt", "hij": "maakt", "wij": "maken", "jullie": "maken", "zij": "maken" }
+  ],
+  "grammar": [
+    {
+      "title": "Present tense of regular verbs",
+      "titleVi": "Thì hiện tại của động từ có quy tắc",
+      "en": "Take the infinitive and remove -en to get the stem: werken → werk.\nik + stem: ik werk\njij / u / hij / zij + stem + t: jij werkt\nwij / jullie / zij + infinitive: wij werken\nSpelling: a long vowel stays long, so one vowel is doubled: leren → ik leer, maken → ik maak.",
+      "vi": "Lấy động từ nguyên mẫu và bỏ -en để có gốc: werken → werk.\nik + gốc: ik werk\njij / u / hij / zij + gốc + t: jij werkt\nwij / jullie / zij + nguyên mẫu: wij werken\nChính tả: nguyên âm dài phải giữ dài, nên viết đôi nguyên âm: leren → ik leer, maken → ik maak.",
+      "examples": [
+        { "nl": "Ik werk in Utrecht.", "en": "I work in Utrecht." },
+        { "nl": "Jullie leren Nederlands.", "en": "You (all) are learning Dutch." }
+      ],
+      "tip": "conjugation"
+    },
+    {
+      "title": "Numbers",
+      "titleVi": "Số đếm",
+      "en": "1 een/één, 2 twee, 3 drie, 4 vier, 5 vijf, 6 zes, 7 zeven, 8 acht, 9 negen, 10 tien, 11 elf, 12 twaalf, 13 dertien, 20 twintig, 30 dertig, 100 honderd.\nAfter 20 Dutch says the small number first: 21 = eenentwintig (one-and-twenty).",
+      "vi": "1 een/één, 2 twee, 3 drie, 4 vier, 5 vijf, 6 zes, 7 zeven, 8 acht, 9 negen, 10 tien, 11 elf, 12 twaalf, 13 dertien, 20 twintig, 30 dertig, 100 honderd.\nTừ 21 trở đi, tiếng Hà Lan nói số nhỏ trước: 21 = eenentwintig (một-và-hai mươi), ngược với tiếng Việt (hai mươi mốt).",
+      "examples": [
+        { "nl": "eenentwintig", "en": "twenty-one" },
+        { "nl": "vijfendertig", "en": "thirty-five" }
+      ]
+    }
+  ],
+  "drills": ["conjugation", "article"]
+}

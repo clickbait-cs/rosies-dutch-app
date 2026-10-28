@@ -1,0 +1,78 @@
+{
+  "id": "b1c01",
+  "book": 1,
+  "number": 1,
+  "titleNl": "Kennismaken",
+  "title": "Introducing yourself",
+  "titleVi": "Làm quen, giới thiệu bản thân",
+  "cefr": "A1",
+  "provisional": false,
+  "words": [
+    { "nl": "hallo", "en": "hello", "vi": "xin chào" },
+    { "nl": "dag", "en": "bye / hello", "vi": "chào (khi gặp hoặc khi tạm biệt)" },
+    { "nl": "goedemorgen", "en": "good morning", "vi": "chào buổi sáng" },
+    { "nl": "tot ziens", "en": "goodbye", "vi": "tạm biệt" },
+    { "nl": "aangenaam", "en": "nice to meet you", "vi": "rất vui được gặp" },
+    { "nl": "ja", "en": "yes", "vi": "vâng, có" },
+    { "nl": "nee", "en": "no", "vi": "không" },
+    { "nl": "dank je wel", "en": "thank you", "vi": "cảm ơn (thân mật)", "alt": ["dankjewel", "bedankt"] },
+    { "nl": "alsjeblieft", "en": "please / here you are", "vi": "làm ơn / của bạn đây" },
+    { "nl": "naam", "article": "de", "plural": "namen", "en": "name", "vi": "tên" },
+    { "nl": "land", "article": "het", "plural": "landen", "en": "country", "vi": "đất nước" },
+    { "nl": "taal", "article": "de", "plural": "talen", "en": "language", "vi": "ngôn ngữ" },
+    { "nl": "Nederland", "en": "the Netherlands", "vi": "Hà Lan" },
+    { "nl": "Vietnam", "en": "Vietnam", "vi": "Việt Nam" },
+    { "nl": "Nederlands", "en": "Dutch (language)", "vi": "tiếng Hà Lan" },
+    { "nl": "Vietnamees", "en": "Vietnamese (language)", "vi": "tiếng Việt" },
+    { "nl": "Engels", "en": "English (language)", "vi": "tiếng Anh" },
+    { "nl": "ik", "en": "I", "vi": "tôi" },
+    { "nl": "jij", "en": "you", "vi": "bạn", "alt": ["je"] },
+    { "nl": "hij", "en": "he", "vi": "anh ấy, ông ấy" },
+    { "nl": "zij", "en": "she", "vi": "cô ấy, bà ấy", "alt": ["ze"] },
+    { "nl": "wij", "en": "we", "vi": "chúng tôi, chúng ta", "alt": ["we"] }
+  ],
+  "sentences": [
+    { "nl": "Hallo, ik ben Rosie.", "en": "Hello, I am Rosie.", "vi": "Xin chào, tôi là Rosie.", "alt": ["Hallo, ik heet Rosie."] },
+    { "nl": "Hoe heet jij?", "en": "What is your name?", "vi": "Bạn tên là gì?", "alt": ["Hoe heet je?", "Wat is jouw naam?", "Wat is je naam?"], "tip": "questions" },
+    { "nl": "Ik heet Tom.", "en": "My name is Tom.", "vi": "Tôi tên là Tom.", "alt": ["Mijn naam is Tom.", "Ik ben Tom."] },
+    { "nl": "Waar kom je vandaan?", "en": "Where are you from?", "vi": "Bạn đến từ đâu?", "alt": ["Waar kom jij vandaan?"], "tip": "questions" },
+    { "nl": "Ik kom uit Vietnam.", "en": "I am from Vietnam.", "vi": "Tôi đến từ Việt Nam." },
+    { "nl": "Ik woon in Nederland.", "en": "I live in the Netherlands.", "vi": "Tôi sống ở Hà Lan.", "tip": "word-order" },
+    { "nl": "Ik spreek Vietnamees en Engels.", "en": "I speak Vietnamese and English.", "vi": "Tôi nói tiếng Việt và tiếng Anh." },
+    { "nl": "Spreek jij Nederlands?", "en": "Do you speak Dutch?", "vi": "Bạn có nói tiếng Hà Lan không?", "alt": ["Spreek je Nederlands?"], "tip": "questions" },
+    { "nl": "Hoe gaat het met je?", "en": "How are you?", "vi": "Bạn khỏe không?", "alt": ["Hoe gaat het?", "Hoe gaat het met jou?"] },
+    { "nl": "Goed, dank je wel.", "en": "Good, thank you.", "vi": "Khỏe, cảm ơn bạn.", "alt": ["Goed, dankjewel.", "Goed, bedankt."] }
+  ],
+  "verbs": [
+    { "inf": "zijn", "en": "to be", "vi": "là, thì, ở", "ik": "ben", "jij": "bent", "hij": "is", "wij": "zijn", "jullie": "zijn", "zij": "zijn" },
+    { "inf": "heten", "en": "to be called", "vi": "tên là", "ik": "heet", "jij": "heet", "hij": "heet", "wij": "heten", "jullie": "heten", "zij": "heten" },
+    { "inf": "komen", "en": "to come", "vi": "đến", "ik": "kom", "jij": "komt", "hij": "komt", "wij": "komen", "jullie": "komen", "zij": "komen" },
+    { "inf": "wonen", "en": "to live", "vi": "sống, ở", "ik": "woon", "jij": "woont", "hij": "woont", "wij": "wonen", "jullie": "wonen", "zij": "wonen" },
+    { "inf": "spreken", "en": "to speak", "vi": "nói", "ik": "spreek", "jij": "spreekt", "hij": "spreekt", "wij": "spreken", "jullie": "spreken", "zij": "spreken" }
+  ],
+  "grammar": [
+    {
+      "title": "I, you, he, she…",
+      "titleVi": "Đại từ nhân xưng: tôi, bạn, anh ấy…",
+      "en": "ik = I\njij / je = you (informal)\nu = you (polite)\nhij = he, zij / ze = she, het = it\nwij / we = we\njullie = you (more than one person)\nzij / ze = they",
+      "vi": "ik = tôi\njij / je = bạn (thân mật)\nu = ông/bà/anh/chị (lịch sự)\nhij = anh ấy, zij / ze = cô ấy, het = nó\nwij / we = chúng tôi\njullie = các bạn\nzij / ze = họ\nTiếng Hà Lan không có nhiều cách xưng hô như tiếng Việt: chỉ cần chọn jij (thân mật) hoặc u (lịch sự).",
+      "examples": [
+        { "nl": "Ik ben Rosie.", "en": "I am Rosie." },
+        { "nl": "Wij wonen in Utrecht.", "en": "We live in Utrecht." }
+      ],
+      "tip": "jij-u"
+    },
+    {
+      "title": "zijn = to be",
+      "titleVi": "zijn = là, thì",
+      "en": "ik ben, jij bent, u bent, hij/zij is, wij zijn, jullie zijn, zij zijn.\nDutch always needs a verb: \"Ik ben moe\" (I am tired).",
+      "vi": "ik ben, jij bent, u bent, hij/zij is, wij zijn, jullie zijn, zij zijn.\nTiếng Hà Lan luôn cần động từ: \"Ik ben moe\" (Tôi mệt).",
+      "examples": [
+        { "nl": "Jij bent Tom.", "en": "You are Tom." },
+        { "nl": "Zij is uit Vietnam.", "en": "She is from Vietnam." }
+      ],
+      "tip": "zijn-hebben"
+    }
+  ],
+  "drills": ["conjugation", "wordorder"]
+}

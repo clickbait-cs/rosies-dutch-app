@@ -1,0 +1,44 @@
+rules_version = '2';
+
+// Who may read and write what in the database.
+// Paste this into Firebase console → Firestore Database → Rules → Publish.
+// The two ids must match src/config.ts.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function learner() { return 'LEARNER_UID_HERE'; }
+    function supporter() { return 'SUPPORTER_UID_HERE'; }
+
+    function signedIn() { return request.auth != null; }
+    function isMember() {
+      return signedIn() && (request.auth.uid == learner() || request.auth.uid == supporter());
+    }
+    function isSupporter() { return signedIn() && request.auth.uid == supporter(); }
+
+    // Progress: everyone writes only their own; the supporter may also read the learner's.
+    match /learners/{uid} {
+      allow read: if isMember() && (request.auth.uid == uid || isSupporter());
+      allow write: if isMember() && request.auth.uid == uid;
+    }
+
+    // Cheer messages: written by the supporter, read by both.
+    match /cheers/{id} {
+      allow read: if isMember();
+      allow create: if isSupporter()
+        && request.resource.data.to == learner()
+        && request.resource.data.text is string
+        && request.resource.data.text.size() <= 500;
+      allow delete: if isSupporter();
+    }
+
+    // "Report a mistake": anyone of the two can send; only the supporter reads them.
+    match /reports/{id} {
+      allow create: if isMember() && request.resource.data.uid == request.auth.uid;
+      allow read, delete: if isSupporter();
+    }
+
+    // Everything else is closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

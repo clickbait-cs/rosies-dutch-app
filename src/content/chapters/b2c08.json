@@ -1,0 +1,276 @@
+{
+  "id": "b2c08",
+  "book": 2,
+  "number": 8,
+  "titleNl": "Leven in Nederland",
+  "title": "Living in the Netherlands",
+  "titleVi": "Cuộc sống ở Hà Lan",
+  "cefr": "A2",
+  "provisional": true,
+  "words": [
+    {
+      "nl": "gemeente",
+      "article": "de",
+      "plural": "gemeenten",
+      "en": "municipality",
+      "vi": "chính quyền địa phương, thành phố"
+    },
+    {
+      "nl": "formulier",
+      "article": "het",
+      "plural": "formulieren",
+      "en": "form",
+      "vi": "mẫu đơn"
+    },
+    {
+      "nl": "paspoort",
+      "article": "het",
+      "plural": "paspoorten",
+      "en": "passport",
+      "vi": "hộ chiếu"
+    },
+    {
+      "nl": "verblijfsvergunning",
+      "article": "de",
+      "plural": "verblijfsvergunningen",
+      "en": "residence permit",
+      "vi": "giấy phép cư trú"
+    },
+    {
+      "nl": "inburgering",
+      "article": "de",
+      "en": "civic integration",
+      "vi": "hội nhập công dân"
+    },
+    {
+      "nl": "examen",
+      "article": "het",
+      "plural": "examens",
+      "en": "exam",
+      "vi": "kỳ thi"
+    },
+    {
+      "nl": "cursus",
+      "article": "de",
+      "plural": "cursussen",
+      "en": "course",
+      "vi": "khóa học"
+    },
+    {
+      "nl": "belasting",
+      "article": "de",
+      "en": "tax",
+      "vi": "thuế"
+    },
+    {
+      "nl": "regel",
+      "article": "de",
+      "plural": "regels",
+      "en": "rule",
+      "vi": "quy định, luật lệ"
+    },
+    {
+      "nl": "buurt",
+      "article": "de",
+      "plural": "buurten",
+      "en": "neighbourhood",
+      "vi": "khu phố"
+    },
+    {
+      "nl": "vrijwilliger",
+      "article": "de",
+      "plural": "vrijwilligers",
+      "en": "volunteer",
+      "vi": "tình nguyện viên"
+    },
+    {
+      "nl": "afval",
+      "article": "het",
+      "en": "rubbish, waste",
+      "vi": "rác"
+    },
+    {
+      "nl": "gezellig",
+      "en": "cosy, nice and sociable",
+      "vi": "ấm cúng, vui vẻ"
+    },
+    {
+      "nl": "invullen",
+      "en": "to fill in",
+      "vi": "điền (đơn)"
+    },
+    {
+      "nl": "aanvragen",
+      "en": "to apply for",
+      "vi": "nộp đơn xin"
+    },
+    {
+      "nl": "slagen",
+      "en": "to pass (an exam)",
+      "vi": "thi đỗ"
+    },
+    {
+      "nl": "proberen",
+      "en": "to try",
+      "vi": "cố gắng, thử"
+    },
+    {
+      "nl": "belangrijk",
+      "en": "important",
+      "vi": "quan trọng"
+    },
+    {
+      "nl": "verplicht",
+      "en": "compulsory",
+      "vi": "bắt buộc"
+    },
+    {
+      "nl": "doel",
+      "article": "het",
+      "plural": "doelen",
+      "en": "goal",
+      "vi": "mục tiêu"
+    }
+  ],
+  "sentences": [
+    {
+      "nl": "Ik moet een formulier invullen.",
+      "en": "I have to fill in a form.",
+      "vi": "Tôi phải điền một mẫu đơn.",
+      "tip": "separable"
+    },
+    {
+      "nl": "Ik ga naar de gemeente om een paspoort aan te vragen.",
+      "en": "I'm going to the municipality to apply for a passport.",
+      "vi": "Tôi đến chính quyền địa phương để làm đơn xin hộ chiếu.",
+      "tip": "om-te"
+    },
+    {
+      "nl": "Ik leer Nederlands om het examen te halen.",
+      "en": "I learn Dutch to pass the exam.",
+      "vi": "Tôi học tiếng Hà Lan để thi đỗ.",
+      "tip": "om-te"
+    },
+    {
+      "nl": "Het inburgeringsexamen is verplicht.",
+      "en": "The civic integration exam is compulsory.",
+      "vi": "Kỳ thi hội nhập là bắt buộc."
+    },
+    {
+      "nl": "Ik hoop dat ik slaag.",
+      "en": "I hope that I pass.",
+      "vi": "Tôi hy vọng là tôi thi đỗ.",
+      "tip": "verb-end"
+    },
+    {
+      "nl": "Ik probeer elke dag Nederlands te spreken.",
+      "en": "I try to speak Dutch every day.",
+      "vi": "Tôi cố gắng nói tiếng Hà Lan mỗi ngày.",
+      "tip": "om-te"
+    },
+    {
+      "nl": "In Nederland scheiden we het afval.",
+      "en": "In the Netherlands we separate the rubbish.",
+      "vi": "Ở Hà Lan chúng tôi phân loại rác.",
+      "alt": [
+        "In Nederland scheiden wij het afval."
+      ],
+      "tip": "inversion"
+    },
+    {
+      "nl": "Het is belangrijk om je buren te kennen.",
+      "en": "It is important to know your neighbours.",
+      "vi": "Biết hàng xóm của mình là điều quan trọng.",
+      "tip": "om-te"
+    },
+    {
+      "nl": "Zij werkt als vrijwilliger in de buurt.",
+      "en": "She works as a volunteer in the neighbourhood.",
+      "vi": "Cô ấy làm tình nguyện viên trong khu phố."
+    },
+    {
+      "nl": "Ik vind het hier heel gezellig.",
+      "en": "I find it very cosy and nice here.",
+      "vi": "Tôi thấy ở đây rất ấm cúng, vui vẻ."
+    }
+  ],
+  "verbs": [
+    {
+      "inf": "invullen",
+      "en": "to fill in",
+      "vi": "điền",
+      "ik": "vul in",
+      "jij": "vult in",
+      "hij": "vult in",
+      "wij": "vullen in",
+      "jullie": "vullen in",
+      "zij": "vullen in"
+    },
+    {
+      "inf": "proberen",
+      "en": "to try",
+      "vi": "cố gắng",
+      "ik": "probeer",
+      "jij": "probeert",
+      "hij": "probeert",
+      "wij": "proberen",
+      "jullie": "proberen",
+      "zij": "proberen"
+    },
+    {
+      "inf": "hopen",
+      "en": "to hope",
+      "vi": "hy vọng",
+      "ik": "hoop",
+      "jij": "hoopt",
+      "hij": "hoopt",
+      "wij": "hopen",
+      "jullie": "hopen",
+      "zij": "hopen"
+    },
+    {
+      "inf": "kennen",
+      "en": "to know (a person/place)",
+      "vi": "quen biết",
+      "ik": "ken",
+      "jij": "kent",
+      "hij": "kent",
+      "wij": "kennen",
+      "jullie": "kennen",
+      "zij": "kennen"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "om … te + infinitive",
+      "titleVi": "om … te + động từ nguyên mẫu (để …)",
+      "en": "To say why: Ik ga naar school om Nederlands te leren.\nWith separable verbs te goes in the middle: aanvragen → om … aan te vragen.",
+      "vi": "Để nói mục đích: Ik ga naar school om Nederlands te leren (Tôi đi học để học tiếng Hà Lan).\nVới động từ tách được, te nằm ở giữa: aanvragen → om … aan te vragen.",
+      "examples": [
+        {
+          "nl": "Ik spaar om een auto te kopen.",
+          "en": "I'm saving to buy a car."
+        }
+      ],
+      "tip": "om-te"
+    },
+    {
+      "title": "Revision: verb at the end after dat / omdat",
+      "titleVi": "Ôn tập: động từ cuối câu sau dat / omdat",
+      "en": "Ik hoop dat ik slaag. Ik leer Nederlands, omdat ik hier woon.",
+      "vi": "Ik hoop dat ik slaag (Tôi hy vọng là tôi thi đỗ). Ik leer Nederlands, omdat ik hier woon (Tôi học tiếng Hà Lan vì tôi sống ở đây).",
+      "examples": [
+        {
+          "nl": "Ik denk dat het examen moeilijk is.",
+          "en": "I think that the exam is difficult."
+        }
+      ],
+      "tip": "verb-end"
+    }
+  ],
+  "drills": [
+    "wordorder",
+    "conjugation",
+    "article"
+  ]
+}

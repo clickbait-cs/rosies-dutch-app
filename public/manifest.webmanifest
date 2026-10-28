@@ -1,0 +1,10 @@
+{
+  "name": "Rosie's Dutch",
+  "short_name": "Dutch",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#58a700",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

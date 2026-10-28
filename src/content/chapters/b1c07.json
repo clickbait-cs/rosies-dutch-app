@@ -1,0 +1,75 @@
+{
+  "id": "b1c07",
+  "book": 1,
+  "number": 7,
+  "titleNl": "Wonen",
+  "title": "Home and living",
+  "titleVi": "Nhà ở",
+  "cefr": "A1",
+  "provisional": true,
+  "words": [
+    { "nl": "huis", "article": "het", "plural": "huizen", "en": "house", "vi": "ngôi nhà" },
+    { "nl": "appartement", "article": "het", "plural": "appartementen", "en": "apartment", "vi": "căn hộ" },
+    { "nl": "kamer", "article": "de", "plural": "kamers", "en": "room", "vi": "phòng" },
+    { "nl": "keuken", "article": "de", "plural": "keukens", "en": "kitchen", "vi": "nhà bếp" },
+    { "nl": "slaapkamer", "article": "de", "plural": "slaapkamers", "en": "bedroom", "vi": "phòng ngủ" },
+    { "nl": "woonkamer", "article": "de", "plural": "woonkamers", "en": "living room", "vi": "phòng khách" },
+    { "nl": "badkamer", "article": "de", "plural": "badkamers", "en": "bathroom", "vi": "phòng tắm" },
+    { "nl": "tuin", "article": "de", "plural": "tuinen", "en": "garden", "vi": "khu vườn" },
+    { "nl": "tafel", "article": "de", "plural": "tafels", "en": "table", "vi": "cái bàn" },
+    { "nl": "stoel", "article": "de", "plural": "stoelen", "en": "chair", "vi": "cái ghế" },
+    { "nl": "bed", "article": "het", "plural": "bedden", "en": "bed", "vi": "cái giường" },
+    { "nl": "bank", "article": "de", "plural": "banken", "en": "sofa / bank", "vi": "ghế sofa / ngân hàng" },
+    { "nl": "raam", "article": "het", "plural": "ramen", "en": "window", "vi": "cửa sổ" },
+    { "nl": "deur", "article": "de", "plural": "deuren", "en": "door", "vi": "cửa ra vào" },
+    { "nl": "straat", "article": "de", "plural": "straten", "en": "street", "vi": "đường phố" },
+    { "nl": "buurman", "article": "de", "plural": "buren", "en": "neighbour (man)", "vi": "hàng xóm (nam)" },
+    { "nl": "huur", "article": "de", "en": "rent", "vi": "tiền thuê nhà" },
+    { "nl": "groot", "en": "big", "vi": "lớn" },
+    { "nl": "mooi", "en": "beautiful, nice", "vi": "đẹp" },
+    { "nl": "naast", "en": "next to", "vi": "bên cạnh" },
+    { "nl": "boven", "en": "upstairs / above", "vi": "trên lầu / phía trên" },
+    { "nl": "beneden", "en": "downstairs", "vi": "dưới nhà, tầng dưới" }
+  ],
+  "sentences": [
+    { "nl": "Er zijn drie slaapkamers.", "en": "There are three bedrooms.", "vi": "Có ba phòng ngủ.", "tip": "er" },
+    { "nl": "Er is een tuin achter het huis.", "en": "There is a garden behind the house.", "vi": "Có một khu vườn phía sau ngôi nhà.", "tip": "er" },
+    { "nl": "Wij wonen in een klein appartement.", "en": "We live in a small apartment.", "vi": "Chúng tôi sống trong một căn hộ nhỏ.", "alt": ["We wonen in een klein appartement."], "tip": "adjective-e" },
+    { "nl": "De keuken is groot.", "en": "The kitchen is big.", "vi": "Nhà bếp lớn.", "tip": "adjective-e" },
+    { "nl": "Het is een mooi huis.", "en": "It is a beautiful house.", "vi": "Đó là một ngôi nhà đẹp.", "tip": "adjective-e" },
+    { "nl": "De badkamer is boven.", "en": "The bathroom is upstairs.", "vi": "Phòng tắm ở trên lầu." },
+    { "nl": "De bank staat naast het raam.", "en": "The sofa is next to the window.", "vi": "Ghế sofa ở bên cạnh cửa sổ." },
+    { "nl": "Mijn buurman is heel aardig.", "en": "My neighbour is very kind.", "vi": "Hàng xóm của tôi rất tốt bụng." },
+    { "nl": "Hoeveel is de huur?", "en": "How much is the rent?", "vi": "Tiền thuê nhà bao nhiêu?", "alt": ["Wat is de huur?"], "tip": "questions" },
+    { "nl": "Ik zoek een groter huis.", "en": "I am looking for a bigger house.", "vi": "Tôi đang tìm một ngôi nhà lớn hơn.", "tip": "comparative" }
+  ],
+  "verbs": [
+    { "inf": "zoeken", "en": "to look for", "vi": "tìm", "ik": "zoek", "jij": "zoekt", "hij": "zoekt", "wij": "zoeken", "jullie": "zoeken", "zij": "zoeken" },
+    { "inf": "staan", "en": "to stand / be (placed)", "vi": "đứng, đặt", "ik": "sta", "jij": "staat", "hij": "staat", "wij": "staan", "jullie": "staan", "zij": "staan" },
+    { "inf": "huren", "en": "to rent", "vi": "thuê", "ik": "huur", "jij": "huurt", "hij": "huurt", "wij": "huren", "jullie": "huren", "zij": "huren" }
+  ],
+  "grammar": [
+    {
+      "title": "er is / er zijn",
+      "titleVi": "er is / er zijn = có",
+      "en": "Er is + one thing, er zijn + more things: Er is een tuin. Er zijn twee badkamers.",
+      "vi": "Er is + một vật, er zijn + nhiều vật: Er is een tuin (Có một khu vườn). Er zijn twee badkamers (Có hai phòng tắm).",
+      "examples": [
+        { "nl": "Er is een supermarkt in de straat.", "en": "There is a supermarket in the street." }
+      ],
+      "tip": "er"
+    },
+    {
+      "title": "Adjectives before a noun",
+      "titleVi": "Tính từ đứng trước danh từ",
+      "en": "de grote kamer, het grote huis, een grote kamer — but een groot huis (een + het-word: no -e). After the verb: no -e (Het huis is groot).",
+      "vi": "de grote kamer, het grote huis, een grote kamer — nhưng een groot huis (een + từ het: không thêm -e). Sau động từ: không thêm -e (Het huis is groot).",
+      "examples": [
+        { "nl": "een mooie tuin", "en": "a beautiful garden" },
+        { "nl": "een mooi raam", "en": "a beautiful window" }
+      ],
+      "tip": "adjective-e"
+    }
+  ],
+  "drills": ["article", "plural"]
+}

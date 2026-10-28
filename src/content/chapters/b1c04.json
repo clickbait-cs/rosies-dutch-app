@@ -1,0 +1,297 @@
+{
+  "id": "b1c04",
+  "book": 1,
+  "number": 4,
+  "titleNl": "Boodschappen doen",
+  "title": "Shopping",
+  "titleVi": "Đi mua sắm",
+  "cefr": "A1",
+  "provisional": true,
+  "words": [
+    {
+      "nl": "supermarkt",
+      "article": "de",
+      "plural": "supermarkten",
+      "en": "supermarket",
+      "vi": "siêu thị"
+    },
+    {
+      "nl": "markt",
+      "article": "de",
+      "plural": "markten",
+      "en": "market",
+      "vi": "chợ"
+    },
+    {
+      "nl": "boodschappen",
+      "article": "de",
+      "en": "groceries",
+      "vi": "đồ đi chợ"
+    },
+    {
+      "nl": "brood",
+      "article": "het",
+      "en": "bread",
+      "vi": "bánh mì"
+    },
+    {
+      "nl": "melk",
+      "article": "de",
+      "en": "milk",
+      "vi": "sữa"
+    },
+    {
+      "nl": "kaas",
+      "article": "de",
+      "en": "cheese",
+      "vi": "phô mai"
+    },
+    {
+      "nl": "ei",
+      "article": "het",
+      "plural": "eieren",
+      "en": "egg",
+      "vi": "quả trứng"
+    },
+    {
+      "nl": "appel",
+      "article": "de",
+      "plural": "appels",
+      "en": "apple",
+      "vi": "quả táo"
+    },
+    {
+      "nl": "banaan",
+      "article": "de",
+      "plural": "bananen",
+      "en": "banana",
+      "vi": "quả chuối"
+    },
+    {
+      "nl": "tas",
+      "article": "de",
+      "plural": "tassen",
+      "en": "bag",
+      "vi": "túi"
+    },
+    {
+      "nl": "kassa",
+      "article": "de",
+      "plural": "kassa's",
+      "en": "checkout",
+      "vi": "quầy thu ngân"
+    },
+    {
+      "nl": "bon",
+      "article": "de",
+      "plural": "bonnen",
+      "en": "receipt",
+      "vi": "hóa đơn"
+    },
+    {
+      "nl": "euro",
+      "article": "de",
+      "plural": "euro's",
+      "en": "euro",
+      "vi": "đồng euro"
+    },
+    {
+      "nl": "kilo",
+      "article": "de",
+      "plural": "kilo's",
+      "en": "kilo",
+      "vi": "ký, kilôgam"
+    },
+    {
+      "nl": "pinnen",
+      "en": "to pay by card",
+      "vi": "trả bằng thẻ"
+    },
+    {
+      "nl": "contant",
+      "en": "cash",
+      "vi": "tiền mặt"
+    },
+    {
+      "nl": "duur",
+      "en": "expensive",
+      "vi": "đắt"
+    },
+    {
+      "nl": "goedkoop",
+      "en": "cheap",
+      "vi": "rẻ"
+    },
+    {
+      "nl": "hoeveel",
+      "en": "how much / how many",
+      "vi": "bao nhiêu"
+    },
+    {
+      "nl": "kosten",
+      "en": "to cost",
+      "vi": "có giá"
+    }
+  ],
+  "sentences": [
+    {
+      "nl": "Hoeveel kost dat?",
+      "en": "How much does that cost?",
+      "vi": "Cái đó giá bao nhiêu?",
+      "alt": [
+        "Wat kost dat?",
+        "Hoeveel kost het?"
+      ],
+      "tip": "questions"
+    },
+    {
+      "nl": "Dat is drie euro.",
+      "en": "That is three euros.",
+      "vi": "Cái đó ba euro.",
+      "alt": [
+        "Dat kost drie euro."
+      ]
+    },
+    {
+      "nl": "Ik wil graag een kilo appels.",
+      "en": "I would like a kilo of apples.",
+      "vi": "Tôi muốn mua một ký táo.",
+      "tip": "plural"
+    },
+    {
+      "nl": "Wilt u pinnen of contant betalen?",
+      "en": "Would you like to pay by card or cash?",
+      "vi": "Ông/bà muốn trả bằng thẻ hay tiền mặt?",
+      "tip": "jij-u"
+    },
+    {
+      "nl": "Ik ga pinnen.",
+      "en": "I'll pay by card.",
+      "vi": "Tôi sẽ trả bằng thẻ.",
+      "alt": [
+        "Ik pin."
+      ]
+    },
+    {
+      "nl": "Wilt u de bon?",
+      "en": "Would you like the receipt?",
+      "vi": "Ông/bà có muốn lấy hóa đơn không?",
+      "alt": [
+        "Wil je de bon?"
+      ]
+    },
+    {
+      "nl": "Ik heb geen tas.",
+      "en": "I don't have a bag.",
+      "vi": "Tôi không có túi.",
+      "tip": "negation"
+    },
+    {
+      "nl": "De kaas is duur.",
+      "en": "The cheese is expensive.",
+      "vi": "Phô mai đắt."
+    },
+    {
+      "nl": "Bananen zijn goedkoop.",
+      "en": "Bananas are cheap.",
+      "vi": "Chuối rẻ.",
+      "tip": "plural"
+    },
+    {
+      "nl": "Ik koop brood en melk.",
+      "en": "I buy bread and milk.",
+      "vi": "Tôi mua bánh mì và sữa."
+    }
+  ],
+  "verbs": [
+    {
+      "inf": "kopen",
+      "en": "to buy",
+      "vi": "mua",
+      "ik": "koop",
+      "jij": "koopt",
+      "hij": "koopt",
+      "wij": "kopen",
+      "jullie": "kopen",
+      "zij": "kopen"
+    },
+    {
+      "inf": "betalen",
+      "en": "to pay",
+      "vi": "trả tiền",
+      "ik": "betaal",
+      "jij": "betaalt",
+      "hij": "betaalt",
+      "wij": "betalen",
+      "jullie": "betalen",
+      "zij": "betalen"
+    },
+    {
+      "inf": "kosten",
+      "en": "to cost",
+      "vi": "có giá",
+      "ik": "kost",
+      "jij": "kost",
+      "hij": "kost",
+      "wij": "kosten",
+      "jullie": "kosten",
+      "zij": "kosten"
+    },
+    {
+      "inf": "willen",
+      "en": "to want",
+      "vi": "muốn",
+      "ik": "wil",
+      "jij": "wilt",
+      "hij": "wil",
+      "wij": "willen",
+      "jullie": "willen",
+      "zij": "willen"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Plural nouns",
+      "titleVi": "Danh từ số nhiều",
+      "en": "In Dutch the noun itself changes when there is more than one.\n• Words ending in -el, -er, -em, -en, -je get -s: appel → appels.\n• Words ending in a, o, u, i, y get -'s: euro → euro's.\n• Most other words get -en: tas → tassen, banaan → bananen.\nThe plural always uses de: de appels.",
+      "vi": "Đa số danh từ thêm -en, nhưng: từ kết thúc bằng -el, -er, -em, -en, -je → thêm -s (appel → appels). Từ kết thúc bằng a, o, u, i, y → thêm -'s (euro → euro's). Còn lại đa số → -en (tas → tassen, banaan → bananen).\nSố nhiều luôn dùng de: de appels.",
+      "examples": [
+        {
+          "nl": "één appel, twee appels",
+          "en": "one apple, two apples"
+        },
+        {
+          "nl": "één banaan, vijf bananen",
+          "en": "one banana, five bananas"
+        },
+        {
+          "nl": "één ei, zes eieren",
+          "en": "one egg, six eggs"
+        }
+      ],
+      "tip": "plural"
+    },
+    {
+      "title": "geen = not a / no",
+      "titleVi": "geen = không có",
+      "en": "Use geen instead of niet before a noun with een or without an article: Ik heb een tas → Ik heb geen tas.",
+      "vi": "Dùng geen thay cho niet trước danh từ có een hoặc không có mạo từ: Ik heb een tas → Ik heb geen tas (Tôi không có túi).",
+      "examples": [
+        {
+          "nl": "Ik heb geen tas.",
+          "en": "I don't have a bag."
+        },
+        {
+          "nl": "Wij kopen geen melk.",
+          "en": "We don't buy milk."
+        }
+      ],
+      "tip": "negation"
+    }
+  ],
+  "drills": [
+    "plural",
+    "article",
+    "conjugation"
+  ]
+}

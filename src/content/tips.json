@@ -1,0 +1,281 @@
+[
+  {
+    "id": "articles",
+    "title": "Always learn a noun with its article",
+    "titleVi": "Luôn học danh từ cùng với mạo từ",
+    "en": "Dutch nouns almost always come with a little word in front: de, het (= the) or een (= a/an). Vietnamese has no articles like this, so it is easy to forget them.\nLearn every noun together with de or het, like one word: \"de stoel\", \"het huis\".",
+    "vi": "Danh từ tiếng Hà Lan hầu như luôn có một từ nhỏ đứng trước: de, het (= cái/con… xác định) hoặc een (= một). Tiếng Việt không có mạo từ kiểu này nên rất dễ quên.\nHãy học mỗi danh từ cùng với de hoặc het, như một từ: \"de stoel\" (cái ghế), \"het huis\" (ngôi nhà).",
+    "examples": [
+      { "nl": "de man", "en": "the man", "vi": "người đàn ông (đó)" },
+      { "nl": "een man", "en": "a man", "vi": "một người đàn ông" },
+      { "nl": "het huis", "en": "the house", "vi": "ngôi nhà (đó)" }
+    ]
+  },
+  {
+    "id": "de-het",
+    "title": "de or het?",
+    "titleVi": "de hay het?",
+    "en": "There are two words for \"the\": de and het. About 2 out of 3 nouns use de. Some rules help:\n• People are almost always de: de man, de vrouw.\n• All plurals use de: het huis → de huizen.\n• Small words ending in -je are always het: het meisje, het huisje.\n• Most other words you simply have to learn by heart.",
+    "vi": "Có hai từ cho \"the\": de và het. Khoảng 2/3 danh từ dùng de. Vài quy tắc giúp bạn:\n• Người thì hầu như luôn là de: de man, de vrouw.\n• Tất cả danh từ số nhiều đều dùng de: het huis → de huizen.\n• Từ nhỏ kết thúc bằng -je luôn là het: het meisje, het huisje.\n• Các từ còn lại phải học thuộc. Mẹo: luôn học từ mới cùng với de/het.",
+    "examples": [
+      { "nl": "de tafel – de tafels", "en": "the table – the tables" },
+      { "nl": "het boek – de boeken", "en": "the book – the books" },
+      { "nl": "het meisje", "en": "the girl" }
+    ]
+  },
+  {
+    "id": "plural",
+    "title": "Plurals: -en or -s",
+    "titleVi": "Số nhiều: -en hoặc -s",
+    "en": "In Vietnamese the word stays the same (một cái bàn, hai cái bàn). In Dutch the noun itself changes when there is more than one.\n• Most words get -en: boek → boeken.\n• Words ending in -el, -er, -em, -en, -je and many words ending in a vowel get -s: tafel → tafels, auto → auto's.\n• Spelling can change: huis → huizen, man → mannen, straat → straten.",
+    "vi": "Trong tiếng Việt, danh từ không thay đổi (một cái bàn, hai cái bàn). Trong tiếng Hà Lan, danh từ phải thay đổi khi có nhiều hơn một.\n• Đa số thêm -en: boek → boeken (những quyển sách).\n• Từ kết thúc bằng -el, -er, -em, -en, -je và nhiều từ kết thúc bằng nguyên âm thì thêm -s: tafel → tafels, auto → auto's.\n• Chính tả có thể thay đổi: huis → huizen, man → mannen, straat → straten.",
+    "examples": [
+      { "nl": "één boek, twee boeken", "en": "one book, two books" },
+      { "nl": "één tafel, drie tafels", "en": "one table, three tables" }
+    ]
+  },
+  {
+    "id": "conjugation",
+    "title": "Verbs change with the person",
+    "titleVi": "Động từ thay đổi theo ngôi",
+    "en": "In Vietnamese a verb never changes: tôi làm, bạn làm, họ làm. In Dutch the ending of the verb depends on who does it.\nTake the stem (infinitive minus -en): werken → werk.\n• ik werk\n• jij / u / hij / zij / het werkt (stem + t)\n• wij / jullie / zij werken (infinitive)\nWatch out: if jij comes after the verb, the -t disappears: Werk jij hier?",
+    "vi": "Trong tiếng Việt động từ không bao giờ đổi: tôi làm, bạn làm, họ làm. Trong tiếng Hà Lan, đuôi động từ thay đổi theo người làm.\nLấy gốc động từ (bỏ -en): werken → werk.\n• ik werk (tôi làm)\n• jij / u / hij / zij / het werkt (gốc + t)\n• wij / jullie / zij werken (giữ nguyên dạng nguyên mẫu)\nChú ý: khi jij đứng sau động từ thì bỏ -t: Werk jij hier? (Bạn làm ở đây à?)",
+    "examples": [
+      { "nl": "Ik werk in Utrecht.", "en": "I work in Utrecht." },
+      { "nl": "Zij werkt in een winkel.", "en": "She works in a shop." },
+      { "nl": "Werk jij vandaag?", "en": "Are you working today?" }
+    ]
+  },
+  {
+    "id": "zijn-hebben",
+    "title": "zijn (to be) and hebben (to have) are irregular",
+    "titleVi": "zijn (là/thì) và hebben (có) là động từ bất quy tắc",
+    "en": "The two most important verbs don't follow the normal rules, so learn them by heart:\nzijn: ik ben, jij bent, hij is, wij/jullie/zij zijn\nhebben: ik heb, jij hebt, hij heeft, wij/jullie/zij hebben\nVietnamese often leaves out \"là\" (Tôi mệt). Dutch always needs the verb: Ik ben moe.",
+    "vi": "Hai động từ quan trọng nhất này không theo quy tắc thường, nên phải học thuộc:\nzijn (là, thì, ở): ik ben, jij bent, hij is, wij/jullie/zij zijn\nhebben (có): ik heb, jij hebt, hij heeft, wij/jullie/zij hebben\nTiếng Việt hay bỏ động từ (Tôi mệt). Tiếng Hà Lan luôn cần động từ: Ik ben moe (Tôi [thì] mệt).",
+    "examples": [
+      { "nl": "Ik ben moe.", "en": "I am tired.", "vi": "Tôi mệt." },
+      { "nl": "Hij heeft een zus.", "en": "He has a sister.", "vi": "Anh ấy có một chị/em gái." }
+    ]
+  },
+  {
+    "id": "word-order",
+    "title": "The verb is always in 2nd place",
+    "titleVi": "Động từ luôn đứng ở vị trí thứ 2",
+    "en": "In a normal Dutch sentence the conjugated verb is the second part of the sentence.\nIk woon in Amsterdam. (1 = ik, 2 = woon)\nTime words like vandaag or morgen usually come after the verb: Ik werk vandaag.",
+    "vi": "Trong câu tiếng Hà Lan bình thường, động từ (đã chia) luôn đứng ở vị trí thứ hai.\nIk woon in Amsterdam. (1 = ik, 2 = woon)\nTừ chỉ thời gian như vandaag (hôm nay), morgen (ngày mai) thường đứng sau động từ: Ik werk vandaag. (khác tiếng Việt: Hôm nay tôi làm việc.)",
+    "examples": [
+      { "nl": "Ik woon in Amsterdam.", "en": "I live in Amsterdam." },
+      { "nl": "Wij eten om zes uur.", "en": "We eat at six o'clock." }
+    ]
+  },
+  {
+    "id": "inversion",
+    "title": "Starting with time or place? Swap subject and verb",
+    "titleVi": "Câu bắt đầu bằng thời gian/nơi chốn? Đảo chủ ngữ và động từ",
+    "en": "In Vietnamese you can say \"Hôm nay tôi làm việc\" and keep the normal order. In Dutch the verb must stay in 2nd place, so when the sentence starts with something else, the subject moves behind the verb:\nIk werk vandaag. → Vandaag werk ik.\nMorgen ga ik naar Utrecht. (not: Morgen ik ga…)",
+    "vi": "Trong tiếng Việt bạn có thể nói \"Hôm nay tôi làm việc\" mà vẫn giữ thứ tự bình thường. Trong tiếng Hà Lan động từ phải ở vị trí thứ 2, nên khi câu bắt đầu bằng từ khác (thời gian, nơi chốn…), chủ ngữ phải chuyển ra sau động từ:\nIk werk vandaag. → Vandaag werk ik.\nMorgen ga ik naar Utrecht. (KHÔNG nói: Morgen ik ga…)",
+    "examples": [
+      { "nl": "Vandaag werk ik niet.", "en": "Today I'm not working.", "vi": "Hôm nay tôi không làm việc." },
+      { "nl": "In het weekend slaap ik lang.", "en": "At the weekend I sleep in.", "vi": "Cuối tuần tôi ngủ dậy muộn." }
+    ]
+  },
+  {
+    "id": "questions",
+    "title": "Questions: put the verb first",
+    "titleVi": "Câu hỏi: đưa động từ lên đầu",
+    "en": "Vietnamese adds a word at the end to make a question (… không? … à?). Dutch changes the word order instead.\n• Yes/no question: the verb comes first. Woon jij in Utrecht?\n• With a question word: question word, then verb. Waar woon jij?\nQuestion words: wie (who), wat (what), waar (where), wanneer (when), hoe (how), waarom (why), hoeveel (how many).",
+    "vi": "Tiếng Việt thêm từ ở cuối câu để hỏi (… không? … à?). Tiếng Hà Lan thì đổi thứ tự từ.\n• Câu hỏi có/không: động từ lên đầu. Woon jij in Utrecht? (Bạn sống ở Utrecht không?)\n• Có từ để hỏi: từ để hỏi, rồi động từ. Waar woon jij? (Bạn sống ở đâu?)\nTừ để hỏi: wie (ai), wat (cái gì), waar (ở đâu), wanneer (khi nào), hoe (như thế nào), waarom (tại sao), hoeveel (bao nhiêu).",
+    "examples": [
+      { "nl": "Spreek jij Nederlands?", "en": "Do you speak Dutch?", "vi": "Bạn có nói tiếng Hà Lan không?" },
+      { "nl": "Waar kom je vandaan?", "en": "Where are you from?", "vi": "Bạn đến từ đâu?" }
+    ]
+  },
+  {
+    "id": "negation",
+    "title": "niet or geen?",
+    "titleVi": "niet hay geen?",
+    "en": "Vietnamese uses \"không\" for everything. Dutch has two words:\n• geen = not a / no, used before a noun with een or without an article: Ik heb geen auto. Ik drink geen koffie.\n• niet = not, used for everything else: Ik werk niet. De koffie is niet warm. Ik zie de bus niet.",
+    "vi": "Tiếng Việt dùng \"không\" cho mọi trường hợp. Tiếng Hà Lan có hai từ:\n• geen = không (có)… — dùng trước danh từ đi với een hoặc không có mạo từ: Ik heb geen auto (Tôi không có xe hơi). Ik drink geen koffie (Tôi không uống cà phê).\n• niet = không — dùng cho các trường hợp khác: Ik werk niet (Tôi không làm việc). De koffie is niet warm (Cà phê không nóng).",
+    "examples": [
+      { "nl": "Ik heb geen tijd.", "en": "I have no time.", "vi": "Tôi không có thời gian." },
+      { "nl": "Ik kom niet.", "en": "I'm not coming.", "vi": "Tôi không đến." }
+    ]
+  },
+  {
+    "id": "modal",
+    "title": "willen, kunnen, moeten + infinitive at the end",
+    "titleVi": "willen, kunnen, moeten + động từ nguyên mẫu ở cuối câu",
+    "en": "With verbs like willen (want), kunnen (can), moeten (must) and gaan (going to), the second verb goes to the very end of the sentence, in its basic form.\nIk wil koffie drinken. (Vietnamese: Tôi muốn uống cà phê. The order is different!)\nKun je morgen komen?",
+    "vi": "Với các động từ như willen (muốn), kunnen (có thể), moeten (phải) và gaan (sẽ), động từ thứ hai chuyển xuống cuối câu và giữ nguyên dạng nguyên mẫu.\nIk wil koffie drinken. (Tiếng Việt: Tôi muốn uống cà phê — thứ tự khác nhau!)\nKun je morgen komen? (Ngày mai bạn đến được không?)",
+    "examples": [
+      { "nl": "Ik wil een kopje thee drinken.", "en": "I want to drink a cup of tea.", "vi": "Tôi muốn uống một tách trà." },
+      { "nl": "Ik moet morgen werken.", "en": "I have to work tomorrow.", "vi": "Ngày mai tôi phải làm việc." }
+    ]
+  },
+  {
+    "id": "separable",
+    "title": "Separable verbs: the front part goes to the end",
+    "titleVi": "Động từ tách được: phần đầu chuyển xuống cuối câu",
+    "en": "Some verbs have a small front part: opstaan (get up), opbellen (call), boodschappen doen. In a normal sentence that front part moves to the end:\nopstaan → Ik sta om zeven uur op.\nopbellen → Ik bel mijn moeder op.\nIn the infinitive they stay together: Ik moet vroeg opstaan.",
+    "vi": "Một số động từ có phần đầu nhỏ: opstaan (thức dậy), opbellen (gọi điện). Trong câu bình thường, phần đầu đó chuyển xuống cuối câu:\nopstaan → Ik sta om zeven uur op. (Tôi dậy lúc bảy giờ.)\nopbellen → Ik bel mijn moeder op. (Tôi gọi điện cho mẹ.)\nỞ dạng nguyên mẫu thì chúng vẫn dính liền: Ik moet vroeg opstaan.",
+    "examples": [
+      { "nl": "Ik sta om zeven uur op.", "en": "I get up at seven." },
+      { "nl": "Hoe laat kom je thuis aan?", "en": "What time do you arrive home?" }
+    ]
+  },
+  {
+    "id": "perfect",
+    "title": "Talking about the past: hebben/zijn + ge-…",
+    "titleVi": "Nói về quá khứ: hebben/zijn + ge-…",
+    "en": "Vietnamese shows the past with words like \"đã\" or \"hôm qua\", and the verb doesn't change. In Dutch you need two verbs: hebben or zijn + a past participle at the end.\n• Regular: ge + stem + t/d: werken → gewerkt, wonen → gewoond.\n(t if the stem ends in t, k, f, s, ch, p — remember \"'t kofschip\"; otherwise d.)\n• Most verbs use hebben. Verbs of movement to a place or change use zijn: Ik ben naar Utrecht gegaan.",
+    "vi": "Tiếng Việt diễn tả quá khứ bằng từ như \"đã\", \"hôm qua\", và động từ không đổi. Tiếng Hà Lan cần hai động từ: hebben hoặc zijn + quá khứ phân từ ở cuối câu.\n• Có quy tắc: ge + gốc + t/d: werken → gewerkt, wonen → gewoond.\n(dùng t nếu gốc kết thúc bằng t, k, f, s, ch, p — nhớ câu \"'t kofschip\"; còn lại dùng d.)\n• Đa số động từ dùng hebben. Động từ chỉ di chuyển đến nơi nào đó hoặc sự thay đổi dùng zijn: Ik ben naar Utrecht gegaan (Tôi đã đi Utrecht).",
+    "examples": [
+      { "nl": "Ik heb gisteren gewerkt.", "en": "I worked yesterday.", "vi": "Hôm qua tôi đã làm việc." },
+      { "nl": "Wij zijn naar Parijs gegaan.", "en": "We went to Paris.", "vi": "Chúng tôi đã đi Paris." }
+    ]
+  },
+  {
+    "id": "past-simple",
+    "title": "The simple past: -te(n) / -de(n)",
+    "titleVi": "Thì quá khứ đơn: -te(n) / -de(n)",
+    "en": "For stories and descriptions Dutch often uses the simple past.\n• Regular verbs: stem + te/de (singular) or ten/den (plural). werken → ik werkte, wij werkten. wonen → ik woonde.\n• Many common verbs are irregular: zijn → was/waren, hebben → had/hadden, gaan → ging/gingen, komen → kwam/kwamen.",
+    "vi": "Khi kể chuyện hoặc miêu tả, tiếng Hà Lan thường dùng thì quá khứ đơn.\n• Động từ có quy tắc: gốc + te/de (số ít) hoặc ten/den (số nhiều). werken → ik werkte, wij werkten. wonen → ik woonde.\n• Nhiều động từ thông dụng là bất quy tắc: zijn → was/waren, hebben → had/hadden, gaan → ging/gingen, komen → kwam/kwamen.",
+    "examples": [
+      { "nl": "Vroeger woonde ik in Hanoi.", "en": "I used to live in Hanoi.", "vi": "Trước đây tôi sống ở Hà Nội." },
+      { "nl": "Het was een mooie dag.", "en": "It was a beautiful day." }
+    ]
+  },
+  {
+    "id": "verb-end",
+    "title": "After omdat, dat, als, wanneer: verb at the end",
+    "titleVi": "Sau omdat, dat, als, wanneer: động từ ở cuối câu",
+    "en": "In a sub-sentence starting with words like omdat (because), dat (that), als (if/when), wanneer (when), of (whether), the conjugated verb goes to the end.\nIk blijf thuis, omdat ik ziek ben.\nIk denk dat hij morgen komt.\nThis is very different from Vietnamese (vì tôi bị ốm), so practise it a lot!",
+    "vi": "Trong mệnh đề phụ bắt đầu bằng omdat (vì), dat (rằng), als (nếu/khi), wanneer (khi), of (liệu), động từ đã chia chuyển xuống cuối câu.\nIk blijf thuis, omdat ik ziek ben. (Tôi ở nhà vì tôi bị ốm.)\nIk denk dat hij morgen komt. (Tôi nghĩ rằng ngày mai anh ấy đến.)\nĐiều này rất khác với tiếng Việt, nên hãy luyện nhiều nhé!",
+    "examples": [
+      { "nl": "Ik leer Nederlands, omdat ik in Nederland woon.", "en": "I learn Dutch because I live in the Netherlands." },
+      { "nl": "Als het regent, neem ik de bus.", "en": "If it rains, I take the bus." }
+    ]
+  },
+  {
+    "id": "adjective-e",
+    "title": "Adjectives: when to add -e",
+    "titleVi": "Tính từ: khi nào thêm -e",
+    "en": "In Vietnamese the describing word comes after the noun (nhà đẹp) and never changes. In Dutch it comes before the noun and usually gets -e:\nde mooie stad, de grote huizen.\nOnly with een + a het-word there is no -e: een mooi huis (but: het mooie huis).\nAfter the verb there is never -e: De stad is mooi.",
+    "vi": "Trong tiếng Việt tính từ đứng sau danh từ (nhà đẹp) và không đổi. Trong tiếng Hà Lan tính từ đứng trước danh từ và thường thêm -e:\nde mooie stad (thành phố đẹp), de grote huizen (những ngôi nhà lớn).\nChỉ khi có een + từ het thì không thêm -e: een mooi huis (nhưng: het mooie huis).\nSau động từ thì không bao giờ thêm -e: De stad is mooi (Thành phố đẹp).",
+    "examples": [
+      { "nl": "een groot huis", "en": "a big house" },
+      { "nl": "het grote huis", "en": "the big house" },
+      { "nl": "Het huis is groot.", "en": "The house is big." }
+    ]
+  },
+  {
+    "id": "possessive",
+    "title": "mijn, jouw, zijn, haar…",
+    "titleVi": "mijn, jouw, zijn, haar… (của tôi, của bạn…)",
+    "en": "Vietnamese puts \"của\" after the noun: mẹ của tôi. Dutch puts the possessive word before the noun:\nmijn (my), jouw/je (your), uw (your, polite), zijn (his), haar (her), ons/onze (our), jullie (your, plural), hun (their).\nons is for het-words (ons huis), onze for de-words and plurals (onze moeder, onze kinderen).",
+    "vi": "Tiếng Việt đặt \"của\" sau danh từ: mẹ của tôi. Tiếng Hà Lan đặt từ sở hữu trước danh từ:\nmijn (của tôi), jouw/je (của bạn), uw (của ông/bà – lịch sự), zijn (của anh ấy), haar (của cô ấy), ons/onze (của chúng tôi), jullie (của các bạn), hun (của họ).\nons dùng với từ het (ons huis), onze dùng với từ de và số nhiều (onze moeder, onze kinderen).",
+    "examples": [
+      { "nl": "mijn moeder", "en": "my mother", "vi": "mẹ của tôi" },
+      { "nl": "haar broer", "en": "her brother", "vi": "anh/em trai của cô ấy" }
+    ]
+  },
+  {
+    "id": "comparative",
+    "title": "Comparing: -er and het -st",
+    "titleVi": "So sánh: -er và het -st",
+    "en": "Vietnamese uses hơn and nhất (đắt hơn, đắt nhất). Dutch changes the adjective:\n• duur → duurder (dan) → het duurst\n• groot → groter → het grootst\nIrregular: goed → beter → het best, veel → meer → het meest, graag → liever → het liefst.",
+    "vi": "Tiếng Việt dùng hơn và nhất (đắt hơn, đắt nhất). Tiếng Hà Lan thay đổi tính từ:\n• duur → duurder (dan) → het duurst (đắt → đắt hơn → đắt nhất)\n• groot → groter → het grootst\nBất quy tắc: goed → beter → het best (tốt → tốt hơn → tốt nhất), veel → meer → het meest, graag → liever → het liefst.",
+    "examples": [
+      { "nl": "Deze jas is duurder dan die jas.", "en": "This coat is more expensive than that coat." },
+      { "nl": "Ik vind de blauwe het mooist.", "en": "I like the blue one best." }
+    ]
+  },
+  {
+    "id": "reflexive",
+    "title": "Reflexive verbs: zich",
+    "titleVi": "Động từ phản thân: zich",
+    "en": "Some Dutch verbs need an extra word that points back to the person: zich voelen (to feel), zich vervelen (to be bored), zich haasten (to hurry).\nik voel me, jij voelt je, hij voelt zich, wij voelen ons, jullie voelen je, zij voelen zich.\nIk voel me niet goed. = I don't feel well.",
+    "vi": "Một số động từ tiếng Hà Lan cần thêm một từ chỉ lại chính người đó: zich voelen (cảm thấy), zich vervelen (thấy chán), zich haasten (vội vàng).\nik voel me, jij voelt je, hij voelt zich, wij voelen ons, jullie voelen je, zij voelen zich.\nIk voel me niet goed. = Tôi cảm thấy không khỏe.",
+    "examples": [
+      { "nl": "Ik voel me goed.", "en": "I feel good.", "vi": "Tôi cảm thấy khỏe." },
+      { "nl": "Hij verveelt zich.", "en": "He is bored.", "vi": "Anh ấy thấy chán." }
+    ]
+  },
+  {
+    "id": "relative",
+    "title": "die and dat: who / which",
+    "titleVi": "die và dat: người mà / cái mà",
+    "en": "To say more about a noun, use die (after de-words and plurals) or dat (after het-words). The verb goes to the end.\nDe man die daar staat, is mijn buurman.\nHet boek dat ik lees, is spannend.\nVietnamese uses \"mà\" (người mà…) with normal word order, so the verb at the end needs practice.",
+    "vi": "Để nói thêm về một danh từ, dùng die (sau từ de và số nhiều) hoặc dat (sau từ het). Động từ chuyển xuống cuối.\nDe man die daar staat, is mijn buurman. (Người đàn ông đứng ở đó là hàng xóm của tôi.)\nHet boek dat ik lees, is spannend. (Quyển sách mà tôi đang đọc rất hấp dẫn.)\nTiếng Việt dùng \"mà\" với thứ tự bình thường, nên động từ ở cuối cần luyện tập.",
+    "examples": [
+      { "nl": "De vrouw die naast mij woont, heet Anna.", "en": "The woman who lives next to me is called Anna." }
+    ]
+  },
+  {
+    "id": "pronunciation",
+    "title": "Dutch sounds that are new for Vietnamese speakers",
+    "titleVi": "Những âm tiếng Hà Lan mới với người Việt",
+    "en": "• g / ch: a scratchy sound in the throat, a bit like Vietnamese \"g\" in \"gà\" but rougher: goed, acht.\n• ui: say \"âu\" with rounded lips: huis, uit.\n• eu: say \"ơ\" with rounded lips: neus, leuk.\n• ij / ei: like \"ây\": wij, klein.\n• Dutch has no tones! Say words flat, and stress the first syllable.\n• Pronounce final consonants clearly: Vietnamese words end softly, but in Dutch \"boek\", \"stad\" and \"hond\" end with a clear k / t.\n• Consonant clusters: say all letters: straat (s-t-r), sterk (s-t). Don't add a vowel in between.",
+    "vi": "• g / ch: âm rít trong cổ họng, hơi giống \"g\" trong \"gà\" nhưng thô hơn: goed, acht.\n• ui: đọc gần như \"âu\" nhưng tròn môi: huis, uit.\n• eu: đọc như \"ơ\" nhưng tròn môi: neus, leuk.\n• ij / ei: gần như \"ây\": wij, klein.\n• Tiếng Hà Lan không có thanh điệu! Đọc đều giọng, nhấn âm tiết đầu.\n• Đọc rõ phụ âm cuối: tiếng Việt kết thúc nhẹ, nhưng \"boek\", \"stad\", \"hond\" phải nghe rõ k / t ở cuối.\n• Cụm phụ âm: đọc đủ tất cả chữ: straat (s-t-r). Đừng thêm nguyên âm vào giữa.",
+    "examples": [
+      { "nl": "goedemorgen", "en": "good morning" },
+      { "nl": "het huis", "en": "the house" },
+      { "nl": "leuk", "en": "nice, fun" },
+      { "nl": "de straat", "en": "the street" }
+    ]
+  },
+  {
+    "id": "diminutive",
+    "title": "Small things: -je",
+    "titleVi": "Từ chỉ vật nhỏ: -je",
+    "en": "Dutch loves the ending -je (small/cute): het huis → het huisje, de kop → het kopje. Words with -je are always het-words, and the plural is -jes: twee kopjes koffie.",
+    "vi": "Tiếng Hà Lan rất hay dùng đuôi -je (nhỏ, dễ thương): het huis → het huisje (ngôi nhà nhỏ), de kop → het kopje (tách nhỏ). Từ có -je luôn là từ het, và số nhiều là -jes: twee kopjes koffie (hai tách cà phê).",
+    "examples": [
+      { "nl": "een kopje thee", "en": "a cup of tea" },
+      { "nl": "een broodje kaas", "en": "a cheese roll" }
+    ]
+  },
+  {
+    "id": "er",
+    "title": "er is / er zijn = there is / there are",
+    "titleVi": "er is / er zijn = có (cái gì đó ở đâu đó)",
+    "en": "To say something exists somewhere, Dutch uses er + is (one thing) or er + zijn (more things).\nEr is een supermarkt in de straat.\nEr zijn drie slaapkamers.\nVietnamese simply uses \"có\".",
+    "vi": "Để nói có cái gì đó ở đâu, tiếng Hà Lan dùng er + is (một vật) hoặc er + zijn (nhiều vật).\nEr is een supermarkt in de straat. (Có một siêu thị trên đường.)\nEr zijn drie slaapkamers. (Có ba phòng ngủ.)\nTiếng Việt chỉ dùng \"có\".",
+    "examples": [
+      { "nl": "Er is een park in de buurt.", "en": "There is a park nearby." },
+      { "nl": "Er zijn veel fietsen.", "en": "There are a lot of bikes." }
+    ]
+  },
+  {
+    "id": "om-te",
+    "title": "om … te + infinitive",
+    "titleVi": "om … te + động từ nguyên mẫu (để …)",
+    "en": "To say why or what for, Dutch uses om … te + infinitive at the end: Ik ga naar school om Nederlands te leren.\nAfter many verbs you also need te: Het is moeilijk om dat te zeggen. Ik probeer te slapen.",
+    "vi": "Để nói mục đích (để làm gì), tiếng Hà Lan dùng om … te + động từ nguyên mẫu ở cuối: Ik ga naar school om Nederlands te leren. (Tôi đi học để học tiếng Hà Lan.)\nSau nhiều động từ cũng cần te: Ik probeer te slapen. (Tôi cố ngủ.)",
+    "examples": [
+      { "nl": "Ik ga naar de winkel om brood te kopen.", "en": "I'm going to the shop to buy bread." }
+    ]
+  },
+  {
+    "id": "imperative",
+    "title": "Giving instructions: just the stem",
+    "titleVi": "Câu mệnh lệnh: chỉ dùng gốc động từ",
+    "en": "To tell someone what to do, use the stem of the verb at the start of the sentence: Kom binnen! Ga rechtdoor. Neem de tweede straat links.\nAdd alsjeblieft (or polite: alstublieft) to make it friendly.",
+    "vi": "Để bảo ai đó làm gì, dùng gốc động từ ở đầu câu: Kom binnen! (Vào đi!) Ga rechtdoor. (Đi thẳng.) Neem de tweede straat links. (Rẽ vào đường thứ hai bên trái.)\nThêm alsjeblieft (lịch sự: alstublieft) để nghe thân thiện hơn.",
+    "examples": [
+      { "nl": "Ga hier rechtsaf.", "en": "Turn right here." },
+      { "nl": "Wacht even, alsjeblieft.", "en": "Wait a moment, please." }
+    ]
+  },
+  {
+    "id": "jij-u",
+    "title": "jij or u? Informal and polite 'you'",
+    "titleVi": "jij hay u? 'Bạn' thân mật và lịch sự",
+    "en": "Like Vietnamese, Dutch has a polite form, but only two choices: jij/je (friends, family, children, colleagues) and u (polite: older people, strangers, officials, at the doctor or the gemeente). The verb with u is the same as with hij: u bent, u werkt.",
+    "vi": "Giống tiếng Việt, tiếng Hà Lan có cách xưng hô lịch sự, nhưng chỉ có hai lựa chọn: jij/je (bạn bè, gia đình, trẻ em, đồng nghiệp) và u (lịch sự: người lớn tuổi, người lạ, nhân viên nhà nước, bác sĩ). Động từ với u giống như với hij: u bent, u werkt.",
+    "examples": [
+      { "nl": "Hoe gaat het met u?", "en": "How are you? (polite)", "vi": "Ông/bà có khỏe không?" },
+      { "nl": "Hoe gaat het met je?", "en": "How are you? (informal)", "vi": "Bạn khỏe không?" }
+    ]
+  }
+]

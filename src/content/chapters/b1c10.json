@@ -1,0 +1,276 @@
+{
+  "id": "b1c10",
+  "book": 1,
+  "number": 10,
+  "titleNl": "Op reis",
+  "title": "Travel and transport",
+  "titleVi": "Đi lại và phương tiện",
+  "cefr": "A1",
+  "provisional": true,
+  "words": [
+    {
+      "nl": "trein",
+      "article": "de",
+      "plural": "treinen",
+      "en": "train",
+      "vi": "tàu hỏa"
+    },
+    {
+      "nl": "bus",
+      "article": "de",
+      "plural": "bussen",
+      "en": "bus",
+      "vi": "xe buýt"
+    },
+    {
+      "nl": "auto",
+      "article": "de",
+      "plural": "auto's",
+      "en": "car",
+      "vi": "xe hơi"
+    },
+    {
+      "nl": "vliegtuig",
+      "article": "het",
+      "plural": "vliegtuigen",
+      "en": "aeroplane",
+      "vi": "máy bay"
+    },
+    {
+      "nl": "station",
+      "article": "het",
+      "plural": "stations",
+      "en": "station",
+      "vi": "nhà ga"
+    },
+    {
+      "nl": "perron",
+      "article": "het",
+      "plural": "perrons",
+      "en": "platform",
+      "vi": "sân ga"
+    },
+    {
+      "nl": "kaartje",
+      "article": "het",
+      "plural": "kaartjes",
+      "en": "ticket",
+      "vi": "vé"
+    },
+    {
+      "nl": "ov-chipkaart",
+      "article": "de",
+      "plural": "ov-chipkaarten",
+      "en": "public transport card",
+      "vi": "thẻ đi phương tiện công cộng"
+    },
+    {
+      "nl": "reis",
+      "article": "de",
+      "plural": "reizen",
+      "en": "trip, journey",
+      "vi": "chuyến đi"
+    },
+    {
+      "nl": "vakantie",
+      "article": "de",
+      "plural": "vakanties",
+      "en": "holiday",
+      "vi": "kỳ nghỉ"
+    },
+    {
+      "nl": "koffer",
+      "article": "de",
+      "plural": "koffers",
+      "en": "suitcase",
+      "vi": "va li"
+    },
+    {
+      "nl": "vertraging",
+      "article": "de",
+      "en": "delay",
+      "vi": "sự chậm trễ"
+    },
+    {
+      "nl": "vertrekken",
+      "en": "to depart",
+      "vi": "khởi hành"
+    },
+    {
+      "nl": "aankomen",
+      "en": "to arrive",
+      "vi": "đến nơi"
+    },
+    {
+      "nl": "overstappen",
+      "en": "to change (trains)",
+      "vi": "đổi tàu/xe"
+    },
+    {
+      "nl": "retour",
+      "en": "return (ticket)",
+      "vi": "vé khứ hồi"
+    },
+    {
+      "nl": "enkele reis",
+      "article": "de",
+      "en": "single (ticket)",
+      "vi": "vé một chiều"
+    },
+    {
+      "nl": "spoor",
+      "article": "het",
+      "plural": "sporen",
+      "en": "track, platform (number)",
+      "vi": "đường ray"
+    },
+    {
+      "nl": "vorige week",
+      "en": "last week",
+      "vi": "tuần trước"
+    },
+    {
+      "nl": "ver",
+      "en": "far",
+      "vi": "xa"
+    }
+  ],
+  "sentences": [
+    {
+      "nl": "Hoe laat vertrekt de trein?",
+      "en": "What time does the train leave?",
+      "vi": "Mấy giờ tàu khởi hành?",
+      "tip": "questions"
+    },
+    {
+      "nl": "De trein vertrekt van spoor vijf.",
+      "en": "The train leaves from platform five.",
+      "vi": "Tàu khởi hành từ đường ray số năm."
+    },
+    {
+      "nl": "Ik moet in Utrecht overstappen.",
+      "en": "I have to change in Utrecht.",
+      "vi": "Tôi phải đổi tàu ở Utrecht.",
+      "tip": "modal"
+    },
+    {
+      "nl": "Een retour Amsterdam, alstublieft.",
+      "en": "A return to Amsterdam, please.",
+      "vi": "Cho tôi một vé khứ hồi đi Amsterdam."
+    },
+    {
+      "nl": "De bus heeft vertraging.",
+      "en": "The bus is delayed.",
+      "vi": "Xe buýt bị trễ."
+    },
+    {
+      "nl": "Ik heb gisteren gewerkt.",
+      "en": "I worked yesterday.",
+      "vi": "Hôm qua tôi đã làm việc.",
+      "alt": [
+        "Gisteren heb ik gewerkt."
+      ],
+      "tip": "perfect"
+    },
+    {
+      "nl": "Wij hebben een kaartje gekocht.",
+      "en": "We bought a ticket.",
+      "vi": "Chúng tôi đã mua một vé.",
+      "alt": [
+        "We hebben een kaartje gekocht."
+      ],
+      "tip": "perfect"
+    },
+    {
+      "nl": "Ik ben met de trein naar Rotterdam gegaan.",
+      "en": "I went to Rotterdam by train.",
+      "vi": "Tôi đã đi Rotterdam bằng tàu hỏa.",
+      "tip": "perfect"
+    },
+    {
+      "nl": "Vorige week zijn wij op vakantie geweest.",
+      "en": "Last week we were on holiday.",
+      "vi": "Tuần trước chúng tôi đã đi nghỉ.",
+      "alt": [
+        "Wij zijn vorige week op vakantie geweest.",
+        "Vorige week zijn we op vakantie geweest."
+      ],
+      "tip": "perfect"
+    },
+    {
+      "nl": "Is het ver naar het station?",
+      "en": "Is it far to the station?",
+      "vi": "Đến nhà ga có xa không?",
+      "tip": "questions"
+    }
+  ],
+  "verbs": [
+    {
+      "inf": "vertrekken",
+      "en": "to depart",
+      "vi": "khởi hành",
+      "ik": "vertrek",
+      "jij": "vertrekt",
+      "hij": "vertrekt",
+      "wij": "vertrekken",
+      "jullie": "vertrekken",
+      "zij": "vertrekken"
+    },
+    {
+      "inf": "reizen",
+      "en": "to travel",
+      "vi": "đi du lịch, đi lại",
+      "ik": "reis",
+      "jij": "reist",
+      "hij": "reist",
+      "wij": "reizen",
+      "jullie": "reizen",
+      "zij": "reizen"
+    },
+    {
+      "inf": "hebben",
+      "en": "to have",
+      "vi": "có",
+      "ik": "heb",
+      "jij": "hebt",
+      "hij": "heeft",
+      "wij": "hebben",
+      "jullie": "hebben",
+      "zij": "hebben"
+    },
+    {
+      "inf": "zijn",
+      "en": "to be",
+      "vi": "là, thì",
+      "ik": "ben",
+      "jij": "bent",
+      "hij": "is",
+      "wij": "zijn",
+      "jullie": "zijn",
+      "zij": "zijn"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "The past: hebben/zijn + past participle",
+      "titleVi": "Quá khứ: hebben/zijn + quá khứ phân từ",
+      "en": "Ik heb gewerkt (I worked / have worked). The participle goes to the end.\nRegular: ge + stem + t or d (werken → gewerkt, reizen → gereisd).\nCommon irregular: kopen → gekocht, gaan → gegaan, zijn → geweest, eten → gegeten.\nMovement to a place: zijn (Ik ben naar Rotterdam gegaan).",
+      "vi": "Ik heb gewerkt (Tôi đã làm việc). Quá khứ phân từ đứng cuối câu.\nCó quy tắc: ge + gốc + t hoặc d (werken → gewerkt, reizen → gereisd).\nBất quy tắc thường gặp: kopen → gekocht, gaan → gegaan, zijn → geweest, eten → gegeten.\nDi chuyển đến nơi nào: dùng zijn (Ik ben naar Rotterdam gegaan).",
+      "examples": [
+        {
+          "nl": "Ik heb pho gegeten.",
+          "en": "I ate pho."
+        },
+        {
+          "nl": "Zij is naar huis gegaan.",
+          "en": "She went home."
+        }
+      ],
+      "tip": "perfect"
+    }
+  ],
+  "drills": [
+    "wordorder",
+    "conjugation"
+  ]
+}

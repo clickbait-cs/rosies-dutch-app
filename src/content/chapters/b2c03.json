@@ -1,0 +1,64 @@
+{
+  "id": "b2c03",
+  "book": 2,
+  "number": 3,
+  "titleNl": "Werk zoeken",
+  "title": "Looking for work",
+  "titleVi": "Tìm việc làm",
+  "cefr": "A2",
+  "provisional": true,
+  "words": [
+    { "nl": "vacature", "article": "de", "plural": "vacatures", "en": "vacancy", "vi": "vị trí tuyển dụng" },
+    { "nl": "sollicitatie", "article": "de", "plural": "sollicitaties", "en": "job application", "vi": "đơn xin việc" },
+    { "nl": "gesprek", "article": "het", "plural": "gesprekken", "en": "conversation, interview", "vi": "cuộc trò chuyện, phỏng vấn" },
+    { "nl": "cv", "article": "het", "plural": "cv's", "en": "CV, résumé", "vi": "sơ yếu lý lịch" },
+    { "nl": "ervaring", "article": "de", "plural": "ervaringen", "en": "experience", "vi": "kinh nghiệm" },
+    { "nl": "opleiding", "article": "de", "plural": "opleidingen", "en": "education, training", "vi": "quá trình học, đào tạo" },
+    { "nl": "diploma", "article": "het", "plural": "diploma's", "en": "diploma", "vi": "bằng cấp" },
+    { "nl": "salaris", "article": "het", "plural": "salarissen", "en": "salary", "vi": "lương" },
+    { "nl": "contract", "article": "het", "plural": "contracten", "en": "contract", "vi": "hợp đồng" },
+    { "nl": "baas", "article": "de", "plural": "bazen", "en": "boss", "vi": "sếp" },
+    { "nl": "fulltime", "en": "full-time", "vi": "toàn thời gian" },
+    { "nl": "parttime", "en": "part-time", "vi": "bán thời gian" },
+    { "nl": "solliciteren", "en": "to apply (for a job)", "vi": "xin việc" },
+    { "nl": "verdienen", "en": "to earn", "vi": "kiếm (tiền)" },
+    { "nl": "omdat", "en": "because", "vi": "vì, bởi vì" },
+    { "nl": "dat", "en": "that", "vi": "rằng" },
+    { "nl": "als", "en": "if / when", "vi": "nếu / khi" },
+    { "nl": "sterk", "en": "strong", "vi": "mạnh" },
+    { "nl": "zwak", "en": "weak", "vi": "yếu" },
+    { "nl": "punt", "article": "het", "plural": "punten", "en": "point", "vi": "điểm" }
+  ],
+  "sentences": [
+    { "nl": "Ik solliciteer naar een baan als kok.", "en": "I am applying for a job as a cook.", "vi": "Tôi đang xin việc làm đầu bếp." },
+    { "nl": "Ik leer Nederlands, omdat ik hier wil werken.", "en": "I learn Dutch because I want to work here.", "vi": "Tôi học tiếng Hà Lan vì tôi muốn làm việc ở đây.", "alt": ["Ik leer Nederlands omdat ik hier wil werken."], "tip": "verb-end" },
+    { "nl": "Ik denk dat ik veel ervaring heb.", "en": "I think that I have a lot of experience.", "vi": "Tôi nghĩ rằng tôi có nhiều kinh nghiệm.", "tip": "verb-end" },
+    { "nl": "Als je wilt, kun je morgen beginnen.", "en": "If you want, you can start tomorrow.", "vi": "Nếu bạn muốn, ngày mai bạn có thể bắt đầu.", "alt": ["Als je wilt kun je morgen beginnen."], "tip": "verb-end" },
+    { "nl": "Ik heb in Vietnam in een hotel gewerkt.", "en": "I worked in a hotel in Vietnam.", "vi": "Tôi đã làm việc ở một khách sạn tại Việt Nam.", "tip": "perfect" },
+    { "nl": "Wat zijn uw sterke punten?", "en": "What are your strong points?", "vi": "Điểm mạnh của ông/bà là gì?", "alt": ["Wat zijn je sterke punten?"], "tip": "adjective-e" },
+    { "nl": "Ik werk graag in een team.", "en": "I like working in a team.", "vi": "Tôi thích làm việc nhóm." },
+    { "nl": "Hij zegt dat het salaris goed is.", "en": "He says that the salary is good.", "vi": "Anh ấy nói rằng lương tốt.", "tip": "verb-end" },
+    { "nl": "Ik wil parttime werken.", "en": "I want to work part-time.", "vi": "Tôi muốn làm việc bán thời gian.", "tip": "modal" },
+    { "nl": "Wanneer kunt u beginnen?", "en": "When can you start?", "vi": "Khi nào ông/bà có thể bắt đầu?", "alt": ["Wanneer kun je beginnen?"], "tip": "questions" }
+  ],
+  "verbs": [
+    { "inf": "solliciteren", "en": "to apply", "vi": "xin việc", "ik": "solliciteer", "jij": "solliciteert", "hij": "solliciteert", "wij": "solliciteren", "jullie": "solliciteren", "zij": "solliciteren" },
+    { "inf": "denken", "en": "to think", "vi": "nghĩ", "ik": "denk", "jij": "denkt", "hij": "denkt", "wij": "denken", "jullie": "denken", "zij": "denken" },
+    { "inf": "zeggen", "en": "to say", "vi": "nói", "ik": "zeg", "jij": "zegt", "hij": "zegt", "wij": "zeggen", "jullie": "zeggen", "zij": "zeggen" },
+    { "inf": "verdienen", "en": "to earn", "vi": "kiếm (tiền)", "ik": "verdien", "jij": "verdient", "hij": "verdient", "wij": "verdienen", "jullie": "verdienen", "zij": "verdienen" }
+  ],
+  "grammar": [
+    {
+      "title": "omdat, dat, als: verb at the end",
+      "titleVi": "omdat, dat, als: động từ ở cuối",
+      "en": "Main sentence: Ik ben moe.\nAfter omdat: …, omdat ik moe ben.\nAfter dat: Hij zegt dat hij moe is.\nAfter als: Als ik moe ben, ga ik slapen. (The main sentence after it starts with the verb!)",
+      "vi": "Câu chính: Ik ben moe (Tôi mệt).\nSau omdat: …, omdat ik moe ben (… vì tôi mệt).\nSau dat: Hij zegt dat hij moe is (Anh ấy nói rằng anh ấy mệt).\nSau als: Als ik moe ben, ga ik slapen (Khi tôi mệt, tôi đi ngủ). Câu chính phía sau bắt đầu bằng động từ!",
+      "examples": [
+        { "nl": "Ik blijf thuis, omdat ik ziek ben.", "en": "I'm staying home because I'm ill." },
+        { "nl": "Ik weet dat je het kunt.", "en": "I know that you can do it." }
+      ],
+      "tip": "verb-end"
+    }
+  ],
+  "drills": ["wordorder", "conjugation"]
+}

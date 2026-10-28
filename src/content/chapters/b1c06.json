@@ -1,0 +1,320 @@
+{
+  "id": "b1c06",
+  "book": 1,
+  "number": 6,
+  "titleNl": "De dag en de tijd",
+  "title": "Daily routine and telling time",
+  "titleVi": "Sinh hoạt hằng ngày và giờ giấc",
+  "cefr": "A1",
+  "provisional": true,
+  "words": [
+    {
+      "nl": "dag",
+      "article": "de",
+      "plural": "dagen",
+      "en": "day",
+      "vi": "ngày"
+    },
+    {
+      "nl": "week",
+      "article": "de",
+      "plural": "weken",
+      "en": "week",
+      "vi": "tuần"
+    },
+    {
+      "nl": "uur",
+      "article": "het",
+      "plural": "uren",
+      "en": "hour / o'clock",
+      "vi": "giờ"
+    },
+    {
+      "nl": "minuut",
+      "article": "de",
+      "plural": "minuten",
+      "en": "minute",
+      "vi": "phút"
+    },
+    {
+      "nl": "ochtend",
+      "article": "de",
+      "plural": "ochtenden",
+      "en": "morning",
+      "vi": "buổi sáng"
+    },
+    {
+      "nl": "middag",
+      "article": "de",
+      "plural": "middagen",
+      "en": "afternoon",
+      "vi": "buổi chiều"
+    },
+    {
+      "nl": "avond",
+      "article": "de",
+      "plural": "avonden",
+      "en": "evening",
+      "vi": "buổi tối"
+    },
+    {
+      "nl": "nacht",
+      "article": "de",
+      "plural": "nachten",
+      "en": "night",
+      "vi": "ban đêm"
+    },
+    {
+      "nl": "vandaag",
+      "en": "today",
+      "vi": "hôm nay"
+    },
+    {
+      "nl": "morgen",
+      "en": "tomorrow",
+      "vi": "ngày mai"
+    },
+    {
+      "nl": "gisteren",
+      "en": "yesterday",
+      "vi": "hôm qua"
+    },
+    {
+      "nl": "maandag",
+      "en": "Monday",
+      "vi": "thứ Hai"
+    },
+    {
+      "nl": "dinsdag",
+      "en": "Tuesday",
+      "vi": "thứ Ba"
+    },
+    {
+      "nl": "woensdag",
+      "en": "Wednesday",
+      "vi": "thứ Tư"
+    },
+    {
+      "nl": "donderdag",
+      "en": "Thursday",
+      "vi": "thứ Năm"
+    },
+    {
+      "nl": "vrijdag",
+      "en": "Friday",
+      "vi": "thứ Sáu"
+    },
+    {
+      "nl": "zaterdag",
+      "en": "Saturday",
+      "vi": "thứ Bảy"
+    },
+    {
+      "nl": "zondag",
+      "en": "Sunday",
+      "vi": "Chủ nhật"
+    },
+    {
+      "nl": "weekend",
+      "article": "het",
+      "plural": "weekenden",
+      "en": "weekend",
+      "vi": "cuối tuần"
+    },
+    {
+      "nl": "half",
+      "en": "half",
+      "vi": "rưỡi, một nửa"
+    },
+    {
+      "nl": "kwart",
+      "article": "het",
+      "en": "quarter",
+      "vi": "mười lăm phút, một phần tư"
+    },
+    {
+      "nl": "vroeg",
+      "en": "early",
+      "vi": "sớm"
+    },
+    {
+      "nl": "laat",
+      "en": "late",
+      "vi": "muộn, trễ"
+    }
+  ],
+  "sentences": [
+    {
+      "nl": "Hoe laat is het?",
+      "en": "What time is it?",
+      "vi": "Mấy giờ rồi?",
+      "tip": "questions"
+    },
+    {
+      "nl": "Het is drie uur.",
+      "en": "It is three o'clock.",
+      "vi": "Bây giờ là ba giờ."
+    },
+    {
+      "nl": "Het is half vier.",
+      "en": "It is half past three.",
+      "vi": "Bây giờ là ba giờ rưỡi."
+    },
+    {
+      "nl": "Ik sta om zeven uur op.",
+      "en": "I get up at seven o'clock.",
+      "vi": "Tôi thức dậy lúc bảy giờ.",
+      "tip": "separable"
+    },
+    {
+      "nl": "Om acht uur ga ik naar mijn werk.",
+      "en": "At eight o'clock I go to work.",
+      "vi": "Lúc tám giờ tôi đi làm.",
+      "alt": [
+        "Ik ga om acht uur naar mijn werk.",
+        "Om acht uur ga ik naar het werk."
+      ],
+      "tip": "inversion"
+    },
+    {
+      "nl": "Vandaag werk ik niet.",
+      "en": "Today I am not working.",
+      "vi": "Hôm nay tôi không làm việc.",
+      "alt": [
+        "Ik werk vandaag niet."
+      ],
+      "tip": "inversion"
+    },
+    {
+      "nl": "Op zaterdag doe ik boodschappen.",
+      "en": "On Saturday I do the shopping.",
+      "vi": "Thứ Bảy tôi đi chợ.",
+      "alt": [
+        "Ik doe op zaterdag boodschappen.",
+        "Zaterdag doe ik boodschappen."
+      ],
+      "tip": "inversion"
+    },
+    {
+      "nl": "Morgen heb ik Nederlandse les.",
+      "en": "Tomorrow I have a Dutch lesson.",
+      "vi": "Ngày mai tôi có lớp tiếng Hà Lan.",
+      "alt": [
+        "Ik heb morgen Nederlandse les.",
+        "Morgen heb ik Nederlands."
+      ],
+      "tip": "inversion"
+    },
+    {
+      "nl": "Ik ga om elf uur slapen.",
+      "en": "I go to sleep at eleven o'clock.",
+      "vi": "Tôi đi ngủ lúc mười một giờ.",
+      "alt": [
+        "Om elf uur ga ik slapen."
+      ]
+    },
+    {
+      "nl": "In het weekend slaap ik lang.",
+      "en": "At the weekend I sleep in.",
+      "vi": "Cuối tuần tôi ngủ dậy muộn.",
+      "alt": [
+        "Ik slaap lang in het weekend."
+      ],
+      "tip": "inversion"
+    }
+  ],
+  "verbs": [
+    {
+      "inf": "opstaan",
+      "en": "to get up",
+      "vi": "thức dậy",
+      "ik": "sta op",
+      "jij": "staat op",
+      "hij": "staat op",
+      "wij": "staan op",
+      "jullie": "staan op",
+      "zij": "staan op"
+    },
+    {
+      "inf": "gaan",
+      "en": "to go",
+      "vi": "đi",
+      "ik": "ga",
+      "jij": "gaat",
+      "hij": "gaat",
+      "wij": "gaan",
+      "jullie": "gaan",
+      "zij": "gaan"
+    },
+    {
+      "inf": "slapen",
+      "en": "to sleep",
+      "vi": "ngủ",
+      "ik": "slaap",
+      "jij": "slaapt",
+      "hij": "slaapt",
+      "wij": "slapen",
+      "jullie": "slapen",
+      "zij": "slapen"
+    },
+    {
+      "inf": "beginnen",
+      "en": "to begin",
+      "vi": "bắt đầu",
+      "ik": "begin",
+      "jij": "begint",
+      "hij": "begint",
+      "wij": "beginnen",
+      "jullie": "beginnen",
+      "zij": "beginnen"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Telling the time",
+      "titleVi": "Cách nói giờ",
+      "en": "3:00 = drie uur\n3:15 = kwart over drie\n3:30 = half vier (!) — Dutch says \"half to four\", not \"half past three\".\n3:45 = kwart voor vier\n3:10 = tien over drie, 3:50 = tien voor vier",
+      "vi": "3:00 = drie uur (ba giờ)\n3:15 = kwart over drie (ba giờ mười lăm)\n3:30 = half vier (!) — người Hà Lan nói \"nửa tiếng nữa đến bốn giờ\", tức là 3 giờ rưỡi. Rất dễ nhầm!\n3:45 = kwart voor vier (bốn giờ kém mười lăm)\n3:10 = tien over drie, 3:50 = tien voor vier (bốn giờ kém mười)",
+      "examples": [
+        {
+          "nl": "Het is half acht.",
+          "en": "It is half past seven (7:30)."
+        },
+        {
+          "nl": "Het is kwart voor negen.",
+          "en": "It is a quarter to nine."
+        }
+      ]
+    },
+    {
+      "title": "Verb in 2nd place: Vandaag werk ik",
+      "titleVi": "Động từ ở vị trí thứ 2: Vandaag werk ik",
+      "en": "When a sentence starts with a time word, the subject comes after the verb: Ik werk vandaag → Vandaag werk ik.",
+      "vi": "Khi câu bắt đầu bằng từ chỉ thời gian, chủ ngữ đứng sau động từ: Ik werk vandaag → Vandaag werk ik.",
+      "examples": [
+        {
+          "nl": "Morgen ga ik naar Amsterdam.",
+          "en": "Tomorrow I'm going to Amsterdam."
+        }
+      ],
+      "tip": "inversion"
+    },
+    {
+      "title": "Separable verbs",
+      "titleVi": "Động từ tách được",
+      "en": "opstaan → Ik sta om zeven uur op. The small front part goes to the end.",
+      "vi": "opstaan → Ik sta om zeven uur op. Phần đầu nhỏ chuyển xuống cuối câu.",
+      "examples": [
+        {
+          "nl": "Hij staat vroeg op.",
+          "en": "He gets up early."
+        }
+      ],
+      "tip": "separable"
+    }
+  ],
+  "drills": [
+    "wordorder",
+    "conjugation"
+  ]
+}

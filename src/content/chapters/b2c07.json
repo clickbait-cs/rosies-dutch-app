@@ -1,0 +1,276 @@
+{
+  "id": "b2c07",
+  "book": 2,
+  "number": 7,
+  "titleNl": "Media en contact",
+  "title": "Media and staying in touch",
+  "titleVi": "Truyền thông và giữ liên lạc",
+  "cefr": "A2",
+  "provisional": true,
+  "words": [
+    {
+      "nl": "nieuws",
+      "article": "het",
+      "en": "news",
+      "vi": "tin tức"
+    },
+    {
+      "nl": "krant",
+      "article": "de",
+      "plural": "kranten",
+      "en": "newspaper",
+      "vi": "báo"
+    },
+    {
+      "nl": "televisie",
+      "article": "de",
+      "en": "television",
+      "vi": "tivi"
+    },
+    {
+      "nl": "programma",
+      "article": "het",
+      "plural": "programma's",
+      "en": "programme",
+      "vi": "chương trình"
+    },
+    {
+      "nl": "bericht",
+      "article": "het",
+      "plural": "berichten",
+      "en": "message",
+      "vi": "tin nhắn"
+    },
+    {
+      "nl": "mobiel",
+      "article": "de",
+      "en": "mobile phone",
+      "vi": "điện thoại di động"
+    },
+    {
+      "nl": "computer",
+      "article": "de",
+      "plural": "computers",
+      "en": "computer",
+      "vi": "máy tính"
+    },
+    {
+      "nl": "internet",
+      "article": "het",
+      "en": "internet",
+      "vi": "mạng internet"
+    },
+    {
+      "nl": "wachtwoord",
+      "article": "het",
+      "plural": "wachtwoorden",
+      "en": "password",
+      "vi": "mật khẩu"
+    },
+    {
+      "nl": "foto",
+      "article": "de",
+      "plural": "foto's",
+      "en": "photo",
+      "vi": "bức ảnh"
+    },
+    {
+      "nl": "brief",
+      "article": "de",
+      "plural": "brieven",
+      "en": "letter",
+      "vi": "lá thư"
+    },
+    {
+      "nl": "pakket",
+      "article": "het",
+      "plural": "pakketten",
+      "en": "parcel",
+      "vi": "bưu kiện"
+    },
+    {
+      "nl": "die",
+      "en": "who / which (de-words)",
+      "vi": "người mà / cái mà (từ de)"
+    },
+    {
+      "nl": "sturen",
+      "en": "to send",
+      "vi": "gửi"
+    },
+    {
+      "nl": "ontvangen",
+      "en": "to receive",
+      "vi": "nhận"
+    },
+    {
+      "nl": "downloaden",
+      "en": "to download",
+      "vi": "tải xuống"
+    },
+    {
+      "nl": "videobellen",
+      "en": "to video call",
+      "vi": "gọi video"
+    },
+    {
+      "nl": "spannend",
+      "en": "exciting",
+      "vi": "hấp dẫn, gay cấn"
+    },
+    {
+      "nl": "saai",
+      "en": "boring",
+      "vi": "nhàm chán"
+    },
+    {
+      "nl": "online",
+      "en": "online",
+      "vi": "trực tuyến"
+    }
+  ],
+  "sentences": [
+    {
+      "nl": "Ik videobel elke week met mijn moeder.",
+      "en": "I video call my mother every week.",
+      "vi": "Tôi gọi video cho mẹ mỗi tuần."
+    },
+    {
+      "nl": "Heb je mijn bericht ontvangen?",
+      "en": "Did you get my message?",
+      "vi": "Bạn đã nhận được tin nhắn của tôi chưa?",
+      "alt": [
+        "Heb jij mijn bericht ontvangen?"
+      ],
+      "tip": "perfect"
+    },
+    {
+      "nl": "Ik stuur je een foto.",
+      "en": "I'll send you a photo.",
+      "vi": "Tôi gửi cho bạn một bức ảnh.",
+      "alt": [
+        "Ik stuur jou een foto."
+      ]
+    },
+    {
+      "nl": "De man die naast mij woont, is journalist.",
+      "en": "The man who lives next to me is a journalist.",
+      "vi": "Người đàn ông sống cạnh nhà tôi là nhà báo.",
+      "alt": [
+        "De man die naast mij woont is journalist."
+      ],
+      "tip": "relative"
+    },
+    {
+      "nl": "Het programma dat ik kijk, is spannend.",
+      "en": "The programme I'm watching is exciting.",
+      "vi": "Chương trình tôi đang xem rất hấp dẫn.",
+      "alt": [
+        "Het programma dat ik kijk is spannend."
+      ],
+      "tip": "relative"
+    },
+    {
+      "nl": "Ik lees het nieuws op mijn mobiel.",
+      "en": "I read the news on my phone.",
+      "vi": "Tôi đọc tin tức trên điện thoại."
+    },
+    {
+      "nl": "Ik ben mijn wachtwoord vergeten.",
+      "en": "I have forgotten my password.",
+      "vi": "Tôi quên mật khẩu rồi.",
+      "tip": "perfect"
+    },
+    {
+      "nl": "Er is een pakket voor u.",
+      "en": "There is a parcel for you.",
+      "vi": "Có một bưu kiện cho ông/bà.",
+      "tip": "er"
+    },
+    {
+      "nl": "Dat is een saai programma.",
+      "en": "That is a boring programme.",
+      "vi": "Đó là một chương trình nhàm chán.",
+      "tip": "adjective-e"
+    },
+    {
+      "nl": "Kun je me helpen met de computer?",
+      "en": "Can you help me with the computer?",
+      "vi": "Bạn có thể giúp tôi với máy tính không?",
+      "alt": [
+        "Kan je me helpen met de computer?",
+        "Kun jij me helpen met de computer?"
+      ],
+      "tip": "modal"
+    }
+  ],
+  "verbs": [
+    {
+      "inf": "sturen",
+      "en": "to send",
+      "vi": "gửi",
+      "ik": "stuur",
+      "jij": "stuurt",
+      "hij": "stuurt",
+      "wij": "sturen",
+      "jullie": "sturen",
+      "zij": "sturen"
+    },
+    {
+      "inf": "kijken",
+      "en": "to watch",
+      "vi": "xem",
+      "ik": "kijk",
+      "jij": "kijkt",
+      "hij": "kijkt",
+      "wij": "kijken",
+      "jullie": "kijken",
+      "zij": "kijken"
+    },
+    {
+      "inf": "helpen",
+      "en": "to help",
+      "vi": "giúp đỡ",
+      "ik": "help",
+      "jij": "helpt",
+      "hij": "helpt",
+      "wij": "helpen",
+      "jullie": "helpen",
+      "zij": "helpen"
+    },
+    {
+      "inf": "vergeten",
+      "en": "to forget",
+      "vi": "quên",
+      "ik": "vergeet",
+      "jij": "vergeet",
+      "hij": "vergeet",
+      "wij": "vergeten",
+      "jullie": "vergeten",
+      "zij": "vergeten"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "die and dat (who / which)",
+      "titleVi": "die và dat (người mà / cái mà)",
+      "en": "de-word or plural → die: de vrouw die…, de boeken die…\nhet-word → dat: het huis dat…\nThe verb goes to the end of that part: De vrouw die hier werkt…",
+      "vi": "Từ de hoặc số nhiều → die: de vrouw die… (người phụ nữ mà…), de boeken die…\nTừ het → dat: het huis dat… (ngôi nhà mà…)\nĐộng từ chuyển xuống cuối phần đó: De vrouw die hier werkt… (Người phụ nữ làm việc ở đây…)",
+      "examples": [
+        {
+          "nl": "Het boek dat ik lees, is spannend.",
+          "en": "The book I'm reading is exciting."
+        },
+        {
+          "nl": "De film die we zagen, was saai.",
+          "en": "The film we saw was boring."
+        }
+      ],
+      "tip": "relative"
+    }
+  ],
+  "drills": [
+    "wordorder",
+    "article"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "b1c09",
+  "book": 1,
+  "number": 9,
+  "titleNl": "Gezondheid",
+  "title": "Health and the body",
+  "titleVi": "Sức khỏe và cơ thể",
+  "cefr": "A1",
+  "provisional": true,
+  "words": [
+    { "nl": "hoofd", "article": "het", "plural": "hoofden", "en": "head", "vi": "đầu" },
+    { "nl": "arm", "article": "de", "plural": "armen", "en": "arm", "vi": "cánh tay" },
+    { "nl": "been", "article": "het", "plural": "benen", "en": "leg", "vi": "chân" },
+    { "nl": "hand", "article": "de", "plural": "handen", "en": "hand", "vi": "bàn tay" },
+    { "nl": "voet", "article": "de", "plural": "voeten", "en": "foot", "vi": "bàn chân" },
+    { "nl": "buik", "article": "de", "plural": "buiken", "en": "stomach, belly", "vi": "bụng" },
+    { "nl": "rug", "article": "de", "plural": "ruggen", "en": "back", "vi": "lưng" },
+    { "nl": "oog", "article": "het", "plural": "ogen", "en": "eye", "vi": "mắt" },
+    { "nl": "keel", "article": "de", "plural": "kelen", "en": "throat", "vi": "cổ họng" },
+    { "nl": "huisarts", "article": "de", "plural": "huisartsen", "en": "GP, family doctor", "vi": "bác sĩ gia đình" },
+    { "nl": "apotheek", "article": "de", "plural": "apotheken", "en": "pharmacy", "vi": "nhà thuốc" },
+    { "nl": "medicijn", "article": "het", "plural": "medicijnen", "en": "medicine", "vi": "thuốc" },
+    { "nl": "pijn", "article": "de", "en": "pain", "vi": "cơn đau" },
+    { "nl": "koorts", "article": "de", "en": "fever", "vi": "sốt" },
+    { "nl": "ziek", "en": "ill, sick", "vi": "ốm, bệnh" },
+    { "nl": "gezond", "en": "healthy", "vi": "khỏe mạnh" },
+    { "nl": "moe", "en": "tired", "vi": "mệt" },
+    { "nl": "beter", "en": "better", "vi": "tốt hơn, khỏe hơn" },
+    { "nl": "hoofdpijn", "article": "de", "en": "headache", "vi": "đau đầu" },
+    { "nl": "verkouden", "en": "having a cold", "vi": "bị cảm lạnh" }
+  ],
+  "sentences": [
+    { "nl": "Ik ben ziek.", "en": "I am ill.", "vi": "Tôi bị ốm.", "tip": "zijn-hebben" },
+    { "nl": "Ik heb hoofdpijn.", "en": "I have a headache.", "vi": "Tôi bị đau đầu.", "tip": "zijn-hebben" },
+    { "nl": "Ik heb pijn in mijn buik.", "en": "I have a pain in my stomach.", "vi": "Tôi bị đau bụng.", "alt": ["Ik heb buikpijn."] },
+    { "nl": "Ik wil een afspraak maken met de huisarts.", "en": "I want to make an appointment with the GP.", "vi": "Tôi muốn đặt lịch hẹn với bác sĩ gia đình.", "alt": ["Ik wil graag een afspraak maken met de huisarts."], "tip": "modal" },
+    { "nl": "U moet veel water drinken.", "en": "You must drink a lot of water.", "vi": "Ông/bà phải uống nhiều nước.", "alt": ["Je moet veel water drinken."], "tip": "modal" },
+    { "nl": "Neem twee keer per dag een tablet.", "en": "Take a tablet twice a day.", "vi": "Uống một viên thuốc hai lần mỗi ngày.", "tip": "imperative" },
+    { "nl": "Blijf vandaag in bed.", "en": "Stay in bed today.", "vi": "Hôm nay hãy nằm nghỉ trên giường.", "tip": "imperative" },
+    { "nl": "Hij heeft koorts.", "en": "He has a fever.", "vi": "Anh ấy bị sốt." },
+    { "nl": "Ik voel me niet goed.", "en": "I don't feel well.", "vi": "Tôi cảm thấy không khỏe.", "tip": "reflexive" },
+    { "nl": "Beterschap!", "en": "Get well soon!", "vi": "Chúc mau khỏe!" }
+  ],
+  "verbs": [
+    { "inf": "moeten", "en": "must, to have to", "vi": "phải", "ik": "moet", "jij": "moet", "hij": "moet", "wij": "moeten", "jullie": "moeten", "zij": "moeten" },
+    { "inf": "nemen", "en": "to take", "vi": "lấy, uống (thuốc)", "ik": "neem", "jij": "neemt", "hij": "neemt", "wij": "nemen", "jullie": "nemen", "zij": "nemen" },
+    { "inf": "blijven", "en": "to stay", "vi": "ở lại", "ik": "blijf", "jij": "blijft", "hij": "blijft", "wij": "blijven", "jullie": "blijven", "zij": "blijven" },
+    { "inf": "bellen", "en": "to call (phone)", "vi": "gọi điện", "ik": "bel", "jij": "belt", "hij": "belt", "wij": "bellen", "jullie": "bellen", "zij": "bellen" }
+  ],
+  "grammar": [
+    {
+      "title": "Giving instructions (imperative)",
+      "titleVi": "Câu mệnh lệnh",
+      "en": "Use the stem at the start: nemen → Neem een tablet. blijven → Blijf thuis.",
+      "vi": "Dùng gốc động từ ở đầu câu: nemen → Neem een tablet (Uống một viên thuốc). blijven → Blijf thuis (Ở nhà đi).",
+      "examples": [
+        { "nl": "Bel de huisarts.", "en": "Call the GP." },
+        { "nl": "Drink veel water.", "en": "Drink a lot of water." }
+      ],
+      "tip": "imperative"
+    },
+    {
+      "title": "moeten = must",
+      "titleVi": "moeten = phải",
+      "en": "ik moet, jij moet, hij moet, wij moeten + infinitive at the end: Ik moet naar de huisarts (gaan).",
+      "vi": "ik moet, jij moet, hij moet, wij moeten + động từ nguyên mẫu ở cuối: Ik moet naar de huisarts (gaan) (Tôi phải đi bác sĩ).",
+      "examples": [
+        { "nl": "Je moet rusten.", "en": "You must rest." }
+      ],
+      "tip": "modal"
+    }
+  ],
+  "drills": ["wordorder", "plural", "article"]
+}

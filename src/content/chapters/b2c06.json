@@ -1,0 +1,63 @@
+{
+  "id": "b2c06",
+  "book": 2,
+  "number": 6,
+  "titleNl": "Feesten en tradities",
+  "title": "Celebrations and traditions",
+  "titleVi": "Lễ hội và truyền thống",
+  "cefr": "A2",
+  "provisional": true,
+  "words": [
+    { "nl": "verjaardag", "article": "de", "plural": "verjaardagen", "en": "birthday", "vi": "sinh nhật" },
+    { "nl": "cadeau", "article": "het", "plural": "cadeaus", "en": "present, gift", "vi": "quà tặng" },
+    { "nl": "taart", "article": "de", "plural": "taarten", "en": "cake", "vi": "bánh kem" },
+    { "nl": "gast", "article": "de", "plural": "gasten", "en": "guest", "vi": "khách" },
+    { "nl": "uitnodiging", "article": "de", "plural": "uitnodigingen", "en": "invitation", "vi": "lời mời, thiệp mời" },
+    { "nl": "Sinterklaas", "en": "Sinterklaas (5 December)", "vi": "lễ Thánh Nicolas (5/12)" },
+    { "nl": "Koningsdag", "en": "King's Day (27 April)", "vi": "Ngày Quốc vương (27/4)" },
+    { "nl": "Kerstmis", "en": "Christmas", "vi": "Lễ Giáng sinh" },
+    { "nl": "Oud en Nieuw", "en": "New Year's Eve", "vi": "đêm Giao thừa (dương lịch)" },
+    { "nl": "Tết", "en": "Lunar New Year", "vi": "Tết Nguyên đán" },
+    { "nl": "vuurwerk", "article": "het", "en": "fireworks", "vi": "pháo hoa" },
+    { "nl": "traditie", "article": "de", "plural": "tradities", "en": "tradition", "vi": "truyền thống" },
+    { "nl": "gefeliciteerd", "en": "congratulations", "vi": "chúc mừng" },
+    { "nl": "vieren", "en": "to celebrate", "vi": "ăn mừng, tổ chức" },
+    { "nl": "uitnodigen", "en": "to invite", "vi": "mời" },
+    { "nl": "vroeger", "en": "in the past, used to", "vi": "ngày xưa, trước đây" },
+    { "nl": "was", "en": "was (zijn, past)", "vi": "đã là (quá khứ của zijn)" },
+    { "nl": "had", "en": "had (hebben, past)", "vi": "đã có (quá khứ của hebben)" },
+    { "nl": "ging", "en": "went (gaan, past)", "vi": "đã đi (quá khứ của gaan)" },
+    { "nl": "kwam", "en": "came (komen, past)", "vi": "đã đến (quá khứ của komen)" }
+  ],
+  "sentences": [
+    { "nl": "Gefeliciteerd met je verjaardag!", "en": "Happy birthday!", "vi": "Chúc mừng sinh nhật bạn!", "alt": ["Gefeliciteerd!", "Van harte gefeliciteerd!"] },
+    { "nl": "Ik nodig je uit voor mijn feest.", "en": "I invite you to my party.", "vi": "Tôi mời bạn đến bữa tiệc của tôi.", "tip": "separable" },
+    { "nl": "Op Koningsdag dragen veel mensen oranje.", "en": "On King's Day a lot of people wear orange.", "vi": "Vào Ngày Quốc vương nhiều người mặc đồ màu cam.", "tip": "inversion" },
+    { "nl": "Met Tết eten we banh chung.", "en": "At Tết we eat banh chung.", "vi": "Ngày Tết chúng tôi ăn bánh chưng.", "alt": ["Met Tết eten wij banh chung."], "tip": "inversion" },
+    { "nl": "Vroeger woonde ik in Hanoi.", "en": "I used to live in Hanoi.", "vi": "Trước đây tôi sống ở Hà Nội.", "tip": "past-simple" },
+    { "nl": "Het feest was heel gezellig.", "en": "The party was very cosy and fun.", "vi": "Bữa tiệc rất vui và ấm cúng.", "tip": "past-simple" },
+    { "nl": "Wij hadden veel gasten.", "en": "We had a lot of guests.", "vi": "Chúng tôi đã có nhiều khách.", "alt": ["We hadden veel gasten."], "tip": "past-simple" },
+    { "nl": "Mijn oma kwam ook.", "en": "My grandmother came too.", "vi": "Bà tôi cũng đến.", "tip": "past-simple" },
+    { "nl": "Om twaalf uur ging het vuurwerk af.", "en": "At twelve o'clock the fireworks went off.", "vi": "Lúc mười hai giờ pháo hoa nổ.", "tip": "past-simple" },
+    { "nl": "Hoe vieren jullie Oud en Nieuw?", "en": "How do you celebrate New Year's Eve?", "vi": "Các bạn đón Giao thừa như thế nào?", "tip": "questions" }
+  ],
+  "verbs": [
+    { "inf": "vieren", "en": "to celebrate", "vi": "ăn mừng", "ik": "vier", "jij": "viert", "hij": "viert", "wij": "vieren", "jullie": "vieren", "zij": "vieren" },
+    { "inf": "uitnodigen", "en": "to invite", "vi": "mời", "ik": "nodig uit", "jij": "nodigt uit", "hij": "nodigt uit", "wij": "nodigen uit", "jullie": "nodigen uit", "zij": "nodigen uit" },
+    { "inf": "geven", "en": "to give", "vi": "cho, tặng", "ik": "geef", "jij": "geeft", "hij": "geeft", "wij": "geven", "jullie": "geven", "zij": "geven" }
+  ],
+  "grammar": [
+    {
+      "title": "The simple past",
+      "titleVi": "Thì quá khứ đơn",
+      "en": "Regular: stem + te / de (plural: ten / den).\nwerken → ik werkte, wij werkten; wonen → ik woonde, wij woonden.\nIrregular — learn by heart: zijn → was / waren, hebben → had / hadden, gaan → ging / gingen, komen → kwam / kwamen, eten → at / aten.",
+      "vi": "Có quy tắc: gốc + te / de (số nhiều: ten / den).\nwerken → ik werkte, wij werkten; wonen → ik woonde, wij woonden.\nBất quy tắc — học thuộc: zijn → was / waren, hebben → had / hadden, gaan → ging / gingen, komen → kwam / kwamen, eten → at / aten.",
+      "examples": [
+        { "nl": "Gisteren was ik jarig.", "en": "Yesterday was my birthday." },
+        { "nl": "Wij gingen naar het feest.", "en": "We went to the party." }
+      ],
+      "tip": "past-simple"
+    }
+  ],
+  "drills": ["wordorder", "conjugation"]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "b2c05",
+  "book": 2,
+  "number": 5,
+  "titleNl": "Sport en gezondheid",
+  "title": "Sport, health and feelings",
+  "titleVi": "Thể thao, sức khỏe và cảm xúc",
+  "cefr": "A2",
+  "provisional": true,
+  "words": [
+    { "nl": "sportschool", "article": "de", "plural": "sportscholen", "en": "gym", "vi": "phòng tập thể dục" },
+    { "nl": "wedstrijd", "article": "de", "plural": "wedstrijden", "en": "match, competition", "vi": "trận đấu" },
+    { "nl": "voetbal", "article": "het", "en": "football", "vi": "bóng đá" },
+    { "nl": "ziekenhuis", "article": "het", "plural": "ziekenhuizen", "en": "hospital", "vi": "bệnh viện" },
+    { "nl": "tandarts", "article": "de", "plural": "tandartsen", "en": "dentist", "vi": "nha sĩ" },
+    { "nl": "verzekering", "article": "de", "plural": "verzekeringen", "en": "insurance", "vi": "bảo hiểm" },
+    { "nl": "stress", "article": "de", "en": "stress", "vi": "căng thẳng" },
+    { "nl": "gevoel", "article": "het", "plural": "gevoelens", "en": "feeling", "vi": "cảm giác, cảm xúc" },
+    { "nl": "blij", "en": "happy, glad", "vi": "vui" },
+    { "nl": "verdrietig", "en": "sad", "vi": "buồn" },
+    { "nl": "boos", "en": "angry", "vi": "tức giận" },
+    { "nl": "zenuwachtig", "en": "nervous", "vi": "lo lắng, hồi hộp" },
+    { "nl": "fit", "en": "fit", "vi": "khỏe khoắn" },
+    { "nl": "zich voelen", "en": "to feel", "vi": "cảm thấy" },
+    { "nl": "zich vervelen", "en": "to be bored", "vi": "thấy chán" },
+    { "nl": "zich haasten", "en": "to hurry", "vi": "vội vàng" },
+    { "nl": "trainen", "en": "to train, work out", "vi": "tập luyện" },
+    { "nl": "rusten", "en": "to rest", "vi": "nghỉ ngơi" },
+    { "nl": "elke dag", "en": "every day", "vi": "mỗi ngày" },
+    { "nl": "soms", "en": "sometimes", "vi": "thỉnh thoảng" }
+  ],
+  "sentences": [
+    { "nl": "Ik voel me goed.", "en": "I feel good.", "vi": "Tôi cảm thấy khỏe.", "tip": "reflexive" },
+    { "nl": "Voel je je beter?", "en": "Do you feel better?", "vi": "Bạn thấy đỡ hơn chưa?", "alt": ["Voel jij je beter?"], "tip": "reflexive" },
+    { "nl": "De kinderen vervelen zich.", "en": "The children are bored.", "vi": "Bọn trẻ thấy chán.", "tip": "reflexive" },
+    { "nl": "We moeten ons haasten.", "en": "We have to hurry.", "vi": "Chúng ta phải nhanh lên.", "alt": ["Wij moeten ons haasten."], "tip": "reflexive" },
+    { "nl": "Ik ga drie keer per week naar de sportschool.", "en": "I go to the gym three times a week.", "vi": "Tôi đi tập thể dục ba lần mỗi tuần." },
+    { "nl": "Hij kijkt elke zaterdag voetbal.", "en": "He watches football every Saturday.", "vi": "Anh ấy xem bóng đá mỗi thứ Bảy.", "alt": ["Elke zaterdag kijkt hij voetbal."] },
+    { "nl": "Ik ben zenuwachtig voor de wedstrijd.", "en": "I am nervous about the match.", "vi": "Tôi hồi hộp vì trận đấu." },
+    { "nl": "Soms heb ik veel stress.", "en": "Sometimes I have a lot of stress.", "vi": "Thỉnh thoảng tôi rất căng thẳng.", "alt": ["Ik heb soms veel stress."], "tip": "inversion" },
+    { "nl": "Ik heb een afspraak bij de tandarts.", "en": "I have an appointment at the dentist.", "vi": "Tôi có lịch hẹn với nha sĩ." },
+    { "nl": "Sporten is goed voor je gezondheid.", "en": "Doing sport is good for your health.", "vi": "Chơi thể thao tốt cho sức khỏe của bạn." }
+  ],
+  "verbs": [
+    { "inf": "zich voelen", "en": "to feel", "vi": "cảm thấy", "ik": "voel me", "jij": "voelt je", "hij": "voelt zich", "wij": "voelen ons", "jullie": "voelen je", "zij": "voelen zich" },
+    { "inf": "zich vervelen", "en": "to be bored", "vi": "thấy chán", "ik": "verveel me", "jij": "verveelt je", "hij": "verveelt zich", "wij": "vervelen ons", "jullie": "vervelen je", "zij": "vervelen zich" },
+    { "inf": "trainen", "en": "to train", "vi": "tập luyện", "ik": "train", "jij": "traint", "hij": "traint", "wij": "trainen", "jullie": "trainen", "zij": "trainen" },
+    { "inf": "kijken", "en": "to watch, look", "vi": "xem, nhìn", "ik": "kijk", "jij": "kijkt", "hij": "kijkt", "wij": "kijken", "jullie": "kijken", "zij": "kijken" }
+  ],
+  "grammar": [
+    {
+      "title": "Reflexive verbs",
+      "titleVi": "Động từ phản thân",
+      "en": "ik voel me, jij voelt je, u voelt zich, hij/zij voelt zich, wij voelen ons, jullie voelen je, zij voelen zich.",
+      "vi": "ik voel me, jij voelt je, u voelt zich, hij/zij voelt zich, wij voelen ons, jullie voelen je, zij voelen zich.\nTiếng Việt không có từ này, nhưng tiếng Hà Lan bắt buộc phải có.",
+      "examples": [
+        { "nl": "Zij voelt zich niet lekker.", "en": "She doesn't feel well." },
+        { "nl": "Wij vervelen ons nooit.", "en": "We are never bored." }
+      ],
+      "tip": "reflexive"
+    }
+  ],
+  "drills": ["conjugation", "wordorder"]
+}

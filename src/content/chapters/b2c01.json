@@ -1,0 +1,74 @@
+{
+  "id": "b2c01",
+  "book": 2,
+  "number": 1,
+  "titleNl": "Stad, land en weer",
+  "title": "Town, landscape, weather and holidays",
+  "titleVi": "Thành phố, phong cảnh, thời tiết và kỳ nghỉ",
+  "cefr": "A2",
+  "provisional": false,
+  "words": [
+    { "nl": "stad", "article": "de", "plural": "steden", "en": "city, town", "vi": "thành phố" },
+    { "nl": "dorp", "article": "het", "plural": "dorpen", "en": "village", "vi": "làng" },
+    { "nl": "landschap", "article": "het", "plural": "landschappen", "en": "landscape", "vi": "phong cảnh" },
+    { "nl": "zee", "article": "de", "plural": "zeeën", "en": "sea", "vi": "biển" },
+    { "nl": "strand", "article": "het", "plural": "stranden", "en": "beach", "vi": "bãi biển" },
+    { "nl": "berg", "article": "de", "plural": "bergen", "en": "mountain", "vi": "núi" },
+    { "nl": "rivier", "article": "de", "plural": "rivieren", "en": "river", "vi": "sông" },
+    { "nl": "gracht", "article": "de", "plural": "grachten", "en": "canal (in a city)", "vi": "kênh đào (trong thành phố)" },
+    { "nl": "weer", "article": "het", "en": "weather", "vi": "thời tiết" },
+    { "nl": "zon", "article": "de", "en": "sun", "vi": "mặt trời" },
+    { "nl": "regen", "article": "de", "en": "rain", "vi": "mưa" },
+    { "nl": "wind", "article": "de", "en": "wind", "vi": "gió" },
+    { "nl": "graad", "article": "de", "plural": "graden", "en": "degree", "vi": "độ" },
+    { "nl": "warm", "en": "warm, hot", "vi": "ấm, nóng" },
+    { "nl": "koud", "en": "cold", "vi": "lạnh" },
+    { "nl": "druk", "en": "busy, crowded", "vi": "đông đúc, bận" },
+    { "nl": "rustig", "en": "quiet, calm", "vi": "yên tĩnh" },
+    { "nl": "plat", "en": "flat", "vi": "bằng phẳng" },
+    { "nl": "regenen", "en": "to rain", "vi": "mưa" },
+    { "nl": "mail", "article": "de", "plural": "mails", "en": "e-mail", "vi": "thư điện tử" },
+    { "nl": "groetjes", "en": "love, regards (end of a message)", "vi": "thân chào (cuối thư)" }
+  ],
+  "sentences": [
+    { "nl": "Nederland is een plat land.", "en": "The Netherlands is a flat country.", "vi": "Hà Lan là một đất nước bằng phẳng." },
+    { "nl": "Amsterdam is een drukke stad met veel grachten.", "en": "Amsterdam is a busy city with many canals.", "vi": "Amsterdam là một thành phố đông đúc với nhiều kênh đào.", "tip": "adjective-e" },
+    { "nl": "Ik woon in een rustig dorp.", "en": "I live in a quiet village.", "vi": "Tôi sống ở một ngôi làng yên tĩnh.", "tip": "adjective-e" },
+    { "nl": "Het regent vandaag.", "en": "It is raining today.", "vi": "Hôm nay trời mưa.", "alt": ["Vandaag regent het."] },
+    { "nl": "Morgen wordt het twintig graden.", "en": "Tomorrow it will be twenty degrees.", "vi": "Ngày mai trời sẽ hai mươi độ.", "alt": ["Het wordt morgen twintig graden."], "tip": "inversion" },
+    { "nl": "In Vietnam is het altijd warm.", "en": "In Vietnam it is always warm.", "vi": "Ở Việt Nam trời lúc nào cũng ấm.", "alt": ["Het is altijd warm in Vietnam."], "tip": "inversion" },
+    { "nl": "Vorig jaar zijn we naar de zee gegaan.", "en": "Last year we went to the sea.", "vi": "Năm ngoái chúng tôi đã đi biển.", "alt": ["Vorig jaar zijn wij naar de zee gegaan.", "We zijn vorig jaar naar de zee gegaan."], "tip": "perfect" },
+    { "nl": "We hebben veel gewandeld in de bergen.", "en": "We walked a lot in the mountains.", "vi": "Chúng tôi đã đi bộ nhiều trên núi.", "alt": ["Wij hebben veel gewandeld in de bergen."], "tip": "perfect" },
+    { "nl": "Het weer was mooi.", "en": "The weather was nice.", "vi": "Thời tiết đã rất đẹp.", "tip": "past-simple" },
+    { "nl": "Hoi Anna, hoe gaat het met je?", "en": "Hi Anna, how are you?", "vi": "Chào Anna, bạn khỏe không?", "alt": ["Hoi Anna, hoe gaat het?"] }
+  ],
+  "verbs": [
+    { "inf": "worden", "en": "to become", "vi": "trở nên", "ik": "word", "jij": "wordt", "hij": "wordt", "wij": "worden", "jullie": "worden", "zij": "worden" },
+    { "inf": "schijnen", "en": "to shine", "vi": "chiếu sáng", "ik": "schijn", "jij": "schijnt", "hij": "schijnt", "wij": "schijnen", "jullie": "schijnen", "zij": "schijnen" },
+    { "inf": "schrijven", "en": "to write", "vi": "viết", "ik": "schrijf", "jij": "schrijft", "hij": "schrijft", "wij": "schrijven", "jullie": "schrijven", "zij": "schrijven" }
+  ],
+  "grammar": [
+    {
+      "title": "Talking about a holiday (perfect tense)",
+      "titleVi": "Kể về kỳ nghỉ (thì hoàn thành)",
+      "en": "hebben + participle for most verbs: We hebben gewandeld, gezwommen, gegeten.\nzijn + participle for going somewhere: We zijn naar Spanje gegaan / gevlogen.",
+      "vi": "hebben + quá khứ phân từ cho đa số động từ: We hebben gewandeld (đi bộ), gezwommen (bơi), gegeten (ăn).\nzijn + quá khứ phân từ khi đi đến đâu đó: We zijn naar Spanje gegaan / gevlogen (đã đi / bay sang Tây Ban Nha).",
+      "examples": [
+        { "nl": "Wij hebben in de zee gezwommen.", "en": "We swam in the sea." },
+        { "nl": "Ik ben naar Hanoi gevlogen.", "en": "I flew to Hanoi." }
+      ],
+      "tip": "perfect"
+    },
+    {
+      "title": "Writing an informal e-mail",
+      "titleVi": "Viết thư thân mật",
+      "en": "Start: Hoi … / Lieve … (dear, for close friends)\nEnd: Groetjes, / Liefs, (love)\nMain text: verb still in 2nd place!",
+      "vi": "Mở đầu: Hoi … / Lieve … (… thân mến, cho bạn thân)\nKết thúc: Groetjes, / Liefs, (thương)\nNội dung: động từ vẫn ở vị trí thứ 2!",
+      "examples": [
+        { "nl": "Lieve Anna,", "en": "Dear Anna," },
+        { "nl": "Groetjes, Rosie", "en": "Love, Rosie" }
+      ]
+    }
+  ],
+  "drills": ["wordorder", "article"]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "b1c08",
+  "book": 1,
+  "number": 8,
+  "titleNl": "Vrije tijd",
+  "title": "Free time and hobbies",
+  "titleVi": "Thời gian rảnh và sở thích",
+  "cefr": "A1",
+  "provisional": true,
+  "words": [
+    { "nl": "hobby", "article": "de", "plural": "hobby's", "en": "hobby", "vi": "sở thích" },
+    { "nl": "sport", "article": "de", "plural": "sporten", "en": "sport", "vi": "thể thao" },
+    { "nl": "muziek", "article": "de", "en": "music", "vi": "âm nhạc" },
+    { "nl": "film", "article": "de", "plural": "films", "en": "film", "vi": "phim" },
+    { "nl": "boek", "article": "het", "plural": "boeken", "en": "book", "vi": "quyển sách" },
+    { "nl": "fiets", "article": "de", "plural": "fietsen", "en": "bicycle", "vi": "xe đạp" },
+    { "nl": "park", "article": "het", "plural": "parken", "en": "park", "vi": "công viên" },
+    { "nl": "zwembad", "article": "het", "plural": "zwembaden", "en": "swimming pool", "vi": "hồ bơi" },
+    { "nl": "museum", "article": "het", "plural": "musea", "en": "museum", "vi": "bảo tàng" },
+    { "nl": "feest", "article": "het", "plural": "feesten", "en": "party", "vi": "bữa tiệc" },
+    { "nl": "afspraak", "article": "de", "plural": "afspraken", "en": "appointment / plan", "vi": "cuộc hẹn" },
+    { "nl": "zin", "article": "de", "en": "feeling like (doing)", "vi": "hứng thú, muốn" },
+    { "nl": "fietsen", "en": "to cycle", "vi": "đạp xe" },
+    { "nl": "zwemmen", "en": "to swim", "vi": "bơi" },
+    { "nl": "lezen", "en": "to read", "vi": "đọc" },
+    { "nl": "wandelen", "en": "to walk (for fun)", "vi": "đi dạo" },
+    { "nl": "samen", "en": "together", "vi": "cùng nhau" },
+    { "nl": "leuk", "en": "nice, fun", "vi": "vui, hay" },
+    { "nl": "vaak", "en": "often", "vi": "thường xuyên" },
+    { "nl": "nooit", "en": "never", "vi": "không bao giờ" }
+  ],
+  "sentences": [
+    { "nl": "Wat doe je in je vrije tijd?", "en": "What do you do in your free time?", "vi": "Bạn làm gì lúc rảnh?", "alt": ["Wat doe jij in je vrije tijd?"], "tip": "questions" },
+    { "nl": "Ik lees graag boeken.", "en": "I like reading books.", "vi": "Tôi thích đọc sách." },
+    { "nl": "Hij gaat vaak zwemmen.", "en": "He often goes swimming.", "vi": "Anh ấy thường đi bơi.", "tip": "modal" },
+    { "nl": "Heb je zin om te fietsen?", "en": "Do you feel like cycling?", "vi": "Bạn có muốn đi đạp xe không?", "alt": ["Heb jij zin om te fietsen?"], "tip": "om-te" },
+    { "nl": "Zaterdag gaan we naar een feest.", "en": "On Saturday we are going to a party.", "vi": "Thứ Bảy chúng tôi đi dự tiệc.", "alt": ["We gaan zaterdag naar een feest.", "Zaterdag gaan wij naar een feest."], "tip": "inversion" },
+    { "nl": "Ik kan niet zwemmen.", "en": "I can't swim.", "vi": "Tôi không biết bơi.", "tip": "modal" },
+    { "nl": "Kun je morgen komen?", "en": "Can you come tomorrow?", "vi": "Ngày mai bạn đến được không?", "alt": ["Kan je morgen komen?", "Kun jij morgen komen?"], "tip": "modal" },
+    { "nl": "Wij wandelen samen in het park.", "en": "We walk together in the park.", "vi": "Chúng tôi cùng nhau đi dạo trong công viên.", "alt": ["We wandelen samen in het park."] },
+    { "nl": "Ik ga morgen naar het museum.", "en": "I'm going to the museum tomorrow.", "vi": "Ngày mai tôi sẽ đi bảo tàng.", "alt": ["Morgen ga ik naar het museum."] },
+    { "nl": "Dat is een leuke film.", "en": "That is a fun film.", "vi": "Đó là một bộ phim hay.", "tip": "adjective-e" }
+  ],
+  "verbs": [
+    { "inf": "kunnen", "en": "can", "vi": "có thể", "ik": "kan", "jij": "kunt", "hij": "kan", "wij": "kunnen", "jullie": "kunnen", "zij": "kunnen" },
+    { "inf": "gaan", "en": "to go / be going to", "vi": "đi / sẽ", "ik": "ga", "jij": "gaat", "hij": "gaat", "wij": "gaan", "jullie": "gaan", "zij": "gaan" },
+    { "inf": "lezen", "en": "to read", "vi": "đọc", "ik": "lees", "jij": "leest", "hij": "leest", "wij": "lezen", "jullie": "lezen", "zij": "lezen" },
+    { "inf": "zwemmen", "en": "to swim", "vi": "bơi", "ik": "zwem", "jij": "zwemt", "hij": "zwemt", "wij": "zwemmen", "jullie": "zwemmen", "zij": "zwemmen" },
+    { "inf": "fietsen", "en": "to cycle", "vi": "đạp xe", "ik": "fiets", "jij": "fietst", "hij": "fietst", "wij": "fietsen", "jullie": "fietsen", "zij": "fietsen" }
+  ],
+  "grammar": [
+    {
+      "title": "kunnen and gaan + infinitive",
+      "titleVi": "kunnen và gaan + động từ nguyên mẫu",
+      "en": "kunnen (can): ik kan, jij kunt/kan, hij kan, wij kunnen.\ngaan (going to): Ik ga zwemmen = I am going to swim.\nThe infinitive goes to the end of the sentence.",
+      "vi": "kunnen (có thể): ik kan, jij kunt/kan, hij kan, wij kunnen.\ngaan (sẽ, đi làm gì): Ik ga zwemmen = Tôi sẽ đi bơi.\nĐộng từ nguyên mẫu đứng cuối câu.",
+      "examples": [
+        { "nl": "Ik kan goed koken.", "en": "I can cook well." },
+        { "nl": "Wij gaan morgen fietsen.", "en": "We are going cycling tomorrow." }
+      ],
+      "tip": "modal"
+    },
+    {
+      "title": "Spelling: one or two vowels",
+      "titleVi": "Chính tả: một hay hai nguyên âm",
+      "en": "lezen → ik lees (long e = ee when the syllable is closed). zwemmen → ik zwem (double m disappears at the end).",
+      "vi": "lezen → ik lees (e dài viết thành ee khi âm tiết đóng). zwemmen → ik zwem (bỏ một chữ m ở cuối).",
+      "examples": [
+        { "nl": "Zij leest een boek.", "en": "She is reading a book." },
+        { "nl": "Hij zwemt elke dag.", "en": "He swims every day." }
+      ],
+      "tip": "conjugation"
+    }
+  ],
+  "drills": ["conjugation", "wordorder"]
+}
