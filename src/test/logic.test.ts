@@ -5,6 +5,7 @@ import { dueItems, recordAnswer } from '../lib/srs'
 import { answerPlacement, startPlacement } from '../lib/placement'
 import { applyPlacement, finishLesson, isChapterUnlocked, isLessonUnlocked, nextLesson } from '../lib/session'
 import { chapters } from '../content'
+import type { Exercise } from '../lib/exercises'
 
 describe('checking typed answers', () => {
   it('ignores capitals and punctuation', () => {
@@ -109,7 +110,7 @@ describe('merging progress from two devices', () => {
 describe('grading', () => {
   it('counts a missing article as a mistake', async () => {
     const { gradeAnswer, isPass } = await import('../lib/grade')
-    const ex = { kind: 'type', instruction: 'typeDutch', prompt: 'house', answers: ['het huis'], bareAnswers: ['huis'], itemIds: [], vi: '' } as const
+    const ex: Exercise = { kind: 'type', instruction: 'typeDutch', prompt: 'house', answers: ['het huis'], bareAnswers: ['huis'], itemIds: [], vi: '' }
     expect(gradeAnswer(ex, 'huis').grade).toBe('article')
     expect(isPass('article')).toBe(false)
     expect(isPass(gradeAnswer(ex, 'het huiss').grade)).toBe(true)
