@@ -8,7 +8,7 @@ service cloud.firestore {
     function learner() { return 'qmATSeU7N4hbpEqm5cZl2JSHuxy1'; }
     function supporter() { return 'Hln0dg99miWEFn6mJdN1u2ojxcD3'; }
     // other people who may use the app with their own synced progress
-    function otherLearners() { return []; }
+    function otherLearners() { return ['EACd7TcsYCWw5k4iZpBHl0nugDV2']; }
 
     function signedIn() { return request.auth != null; }
     function isSupporter() { return signedIn() && request.auth.uid == supporter(); }
